@@ -1,0 +1,32 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "An organization wants to automate its existing expense reporting process. Which two actions should the organization take in order to follow Pega’s best practices for application design? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Build and test the application before rolling it out for review by interested parties to ensure the application is ready for release.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Build the required features as soon as they are needed during application development to keep the project moving quickly.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Use DCO to enter business requirements for the application to facilitate direct engagement of IT and business resources.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Identify the departments responsible for the application design and have them work independently to enhance organizational efficiency.",
+          "correctanswer": "false"
+        }
+      ]
+    }
+  ]
+}
