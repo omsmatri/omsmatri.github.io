@@ -1,0 +1,1600 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "An organization wants to automate its existing expense reporting process. Which two actions should the organization take in order to follow Pega’s best practices for application design? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Build and test the application before rolling it out for review by interested parties to ensure the application is ready for release.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Build the required features as soon as they are needed during application development to keep the project moving quickly.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Use DCO to enter business requirements for the application to facilitate direct engagement of IT and business resources.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Identify the departments responsible for the application design and have them work independently to enhance organizational efficiency.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "questionName": "Select two benefits of following Pega's guardrails. (Choose Two)",
+      "questionImage": "null.png",
+      "answerType": "check",
+      "options": [
+        {
+          "id": "2097",
+          "Answer": "Guardrails help managers create schedules for efficiently allocating developer resources.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2098",
+          "Answer": "Guardrails help project managers ensure that applications are completed on time.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2099",
+          "Answer": "Guardrails help developers build applications that are easier to maintain and have fewer defects.",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2100",
+          "Answer": "Guardrails help developers to track compliance with Pega's best practices.",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "questionName": "You are assigned to a team to develop a case life cycle design for an application. Why would you design the case life cycle?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2091",
+          "Answer": "Show technical users how to use Pega developer tools for collecting customer information.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2092",
+          "Answer": "Help estimate the total time required for the case life cycle to produce a new policy.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2093",
+          "Answer": "Guide the development team with guidelines on how to manage the project development.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2095",
+          "Answer": "Ensure all team members have a common understanding of how a case is processed and resolved.",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "questionName": "You are developing a case life cycle for a human resources application. The first stage contains a single process named Collect Candidate Information. Which one of the following steps would you choose to include in the Collect Candidate Information process?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2087",
+          "Answer": "Collect personal information",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2088",
+          "Answer": "Assess candidate",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2089",
+          "Answer": "Determine compensation",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2090",
+          "Answer": "Conduct interview",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "questionName": "You are adding steps to a process named Select Insurance Policy. Which one of the following steps would be named correctly?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2083",
+          "Answer": "Confirm employee and employer",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2084",
+          "Answer": "Employee confirmation",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2085",
+          "Answer": "Confirm employee",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2086",
+          "Answer": "Confirm",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "questionName": " In a help desk ticket application the Respond to Ticket assignment can be handled by any help desk agent. To configure the assignment for routing you update the _____________?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2079",
+          "Answer": "Process",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2080",
+          "Answer": "Stage",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2081",
+          "Answer": "Case",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2082",
+          "Answer": "Step",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "questionName": "A loan origination case requires the loan application be routed to an underwriter for verification. Any underwriter in the department can complete the verification. How would you route the verification assignment?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2106",
+          "Answer": "To a specific user",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2107",
+          "Answer": "To the current user",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2108",
+          "Answer": "To the reporting manager",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2109",
+          "Answer": "To a work queue",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "questionName": "The goal milestone in a service level defines:",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2101",
+          "Answer": "The amount of time allowed before the case automatically advances to the next assignment",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2102",
+          "Answer": "The amount of time in which the case or step should be completed",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2103",
+          "Answer": "The amount of time in which the case or step must be completed",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2104",
+          "Answer": "The amount of time allowed for a user to advance a case to the next stage",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "questionName": "The primary purpose of a service level is to __________.",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2110",
+          "Answer": "Help ensure timely completion of assignments",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2111",
+          "Answer": "Track assignment status over time",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2112",
+          "Answer": "Generate service level reports",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2113",
+          "Answer": "Assign cases to the appropriate case worker",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "questionName": "What two questions can you ask to help you plan user views? (Choose Two)",
+      "questionImage": "null.png",
+      "answerType": "check",
+      "options": [
+        {
+          "id": "2114",
+          "Answer": "How will users enter values in those fields?",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2115",
+          "Answer": "Will users want to see information displayed using different styles?",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2116",
+          "Answer": "Will the information be stored in an external database?",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2117",
+          "Answer": "Can users modify the values or only read the values?",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "questionName": "Which statement demonstrates a well-written business objective?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2118",
+          "Answer": "Allow up to 200 concurrent users.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2119",
+          "Answer": "Require HR VP approval for sabbatical leave.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2120",
+          "Answer": "Reduce inaccurate claims to less than 10 percent of all claims.",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2121",
+          "Answer": "Passwords must be at least eight characters.",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "questionName": "Which statement demonstrates a well-written requirement?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2122",
+          "Answer": "System displays Authorization History and Summary for the last 12 months.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2123",
+          "Answer": "User must be able to select Add Temporary Member when Authorization is Required notice is displayed.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2124",
+          "Answer": "Eliminate order processing delays due to incorrect routing of requests.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2125",
+          "Answer": "A user should be able to cancel an order at any time.",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "questionName": "Which statement demonstrates a well-written specification?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2126",
+          "Answer": "Reduce time needed for time-off approvals from three weeks to one.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2127",
+          "Answer": "If the complainant type is Provider, then provider information must be populated during the Triage Stage in the Basic Research Step.",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2128",
+          "Answer": "The product catalog should be easy to navigate.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2129",
+          "Answer": "User passwords shall be encrypted using AES-256 encryption.",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "questionName": "What is the difference between a requirement and specification?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2130",
+          "Answer": "There is no difference between a requirement and a specification.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2131",
+          "Answer": "A requirement provides a blueprint for how the application will meet the goals defined in a specification.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2132",
+          "Answer": "A requirement describes what the business need is, and specifications describe how the application will meet the business need.",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2133",
+          "Answer": "A requirement defines a specific step in a process; a specification defines a complete process.",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "questionName": "Alternate stages are used to _____________________. (Choose Two)",
+      "questionImage": "null.png",
+      "answerType": "check",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "represent an alternative flow of the case life cycle sequenced from beginning to end.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": "define the expected flow of events in the life cycle of a case.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2136",
+          "Answer": "organize process steps that are not part of the normal course of events.",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2137",
+          "Answer": "define the tasks that users accomplish while the case is in the stage.",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "questionName": "A business process requirement states that users should be able to modify the shipping address at any time and not interrupt the primary case. Which of the following options is the best way to design for this requirement?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2139",
+          "Answer": "Add a local action to the case type.",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2140",
+          "Answer": "Add a step in a process.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2141",
+          "Answer": "Add an optional process to any stage in the case type.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2142",
+          "Answer": "Add a process in a stage.",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "questionName": "Which requirement could be satisfied with a user action?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2144",
+          "Answer": "Reassign any task that remains open after three days to another user.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2145",
+          "Answer": "An application randomly sends a survey to customers once their case is resolved.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2146",
+          "Answer": "Allow a user to transfer a case to another employee at any stage of the case.",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2147",
+          "Answer": "Requiring a separate approval process whenever an order exceeds USD 10,000.",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "questionName": "Which two statements identify why you should automate correspondence? (Choose Two)",
+      "questionImage": "null.png",
+      "answerType": "check",
+      "options": [
+        {
+          "id": "2148",
+          "Answer": "Automating correspondence keeps all interested parties informed of the current status of a case.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2149",
+          "Answer": "Automating correspondence allows you to advance a case.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2150",
+          "Answer": "Automating correspondence allows for sending consistent information to users.",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2151",
+          "Answer": "Automating correspondence allows you to send timely communication.",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "questionName": "What questions should you ask when creating a correspondence? (Choose Two)",
+      "questionImage": "null.png",
+      "answerType": "check",
+      "options": [
+        {
+          "id": "2152",
+          "Answer": "How will the correspondence be sent?",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2153",
+          "Answer": "Who is the user that receives the correspondence?",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2154",
+          "Answer": "Which email server should the correspondence use?",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2155",
+          "Answer": "How often should you send the correspondence?",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "questionName": "Adding instructions to a step ____________.",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2156",
+          "Answer": "Instructs an architect how to build the step.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2157",
+          "Answer": "Defines what the step should do.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2158",
+          "Answer": "Describes to an end user what should be done in the step.",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2159",
+          "Answer": "Describes the business value of the step.",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "questionName": "A step in the case life cycle has a Set status value of Pending-Approval. When is the status of the case automatically updated?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2160",
+          "Answer": "Only if the user manually updates the case status",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2161",
+          "Answer": "At the end of the step",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2162",
+          "Answer": "The status of a case cannot be automatically updated",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2163",
+          "Answer": "At the beginning of the step",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "questionName": " A connector is used to ______________________________. (Choose Two)",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2164",
+          "Answer": "Indicate an automated action performed by the application.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2165",
+          "Answer": "Identify an outcome of a decision.",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2166",
+          "Answer": "Indicate possible branches of a process or the order of events in a process.",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2167",
+          "Answer": "Indicate an event handled by a user.",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "questionName": "Business metrics are used to __________________.",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2168",
+          "Answer": "define the data types for an application",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2169",
+          "Answer": "manage data instances for an application",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2170",
+          "Answer": "describe and measure what the organization's work is",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2171",
+          "Answer": "provide statistics on how work is performed in Pega applications",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "questionName": "The Report Browser allows users to _________. (Choose Two)",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2952",
+          "Answer": "Create reports",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2953",
+          "Answer": "Create business metrics",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2954",
+          "Answer": "Create process metrics",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2955",
+          "Answer": "Delete reports",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "questionName": "Which two tasks do system architects perform on a Pega project? (Choose Two)",
+      "questionImage": "null.png",
+      "answerType": "check",
+      "options": [
+        {
+          "id": "2168",
+          "Answer": "Identify business objectives for an application",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2169",
+          "Answer": "Define application requirements",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2172",
+          "Answer": "Develop feature prototypes",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2173",
+          "Answer": "Configure UI forms",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "questionName": "On a Pega project, who is typically responsible for designing the application architecture?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2174",
+          "Answer": "Business Architect",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2175",
+          "Answer": "Lead System Architect",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2176",
+          "Answer": "Senior System Architect",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2177",
+          "Answer": "System Architect",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "questionName": "With whom does a system architect work to develop application specifications?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2178",
+          "Answer": "Business stakeholders",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2179",
+          "Answer": "Business architects",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2180",
+          "Answer": "Developers",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2181",
+          "Answer": "System Admin",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "questionName": "An application references a data element found in the Work- class. How is this rule inherited by the application?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2182",
+          "Answer": "By naming PegaRULES as the built-on application.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2183",
+          "Answer": "By applying directed inheritance.",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2182",
+          "Answer": "By adding the ruleset that contains the property to the application.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2182",
+          "Answer": "By applying pattern inheritance.",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "questionName": "Select the two items of information used to uniquely identify a rule. (Choose Two)",
+      "questionImage": "null.png",
+      "answerType": "check",
+      "options": [
+        {
+          "id": "2184",
+          "Answer": "The class of the rule.",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2185",
+          "Answer": "The application that uses the rule.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2186",
+          "Answer": "The description of the rule.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2187",
+          "Answer": "The type of the rule.",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "questionName": "A company provides two applications to its employees. One application is managed by the Accounting department, and allows employees to submit expense reports for reimbursement. The second application is managed by the IT department, and allows employees to submit support tickets for IT-related issues.\n\nEach application requires a data element to track the status of cases. Select the best strategy for implementing this requirement.",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2188",
+          "Answer": "Create one data element in the framework layer, for both applications to use.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2189",
+          "Answer": "Create one data element in the organization layer, for both applications to use.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2190",
+          "Answer": "Create a data element for each case type, since they may use different status values.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2191",
+          "Answer": "Check the inheritance path to determine if an appropriate data element is already available.",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "questionName": "You check out a rule to update it. While the rule is checked out, another developer decides to test a case type by creating and processing the case. What happens when the application attempts to use the rule you checked out?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2192",
+          "Answer": "The application runs the checked-out version of the rule, because that is the most up-to-date version of the rule.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2193",
+          "Answer": "The application returns and error and stops processing the case, because the rule is unavailable for use.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2194",
+          "Answer": "The application ignores the checked-out version and uses the previous version in the application ruleset.",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2195",
+          "Answer": "The application cannot run because the rule is unavailable.",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "questionName": "Which type of record identifies the application that a user opens when logging in to Designer Studio?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2196",
+          "Answer": "Operator ID",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2197",
+          "Answer": "Access group",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2198",
+          "Answer": "Application",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2199",
+          "Answer": "Work Group",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+	{
+      "id": "33",
+      "questionName": "Adding instructions to a step ____",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "defines what a step should do",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": "describes the business value of the step",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2136",
+          "Answer": "describes to an end user what should be done in a step",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2137",
+          "Answer": "instructs an architect how to build the step",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+	{
+      "id": "34",
+      "questionName": "When modelling the life cycle of a case, stages represent a ___ or a ___ (choose two)",
+      "questionImage": "null.png",
+      "answerType": "check",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "Subset of data used to resolve case",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": "transfer for authority",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2136",
+          "Answer": "single actor performing a single action",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2137",
+          "Answer": "significant change in the status of a case",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+	{
+      "id": "35",
+      "questionName": "A step in the case life cycle sets the case status to pending-Approval. When does the case status automatically update?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "case status cannot update automatically",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": "at the end of the step",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2136",
+          "Answer": "at the beginning of the step",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2137",
+          "Answer": "case status automatically updates",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+	{
+      "id": "36",
+      "questionName": "When modelling the life cycle of a case, alternate stages represent___ and __ (choose Two)",
+      "questionImage": "null.png",
+      "answerType": "check",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "Have manual access",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": "exceptions to the normal course of events",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2136",
+          "Answer": "a separate, but related business transacation",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2137",
+          "Answer": "be sequenced into primary stages",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+	{
+      "id": "37",
+      "questionName": "What type of step typically requires contextual instructions?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "send email",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": "change stage",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2136",
+          "Answer": "collect information",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2137",
+          "Answer": "create case",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+	{
+      "id": "38",
+      "questionName": "How does the passed deadline interval differ from the goal and deadline intervals?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "Goal and deadline intervals can only repeat one time",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": "Goal and deadline intervals do not repeat",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2136",
+          "Answer": "Goal and deadline intervals have limited escalation options",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2137",
+          "Answer": "Goal and deadline intervals begin at the start of the assignemnt",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+	{
+      "id": "39",
+      "questionName": "Which variable in the assignment urgency calculation enables users to increment the service level urgency on a case-by-case basis?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": ".pxUrgencyAssign",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": ".pyUrgencyAssignAdjust",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2136",
+          "Answer": ".pxUrgencyAssignSLA",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2137",
+          "Answer": ".pxUrgencyWork",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+	{
+      "id": "40",
+      "questionName": "The goal milestone in a service level defines that amount of time _________",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "allowed for a user to advance to the next stage",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": "in which the case or step should be completed",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2136",
+          "Answer": "allowed before an assignment is considered overdue",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2137",
+          "Answer": "in which the case or step must be completed",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+	{
+      "id": "41",
+      "questionName": "The primary purpose of a service level is to _________",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "Generate service level reports",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": "help ensure timely completion of assignments",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2136",
+          "Answer": "track assignment status over time",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2137",
+          "Answer": "assign cases to the appropriate case worker",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+	{
+      "id": "42",
+      "questionName": "A parallel process id defined as _________",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "a process that is not part of the primary flow in the case life cycle",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": "a process that executes in the context of the current case",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2136",
+          "Answer": "a process that executes in the context of another process",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2137",
+          "Answer": "a process that executes over the same time period as other processes",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+	{
+      "id": "43",
+      "questionName": "Automating decisions based on business logic enables____________",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "architects to spend less time building the application",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": "application users to mark a specific location for business exceptions that may arise in the process flow",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2136",
+          "Answer": "architects to improve the performance of the application",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2137",
+          "Answer": "application users to focus on more nuamced decisions that require business expertise",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+	{
+      "id": "44",
+      "questionName": "Conditional paths in a caselife cycle are used to defined",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "subprocesses that run in parallel with the context of the current case",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": "paths in the case life cycle that are chosen by a user at runtime or are based on run-time values",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2136",
+          "Answer": "subprocesses that run in the context of the current case",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2137",
+          "Answer": "paths in the case life cycle that are followed based on the context of a parallel case",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+	{
+      "id": "45",
+      "questionName": "How does assignment routing improve efficiency?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "By assigning work to the most appropriate parties",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2135",
+          "Answer": "By assigning work to the most senior party in a work group",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2136",
+          "Answer": "By assigning work to the currently available party",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2137",
+          "Answer": "By assigning work to the party in the appropriate time zone",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+	{
+      "id": "46",
+      "questionName": "pyWorkPage stores which type of information.",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "information about the current operator",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": "information about the pega server",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2136",
+          "Answer": "data cached from an outside system",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2137",
+          "Answer": "information about a case",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+	{
+      "id": "47",
+      "questionName": "You use clipboard tool to perform which two tasks? (choose two)",
+      "questionImage": "null.png",
+      "answerType": "check",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "Review the current values of case data",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2135",
+          "Answer": "Test case behavior by setting property values for an open case.",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2136",
+          "Answer": "Test a rule to determine whether the rule executes correctly.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2137",
+          "Answer": "Test whether a declarative expression properly calculates a target value.",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+	{
+      "id": "48",
+      "questionName": "In Hire a candidate case, the case refers a property .SourceCandidate(1).Name. What should be the type of the SourceCandidates property.",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "Page",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": "Value List",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2136",
+          "Answer": "Single Value",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2137",
+          "Answer": "Page list",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+	{
+      "id": "49",
+      "questionName": "You want to capture the communication preference for the candidate.The preferences are phone, email and fax.How would you define the list with the options?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "Text(paragraph)",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": "Radio button",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2136",
+          "Answer": "Field group(list)",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2137",
+          "Answer": "Picklist",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+	{
+      "id": "50",
+      "questionName": "A candidates technical language skills are captured in Hire a candidate case. What type of property is used to capture the candidate`s language skill if the property reference is SkillSets(1)",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "Single value",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": "Value group",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2136",
+          "Answer": "Page",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2137",
+          "Answer": "Value list",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+	{
+      "id": "51",
+      "questionName": "In App Studio, when is the earliest opportunity to configure a user view for a step in a case life cycle?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "You can configure the user view for a step after you create the entire case life cycle.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": "You can configure the user view for a step after you add that step to the case life cycle.",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2136",
+          "Answer": "You can configure the user view for a step before you start creating the case life cycle.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2137",
+          "Answer": "You can configure the user view for a stepany time after you configure the pick list data types.",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+	{
+      "id": "52",
+      "questionName": "You need to set the pyLabel property of the first element of a pagelist (OptionList) to Select All. How do you configure this in pySetFieldDefaults data transform?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "Set .OptionList(1).pyLabel and a comment action using the value Select All.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": "Set .OptionList(1).pyLabel to an empty string and a parameter named Select All.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2136",
+          "Answer": "Set Select All to equal .OptionList(1).Relationship",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2137",
+          "Answer": "set .OptionList(1).pyLabel to Select All",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+	{
+      "id": "53",
+      "questionName": "You are configuring a declarative network that contains eleven declare expressions to calculatethe interest rate for a home mortgage.For e.g. target value property Tax Assesment is used as a source value when calculating the assessed property value.The declare expressions use target values from other expressions to calculate their target values. The field that displays the interest rate appears on the approval form. To improve performance, how can you reeduce the number of calculations?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "Apply the declare expression in the interest calculate flow action",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": "specify forward chaining in the declare expression that calculates the total interest rate value",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2136",
+          "Answer": "calculate the total interest rate value by adding all the declare expression target property value",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2137",
+          "Answer": "specify backward chaining in the total interest rate declare expression",
+          "correctAnswer": "true"
+        }
+      ]
+    },
+	{
+      "id": "54",
+      "questionName": "In Hire a Candidate case, you want to show the full name when the input source property changes. Which two of the following are reasons would you choose to use a declare expression rather than a data  transform to calculate the value? (choose two)",
+      "questionImage": "null.png",
+      "answerType": "check",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "The system monitors input properties and determine  when to update the target property value",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2135",
+          "Answer": "A declare expression updates the total value on all the forms when any form containing the field is submitted",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2136",
+          "Answer": "When updating a property that is calculated, you do not need to identify every caculation that updates any of the source values and manually recalculate them",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2137",
+          "Answer": "A declare expression calculates a specific value that is used on multiple forms.",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+	{
+      "id": "55",
+      "questionName": "You are designing travel plan application. A hotel booking step displays a form in which users select a hotel and enter their checkin and checkout time. the application calculates and then displays the cost for the hotel room. The form also include fields to select options, such as valet parking at an extra cost. The application totals the cost for any selected options and adds that amount to the total room cost to equal the grand total, which is displayed in a field. Which two of the following properties would you use as the target properties? (choose two)",
+      "questionImage": "null.png",
+      "answerType": "check",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "Total cost of options",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2135",
+          "Answer": "price of each options",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2136",
+          "Answer": "total cost for the hotel room",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2137",
+          "Answer": "number of days at the hotel",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+	{
+      "id": "56",
+      "questionName": "You have a requirement to add a bank routing number field to a view. Routing numbers must contain nine digits. How would you configure the field to support this requirement?",
+      "questionImage": "null.png",
+      "answerType": "radio",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "In an edit validate rule, configure a function to test for a routing number pattern.",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2135",
+          "Answer": "Use a decimal property type and make the field required",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2136",
+          "Answer": "Use an edit validate rule that validates the routing number pattern",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2137",
+          "Answer": "Set the minimum and maximum values to 9 in a text field",
+          "correctAnswer": "false"
+        }
+      ]
+    },
+	{
+      "id": "57",
+      "questionName": "You are adding a field to your case type in which users must enter the day, month and year they were hired before the user can submit the user form. The field type must enforce a date format. What two validation approaches would you use to meet the validation requirements? (Choose Two)",
+      "questionImage": "null.png",
+      "answerType": "check",
+      "options": [
+        {
+          "id": "2134",
+          "Answer": "Use the Required OptionList",
+          "correctAnswer": "true"
+        },
+        {
+          "id": "2135",
+          "Answer": "Use the read-only options",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2136",
+          "Answer": "Add the word Required to the field label",
+          "correctAnswer": "false"
+        },
+        {
+          "id": "2137",
+          "Answer": "Define the field type as a date",
+          "correctAnswer": "true"
+        }
+      ]
+    }
+  ]
+}
