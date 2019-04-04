@@ -1,0 +1,1500 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "A link can be presented in three different formats: Email, phone and URL. What effect does\r\nthis setting have? (Choose One)",
+      "image": "PEGACUIS71V1-1.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "961",
+          "answer": "It displays an icon related to the type next to the link",
+          "correctanswer": "false"
+        },
+        {
+          "id": "962",
+          "answer": "It opens the appropriate application when the link is clicked",
+          "correctanswer": "true"
+        },
+        {
+          "id": "963",
+          "answer": "The rendering of the link depends on the native capabilities of the device",
+          "correctanswer": "false"
+        },
+        {
+          "id": "964",
+          "answer": "It formats the information displayed in the link",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Which of the following is not a valid paging option on grids? (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "965",
+          "answer": "Progressive Load",
+          "correctanswer": "false"
+        },
+        {
+          "id": "966",
+          "answer": "Rows1-Y",
+          "correctanswer": "false"
+        },
+        {
+          "id": "967",
+          "answer": "First X Results",
+          "correctanswer": "false"
+        },
+        {
+          "id": "968",
+          "answer": "Defer Load",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "A button control that is added in a form can use an action set to invoke this Ul rule?\r\n(Choose Two which are incorrect)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "969",
+          "answer": "Local Action",
+          "correctanswer": "false"
+        },
+        {
+          "id": "970",
+          "answer": "Control",
+          "correctanswer": "false"
+        },
+        {
+          "id": "971",
+          "answer": "Navigation",
+          "correctanswer": "false"
+        },
+        {
+          "id": "972",
+          "answer": "Portal",
+          "correctanswer": "true"
+        },
+        {
+          "id": "973",
+          "answer": "Binary File rule",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Data pages that return a list of results can be presented either in a repeating dynamic\r\nlayout or as a grid. Of the following scenarios, which one requires you to use a grid?\r\n(Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "974",
+          "answer": "When the data page gets results from a report definition because the results are easier to present in a tabular format.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "975",
+          "answer": "When the data page refreshes on each interaction since repeating grids are quicker to load.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "976",
+          "answer": "When the data page results should be presented in a tabular format.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "977",
+          "answer": "When the data page allows editing of the line items.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Given thesemockups, how would you design them? (Choose one.)",
+      "image": "PEGACUIS71V1-5.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "978",
+          "answer": "Use grids for both; for the first use expand mode to reference a flow action to display the order information and for the second use show details option to show the details in a flow action.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "979",
+          "answer": "Use grids for both; for the first use the expand mode to reference a flow action and for the second use embed mode to reference a flow action to present the details in a flow action.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "980",
+          "answer": "Use a grid for the second one, Use repeating dynamic layout for the first one since a grid cannot embed another grid. Use repeating dynamic layouts for both since they have additional information for each row of a grid which is not possible in a grid.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Which one of the following is supported by the Pega-WAI ruleset that is shipped with the\r\nproduct? (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "981",
+          "answer": "The screen reader can read the text entered in the tooltip field of the icon control.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "982",
+          "answer": "The areas of the form that gets updated when the user input changes.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "983",
+          "answer": "The state of the menu items in a menu control whether any of those choices opens a popup window.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "984",
+          "answer": "The state of the checkbox control whether it is checked or not.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Contextual help provides additional details for users to complete forms, and there are\r\nmultiple ways to complete them.\r\nIn which of the following scenarios is Smart Info preferred over Smart tips? (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "993",
+          "answer": "When you need to display an image of a form with all fields completed.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "994",
+          "answer": "When you need to provide an indicator of the values that can be entered on the control as a placeholder.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "995",
+          "answer": "When you need to provide tips on individual fields.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "996",
+          "answer": "When you need to present longer text with a section header.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Of the following scenarios, which one represents a good use case for using a Radio Button\r\ncontrol over a dropdown control? {Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "985",
+          "answer": "When the list of choices are a handful, say less than 5.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "986",
+          "answer": "When the list of values are static and defined in the property rule form as a local list",
+          "correctanswer": "false"
+        },
+        {
+          "id": "987",
+          "answer": "Whenever you need to preset a default value.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "988",
+          "answer": "Whenever the field is required and selection is required.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "The technique of rendering a component on the screen once the user chooses lo display it\r\nis known as________. (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "989",
+          "answer": "pagination",
+          "correctanswer": "false"
+        },
+        {
+          "id": "990",
+          "answer": "progressive loading",
+          "correctanswer": "false"
+        },
+        {
+          "id": "991",
+          "answer": "inline loading",
+          "correctanswer": "false"
+        },
+        {
+          "id": "992",
+          "answer": "lazy loading",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Which of the following statements are correct when a dynamic container is set as single\r\ndocument mode? (Choose Two)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "997",
+          "answer": "The dynamic container of single document mode type can be included inside a dynamic layout",
+          "correctanswer": "true"
+        },
+        {
+          "id": "998",
+          "answer": "Single document modes can reference only a harness for content",
+          "correctanswer": "false"
+        },
+        {
+          "id": "999",
+          "answer": "Any number of work items can be active at one time irrespective of document mode",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1000",
+          "answer": "Single document modes can reference only a section",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1001",
+          "answer": "Single document modes automatically close the thread in clipboard",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Which component will you configure in the skin to create the white background? {Choose\r\nOne.)",
+      "image": "PEGACUIS71V1-11.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1002",
+          "answer": "Screen Layout",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1003",
+          "answer": "Dynamic Layout",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1004",
+          "answer": "Column Layout",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1005",
+          "answer": "Container",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Which of the following requirements suggests using a custom CSS and includes it in the\r\nskin rule? (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1006",
+          "answer": "Creating a custom jQuery Control to display a slider.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1007",
+          "answer": "Displaying a form where you want a single field to merge across multiple cells",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1008",
+          "answer": "Setting the absolute width on the text to display it on top of another control such as an image",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1009",
+          "answer": "Customize the maker icon used to display the locations found on a map control.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Local List and Prompt List ate examples of the_____________(Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1177",
+          "answer": "Table type values that can be used to limit the valid values of a property.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1178",
+          "answer": "Types of database tables that can be used in a Pega 7 application.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1179",
+          "answer": "HTML controls that can be used to generate an HTML select/dropdown input.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1180",
+          "answer": "Types of Page Lists.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "The skin used when rendering an application can be referenced in all of the following\r\nrecords, EXCEPT: (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1014",
+          "answer": "Access group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1015",
+          "answer": "Portal",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1016",
+          "answer": "Operator Preferences",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1017",
+          "answer": "Application",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Responsiveness is configured only in the skin rule and there is no configuration required in\r\nthe content layer, specifically on sections, EXCEPT for ______________. (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1018",
+          "answer": "A grid",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1019",
+          "answer": "A screen layout",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1020",
+          "answer": "A column layout",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1021",
+          "answer": "A grid and repeating dynamic layout",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1022",
+          "answer": "A dynamic layout",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Which of the following statements is NOT correct with regards to event processing?\r\n(Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1023",
+          "answer": "A control must have at least one action set",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1024",
+          "answer": "Actions attached to an event are executed in the sequence in which they are defined",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1025",
+          "answer": "The same action can be performed on different events for the same control",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1026",
+          "answer": "An action set always has at least one event and one action",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "The Amount field is referenced to be displayed as Read-Only in multiple Ul rules. What is the best option to display this value? (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1027",
+          "answer": "Use pxDisplayText control in the cell of the Amount property on a single layout and reference that section in other places",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1028",
+          "answer": "Mark the field of the cell containing this property as read only on all sections",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1029",
+          "answer": "Use pxDisplayText control in the cell of the Amount property on all sections where it is used",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1030",
+          "answer": "Use pxDisplayText control in the property definition",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Given this mockup screen, what is the best way to render this output? (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1031",
+          "answer": "Align the Address, City and Postal Code fields in a dynamic layout and then embed them inside the dynamic layout below the full name field",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1032",
+          "answer": "Create a section to display the address, city and postal code in one line and then embed the section in a dynamic layout",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1033",
+          "answer": "Set the width of the full name field to 100%",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1034",
+          "answer": "Use an Inline grid triple layout and then configure the width of the full name field to span across three columns",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Pagination can be configured for grid controls.Which type of pagination format has been selected for the grid displayed below? (Choose\r\none)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1035",
+          "answer": "Progressive",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1036",
+          "answer": "Page 1 of X",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1037",
+          "answer": "First X Results",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1038",
+          "answer": "Page 1,2,3",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1039",
+          "answer": "Rows1-Y",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Inline, Inline grid double, Inline grid triple are saved in the system as____________.\r\n(Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1040",
+          "answer": "Controls",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1041",
+          "answer": "Layout types",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1042",
+          "answer": "Formats",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1043",
+          "answer": "Mixins",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "-can be used for restricting the length of a text field (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1044",
+          "answer": "Edit validate, a setting on the property rule form, or pxTextlnput control rule",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1045",
+          "answer": "pxTextlnput Control rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1046",
+          "answer": "Edit validate rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1047",
+          "answer": "A setting on the Property rule form",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Which of the following rule types does the Localization wizard translate? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "1048",
+          "answer": "Field Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1049",
+          "answer": "Message",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1050",
+          "answer": "Paragraph",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1051",
+          "answer": "Correspondence",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1052",
+          "answer": "Formatted plain text in the cell of a section",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Which condition should be met before you begin prototyping the Ul in Pega 7? (Choose\r\nOne)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1053",
+          "answer": "The class structure and data model are in place.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1054",
+          "answer": "SMEs (subject matter experts) have signed off design documents",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1055",
+          "answer": "The business process has been fully implemented.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1056",
+          "answer": "The design has been validated by end users.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "The portal rule is referenced in the__________. (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1057",
+          "answer": "Starting flow",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1058",
+          "answer": "Harness rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1059",
+          "answer": "Application rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1060",
+          "answer": "Access group",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "The submit button appearing on the user form has to be changed to display a different label\r\nsuch as \"Proceed to Next Step\". What is the best way to accomplish this? (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1061",
+          "answer": "Add a button in a section rule, name the button as \"Proceed to Next Step\" and include that section in the connector flow action rule that is connected to that assignment shape",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1062",
+          "answer": "Modify the skin rule to rename the button in the button area element",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1063",
+          "answer": "Rename the label of the submit button in the flow action rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1064",
+          "answer": "Add a button in the harness rule with \"Proceed to Next Step\" as its label",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Which component of the skin uses inheritance so that changing it in one place alters every\r\nother component where it is referenced? (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1065",
+          "answer": "Format",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1066",
+          "answer": "Included Style",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1067",
+          "answer": "Component",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1068",
+          "answer": "Mixin",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "You want to restrict the quantity field to accept only numeric characters. What is the best\r\nvalidation mechanism that you can choose in this scenario? (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1069",
+          "answer": "Use Integer as the Property Type",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1070",
+          "answer": "Invoke a validate rule in the flow action",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1071",
+          "answer": "Use an Edit validate rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1072",
+          "answer": "Use pxNumber as the control",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Which of the following statements is most accurate about end user portals? {Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1073",
+          "answer": "Pega 7 provides standard portals only for Case Managers since they use widgets and support customizations only for that role",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1074",
+          "answer": "Pega 7 provides standard Case Manager and Case Worker portals and it is recommended that you not customize them",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1075",
+          "answer": "Pega 7 provides standard Case Manager and Case Worker portals, which provide a starting point and can be completely configured to your needs",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1076",
+          "answer": "Pega 7 provides the standard portals which cannot be used other than for proof-of- concept applications since they are just provided for examples",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "In a purchase order application, the product selection form should provide the list of all\r\nproducts from which a user should select. The field should display the product name,\r\nhowever on selection, the system should store the Product ID as its value.\r\nOf the following Ul control, which is best suited for this functionality1? (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1077",
+          "answer": "PromptSelect control",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1078",
+          "answer": "Dropdown control",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1079",
+          "answer": "DynamicSelect control",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1080",
+          "answer": "AutoComplete control",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Where would you configure the error message shown in the screenshot? (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1081",
+          "answer": "Using the skin rule to configure the error icon",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1082",
+          "answer": "By adding a custom section to show the error message",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1083",
+          "answer": "Configure the display field level error field in perform harness",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1084",
+          "answer": "In the workform section",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "There is a requirement to display red colored text for the labels of mandatory fields in\r\nsection shown below. Which of the following options are valid choices to implement this\r\nbehavior? (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1085",
+          "answer": "Create a new formal for the label control in the skin rule and reference it in the section",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1086",
+          "answer": "Create a custom style for the skin rule and reference it in the Read-Write cell of the label",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1087",
+          "answer": "Configure the label cell using the inline style editor Embed a custom",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1088",
+          "answer": "CSS in the harness rule and reference it in the Read-Write cell of the label",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "The localization wizard is used to create a Spanish user interface of a Pega 7 application\r\nthat was originally built in English. How would Spanish operators typically be designated to\r\nuse this new User Interface? {Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1089",
+          "answer": "Based on an attribute read in from an LDAP directory",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1090",
+          "answer": "With a setting in their corresponding operator instance",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1091",
+          "answer": "Based on the Access Group they belong to",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1092",
+          "answer": "Based on the language settings of their browser",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "You want to ensure that the martial status property is set to one of three values. Married.\r\nSingle, or Divorced. Which method should you use to accomplish this? (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1093",
+          "answer": "Add them in table values on the property definition",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1094",
+          "answer": "Create a new validate rule to test on those values using if conditions",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1095",
+          "answer": "Reference a new Edit Input rule on the property definition",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1096",
+          "answer": "Use an Edit Validate on the property definition to validate against these values",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Which of the following statements is incorrect regarding sections? (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1097",
+          "answer": "A layout can be converted into a section by saving it as a rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1098",
+          "answer": "A flow action can reference only a section rule",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1099",
+          "answer": "Only sections belonging to the same class can be embedded inside each other",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1100",
+          "answer": "A harness requires at least one section to be referenced in it",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Given the screenshot, which statement describes the best approach to follow to build this\r\nscreen? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "1101",
+          "answer": "Security code/CW is also configured in a separate section and is then included",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1102",
+          "answer": "Expiration date is configured in a separate section and is then included",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1103",
+          "answer": "Security code/CW is included as a static text in a separate layout",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1104",
+          "answer": "Expiration date is configured as the label for the layout",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1105",
+          "answer": "SecurityCode/CW is configured as the label for the field",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1106",
+          "answer": "Expiration date is included as static text in a separate layout",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Which of the following is only used for screen flows? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "1107",
+          "answer": "The flow to use a template for supporting screen flows",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1108",
+          "answer": "The button to navigate to the next step must be labeled Next",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1109",
+          "answer": "A flow action which presents the form with all user inputs",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1110",
+          "answer": "A harness which provides navigation choices using a tab. tree or buttons",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1111",
+          "answer": "A back button to navigate to the previous screen",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Given a scenario where you need to access an application built using Pega 7 from another\r\nweb based application deployed in a different server through Internet Application composer\r\n(IAC), which of the following steps is NOT required? (Choose one)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1112",
+          "answer": "Deploy the server containing the Pega7 application as a web node to handle the requests coming from the IAC users",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1113",
+          "answer": "Create and deploy a JavaScript file which contains the scripts to launch the Pega 7 application in a web application as a gadget",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1114",
+          "answer": "Deploy the prgateway servlet that is used to handle the communication between the IAC gadget manager and the Pega 7 application",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1115",
+          "answer": "Include a Pega-IAC ruleset in the Pega 7 application",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1116",
+          "answer": "Create an HTML DIV element for each flow action you wish to execute",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "A form should display a clickable link for viewing the Terms and Conditions on a modal\r\ndialog when the user selects a check box with the text I want to view the Terms and\r\nConditions. When testing the form, the link is not displayed when the check box is\r\nselected. What could be wrong? (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1117",
+          "answer": "In the section rule that is rendering the form, the Run On Client attribute in the HTML tab is not enabled.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1118",
+          "answer": "In the flow action rule that references the section rule rendering the form, \"Run On Client\" attribute in the HTML tab is not enabled.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1119",
+          "answer": "In the section rule that is rendering the form, on the cell that has the check box, the Refresh section is not being invoked.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1120",
+          "answer": "In the section rule that is rendering the form, on the cell that has the link, the \"Run On Client3 is not enabled.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "The Purchase order request form should allow the user to select multiple items from a list\r\nof items. The item list is retrieved from the inventory database which",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1121",
+          "answer": "A custom control to allow multiple selection",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1122",
+          "answer": "A repeating grid",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1123",
+          "answer": "A Dropdown control",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1124",
+          "answer": "A List-to-List Control which is responsive",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Newer layouts are responsive when accessed in mobile devices, which approach should\r\nbe used to implement responsiveness? {Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1125",
+          "answer": "Use circumstancing to create variations of the layouts",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1126",
+          "answer": "Use a response breakpoint configuration in the skin rule based on pixel size",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1127",
+          "answer": "Use a when rule such as IsMobile, IsTablet to control what is visually presented",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1128",
+          "answer": "Use a when rule to alter the size based on pixel size",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Utilizing the standard when rules pylsMobile and pylsTablet is common when configuring\r\na{n)_____________user interface. (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1129",
+          "answer": "active",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1130",
+          "answer": "responsive",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1131",
+          "answer": "adaptive",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1132",
+          "answer": "dynamic",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "In the property reference pyWorkPage Customer(l).Name, Customer is__________.\r\n(Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1133",
+          "answer": "a data page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1134",
+          "answer": "a top level page",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1135",
+          "answer": "a PageList",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1136",
+          "answer": "an embedded page",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "The screenshot shows an example of a tree grid. Of the choices below, which configuration\r\nwould result in setting a different background color on the active rows? (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1137",
+          "answer": "Create two rows in the grid layout (one for active and one for inactive) and then use visibility conditions to present the rows at runtime",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1138",
+          "answer": "Create two mixins (one for active and one for inactive) and then reference the rows in the grid layout",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1139",
+          "answer": "Create an inline style on the row to use a condition that fires client side",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1140",
+          "answer": "Modify the active and inactive rows for the format used on the grids in the skin rule",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Which statement most accurately describes DCO? (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1141",
+          "answer": "A project methodology.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1142",
+          "answer": "A set of features that allows for more effective application development.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1143",
+          "answer": "A set of development tasks completed once at the beginning of a project.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1144",
+          "answer": "A process designed to capture requirements prior to development.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Which of the following requirements suggests using a custom dashboard widget? (Choose\r\nOne)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1145",
+          "answer": "To display the results of a report definition in a chart.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1146",
+          "answer": "To display a form to present the list of all cases waiting for user action.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1147",
+          "answer": "To display the weather gadget that can accept parameters to present the weather for current location or for a selected location using parameter.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1148",
+          "answer": "To display a gadget that accepts parameters to display the map based on the home location of the user.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "You have a requirement that the system must convert text entered by a user to all\r\nUPPERCASE before it is saved. Which method should you use to accomplish this?\r\n(Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1149",
+          "answer": "Invoke a data transform which invokes a function to change the text to UPPERCASE when the value changes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1150",
+          "answer": "Use a validate rule on the field to enforce users to enter the text in UPPERCASE",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1151",
+          "answer": "Create an action set which invokes a function to change to the text to UPPERCASE when the value changes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1152",
+          "answer": "Use an Edit Input rule on the field so that the text (value) is transformed to UPPERCASE on save",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "In which of the following scenarios, do you need to enable theRun On Client\" checkbox for\r\nthe refresh to occur client side? (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1153",
+          "answer": "When the users role gels changed in the middle of case processing and they should view additional fields based on the new role.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1154",
+          "answer": "When users click the Edit button causing the fields in the form to appear editable.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1155",
+          "answer": "When users click the refresh icon which should refresh the list of cases assigned to that user.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1156",
+          "answer": "When users modify the order which should trigger the recalculation of the line item and order totals.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Which of the following is NOT a recommended guideline when building a mobile\r\napplication? (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1157",
+          "answer": "Use Grids instead of repeating Dynamic Layouts",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1158",
+          "answer": "Always set the data type on cells",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1159",
+          "answer": "Set widths in percent (%)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1160",
+          "answer": "Source controls from data pages",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Which layout format is being used in the following dynamic layout display? (Choose One.)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1161",
+          "answer": "Stacked",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1162",
+          "answer": "Inline",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1163",
+          "answer": "Default",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1164",
+          "answer": "Inline-grid",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "Which of the following is the most prominent benefit of a dynamic Ul? (Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1165",
+          "answer": "It is optimized across devices",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1166",
+          "answer": "It is easy to maintain",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1167",
+          "answer": "It provides a better user experience",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1168",
+          "answer": "It improves response times",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Which of the following is a declarative rule, that is automatically referenced by the system?\r\n(Choose One)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1169",
+          "answer": "Edit Input",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1170",
+          "answer": "Edit Validate",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1171",
+          "answer": "Constraints",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1172",
+          "answer": "Validate rule",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Which of the following rules is used for rendering the workspace of an end user? (Choose\r\nOne)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "1173",
+          "answer": "Portal",
+          "correctanswer": "true"
+        },
+        {
+          "id": "1174",
+          "answer": "Flow Action",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1175",
+          "answer": "Navigation",
+          "correctanswer": "false"
+        },
+        {
+          "id": "1176",
+          "answer": "Local Action",
+          "correctanswer": "false"
+        }
+      ]
+    }
+  ]
+}
