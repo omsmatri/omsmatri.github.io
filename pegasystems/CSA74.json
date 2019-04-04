@@ -2,28 +2,1868 @@
   "questions": [
     {
       "id": "1",
-      "name": "An organization wants to automate its existing expense reporting process. Which two actions should the organization take in order to follow Pega’s best practices for application design? (Choose Two)",
+      "name": "Which requirement would be implemented through circumstancing?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "An application sends a notification to a manager if a purchase request requires approval. Otherwise, the application sens a notification to the employee that the request was approved",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "An application sends an email to a customer to confirm opening an account. For customers in certain states or provinces, the email includes a mandatory disclosure.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "An application sends a text if a customer provides a mobile phone number, otherwise, the application sends an email",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "An application computes a shipping charge for orders. If the order exceeds USD100, the customer receives a credit of 50% of the shipping charge",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "You have created a series of forms for a vacation booking process. Declarative expressions are used to calculate values such as the cost of the flight, hotel, car rental, and taxes. The last form includes a field that displays the total amount that will be charged on the user's credit card. How do you configure the calculations so that the total amount is calculated only when the user reaches the last form?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use the backward chaining option for all the expressions.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use the forward chaining option for the total amount expression. Use backward chaining for all the other expressions.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Use the forward chaining option for all the expressions.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Use the backward chaining option for the total amount expression. Use forward chaining for all the other expressions.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "A date page hold the local weather information based on the user's address. The data page's Reload if Older Than field is set to 15 minutes. The date page is created at 9:12 At 9:20 the user requests the weather information. At 9:42 the user requests the weather information. When is the data page reloaded?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "9:20",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "9:42",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "9:27",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "9:35",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "A customer wants to copy the contents of a previous order to their current order. What rule type do you use to copy the order contents?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Funciton",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Data Transform",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Declare Expression",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Data page",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "The approval process for a purchase request case must satisfy the following requirements: \n- A request for office supplies placed by the Facilities department that totals EUR100 or less is automatically approved. \n- A request for software is automatically rejected unless requested by the IT department. \n- Any request that exceeds EUR1000 is automatically subject to review by the auditing department. Which type of rule would you configure to satisfy this requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Declare Expression",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "When",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Decision Tree",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Map Value",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "During a playback, you place a flow in draft mode to address which limitation?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "To save an incomplete flow",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "To prevent additional shapes from being added to the flow.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "To avoid errors due to references to rules that do not yet exist.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "To allow users to choose decisions outcomes if a decision rule if not yet available.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "A process routes loan request to a specific loan officer based on the type of loan. \n-if the loan is a mortgage, it is routed to Adam ross \n-if the loan is for an automobile, it is routed to Don Smith \n-if the loan is an equity line the case is routed to Don Smith \nHow would you configure a router to ensure the case advances to the correct loan officer?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Route the case to a workbasket that references a when condition",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Route the case to a workbasket that references a when condition",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Route the case to a worklist that references a decision table.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Route the case to a worklist that references a when condition.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "In which of the following situations would you use a rule circumstance to resolve the requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A national insurance company requires a different minimum for liability coverage in each state.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "A service level notifies the assigned user when a goal interval is exceeded, and notifies the user's manager when a deadline interval is exceeded.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "An online order process optionally allows customers to update the credit card number saved with their account.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "A process does not execute if a user is not married",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "If the Review claim step is configured to set the status to Pending-Investigation, when is the status of the case set to Pending-Investigation?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "When the Review claim step starts",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "When the Process claim stage starts",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "When the Review claim step completes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "When the Investigate Claim step completes",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "An insurance company offers personal property policies. Art collections and wine collections are categorized as special types of personal properties. The company employs appraisers who are qualified to perform appraisals for wither art collections or win collections. Appraisers can only perform appraisal assignment in their qualified field. \nHow would you configure the router so that the assignment is worked on by a qualified appraiser?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Associate each appraiser to a work group that uses skill parameters",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Associate each appraiser to the appraiser work group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Associate each appraiser to one of two work groups that correspond to the appraisal qualifications",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Associate each appraiser to a work group that uses work group parameters",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "ABC Corp requires that policyholders receive email indicating the status of their auto insurance claim as the claim processed. You create the work party for the policyholder as an instance of which class?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Data-Party-Operator",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Data-Party-Com",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Data-Party-Person",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Data-Party-Org",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "You have added an approval process assignment to a loan request process. The requirement states that a request can be routed to one or more managers for their approval. Te hierarchy of approvals depends upon the total dollar amount of the request. For example, Cost Center Managers approve requests that are less than USD 25,000. A request of greater than or equal to USD 25,000 requires the approval of the Cost Center Manager, corporate Vice President, and Vice President of Finance.\nHow would you configure the routing for the approval process assignment?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Configure a cascading approval flow type based on the reporting structure of the current user.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Configure a single level approval flow type based on an authority matrix.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Configure a single level approval flow type and route to a workbasket accessible by the approvers.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Configure a cascading approval flow type based on an authority matrix.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "You have been asked to configure the following relationship between three case types: Account Open, Link Savings, and Fund Account:\n1. A customer can complete an Account Open case before completing a Fund Account case.\n2. A customer must complete a Link Savings case before completing a Fund Account case.\nWhich configuration satisfies this requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Configure the Account Open case type to create a Fund Account case as a top-level case. Configure the Account Open case type to create a Link Savings case as a child case.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Configure the Account Open case type to create a Fund Account case as a top-level case. Configure the Fund Account case type to create a Link Savings case as a child case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Configure the Account Open case type to create the other cases as top-level cases. Add a validate rule to the Account Open case to require a resolved Link Savings case before the Fund Account case can be resolved.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Configure the Account Open case type to create a Fund Account case as a child case. Configure the Fund Account case type to create a Link Savings case as a top-level case.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Users can access an apartment hunting application from different devices with different screen sizes. A screen displays the photos of available properties. By default, the photos are displayed in three columns. When the screen width is less than 800 pixels, the photos should be displayed in two columns.\nHow do you implement the screen for this requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use a dynamic layout with a responsive breakpoint at 800 pixels to change from inline-grid triple to inline-grid double format.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Circumstance the section rule to display different number of columns at different screen sizes.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Use a column layout with a responsive breakpoint at 800 pixels to hide the left column.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Circumstance the layout to display different number of columns at different screen sizes.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "To qualify for an automobile loan, the applicant must have a credit score of at least 740 and must be currently employed. If either condition is not met, the loan request cannot be submitted. \nHow would you configure the process to support this requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Create one edit validate rule that includes two conditions - one for the credit score property and one for the employment status property.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Create one validate rule that includes two conditions - one for the credit score property and one for the employment status property.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Create two edit validate rules. Each rule includes one condition - one for the credit score property and one for the employment status property.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Create two validate rules. Each rule includes one condition - one for the credit score property and one for the employment status property.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Users are required to enter their date of birth in the format dd/mm/yyyy. Which two options ensure that a user provides a date in the correct format? (Choose Two)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use an Edit Validate rule to test the value entered by the user.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Use a Validate rule to test the value entered by the user.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Use a When rule to test if the date matches the required format.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Use a Calendar control to allow the user to select the date.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Which of these are typically configured on a dynamically layout? (Choose Two)",
       "image": "null.png",
       "type": "check",
       "options": [
         {
           "id": "2983",
-          "answer": "Build and test the application before rolling it out for review by interested parties to ensure the application is ready for release.",
+          "answer": "Alignment of field values",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Label Positioning",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Align columns and rows to present data in spreadsheet",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Number of columns in each row",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "You need to add a button to a user form. When the button is pressed, the application invokes a data transform, then create a new case.\nHow do you implement this functionality?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Configure an action set on the button control.",
           "correctanswer": "true"
         },
         {
           "id": "2984",
-          "answer": "Build the required features as soon as they are needed during application development to keep the project moving quickly.",
+          "answer": "Configure a local action on the button control.",
           "correctanswer": "false"
         },
         {
           "id": "2985",
-          "answer": "Use DCO to enter business requirements for the application to facilitate direct engagement of IT and business resources.",
+          "answer": "Configure a mixin for the button in the skin.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Configure a style format for the button in the skin",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "You are implementing a UI form collecting job applicant information. Users must provide values to certain fields before submitting the form. \nWhich configuration adds asterisks to indicate the mandatory fields on the form?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Configure the mandatory fields as Required in the section rule",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Use multiple Validate rules for each mandatory field",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Use an Edit Validate rule to verify if each of the mandatory properties has a value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Use a Validate rule to verify the mandatory fields have a value.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "In an airline reservation application, users enter departure and return dates and submit for flight search. This is implemented as a flow action. You need to ensure that the return date is later than the departure date. You also need to copy the dates to a search parameter page that is used for flight search. \nSelect the two rule types that the flow action references to satisfy these requirements. (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Validate",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Edit Validate",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Service Level",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Data Transform",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "In a hotel reservation application, a form displays a list of hotels with available rooms based on the check-in and check-out dates entered by users. \nHow do you configure the form to refresh the hotel list whenever the check-in or check-out date changes?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Configure edit validates on the date fields to refresh the section when the date values change.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Configure an action set on the hotel list display to refresh the section when the hotel list changes.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Display the hotel in an embedded section with a visible when condition.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Configure action sets on the date fields to refresh the section when the date values change.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "You are asked to create a report definition that shows daily inventory levels. The manager wants to access the report in the Report Browser in the user portal. The manager also wants to add the report to a new category specifically for the distribution group.\nWhat two configurations are required to support this requests? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Allow user to subscribe to reports in the distribution group category.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Select the report definition option that displays your report in the Report Browser.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Select the option in the Report Browser that allows users to view your report.",
           "correctanswer": "true"
         },
         {
           "id": "2986",
-          "answer": "Identify the departments responsible for the application design and have them work independently to enhance organizational efficiency.",
+          "answer": "Create a category rule for distribution group reports.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "You have created a new report that contains a list of employees, hire dates, and managers. You have been asked
+to display each manager in a row. Beneath each manager row, you must list the manager's employees and their
+hire dates. How would you support this request?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Summarize the manager column",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Sort the manager column",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Group the manager column",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Filter the manager column",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "You have been asked to create a pie chart that shows the number of cases each manager has created. A list report contains columns for manager name, case ID, and office. \nHow would you configure the list report in order to create the pie chart?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Group the case ID column.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Group the manager name column.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Summarize the case ID column.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Summarize the manager name column.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "A manager requests a report that contains the following columns: Create Date, Case ID, Create Operator, and Work Status. You must sort the cases so the case with the most recent create date appears at the top of the list and descends in order. \nHow would you design the report definition to support this requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Select Highest to Lowest sort type for Create Date.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Select Count in the Summarize column for Create Date.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Add a filter condition where Create Date is greater than the current date.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Make that Create Date the first column in the report.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "A data page holds the local weather information and has he Reload if Older Than field to 10 minutes.\nThe data page is created at 11:22. The user then performs the following actions:\n11:28 the user refreshes the weather information\n11:40 the user refreshes the weather information At\nwhat time is the data page reloaded?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "11:32",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "11:38",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "11:40",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "11:28",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "When processing an insurance claim you need to retrieve the customer's insurance policies from a web service. You invoke the connector from a_______________.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Data page",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Flow action",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Report definition",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Data transform",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "A list report includes columns for purchase requests and regional cost centers. A manager wants the report to show the total number of purchase requests for each of the regional cost centers.\nHow would you configure the report definition?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Filter the results so that only cost center and purchase requests are included in the report.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use the purchase requests column to group the cost centers.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Summarize the purchase requests column by count.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Summarize the regional cost centers by count.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "You have been asked to create a report that displays the following information:\n-Assigned case worker (.pxAssignedOperatorID)\n-Requestor (.pxCreateOperator) \n-Request date (.pxCreateDateTime)\n-Due date (.DueDate)\n-Assigned vendor (.VendorName)\nThe report contains a filter to only return purchase requests with a status (.pyStatusWork) of open. Which property can you optimize to improve report performance?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": ".DueDate",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": ".pyStatusWork",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": ".pxAssignedOperatorID",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": ".pxCreateDateTime:",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "A report contains columns New Hire ID, New Hire Name, Start Date, and Location. The organization has offices in various cities throughout the U.S. A facilities manager requests a report that includes only new hires who are located in the Atlanta and Boston offices and have a start date within 30 days of the report date.\nHow would you configure the filter to support this requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Create three conditions: Location equals Boston OR Location equals Atlanta AND Start Date equals 30 days.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Create three conditions: Location equals Boston OR Location equals Atlanta AND Start Date equals next 30 days.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Create one condition: Location equals Boston Atlanta, Start Date equals next 30 days.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Create three conditions: Location equals Boston AND location equals Atlanta AND Start Date equals next 30 days.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "A hotel reservation application has the following requirement: Users must select the destination city from a list of options. The list is filtered on user entry. As a user types the city name, the list of options narrows.\nWhich UI control allows you to implement this requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Drop-down",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "List to List",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "AutoComplete",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Menu",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "You are designing a form for an online bookstore to display new arrivals. The form is displayed on laptops and tablets. Pictures of the book covers are displayed in columns. The number of columns changes depending on the screen size.\nWhich layout do you use to display the book cover pictures?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Screen layout",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Dynamic layout",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Column layout",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Smart layout",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "A form allows customers to specify the amount of a balance transfer for their credit card. The form contains two fields: one to display the available balance on the customer's credit card, and one for the user to enter the amount of the balance transfer.\nYou configure a validate rule to verify that the amount of a balance transfer is less than 75% of the available balance on the customer's credit card. How do you call the validate rule?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "From the property used to capture the amount of the balance transfer",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "From the section that contains the field for entering the amount of the balance transfer",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "From the step on the case life cycle",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "From the flow action where the customer submits the form",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Users can access an apartment search application from different devices with different screen sizes. A screen displays the photos of available properties. On a wide desktop screen, the photos are displayed in an inline format. On a smart phone, the photos should be displayed in a vertical stack.\nHow do you implement the screen for this requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use a column layout with a responsive breakpoint at smart phone screen width to hide the left and right columns",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Circumstance the section rule to display the photos with different arrangements at different screen sizes.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Circumstance the layout to display the photos the photos with different arrangements at different screen sizes.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Use a dynamic layout with a responsive breakpoint at smart phone screen width to change from an inline format to a stacked format.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Before a member is admitted to a hospital, a health care organization reviews authorization requests for insurance coverage. An intake operator performs the Review Authorization Request assignment to determine if the member qualifies for coverage.\nIf the member qualifies for coverage, the case advantages to the Review Treatment assignment for review by a physician. When the case arrives in the physician's worklist, the system automatically sends the physician an email. If the member is denied coverage, the system resolves the request. The system also automatically sends two types of correspondence to the member: a letter and an email notification. How would you configure the process so that the system automatically sends an email to the physician when the case arrives at the physician's worklist?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Add a notification to the Review Treatment assignment.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Add a notification to the Review Authorization Request assignment.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Add a SendCorrespondence local action to the Review Authorization Request assignment.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Add an SLA to the Review Treatment assignment that includes an escalation notification.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Which requirement is satisfied by configuring a service level agreement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A transaction review is completed within 24 hours.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Requests from customers with e lite status go to a dedicated work group.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Users are notified when they re ceive an assignment.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Transaction dispute cases are considered more urgent than address change cases.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "You have created a form that lists a group of recreational activities that users can select when booking a vacation. One column lists the activity name, a second column provides the check box for activity selection, and a third column displays a thumbnail image of the activity. You want to ensure that users have the information they need to make their selections regardless of screen size. When viewed on a small screen, you do not need to display the images. What three configuration steps would you take to support this requirement? (Choose Three)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Set the image column to secondary importance.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Set the image column to other importance.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Set the activity name and check box columns to primary importance.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Set the activity name column to primary importance.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Set the check box column to primary importance.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Set the check box column to secondary importance.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "What are two ways you can add a table to a view? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Add a field group list to a view in Pega Express.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Add a table to a section used by the view.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Add the table column properties to a view in Pega Express.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Embed the table in the section used by the view.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "How do you configure an action set on a button to clear user selections and then review the previous actions on the case?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "First, configure a Click event with a Refresh action. Next, configure a Click event and a View History action.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "First, configure a Click event with a View History action. Next, add a Refresh action to the event.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "First, configure a Click event with a Refresh action. Next, add a View History action to the event.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "First, configure a Click event with a Refresh action. Next, configure a Double-click event and a View History action",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "A manager requests a report that contains the following columns: Create Date, Case ID, Create Operator, and Work Status. You must sort the Case ID values so the case with the highest ID value appears at the top of the list and descends in order. How would you design the report definition to support this requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Make sure that the Case ID is the first column in the report.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Add a filter condition where Case ID is greater than one.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "For the Case ID property, select Count in the Summarize column.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "For the Case ID property, select Highest to Lowest sort type",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Which best describes the benefit of unit testing rules?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Unit testing validates a rule configuration to ensure that any dependent rules are available to the application.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Unit testing identifies configuration issues that may impact application performance on a production system.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Unit testing identifies configuration issues that can propagate to other rules with potentially serious consequences.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Unit testing validates information that must be provided before the rule can be saved.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "When unit testing a rule, you can identify a data transform to use during the test. What does the data transform do?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Identifies an automated test result to compare rule execution against.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Provides initial values for properties used in rule evaluation.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Records the result of the unit test.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Copies test results to the clipboard.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "An insurance company provides personal property insurance. Jewelry is categorized as a special type of personal property. Requests for jewelry coverage require that a user managing the request is trained to appraise jewelry. The requirement is to route assignments for jewelry appraisals to users who have this skill. Which one of the following routing approaches would you use?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Route requests to a reporting manager who assigns the request to an available user to ensure fast processing.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Route directly to a user who is a member of work group that uses skill rating parameters.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Route requests to a decision table which routes the request to a work group in a location where there are users who have appraisal skills.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Route requests to a work group that uses skill rating parameters for work group members.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "A home loan company has home appraisal offices in various regions. Each office has its own work queue. Company policy requires that home appraisals are assigned to offices based on the home's location. For example, appraisals for homes located in Boston are assigned to the New England office work queue. Which routing approach would you choose to support this requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Route the assignment to the correct work queue based on a decision rule.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Route the assignment based on appraiser skills.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Route the assignment based on an appraiser role.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "It is not possible to support this requirement. The router must define a specific work queue.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "An application lets customers' book airline reservations online. What would you expect to be defined as the case type in the application?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A reservation",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "A reviewed reservation",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "An airline ticket",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "A confirmation email",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "A business process requirement states that users should be able to modify the shipping address at any time and not interrupt the primary case. Which of the following options is the best way to design for this requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Add a local action to the case type.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Add a process in a stage.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Add an optional process to any stage in the case type.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Add a step in a process",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Which requirement could be satisfied with a user action?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "An application randomly sends a survey to customers once their case is resolved.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Requiring a separate approval process whenever an order exceeds USD 10,000.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Allow a user to transfer a case to another employee at any stage of the case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Reassign any task that remains open after three days to another user",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "A step in the case life cycle has a case status value of Pending-Approval. When is the status of the case automatically updated?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The status of a case cannot be automatically updated",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "At the beginning of the step",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "At the end of the step",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Only if the user manually updates the case status",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "When is the earliest opportunity for you to configure the user view for a step in a case life cycle in Pega Express?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "You can configure the user view for a step after you create the entire case life cycle.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "You can configure the user view for a step before you start creating the case life cycle.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "You can configure the user view for a step after you add that step to the case life cycle.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "You can configure the user view for a step any time after you configure the pick list data types.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "You have a requirement to add a bank checking account number field to a view. Routing numbers must contain nine digits. How
+would you configure the field to support this requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use a decimal property type and make the field required.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Set the minimum and maximum values to 9 in a text field.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "In an edit validate rule, configure a function to test for a routing number pattern.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Use an edit validate rule that validates the routing number pattern.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "You have a requirement to add to a view a check box that indicates the user qualifies for an auto insurance discount. In order to qualify, two conditions must be met. First, the user must be older than 25. Second, the user cannot have received a traffic violation in the past three years. Unless both conditions are met and the user selects the check box, the form displays an error when the user submits the form. Which one of the following approaches would you use to support this requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use a single validate rule to verify both of these conditions.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Use two validate rules, one for each condition.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Associate an edit validate rule with the flow action that references the form.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Use an edit validate rule that validates both conditions.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Which requirement is best implemented using a Wait step in a case?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "You need to send an email after a user completes a form.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "You cannot proceed in an expense report until a manager approves the request.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "You cannot complete a purchase case on a website unless you complete a new account child case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "You need to pause a case until a user uploads a signed document.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "In an mortgage application, the user creates a loan request. In order for the loan request to be approved, the loan officer must receive the results of an appraisal. How would you configure the case types to reflect their relationship?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Make mortgage a parent case type. Make loan request and appraisal child case types.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Make both loan request and appraisal peer case types.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Make loan request a parent case type, and appraisal a child case type.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Make appraisal a parent case type, and loan request a child case type.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "In an online shopping application, the primary case type PurchaseOrder has two child case types: Payment and Packaging. In processing PurchaseOrder case PO-11, Payment case Pay-37 and Packaging case Pac-56 are created. Which statement about the processing of PO-11, Pay-37, and Pac-56 is correct?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Both Pay-37 and Pac-56 have to be resolved before PO-11 can be resolved.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Pac-56 has to be resolved before Pay-37 is resolved.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "PO-11 can be resolved when either Pay-37 or Pac-56 is resolved.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "PO-11 has to be resolved before either Pay-37 and Pac-56 is resolved",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "A company provides two applications to its employees. The first application is managed by the Accounting department, and allows employees to submit expense reports for reimbursement. The second application is managed by the IT department, and allows employees to submit support tickets for IT-related issues. Both applications require a data element to track the status of cases. Select the best strategy for implementing this requirement.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Check the inheritance path to determine if an appropriate data element is already available.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Create one data element in the org layer for both applications to use.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Create one data element in the class group layer for both applications to use.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Create a data element for each case type, because they may use different status values.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "A claim case records the items of loss. The property reference to the description of an item of loss looks like this: .ItemOfLoss(1).Description. The property reference .ItemOfLoss(1).Description is an example of a __________ property?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "single value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "value list",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "page list",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "A candidate's language skills are captured in a candidate case. What type of property is used to capture the candidate's
+language skill if the property reference looks like this: .Language(Spanish)?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Value group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Text",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Single value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Page",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "You use the Clipboard tool to perform which two tasks? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Test case behavior by setting property values for an open case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Review the current values of case data.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Test a rule to determine whether the rule executes correctly.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Test whether a declarative expression properly calculates a target value",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "In a purchase order application, you have been asked to add an order total field that is used on multiple forms in the application. You want to make sure that whenever the input values change, the order total will change in all the forms. Which two of the following reasons would you choose to use a declare expression rather than a data transform for calculating the value? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A declare expression calculates a specific value that is used on multiple forms.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "The system monitors input properties and determines when to update the target property value.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "A declare expression updates the total value on all the forms when any form containing the field is submitted.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "When updating a property that is calculated, you do not need to identify every calculation that updates any of the source
+values and manually re-calculate them.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "You need to fetch exchange rates that are updated on a daily basis from a web service and make them available in your application using a data page. Which scope would you select for the data page?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Thread",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Request",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Application",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Node:",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Which of the following would be typical data stored in a local data source?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Case data",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Insurance policy data",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Customer details",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Delivery options",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "The External Database Table Class Mapping wizard creates a data class and a database table. How do you make this data available to your application?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use local storage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use case data",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Use a static list",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Use a data page",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "Which two use cases are a good use of reference data? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "To add a new employee",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "To access an external database",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "To provide a limited set of input values for a field",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "To add case data",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "The primary purpose of a service level is to __________.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "track assignment status over time",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "assign cases to the appropriate case worker",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "generate service level reports",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "help ensure timely completion of assignments",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "What three questions should you ask when creating a correspondence? (Choose Three)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "How will the correspondence be sent?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Who is the user that receives the correspondence?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "When does the correspondence need to be sent?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Which email server should the correspondence use?",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "How often should you send the correspondence?",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "Which two statements identify why you should automate correspondence? (Choose Two)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Automating correspondence allows you to advance a case.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Automating correspondence allows you to send timely communication.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Automating correspondence allows for sending consistent information to users.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Automating correspondence keeps all interested parties informed of the current status of a case.",
           "correctanswer": "false"
         }
       ]
