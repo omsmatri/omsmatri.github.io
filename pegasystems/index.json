@@ -1,7 +1,8 @@
 {
   "results": [
-	{ "name": "CSA8","description":"Certified System Architect 8","questions":"30","status":"active"},
-	{ "name": "CSA74","description":"Certified System Architect 73 And 74","questions":"30","status":"active"},
+	{ "name": "CSA8","description":"Certified System Architect 8","questions":"60","status":"active"},
+	{ "name": "CSA74","description":"Certified System Architect 73 And 74","questions":"150","status":"active"},
+	{ "name": "CUIS71","description":"Certified UI Specialist 71","questions":"55","status":"active"},
 	{ "name": "QPEGA","description":"Pega Knowledge Base","questions":"10","status":"active"}
   ]
 }
