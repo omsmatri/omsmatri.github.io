@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "Q:Lets design an online order case with the following stages.\nShipping\nNew Order\nDelivery\nPlease arrange them in stages in appropriate sequence.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "New Order >> Shipping >> Delivery,",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "New Order >> Delivery >> Shipping",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Delivery >> New Order >> Shipping",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Delivery >> Shipping >> New Order",
+          "correctanswer": "false"
+        }
+      ]
+    },
+	{
+      "id": "2",
+      "name": "Let's say you are designing an application for Pizza delivery. It has simple process of ordering a pizza involving three screens. Each one for 'New Order', 'Shipping', 'Delivery'
+Business is thinking that they would get at least thousands of order per day.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "'Ordering a Pizza' case type should be created ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "'Ordering a Pizza' case should be created ",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Three cases should be created, each for 'New Order', 'Shipping', 'Delivery'",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Three case types should be created, each for 'New Order', 'Shipping', 'Delivery'",
+          "correctanswer": "false"
+        }
+      ]
+    },
+	{
+      "id": "3",
+      "name": "Q: For pizza application, the business needs multiple screens for New Order and verifiying the caller. Specifically verification caller part is complicated and invollves couple of screen.
+After that, the order need to be shipped and delivered.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "We should have four of this stages 'New Order','Verify Caller','Shipping','Delivery'",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "We should have three of this stages 'New Order','Shipping','Delivery' and 'verify caller' substage under 'Shipping'",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "We should have four of this stages 'New Order','Shipping','Verify Caller','Delivery'",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "No stage required, we should create a flow.",
+          "correctanswer": "false"
+        }
+      ]
+    }
+  ]
+}
