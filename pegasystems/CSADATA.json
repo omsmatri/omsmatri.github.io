@@ -1,0 +1,536 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "Which data transforms are used to initialize property while creating case?(Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "pyDefault",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "pySetFieldDefaults",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "CurrentOperator",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "NewParty",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Data transform can iterate over which properties.",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Page List",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Page Group ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Value Group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Value List",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Which action can be used to call a Data transform in a data transform?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Apply Data Transform",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Append to",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Sort",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Update Page",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "How to populate a page list with hard coded data? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "using Append to",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Using When",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Using Set",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "using For each page in",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "What is an action in a data transform?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "An action is the individual operation specified in each row on the Definition tab of a data transform.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "More than one action can be selected for a row.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "New action can be added for data transform.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Few actions are only visible when you modify the data transform in Designer studio mode.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "What is the use of pyDefault data transform?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "While creating a case, default property values are set for the case using this Data transform.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "While updating a case, default property values are set for the case using this Data transform.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Only for the first update of case, pyDefault data transform gets executed.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "This data transform won`t be executed ever for any case.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "What is the use of pySetFieldDefaults data transform? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "While creating a case, default property values are set for the case using this Data transform.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "While updating a case, default property values are set for the case using this Data transform.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "The first time you create a view for your case type in the Case Designer, creates this data transform and pyDefault Data transform.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "This data transform won`t be executed ever for any case.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "How pySetFieldDefaults data transform is executed?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "While creating a case, pyDefault Data transform calls pySetFieldDefaults.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "While updating a case, pyDefault Data transform calls pySetFieldDefaults.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "While creating a case, pyStartCase flow or process calls pySetFieldDefaults",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "While updating a case, pyStartCase flow or process calls pySetFieldDefaults",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Whats true about a data transform row with action named 'Set'. (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Relation can be only equal to",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Target can be a property or constant value.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Source can have a property or a constant value.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Relation dropdown can be changed.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "You are using pyDefault to set the manager property to Sharon Smith. What do you use as your Target and Source values? (Choose which one is least applicable)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "You use the manager property as the Target and 'Sharon Smith' as the Source.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "You Select action as 'Set'",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "You should select relation as '='",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "You should select relation as 'equal to'",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "You are trying to create a complaint case for customer but customer view is not rendering in the user interface. What may be the probable cause? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "There is a when condition to hide the view",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Customer view is sourced from a page which might not be populated",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Customer view data source is initialized but with blank value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "You are adding a page list to an already created view in the case designer.How system manages this action for you?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pega Platform adds these properties in pySetFieldDefaults for you automatically.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Pega Platform adds these properties in pyDefaults for you automatically.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Pega Platform adds these properties in pyStartCase for you automatically.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Class A is having pyLabel set as 'Label A', pyNote set as 'Note A' in pyDefault Data transform. Class A-B is having pyLabel set as 'Label B', pyNote set as 'Note B' in pyDefault Data transform.\r\nThe super class option is not selected for pyDefault of Class A but selected for Class A-B. When you create a case for A-B class, what would be the value of pyLabel and pyNote.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The case would have pyLabel as 'Label A', pyNote set as 'Note A'",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "The case would have pyLabel as 'Label A', pyNote set as 'Note B'",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "The case would have pyLabel as 'Label B', pyNote set as 'Note A'",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "The case would have pyLabel as 'Label B', pyNote set as 'Note B'",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Q:Class A is having pyLabel set as 'Label A', pyNote set as 'Note A' in pyDefault Data transform. Class A-B is having pyLabel set as 'Label B' in pyDefault Data transform.\r\nThe super class option is not selected for pyDefault of Class A but selected for Class A-B. When you create a case for A-B class, what would be the value of pyLabel and pyNote.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The case would have pyLabel as 'Label A', pyNote set as 'Note A'",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "The case would have pyLabel as 'Label A', pyNote set as 'Note B'",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "The case would have pyLabel as 'Label B', pyNote set as 'Note A'",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "The case would have pyLabel as 'Label B', pyNote set as 'Note B'",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Q:Class A is having pyLabel set as 'Label A', pyNote set as 'Note A' in pyDefault Data transform. Class A-B is having pyLabel set as 'Label B' in pyDefault Data transform.\r\nThe super class option is selected for pyDefault of Class A and selected for Class A-B. When you create a case for A-B class, what would be the value of pyLabel and pyNote.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The case would have pyLabel as 'Label A', pyNote set as 'Note A'",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "The case would have pyLabel as 'Label A', pyNote set as 'Note B'",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "The case would have pyLabel as 'Label B', pyNote set as 'Note A'",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "The case would have pyLabel as 'Label B', pyNote set as 'Note B'",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Q:Class A is having pyLabel set as 'Label A', pyNote set as 'Note A' in pyDefault Data transform. Class A-B is having pyLabel set as 'Label B' in pyDefault Data transform.\r\nThe super class option is selected for pyDefault of Class A and not selected for Class A-B. When you create a case for A-B class, what would be the value of pyLabel and pyNote.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The case would have pyLabel as 'Label A', pyNote set as ''",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Only the case would have pyLabel as 'Label A', pyNote won`t set",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Only the case would have pyLabel as 'Label B', pyNote won`t set",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "The case would have pyLabel as 'Label B', pyNote set as ''",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Q:What data transform feature do you use when you want to set a different default value for the same property within a hierarchy of subclasses?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Super class feature provided you have used the same data transform name in the hierarchy of subclasses",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Apply Data Transform",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Super class feature doesn`t matter whether you have used the same data transform name in the hierarchy of subclasses",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Q:You have added a page list property named Dependents to a view in the Case Designer. This page list contains the property .Relationship. You want to display the list in the view and populate a field with the default value of Not Applicable.\r\nHow do you configure the pySetFieldDefaults data transform to meet this requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Set .Dependents(1).Relationship to Not Applicable",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Set .Dependents(1).pyLabel to an empty string and a parameter named Not Applicable",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Set .Dependents(1).pyLabel and a comment action using the value Not Applicable",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Set Not Applicable to equal .Dependents(1).Relationship",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Q:In which two of the following situations would you use a data transform? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Execute a flow action",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Create properties after the case has been created",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Set default values when creating a case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Copy Data from one page to another",
+          "correctanswer": "true"
+        }
+      ]
+    }
+  ]
+}
