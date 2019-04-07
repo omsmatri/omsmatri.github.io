@@ -534,7 +534,7 @@
     },
     {
       "id": "20",
-      "name": "Consider a class named:􀀀ABC-FW-Global-USA-Expenses-Work-ReimbursementRequest Which class requires directed inheritance?",
+      "name": "Consider a class named:ABC-FW-Global-USA-Expenses-Work-ReimbursementRequest Which class requires directed inheritance?",
       "image": "null.png",
       "type": "radio",
       "options": [
@@ -648,7 +648,7 @@
       "id": "24",
       "name": "An application allows bank customer to apply for a credit card. During the process of applying for the credit card,customers can elect to transfer a balance to the card.The bank currently offers three balance transfer options for customers applying for a new credit card:1. 0 percent interest for 6 months.2. 2.9 percent interest for 12 months.3. 3.9 percent interest for 24 months.The bank requires that customers first elect whether to transfer a balance. If customers elect to transfer a balance,they must select one of the three options.Which control allows you to display all the balance transfer offers on the form, but only allows the customer to selectone offer?",
       "image": "null.png",
-      "type": "radio",
+      "type": "check",
       "options": [
         {
           "id": "2952",
@@ -658,12 +658,12 @@
         {
           "id": "2953",
           "answer": "Radio buttons",
-          "correctanswer": "false"
+          "correctanswer": "true"
         },
         {
           "id": "2954",
           "answer": "Picklist",
-          "correctanswer": "false"
+          "correctanswer": "true"
         },
         {
           "id": "2955",
