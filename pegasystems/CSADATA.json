@@ -260,7 +260,7 @@
       "options": [
         {
           "id": "2983",
-          "answer": "You use the manager property as the Target and 'Sharon Smith' as the Source.",
+          "answer": "You use the manager property as the Target and \"Sharon Smith\" as the Source.",
           "correctanswer": "false"
         },
         {
@@ -477,7 +477,7 @@
       ]
     },
     {
-      "id": "17",
+      "id": "18",
       "name": "Q:You have added a page list property named Dependents to a view in the Case Designer. This page list contains the property .Relationship. You want to display the list in the view and populate a field with the default value of Not Applicable.\r\nHow do you configure the pySetFieldDefaults data transform to meet this requirement?",
       "image": "null.png",
       "type": "radio",
@@ -505,7 +505,7 @@
       ]
     },
     {
-      "id": "17",
+      "id": "19",
       "name": "Q:In which two of the following situations would you use a data transform? (Choose Two)",
       "image": "null.png",
       "type": "check",
@@ -528,6 +528,1210 @@
         {
           "id": "2986",
           "answer": "Copy Data from one page to another",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Q:You use the clipboard tool to perform which two tasks? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Review the current values of case data",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Test case behavior by setting property values for an open case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Test a rule to determine whether the rule executes correctly",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Test whether a declarative expression properly calculates a target value",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Q:How to test whether the rule executes correctly or not?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Using Clipboard tool",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Using Tracer tool",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Using PAL",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Using the rule form",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Q:How to test whether a declarative expression property calculates a target value?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Using Clipboard tool",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Using Tracer tool",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Using PAL",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Using Declare expression rule form",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Q:What is Clipboard Right pane? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The right pane lists all of the properties defined on the selected page, and their values.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "You can also update property values and even add new properties to the page to represent data not captured in your application. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Clipboard right pane doesn`t show the system pages data elements.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Clipboard right pane doesn`t allow to delete property?",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Q:What is System pages? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The System Pages category contains pages that describe the current user session, such as the active user and the active application. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "System pages cannot be updated by user.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "All System pages starts with px or py or pz.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "All System pages are not editable from clipboard too.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Q:What is linked property pages? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The Linked Property Pages contains read-only pages created by linked properties, which contain information from data objects referenced by a linked property. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Linked properties are advanced data constructs, typically created and configured by Senior System Architects (SSAs) or Lead System Architects (LSAs).",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Linked property is editable.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Linked property can only be referred in User Interface rule.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Q:What is the Data pages?(choose the least applicable)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The Data Pages category contains read-only data pages defined by data page rules.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Data pages are persistent pages in memory, used to cache data. ",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "This data is often sourced from outside the application, such as from a third-party or a system of record.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Data pages contain editable data pages too.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Q:To delete the page, which pane of clipboard tool is useful.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The left pane.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The Header.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "The right pane Header.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Not Applicable.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Q:What is a child case?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "When child case is opened, pyWorkCover page is populated with it`s parent data.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Child case may have more than one parent",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Child case class can be inherited from Work-Object- or Work-Folder- or work-cover-",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Parent can have only one child case.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Q:What is true related to embedded page?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Embedded page only appears in Pages listed under User Pages.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Embedded page is used to refer a data type",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "An Embedded page cannot have any other embedded page inside it.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "All embedded pages are of class Embed-",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Q:Readonly Data pages would appear under which clipboard category Pages?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "User Pages.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Data Pages.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Linked Property Pages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "System Pages",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Q:Editable Data pages would appear under which clipboard category Pages?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "User Pages.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Data Pages.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Linked Property Pages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "System Pages",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Q:Application is grouped under which clipboard category page?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "User Pages.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Data Pages.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Linked Property Pages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "System Pages",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Q:Which type of information is stored in AccessGroup?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "information about the current application you logged in.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "information about the access group you logged in.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Data cached from an outside system",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Information about the current requestor",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Q:Which type of information is stored in Application?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "information about the current application you logged in.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "information about the pega server",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Data cached from an outside system",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Information about the current requestor",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Q:Which type of information is stored in pyWorkPage?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "information about the current operator",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "information about the pega server",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Data cached from an outside system",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Information about a case",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Q:Which type of information is stored in OperatorID?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "information about the current operator",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "information about the pega server",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Data cached from an outside system",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Information about a case",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Q:Which type of information is stored in pxRequestor?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "information about the current operator",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "information about the pega server",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Data cached from an outside system",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Information about the current requestor",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Q:AccessGroup is grouped under which clipboard category page?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "User Pages.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Data Pages.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Linked Property Pages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "System Pages",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Q:What is pyReportContentPage?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Running a ListView generates this page.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Running a Report Definition generates this page.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Running a summary view generates this page.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "It's a system managed page.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Q:Please select the points true related to a data element? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Its pairing of name and value of the data element.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Data elements are stored in memory on a page.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Data element can contain page(s)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Data element can only be manipulated by system",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Q:Please select the points true related to a Page? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Its pairing of name and value of the data element.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "A page is a structure for organizing data elements in an application",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Few pages are created by the system to track user or session data.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Data element can only be manipulated by system",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Q:Please select the points true related to a Page? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Its pairing of name and value of the data element.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "A page is a structure for organizing data elements in an application",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "If a page contains embedded pages, an expand arrow is displayed to the left of the page name.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Data element can only be manipulated by system",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Q:Please select the points true related to a Page? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Its pairing of name and value of the data element.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "A page is a structure for organizing data elements in an application",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "A page can only be created by User.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Page can be a data object, such as a hotel reservation or a customer",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Q:Please select the points true related to a Page? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Clipboard can be used to see a page.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Any page can be deleted from clipboard.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Any page can be edited from clipboard.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Page can be a data object or list of Data objects.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Q:What is clipboard? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Clipboard is a structure in memory which contain page(s).",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Clipboard is the portion of memory on the server reserved by Pega for the data generated by applications",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "A Data transform can be executed with page context.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Clipboard shows all the logged in users data.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Q:What is clipboard? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Clipboard can be used to see other logged in user`s session data.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Clipboard is accessible to all the user access roles.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "An activity can be executed with page context.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Clipboard can only be used to see logged in user`s session data.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Q:What is clipboard? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Clipboard can be used to see other logged in user`s session data.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Clipboard is accessible to all the user access roles.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "To view data that is in memory.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "When you select a page, the Clipboard tool lists all the properties on each page and the value of those properties.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Q:What is clipboard? (Choose Two)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Clipboard can be used to see other logged in user`s session data.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Clipboard is accessible to all the user access roles.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Clipboard tool can be opened by clicking the Clipboard icon on the Developer toolbar in Dev Studio.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "When you select a page, the Clipboard tool lists all the properties on each page and the value of those properties.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Q:To refresh the page, which pane of clipboard tool is useful. (Choose Two)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The left pane.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The Header.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "The right pane Header.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Not Applicable.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "Q:To run the activity on a page, which pane of clipboard tool is useful. (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The left pane.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The Header.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The right pane Header.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Not Applicable.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Q:To see the XML value of a page, which pane of clipboard tool is useful. (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The left pane.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The Header.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "The right pane Header.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Not Applicable.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Q:To see the JSON value of a page, which pane of clipboard tool is useful. (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The left pane.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The Header.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "The right pane Header.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Not Applicable.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "Q:What is a thread in clipboard tool? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A thread can be selected from clipboard left pane header.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Each thread corresponds to a logged in user in the Pega application",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "The clipboard contains one thread dedicated to the Admin Studio environment. ",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Pega assigns each open rule a unique thread",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "Q:What is true related to embedded page?(Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Embedded page only appears in Pages listed under User Pages.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Embedded page is used to refer a data type",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "An Embedded page cannot have any other embedded page inside it.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "To view the embedded pages, click the expand arrow on the left of Page name.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "Q:There is an employee clipboard page which holds following data elements.\nFirstname Jil\nLastname   Jack\nHow to populate the FullName as Jil Jack (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Write a Data transform to set the Fullname as .Firstname+.Lastname",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Write a Data transform to set the Fullname as .Firstname+\" \"+.Lastname",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Write a Data page to set the Fullname as .Firstname+\" \"+.Lastname",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Write a declare expression to set the Fullname as .Firstname+\" \"+.Lastname",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "Q:What is use of pyWorkPage in clipboard? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "It stores all the data generated while creating and processing a case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "It can have multiple data type to refer different Data objects.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "pyWorkPage can be seen in standard thread.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "pyWorkCover is same as pyWorkPage",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "Q:What is use of clipboard in implementing application? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Clipboard is used to improve system performance.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Clipboard is used to see the system generated alerts and exception.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Clipboard is used to view and verify the data elements.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Clipboard is used to debug the data in some cases.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "Q:What is a thread in clipboard tool? (Choose Two)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Multiple threads can be selected from clipboard header at one time.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Each thread corresponds to a unique action currently managed by Pega",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The clipboard contains one thread dedicated to the Dev Studio environment. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Pega assigns one thread for each open case.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "Q:What is the use of left pane of Clipboard? (Choose the one least applicable)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The left pane lists each page defined on the clipboard for the selected thread. ",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "The left pane lists all the threads.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "The left pane provides search feature",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "the left pane contains the tools and Help icon",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Q:There is a employee class named Pega-Employee mapped to a table Employee.\r\nPega-Employee has few property rules which are mapped to the columns of Employe table.\n\r\nPega-Employee--------------->Employee\n\r\n\tFirstname------------------->Firstname\n\r\n\tLastname-------------------->Lastname\n\r\n\tLocation-------------------->Location\n\r\nThe case contains the Location data element.\n\r\nThere is a report which is fetching firstname and lastname of all employees.\n\r\nHow to modify this report to fetch the employees having the same location of case. (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Create a report with filter .Location is equal to pyWorkPage.Location",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Mention the pyWorkPage and it`s class in the pages and classes section of Report rule",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Mention the pyReportContentPage and it`s class in the pages and classes section of Report rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Create a new report as present report can`t be modified for the need.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Q:Why the class is mentioned in pages and classes section of report definition rule.(Choose the least applicable)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "If you omit the class information, Pega cannot obtain property values from the correct page. ",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Pega validates the properties based on the class.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Without mentioning class, the report rule that references the properties will not function correctly.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "For documentation purpose only.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "Q:Why the class is mentioned in pages and classes section of report definition rule.(choose the least applicable)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "If you omit the class information, Pega cannot obtain property values from the correct page. ",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Pega validates the properties based on the class.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Without mentioning class, the report rule that references the properties will not function correctly.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "For documentation purpose only.",
           "correctanswer": "true"
         }
       ]
