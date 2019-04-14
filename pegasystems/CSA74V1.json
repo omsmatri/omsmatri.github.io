@@ -342,12 +342,12 @@
       "options": [
         {
           "id": "2983",
-          "answer": "Users must enter a date that includes day, month, and year.",
+          "answer": "Users must enter a date that includes day, month, and year using a calander control",
           "correctanswer": "true"
         },
         {
           "id": "2984",
-          "answer": "entering name field using a text input control",
+          "answer": "entering date field using a text input control",
           "correctanswer": "false"
         }
       ]
@@ -361,12 +361,12 @@
       "options": [
         {
           "id": "2983",
-          "answer": "Users must select one of three possible loan types. The user must see all types on the form.",
+          "answer": "Users must select one of three possible loan types. The user must see all types on the form using radio button control.",
           "correctanswer": "true"
         },
         {
           "id": "2984",
-          "answer": "entering name field using a text input control",
+          "answer": "entering loan type field using a text input control",
           "correctanswer": "false"
         }
       ]
@@ -380,12 +380,12 @@
       "options": [
         {
           "id": "2983",
-          "answer": "Users must select one of 10 types of office chairs from a list. The options do not need to be displayed on the form.",
+          "answer": "Users must select one of 10 types of office chairs from a list. The options do not need to be displayed on the form using a dropdown control.",
           "correctanswer": "true"
         },
         {
           "id": "2984",
-          "answer": "entering name field using a text input control",
+          "answer": "entering office chair field using a text input control",
           "correctanswer": "false"
         }
       ]
@@ -399,12 +399,12 @@
       "options": [
         {
           "id": "2983",
-          "answer": "Users must select the country in which they reside from a list. The user can enter text in the control to help find the right country.",
+          "answer": "Users must select the country in which they reside from a list. The user can enter text in the control to help find the right country using autocomplete control.",
           "correctanswer": "true"
         },
         {
           "id": "2984",
-          "answer": "entering name field using a text input control",
+          "answer": "entering country field using a text input control",
           "correctanswer": "false"
         }
       ]
@@ -418,12 +418,12 @@
       "options": [
         {
           "id": "2983",
-          "answer": "Users select an option to purchase extra travel insurance.",
+          "answer": "Users select an option to purchase extra travel insurance using picklist control.",
           "correctanswer": "true"
         },
         {
           "id": "2984",
-          "answer": "entering name field using a text input control",
+          "answer": "entering travel insurance field using a text input control",
           "correctanswer": "false"
         }
       ]
