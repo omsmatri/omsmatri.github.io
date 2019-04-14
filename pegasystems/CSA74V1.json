@@ -453,7 +453,7 @@
         {
           "id": "2986",
           "answer": "terms and condition field should be a picklist",
-          "correctanswer": "true"
+          "correctanswer": "false"
         }
       ]
     },
