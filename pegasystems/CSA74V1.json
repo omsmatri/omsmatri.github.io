@@ -704,13 +704,13 @@
         {
           "id": "2986",
           "answer": "You can use edit option under presentation tab of controls to select Auto",
-          "correctanswer": "true"
+          "correctanswer": "false"
         }
       ]
     },
     {
       "id": "29",
-      "name": "How to configure a input field to be always editable",
+      "name": "How to configure a input field to be always ReadOnly",
       "image": "null.png",
       "hint": "",
       "type": "radio",
@@ -733,7 +733,36 @@
         {
           "id": "2986",
           "answer": "You can use edit option under presentation tab of controls to select Auto",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "How to configure a input field to be always editable",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "configure the input property or field",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "You can use edit option under presentation tab of controls to select ReadOnly (Expression) where expression is always evaluated to false",
           "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "it is suggested to modify control rule.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "You can use edit option under presentation tab of controls to select ReadOnly(When) where when rule is always evaluated to false",
+          "correctanswer": "false"
         }
       ]
     }
