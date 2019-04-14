@@ -1,0 +1,741 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "which one is true",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "design templates can only be included in dynamic layout",
+          "correctanswer": "FALSE"
+        },
+        {
+          "id": "2984",
+          "answer": "design templates can only be included in section rule",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "design template can be included in harness",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "design template can be included in flow action.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "When the user is going to run the user interface, user wants to edit the section in run time.",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "No such feature is available",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Harness need to be configured to edit the section at run time",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "section need to be configured using its setting tab",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "section must be configured to use the templates",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "What rule types can be used to prevent processing errors?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "control",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "validate rules",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "flow",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "the User interface is having a name field to enter name. How to validate this entered value",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "validate",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "activity",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "edit validate",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "data transform",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "the User interface is having a date of birth field to enter DOB. How to validate this entered value",
+      "image": "null.png",
+      "hint": "The property type and control cannot prevent users from entering a date that is in the future",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "validate",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "edit validate",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "control",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "the User interface is having a date of birth and Name field to enter DOB. How to validate this entered value before entering the Name field.",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "validate",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "edit validate",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "control",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "The User interface is having a DOB. Once user enters DOB and tabs out, system should validate that. How to configure this.",
+      "image": "null.png",
+      "hint": "",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "the harness displaying this User Interface should be configured with client side validation",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "edit validate",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "control",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Edit validate rules run when the user exits a field if the harness rule is configured to support client-side validation. Otherwise, edit validate rules are run when the user submits a form.",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "A user want to see all the fields which are having validation error once user submits the screen. How to configure it?",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Validate rule",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "edit validate",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "control",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Edit validate rules are mostly used for pattern check for field. For example, you can configure a zip code property to reference an edit validate rule that tests whether the entered value has five digits.",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "validate rules are mostly used for validating the field value. For example, checking that a user enters a date for scheduling a home inspection that is in the future?",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "What are the ways controls can be used for validating the case data.",
+      "image": "null.png",
+      "hint": "",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "control types",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "required fields",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "edit validate",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "editable settings",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Using the correct control type for a specific purpose helps users enter valid values",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Using the correct control type for a specific purpose helps users enter valid values. Which is a example of this feature",
+      "image": "null.png",
+      "hint": "Selecting a date from a calendar icon helps ensure that the user enters a date in a valid format.",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Users must enter a date that includes day, month, and year.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "entering name field using a text input control",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Using the correct control type for a specific purpose helps users enter valid values. Which is a example of this feature",
+      "image": "null.png",
+      "hint": "Restrict choices to a set of valid values and allows users to select only one value. You can use radio buttons when only a small number of options (for example, fewer than five) is available.",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Users must select one of three possible loan types. The user must see all types on the form.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "entering name field using a text input control",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Using the correct control type for a specific purpose helps users enter valid values. Which is a example of this feature",
+      "image": "null.png",
+      "hint": "Restricts valid values to the ones that appear in the list. A drop-down list presents the options only when the user clicks the control. This helps reduce the clutter on the form. Unlike radio buttons, you can configure the drop-down control so that users can select multiple values.",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Users must select one of 10 types of office chairs from a list. The options do not need to be displayed on the form.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "entering name field using a text input control",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Using the correct control type for a specific purpose helps users enter valid values. Which is a example of this feature",
+      "image": "null.png",
+      "hint": "When a user enters one or more values in the control, the control filters the available options. This helps users find an option in a list if there is a large number (for example, more than 20) of possible options.",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Users must select the country in which they reside from a list. The user can enter text in the control to help find the right country.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "entering name field using a text input control",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Using the correct control type for a specific purpose helps users enter valid values. Which is a example of this feature",
+      "image": "null.png",
+      "hint": "The user can select the check box or leave it blank. This ensures that a true/false property is either true (selected) or false (unselected).",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Users select an option to purchase extra travel insurance.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "entering name field using a text input control",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "In a user interface, user want to register himself. has a field for Date of Birth, selecting gender, enetring his name and want to agree on the terms and condition field",
+      "image": "null.png",
+      "hint": "",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "DOB should be handled by text",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "DOB should be handled by date only",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "selecting gender should be handled by picklist",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "terms and condition field should be a picklist",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "In a user interface, user want to register himself. has a field for Date of Birth, selecting gender, enetring his name and want to agree on the terms and condition field",
+      "image": "null.png",
+      "hint": "",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Name should be handled by text",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Name should be handled by date only",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "selecting gender should be handled by Boolean",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "terms and condition field should be a Boolean",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "In an application, the gender field is having a text control. User would like to see this field as a picklist (radio button or dropdown).",
+      "image": "null.png",
+      "hint": "",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "the layout which uses the field should be using the radio control in property panel",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "modify the text control rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Modify the property rule to accomodate this",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "the layout which uses the field should be using the dropdown control in property panel",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "How to configure a field in which a user selects one of four possible shipping methods?",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "use a picklist field and specify either a radio button or dropdown control type.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "use a text field and specify either a radio button or dropdown control type.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "How to configure a field as a required field.",
+      "image": "null.png",
+      "hint": "",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "You can configure required fields when working with views in the Case Designer",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "You can configure required fields when working with harness in the Case Designer",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "You can configure required fields when working with harness in the Designer Studio",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "You can configure required fields when working with sections in Designer Studio.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "How to configure a field as a required field conditionally.",
+      "image": "null.png",
+      "hint": "",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "select Condition (expression) from Required dropdown",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "select Condition (expression) from Visibility dropdown",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "select Condition (when rule) from Visibility dropdown",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "selecet Condition (when rule) from Required dropdown",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "How to configure a field as a required field conditionally.",
+      "image": "null.png",
+      "hint": "Never and Always correspond to the Optional and Required settings respectively in Pega Express and the Case Designer. The conditional options can only be configured in a section.",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "it is possible to do from pega express",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "from designer studio this is possible",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "it is possible to do from case designer",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "it is not possible to do at all",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "How to configure a date field to not enter dates as text.",
+      "image": "null.png",
+      "hint": "",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "configure the date property or field",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "You can use editable settings under presentation tab of controls to restrict the input values to valid formats.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "it is suggested to modify control rule.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "From the properties panel`s presentation tab, this can be configurable",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "How to configure a input field to not enter characters more than 100.",
+      "image": "null.png",
+      "hint": "",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "configure the input property or field",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "You can use editable settings under presentation tab of controls to restrict the input values to valid formats.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "it is suggested to modify control rule.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "From the properties panel`s presentation tab, this can be configurable",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "How to configure a input field to be always editable",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "configure the input property or field",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "You can use edit option under presentation tab of controls to select Editable",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "it is suggested to modify control rule.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "You can use edit option under presentation tab of controls to select Auto",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "How to configure a input field to be always editable",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "configure the input property or field",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "You can use edit option under presentation tab of controls to select ReadOnly (Always)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "it is suggested to modify control rule.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "You can use edit option under presentation tab of controls to select Auto",
+          "correctanswer": "true"
+        }
+      ]
+    }
+  ]
+}
