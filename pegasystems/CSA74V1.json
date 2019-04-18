@@ -116,7 +116,6 @@
       "id": "5",
       "name": "the User interface is having a date of birth field to enter DOB. How to validate this entered value",
       "image": "null.png",
-      "hint": "The property type and control cannot prevent users from entering a date that is in the future",
       "type": "check",
       "options": [
         {
@@ -139,13 +138,13 @@
           "answer": "control",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": "The property type and control cannot prevent users from entering a date that is in the future"
     },
     {
       "id": "6",
       "name": "the User interface is having a date of birth and Name field to enter DOB. How to validate this entered value before entering the Name field.",
       "image": "null.png",
-      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -168,13 +167,13 @@
           "answer": "control",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "7",
       "name": "The User interface is having a DOB. Once user enters DOB and tabs out, system should validate that. How to configure this.",
       "image": "null.png",
-      "hint": "",
       "type": "check",
       "options": [
         {
@@ -197,13 +196,13 @@
           "answer": "control",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "8",
       "name": "Edit validate rules run when the user exits a field if the harness rule is configured to support client-side validation. Otherwise, edit validate rules are run when the user submits a form.",
       "image": "null.png",
-      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -216,13 +215,13 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "9",
       "name": "A user want to see all the fields which are having validation error once user submits the screen. How to configure it?",
       "image": "null.png",
-      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -245,13 +244,13 @@
           "answer": "control",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "10",
       "name": "Edit validate rules are mostly used for pattern check for field. For example, you can configure a zip code property to reference an edit validate rule that tests whether the entered value has five digits.",
       "image": "null.png",
-      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -264,13 +263,13 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "11",
       "name": "validate rules are mostly used for validating the field value. For example, checking that a user enters a date for scheduling a home inspection that is in the future?",
       "image": "null.png",
-      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -283,13 +282,13 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "12",
       "name": "What are the ways controls can be used for validating the case data.",
       "image": "null.png",
-      "hint": "",
       "type": "check",
       "options": [
         {
@@ -312,13 +311,13 @@
           "answer": "editable settings",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "13",
       "name": "Using the correct control type for a specific purpose helps users enter valid values",
       "image": "null.png",
-      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -331,13 +330,13 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "14",
       "name": "Using the correct control type for a specific purpose helps users enter valid values. Which is a example of this feature",
       "image": "null.png",
-      "hint": "Selecting a date from a calendar icon helps ensure that the user enters a date in a valid format.",
       "type": "radio",
       "options": [
         {
@@ -350,13 +349,13 @@
           "answer": "entering date field using a text input control",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": "Selecting a date from a calendar icon helps ensure that the user enters a date in a valid format."
     },
     {
       "id": "15",
       "name": "Using the correct control type for a specific purpose helps users enter valid values. Which is a example of this feature",
       "image": "null.png",
-      "hint": "Restrict choices to a set of valid values and allows users to select only one value. You can use radio buttons when only a small number of options (for example, fewer than five) is available.",
       "type": "radio",
       "options": [
         {
@@ -369,13 +368,13 @@
           "answer": "entering loan type field using a text input control",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": "Restrict choices to a set of valid values and allows users to select only one value. You can use radio buttons when only a small number of options (for example, fewer than five) is available."
     },
     {
       "id": "16",
       "name": "Using the correct control type for a specific purpose helps users enter valid values. Which is a example of this feature",
       "image": "null.png",
-      "hint": "Restricts valid values to the ones that appear in the list. A drop-down list presents the options only when the user clicks the control. This helps reduce the clutter on the form. Unlike radio buttons, you can configure the drop-down control so that users can select multiple values.",
       "type": "radio",
       "options": [
         {
@@ -388,13 +387,13 @@
           "answer": "entering office chair field using a text input control",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": "Restricts valid values to the ones that appear in the list. A drop-down list presents the options only when the user clicks the control. This helps reduce the clutter on the form. Unlike radio buttons, you can configure the drop-down control so that users can select multiple values."
     },
     {
       "id": "17",
       "name": "Using the correct control type for a specific purpose helps users enter valid values. Which is a example of this feature",
       "image": "null.png",
-      "hint": "When a user enters one or more values in the control, the control filters the available options. This helps users find an option in a list if there is a large number (for example, more than 20) of possible options.",
       "type": "radio",
       "options": [
         {
@@ -407,13 +406,13 @@
           "answer": "entering country field using a text input control",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": "When a user enters one or more values in the control, the control filters the available options. This helps users find an option in a list if there is a large number (for example, more than 20) of possible options."
     },
     {
       "id": "18",
       "name": "Using the correct control type for a specific purpose helps users enter valid values. Which is a example of this feature",
       "image": "null.png",
-      "hint": "The user can select the check box or leave it blank. This ensures that a true/false property is either true (selected) or false (unselected).",
       "type": "radio",
       "options": [
         {
@@ -426,13 +425,12 @@
           "answer": "entering travel insurance field using a text input control",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": "The user can select the check box or leave it blank. This ensures that a true/false property is either true (selected) or false (unselected)."
     },
     {
       "id": "19",
       "name": "In a user interface, user want to register himself. has a field for Date of Birth, selecting gender, enetring his name and want to agree on the terms and condition field",
-      "image": "null.png",
-      "hint": "",
       "type": "check",
       "options": [
         {
@@ -455,13 +453,14 @@
           "answer": "terms and condition field should be a picklist",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "image": "null.png",
+      "hint": ""
     },
     {
       "id": "20",
       "name": "In a user interface, user want to register himself. has a field for Date of Birth, selecting gender, enetring his name and want to agree on the terms and condition field",
       "image": "null.png",
-      "hint": "",
       "type": "check",
       "options": [
         {
@@ -484,13 +483,12 @@
           "answer": "terms and condition field should be a Boolean",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "21",
       "name": "In an application, the gender field is having a text control. User would like to see this field as a picklist (radio button or dropdown).",
-      "image": "null.png",
-      "hint": "",
       "type": "check",
       "options": [
         {
@@ -513,7 +511,9 @@
           "answer": "the layout which uses the field should be using the dropdown control in property panel",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "image": "null.png",
+      "hint": ""
     },
     {
       "id": "22",
@@ -763,6 +763,599 @@
           "id": "2986",
           "answer": "You can use edit option under presentation tab of controls to select ReadOnly(When) where when rule is always evaluated to false",
           "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "ABC corp is having an online shopping application. In the bill page, when user updates an item quantity, the billing amount and total billing amount should be updated too. Select which one is least appropriate.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "run an activity on change of the quantity to update the billing amount and total billing amount",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "configure a declare onchange rule on the quantity to update the billing amount and total billing amount",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "configure two declare expression for Billing amount and another for Total Billing amount",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "configure a declare expression rule for only Billing amount",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "ABC corp is having an online shopping application. In the bill review page, total billing amount should be shown. Which declarative chaining method is appropriate?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "forward chaining",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "backward chaining",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "ABC corp is having an online shopping application. In all the page, when user updates an item quantity, the billing amount and total billing amount should be updated suitably. Which declarative chaining method is appropriate?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "forward chaining",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "backward chaining",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "ABC corp is having an online shopping application. In item selection page, user selects one laptop for 800$. There is a declare expression which uses quantity as a input property and Bill amount as Target property. There is one more declara expression, which uses Bill amount as input property and Total bill amount as target property. After selecting one laptop, user click next. Now when the declare expression would be triggered considering that the Bill amount displays besides the laptop when user changes the quantity.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Both declare expression will trigger at first page",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Both declare expression will trigger at first page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Bill amount declare expression will trigger at first page and total bill amount declare expression will after user submission",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Total Bill amount declare expression will trigger at first page and bill amount declare expression will after user submission",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "ABC corp is having an online shopping application. On billing page, user can apply a promo code in promo code text box. If user provides a promocode, on change event of promocode triggers an activity to refresh the total bill amount.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "This is procedural processing",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "This is declarative processing",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "This is neither declarative nor procedural",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "This is computative processing",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Procedural processing depends upon rules, such as data transforms, activities, or user interface (UI) rules, to instruct the application when to look for a trigger event.True or false",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "ABC corp is having an online shopping application. On billing page as well as on review order page, user can update quantity of item. user is calling a data transform in billing page to update the total amount. Once user submits the billing page, review order page appears. If user is completely relying on procedural processing, which scenario is supposed to be true.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Same data transform should be added to the Review Order page to update the Total order amount when the user changes the order quantity from 2 to 3.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No need of any extra functionality to add on the onchange of quantity field. Adding the functionality on billing page is enough.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "User cannot achieve this functionality by only using procedural logic",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "ABC corp is having an online shopping application. On billing page as well as on review order page, user can update quantity of item. If user is completely relying on declarative processing, which scenario is supposed to be true.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "New data transform should be added to the Review Order page to update the Total order amount when the user changes the order quantity from 2 to 3.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No need of any extra functionality to add on the onchange of quantity field. Adding the functionality on billing page is enough.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "User cannot achieve this functionality by only using declarative logic",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Define a declare expression rule with appropriate input and target properties to populate total bill amount when the quantity value chnages",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "ABC corp is having many online order cases. They want to prioritize the cases based on it`s urgency calculation.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Create a new data transform rule to set pxUrgencyWork.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "create a declare expression to update pxUrgencyWork.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "User can use OOTB declarative logic to update pxUrgencyWork. user should only update pxUrgencyAdjustWork",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "ABC corp is having a declare expression which works fine when user is in New case User interface( New harness) but doesn`t work if user is in subsequent stages (using perform harness). As a trouble shooter, what you should check ",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Modify the declare expression to include harness as an input property.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "scrap declare expression and replace the logic with a procedural logic.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Enable the expression calculation logic in the Perform harness",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Identify the rule which is not a declarative rules",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "declare expression",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "declare onchange",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "declare parser",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "declare trigger",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Identify the rule which is not a declarative rules",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "declare expression",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "declare constraint",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "declare property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "declare trigger",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Identify the rule which is not a declarative rules",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "declare expression",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "declare index",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "declare model",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "declare trigger",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Identify the rule which is not a declarative rules",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "declare expression",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "declare onchange",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "declare property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "declare trigger",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Identify the declarative rule which supports backward chaining",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "declare expression",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "declare constraint",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "declare index",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "declare trigger",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Identify the declarative rule which may be used for doing something when the case is committed or deferred save",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "declare expression",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "declare constraint",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "declare index",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "declare trigger",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Identify the declarative rule which may be used for doing something when the case date need to be validated.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "declare expression",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "declare constraint",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "declare index",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "declare trigger",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Identify the declarative rule which can call activity.",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "declare expression",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "declare onchange",
+          "correctanswer": "trie"
+        },
+        {
+          "id": "2985",
+          "answer": "declare index",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "declare trigger",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Which technique should you use if you want to update values when the user submits a form?",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "declarative processing",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "procedural processing",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "Identify the declarative rule which may be used for exposing a page or page group or pagelist element for reporting.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "declare expression",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "constraints",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "declare index",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "declare trigger",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Which technique should you use if you want the total price to update immediately when a quantity is changed?",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "declarative processing",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "procedural processing",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "The ABC corporation has two cases. One is New Hire and the other is Job History. Employee must need to provide the start date to continue the case. Which validation rule should be used here",
+      "image": "null.png",
+      "hint": "Using two validate rules, one for each business condition, you can ensure that the correct dates are entered on each form. Validate rules are often associated with processes. The association between validate rules and processes enables you to validate the property based on specific business logic",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "validate rule",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "edit validte rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "property rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "control rule associated with the property",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "ABC Pizza corporation is having a New Order case. It is having three stages. Order Details, Processing and Delivery. Before processing stage start, the case must be having the Phone number or email of the customer. How to ensure this.",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Add a validate rule for Phone number or email in the step of Order Details stage",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Add a validate rule for Phone number or email in the processing stage",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Add an edit validate rule for Phone number or email in the step of Order Details stage",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Add an edit validate rule for Phone number or email in the processing stage",
+          "correctanswer": "true"
         }
       ]
     }
