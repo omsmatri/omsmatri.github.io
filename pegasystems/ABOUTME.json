@@ -1,0 +1,17 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "I am preparing for Pega Certifications and find that we dont have any mobile application where pega learners can help each other. This app is created for that purpose.",
+      "image": "null.png",
+      "type": "QnA",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "For any suggestions or advise, please contact me on swetaprajukta.jena@gmail.com",
+          "correctanswer": "true"
+        }
+      ]
+    }
+  ]
+}
