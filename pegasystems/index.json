@@ -6,6 +6,7 @@
 	{ "name": "CUIS71","description":"Certified UI Specialist 71","questions":"55","status":"active"},
 	{ "name": "CSACASE","description":"CSA PEGA8 Case Questions","questions":"3","status":"active"},
 	{ "name": "CSADATA","description":"CSA PEGA8 Data modelling Questions","questions":"62","status":"active"},
-	{ "name": "QPEGA","description":"Pega Knowledge Base","questions":"10","status":"active"}
+	{ "name": "QPEGA","description":"Pega Knowledge Base","questions":"10","status":"active"},
+	{ "name": "ABOUTME","description":"About Me","questions":"1","status":"active"}
   ]
 }
