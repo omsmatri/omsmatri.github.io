@@ -3,6 +3,7 @@
     {
       "id": "1",
       "name": "What should you not consider before creating a user view?",
+      "hint": "Designing user views",
       "image": "null.png",
       "type": "radio",
       "options": [
@@ -26,12 +27,12 @@
           "answer": "what are all fields user needs for the case.",
           "correctanswer": "true"
         }
-      ],
-      "hint": "Designing user views"
+      ]
     },
     {
       "id": "2",
       "name": "Whay a user view is created",
+      "hint": "Designing user views",
       "image": "null.png",
       "type": "check",
       "options": [
@@ -55,13 +56,13 @@
           "answer": "to store the information",
           "correctanswer": "false"
         }
-      ],
-      "hint": "Designing user views"
+      ]
     },
     {
       "id": "3",
       "name": "The data stored by user in a view can be used by other users?",
       "image": "null.png",
+      "hint": "Designing user views",
       "type": "radio",
       "options": [
         {
@@ -74,13 +75,13 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "hint": "Designing user views"
+      ]
     },
     {
       "id": "4",
       "name": "From case life cycle the views can be added or updated",
       "image": "null.png",
+      "hint": "Designing user views",
       "type": "radio",
       "options": [
         {
@@ -93,12 +94,12 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "hint": "Designing user views"
+      ]
     },
     {
       "id": "5",
       "name": "From designer studio, a harness can be modified to include a view",
+      "hint": "Designing user views",
       "image": "null.png",
       "type": "radio",
       "options": [
@@ -112,12 +113,12 @@
           "answer": "false",
           "correctanswer": "true"
         }
-      ],
-      "hint": "Designing user views"
+      ]
     },
     {
       "id": "6",
       "name": "From designer studio, a section can be modified to include a view",
+      "hint": "Designing user views",
       "image": "null.png",
       "type": "radio",
       "options": [
@@ -131,12 +132,12 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "hint": "Designing user views"
+      ]
     },
     {
       "id": "7",
       "name": "What is intent-driven UI?",
+      "hint": "Designing user views",
       "image": "null.png",
       "type": "check",
       "options": [
@@ -160,13 +161,13 @@
           "answer": "none of the above",
           "correctanswer": "false"
         }
-      ],
-      "hint": "Designing user views"
+      ]
     },
     {
       "id": "8",
-      "name": "ABC corporation has an ecommerce application where user can buy products. Showing them a link in the upper UI is an example of intent driven UI?",
+      "name": "ABC corporation has an ecommerce application where user can buy products. Showing them a link to chnage the user`s address in the upper UI is an example of intent driven UI?",
       "image": "null.png",
+      "hint": "Designing user views, No as the change address will divert the user from shopping and its not very relevant to shopping.",
       "type": "radio",
       "options": [
         {
@@ -179,13 +180,13 @@
           "answer": "true",
           "correctanswer": "false"
         }
-      ],
-      "hint": "Designing user views, No as the change address will divert the user from shopping and its not very relevant to shopping."
+      ]
     },
     {
       "id": "9",
       "name": "Users spend less time searching for relevant information when the intent is the focus of each case life cycle step.",
       "image": "null.png",
+      "hint": "Designing user views",
       "type": "radio",
       "options": [
         {
@@ -198,8 +199,7 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "hint": "Designing user views"
+      ]
     },
     {
       "id": "10",
@@ -373,7 +373,7 @@
           "correctanswer": "false"
         }
       ],
-      "hint": "Restrict choices to a set of valid values and allows users to select only one value. You can use radio buttons when only a small number of options (for example, fewer than five) is available."
+      "hint": ""
     }
   ]
 }
