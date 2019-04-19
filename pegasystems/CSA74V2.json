@@ -1,0 +1,379 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "What should you not consider before creating a user view?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "what fields the users need to see",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "how values will be entered",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "whether users can modify or only read the values",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "what are all fields user needs for the case.",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "2",
+      "name": "Whay a user view is created",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "to collect information",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "to process information",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "to see or show information",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "to store the information",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "3",
+      "name": "The data stored by user in a view can be used by other users?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "4",
+      "name": "From case life cycle the views can be added or updated",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "5",
+      "name": "From designer studio, a harness can be modified to include a view",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "6",
+      "name": "From designer studio, a section can be modified to include a view",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "7",
+      "name": "What is intent-driven UI?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Provide users with information when they need it.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "provides all the information to specific users in a view regardless of when they need it",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "An intent-driven UI shows users what they need to know to perform a task",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "8",
+      "name": "ABC corporation has an ecommerce application where user can buy products. Showing them a link in the upper UI is an example of intent driven UI?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "false",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "true",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Designing user views, No as the change address will divert the user from shopping and its not very relevant to shopping."
+    },
+    {
+      "id": "9",
+      "name": "Users spend less time searching for relevant information when the intent is the focus of each case life cycle step.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "10",
+      "name": "What is a model driven UI?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Align the user view with the case life cycle to ensure the user interface is model-driven.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "A model-driven approach results in faster application development, and a contextually sensitive UI",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "UI that can quickly change when business rules change.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "11",
+      "name": "What is a model driven UI?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Align the user view with the case life cycle to ensure the user interface is model-driven.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "A model-driven approach results in faster application development, and a contextually sensitive UI",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The requirements of each step of case life cycle stage dictate the information in the view.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "12",
+      "name": "While designing a simple UI, what things need to be taken care?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Minimize data elements to an optimal set that is critical to the task.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Focus on what users are trying to accomplish.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The life cycle and the next best action from the current step are irrevant information",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Always, Users should be referring some documents on how to use a view",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "13",
+      "name": "While designing a simple UI, what things need to be taken care?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Minimize data elements to an optimal set that is critical to the task.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Focus on what users are trying to accomplish.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Be aware of where users are in the life cycle and the next best action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Users should not have to guess how to proceed while looking at a view",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "14",
+      "name": "While designing a simple UI, what things need to be taken care?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "show any data element which might be required to the task.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Focus on what case`s outcome will be.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Be aware of where users are in the life cycle and the next best action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Users should not have to guess how to proceed while looking at a view",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "15",
+      "name": "What are the best UI practices?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Create patterns in language, layout, and design to help users complete their tasks. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Design consistency enables users to recognize similar tasks in other application views.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The same feature should be given in different flavor so user won`t get bore. for e.g delete an item from the ecommerce application link is in icon for electronics item and for rest items, it`s a button ",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "The labels and placements of elements doesn`t play any part in UI best practices",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Restrict choices to a set of valid values and allows users to select only one value. You can use radio buttons when only a small number of options (for example, fewer than five) is available."
+    }
+  ]
+}
