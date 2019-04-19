@@ -2,7 +2,7 @@
   "results": [
 	{ "name": "CSA8","description":"Certified System Architect 8","questions":"60","status":"active"},
 	{ "name": "CSA74","description":"Certified System Architect 73 And 74","questions":"150","status":"active"},
-	{ "name": "CSA74V1","description":"Certified System Architect 73 And 74","questions":"53","status":"active"},
+	{ "name": "CSA74V1","description":"Certified System Architect 73 And 74","questions":"71","status":"active"},
 	{ "name": "CUIS71","description":"Certified UI Specialist 71","questions":"55","status":"active"},
 	{ "name": "CSACASE","description":"CSA PEGA8 Case Questions","questions":"3","status":"active"},
 	{ "name": "CSADATA","description":"CSA PEGA8 Data modelling Questions","questions":"62","status":"active"},
