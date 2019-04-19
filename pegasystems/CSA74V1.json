@@ -116,6 +116,7 @@
       "id": "5",
       "name": "the User interface is having a date of birth field to enter DOB. How to validate this entered value",
       "image": "null.png",
+      "hint": "The property type and control cannot prevent users from entering a date that is in the future",
       "type": "check",
       "options": [
         {
@@ -138,13 +139,13 @@
           "answer": "control",
           "correctanswer": "false"
         }
-      ],
-      "hint": "The property type and control cannot prevent users from entering a date that is in the future"
+      ]
     },
     {
       "id": "6",
       "name": "the User interface is having a date of birth and Name field to enter DOB. How to validate this entered value before entering the Name field.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -167,13 +168,13 @@
           "answer": "control",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "7",
       "name": "The User interface is having a DOB. Once user enters DOB and tabs out, system should validate that. How to configure this.",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -196,13 +197,13 @@
           "answer": "control",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "8",
       "name": "Edit validate rules run when the user exits a field if the harness rule is configured to support client-side validation. Otherwise, edit validate rules are run when the user submits a form.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -215,13 +216,13 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "9",
       "name": "A user want to see all the fields which are having validation error once user submits the screen. How to configure it?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -244,13 +245,13 @@
           "answer": "control",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "10",
       "name": "Edit validate rules are mostly used for pattern check for field. For example, you can configure a zip code property to reference an edit validate rule that tests whether the entered value has five digits.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -263,13 +264,13 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "11",
       "name": "validate rules are mostly used for validating the field value. For example, checking that a user enters a date for scheduling a home inspection that is in the future?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -282,13 +283,13 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "12",
       "name": "What are the ways controls can be used for validating the case data.",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -311,13 +312,13 @@
           "answer": "editable settings",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "13",
       "name": "Using the correct control type for a specific purpose helps users enter valid values",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -330,13 +331,13 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "14",
       "name": "Using the correct control type for a specific purpose helps users enter valid values. Which is a example of this feature",
       "image": "null.png",
+      "hint": "Selecting a date from a calendar icon helps ensure that the user enters a date in a valid format.",
       "type": "radio",
       "options": [
         {
@@ -349,13 +350,13 @@
           "answer": "entering date field using a text input control",
           "correctanswer": "false"
         }
-      ],
-      "hint": "Selecting a date from a calendar icon helps ensure that the user enters a date in a valid format."
+      ]
     },
     {
       "id": "15",
       "name": "Using the correct control type for a specific purpose helps users enter valid values. Which is a example of this feature",
       "image": "null.png",
+      "hint": "Restrict choices to a set of valid values and allows users to select only one value. You can use radio buttons when only a small number of options (for example, fewer than five) is available.",
       "type": "radio",
       "options": [
         {
@@ -368,13 +369,13 @@
           "answer": "entering loan type field using a text input control",
           "correctanswer": "false"
         }
-      ],
-      "hint": "Restrict choices to a set of valid values and allows users to select only one value. You can use radio buttons when only a small number of options (for example, fewer than five) is available."
+      ]
     },
     {
       "id": "16",
       "name": "Using the correct control type for a specific purpose helps users enter valid values. Which is a example of this feature",
       "image": "null.png",
+      "hint": "Restricts valid values to the ones that appear in the list. A drop-down list presents the options only when the user clicks the control. This helps reduce the clutter on the form. Unlike radio buttons, you can configure the drop-down control so that users can select multiple values.",
       "type": "radio",
       "options": [
         {
@@ -387,13 +388,13 @@
           "answer": "entering office chair field using a text input control",
           "correctanswer": "false"
         }
-      ],
-      "hint": "Restricts valid values to the ones that appear in the list. A drop-down list presents the options only when the user clicks the control. This helps reduce the clutter on the form. Unlike radio buttons, you can configure the drop-down control so that users can select multiple values."
+      ]
     },
     {
       "id": "17",
       "name": "Using the correct control type for a specific purpose helps users enter valid values. Which is a example of this feature",
       "image": "null.png",
+      "hint": "When a user enters one or more values in the control, the control filters the available options. This helps users find an option in a list if there is a large number (for example, more than 20) of possible options.",
       "type": "radio",
       "options": [
         {
@@ -406,13 +407,13 @@
           "answer": "entering country field using a text input control",
           "correctanswer": "false"
         }
-      ],
-      "hint": "When a user enters one or more values in the control, the control filters the available options. This helps users find an option in a list if there is a large number (for example, more than 20) of possible options."
+      ]
     },
     {
       "id": "18",
       "name": "Using the correct control type for a specific purpose helps users enter valid values. Which is a example of this feature",
       "image": "null.png",
+      "hint": "The user can select the check box or leave it blank. This ensures that a true/false property is either true (selected) or false (unselected).",
       "type": "radio",
       "options": [
         {
@@ -425,12 +426,13 @@
           "answer": "entering travel insurance field using a text input control",
           "correctanswer": "false"
         }
-      ],
-      "hint": "The user can select the check box or leave it blank. This ensures that a true/false property is either true (selected) or false (unselected)."
+      ]
     },
     {
       "id": "19",
       "name": "In a user interface, user want to register himself. has a field for Date of Birth, selecting gender, enetring his name and want to agree on the terms and condition field",
+      "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -453,14 +455,13 @@
           "answer": "terms and condition field should be a picklist",
           "correctanswer": "false"
         }
-      ],
-      "image": "null.png",
-      "hint": ""
+      ]
     },
     {
       "id": "20",
       "name": "In a user interface, user want to register himself. has a field for Date of Birth, selecting gender, enetring his name and want to agree on the terms and condition field",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -483,12 +484,13 @@
           "answer": "terms and condition field should be a Boolean",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "21",
       "name": "In an application, the gender field is having a text control. User would like to see this field as a picklist (radio button or dropdown).",
+      "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -511,9 +513,7 @@
           "answer": "the layout which uses the field should be using the dropdown control in property panel",
           "correctanswer": "true"
         }
-      ],
-      "image": "null.png",
-      "hint": ""
+      ]
     },
     {
       "id": "22",
@@ -1356,6 +1356,430 @@
           "id": "2986",
           "answer": "Add an edit validate rule for Phone number or email in the processing stage",
           "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "What one is not the component in a declare expression?.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "a target property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "an expression",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "a source property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "an activity",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "A declare expression in a network can use a target property from another declare expression as a source property",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "ABC corp is having an online shopping application. User can select an item which updates the item amount. Sum of all the item amounts is reflected in Total amount.",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "there should be two declare expression, one for item amount as target property and another for total amount as target property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "there should be one declare expression and that should calculate item amount as well as total amount",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2987",
+          "answer": "declare expression for total amount as target property can use the item count  which is calculated by another declare expression.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2988",
+          "answer": "this cannot be implemented by declare expression",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "ABC corp is having an online shopping application. User can select an item which updates the item amount. Sum of all the item amounts is reflected in Total amount.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "there should be two declare expression, one for item amount as target property and another for total amount as target property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "there should be one declare expression and that should calculate item amount as well as total amount",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "Declarative Network Analysis tool to display a list of declarative networks in your application. How to access it.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Designer Studio > Process & Rules > Business Rules",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Designer Studio > System > Business Rules",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "ABC corp is having an online shopping application. User can select an item which updates the item amount. Sum of all the item amounts is reflected in Total amount.",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "there should be two declare expression, one for item amount as target property and another for total amount as target property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "there should be one declare expression and that should calculate item amount as well as total amount",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2987",
+          "answer": "declare expression for total amount as target property can use the item count  which is calculated by another declare expression.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2988",
+          "answer": "this cannot be implemented by declare expression",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "If the target is a numeric type property, you can perform functions such as sum, average, minimum, or maximum on numeric items on a page list.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "In Case Designer, the source values are entered in the Calculation field. In Designer Studio, the source values are entered in the Expression field.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "You can specify forward or backward chaining on the Change Tracking tab on the Declare Expression rule form.",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Whenever Inputs Change for forward chaining",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Whenever used for backward chaining",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Whenever Inputs Change for backward chaining",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Whenever used for forward chaining",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "When does an expression using backward chaining update its target property?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Whenever the target property is referenced",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Whenever any input property is referenced",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Whenever all input properties are referenced",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "always, regardless of using target property or input property",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "ABC Corporation is using a forward chaining home insurance quote based on more than 10 property values such as location, tax assessment, appraisal value, and land area. These values are collected in many different forms. Select which is not applicable.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Forward chaining can slow system performance ",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Forward chaining is better than backward chaining in this scenario to calculate the home insurance quote value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "target property will be calculated using declare expression whenever any of it`s input property changes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "The impact to performance might affect response time when the user enters values or submits forms.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "ABC Corporation is using a forward chaining home insurance quote based on more than 10 property values such as location, tax assessment, appraisal value, and land area. These values are collected in many different forms. Select which is not applicable.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Forward chaining can slow system performance ",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Forward chaining is better than backward chaining in this scenario to calculate the home insurance quote value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "target property will be calculated using declare expression whenever any of it`s input property changes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "The impact to performance might affect response time when the user enters values or submits forms.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "If you are only going to display the insurance quote after you collect all the values, use backward chaining for the home insurance quote expression.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "ABC corp is showing the insurance quote at the end of the screen which need to be computed by 10 input propertues which would be collected before reaching to this final screen. Please suggest which chaining would be suitable to implement this.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "backward chaining",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "foreward chaining",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "ABC corp is showing the insurance quote at the end of the screen which need to be computed by 10 input propertues which would be collected before reaching to this final screen. Please suggest which chaining would be suitable to implement this.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "forward chaining is not good as the system performs the calculation even if the user does not see or need the value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "backward chaining is good as the property is needed at last screen and will be shown",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "You are designing a travel plan application. A hotel booking step displays a form in which users select a hotel and enter the number of days they are staying at the hotel. The form displays the total cost for the hotel room. The form also includes fields for selecting, at extra cost, options such as valet parking. The application totals the cost for any selected options and adds that amount to the total room cost  to equal the grand total, which is displayed in a field. Which two of the following properties would you use as the target properties? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Price of each option",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Total cost for the hotel room",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2987",
+          "answer": "Total cost of options",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2988",
+          "answer": "Number of days at the hotel",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "In a purchase order application, you have been asked to add an order total field that is used on multiple forms in the application. You want to make sure that whenever the input values change, the order total will change in all the forms. Which two of the following reasons would you choose to use a declare expression rather than a data transform for calculating the value? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "the system monitors input properties and determines when to update the target property value.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "A declare expression updates the total value on all the forms when any form containing the field is submitted.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2987",
+          "answer": "A declare expression calculates a specific value that is used on multiple forms.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2988",
+          "answer": "When updating a property that is calculated, you do not need to identify every calculation that updates any of the source values and manually re-calculate them.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "You are configuring a declarative network that contains eleven declare expressions which are used to calculate the interest rate for a home mortgage. For example, the target value Property Tax Assessment is used as a source value when calculating the Assessed Property Value. The declare expressions use target values from other expressions to calculate their target values. The field displaying the interest rate appears on the approval form. To improve performance, how can you reduce the number of calculations?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Specify forward chaining in the declare expression that calculates the total interest rate value.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Calculate the total interest rate value by adding all the declare expression target property values.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2987",
+          "answer": "Specify backward chaining in the total interest rate declare expression.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2988",
+          "answer": "Apply the declare expression in the approval flow action.",
+          "correctanswer": "false"
         }
       ]
     }
