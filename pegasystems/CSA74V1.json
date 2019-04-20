@@ -9,7 +9,7 @@
         {
           "id": "2983",
           "answer": "design templates can only be included in dynamic layout",
-          "correctanswer": "FALSE"
+          "correctanswer": "false"
         },
         {
           "id": "2984",
@@ -1226,7 +1226,7 @@
         {
           "id": "2984",
           "answer": "declare onchange",
-          "correctanswer": "trie"
+          "correctanswer": "true"
         },
         {
           "id": "2985",
