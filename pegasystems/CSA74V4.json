@@ -32,7 +32,7 @@
     {
       "id": "2",
       "name": "ABC corp is having a insurance case. As per logic, a mediclaim child case can be initialised from insurance case. The mediclaim case should be copying some data already part of insurance case and some policy data from a data source. How to achieve it?",
-      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
       "type": "check",
       "options": [
@@ -61,7 +61,7 @@
     {
       "id": "3",
       "name": "Can I iterate over a page list or page group in data transform",
-      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
       "type": "radio",
       "options": [
@@ -80,7 +80,7 @@
     {
       "id": "4",
       "name": "Can I iterate over a value list or value group in data transform",
-      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
       "type": "radio",
       "options": [
@@ -99,7 +99,7 @@
     {
       "id": "5",
       "name": "I want to copy data from a page list to another pagelist. The source page list is supposed to have a property to check before copying. is this possible to achieve this is data transform",
-      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
       "type": "radio",
       "options": [
@@ -118,7 +118,7 @@
     {
       "id": "6",
       "name": "I want to copy data from a page list to another pagelist. The source page list is supposed to have a property to check before copying. is this possible to achieve this is data transform",
-      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
       "type": "check",
       "options": [
@@ -147,7 +147,7 @@
     {
       "id": "7",
       "name": "A single value property named pyLabel should be referred as .pyLabel",
-      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
       "type": "radio",
       "options": [
@@ -167,7 +167,7 @@
       "id": "8",
       "name": "ABC cop has a value group property name phone which might contain the value for Home and office. How to refer this property in data transform",
       "image": "null.png",
-      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "check",
       "options": [
         {
@@ -186,7 +186,7 @@
       "id": "9",
       "name": "How to refer the last property of a value list property named Address.",
       "image": "null.png",
-      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
       "options": [
         {
@@ -205,7 +205,7 @@
       "id": "10",
       "name": "How to refer the first property of a value list property named Address",
       "image": "null.png",
-      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
       "options": [
         {
@@ -237,7 +237,7 @@
           "correctanswer": "false"
         }
       ],
-      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
     },
     {
       "id": "12",
@@ -266,7 +266,7 @@
           "correctanswer": "false"
         }
       ],
-      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
     },
     {
       "id": "13",
@@ -285,7 +285,7 @@
           "correctanswer": "false"
         }
       ],
-      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
     },
     {
       "id": "14",
@@ -314,7 +314,7 @@
           "correctanswer": "false"
         }
       ],
-      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
     },
     {
       "id": "15",
@@ -333,7 +333,7 @@
           "correctanswer": "false"
         }
       ],
-      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
     },
     {
       "id": "16",
@@ -352,7 +352,7 @@
           "correctanswer": "false"
         }
       ],
-      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
     },
     {
       "id": "17",
@@ -370,7 +370,7 @@
           "correctanswer": "false"
         }
       ],
-      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
     },
     {
       "id": "18",
@@ -399,7 +399,7 @@
           "correctanswer": "true"
         }
       ],
-      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
     },
     {
       "id": "19",
@@ -418,7 +418,7 @@
           "correctanswer": "false"
         }
       ],
-      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
     },
     {
       "id": "20",
@@ -437,7 +437,7 @@
         }
       ],
       "image": "null.png",
-      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION"
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
     },
     {
       "id": "21",
@@ -466,13 +466,13 @@
         }
       ],
       "image": "null.png",
-      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION"
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
     },
     {
       "id": "22",
       "name": " In an event reservation application, you are configuring a Select Flights view in which in which the user enters the destination (.Destination). Later in the life cycle, you want to display the destination value as the location (.Location) value in a Hotel Reservation view. How do you configure the data transform? ",
       "image": "null.png",
-      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
       "options": [
         {
@@ -501,7 +501,7 @@
       "id": "23",
       "name": "The case type hierarchy in your insurance application consists of three case types: Claim (top level), Personal Injury (subcase type of Claim), and Emergency Care (subcase type of Personal Injury). In the Claim case type, a data transform sets the claim date and work urgency. To reduce maintenance, you do not want to set in each subcase the properties that were already set in the parent data transforms. However, you want to set work urgency to different values in each subcase type. What two configuration steps would you take to meet this requirement? (Choose Two)",
       "image": "null.png",
-      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "check",
       "options": [
         {
@@ -530,7 +530,7 @@
       "id": "24",
       "name": " You have added a page list property named Dependents to a view in the Case Designer. This page list contains the property .Relationship. You want to display the list in the view and populate a field with the default value of \"Not Applicable.\" How do you configure the pySetFieldDefaults data transform to meet this requirement? ",
       "image": "null.png",
-      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
       "options": [
         {
@@ -559,7 +559,7 @@
       "id": "25",
       "name": "In which two of the following situations would you use a data transform? (Choose Two)",
       "image": "null.png",
-      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "check",
       "options": [
         {
