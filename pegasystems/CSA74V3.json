@@ -51,8 +51,8 @@
     {
       "id": "3",
       "name": "Optional actions enable users to leave the primary path of a case to complete another task or process.",
-      "image": "null.png",
       "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -70,8 +70,8 @@
     {
       "id": "4",
       "name": " optional action is not part of the automated workflow.",
-      "image": "null.png",
       "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -205,6 +205,7 @@
       "id": "10",
       "name": "ABC corp has an option action to change shipping address to run while customer is doing online shopping case. Change shipping Address has only one screen. Which local action to choose.",
       "image": "null.png",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
       "type": "radio",
       "options": [
         {
@@ -217,8 +218,7 @@
           "answer": "optional user action",
           "correctanswer": "true"
         }
-      ],
-      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+      ]
     },
     {
       "id": "11",
@@ -405,6 +405,7 @@
     {
       "id": "19",
       "name": "Which requirement could be satisfied with a user action?",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -428,8 +429,1299 @@
           "correctanswer": "true"
         }
       ],
-      "image": "null.png",
       "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "20",
+      "name": "Key building block of an application",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A case from business perspective",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "A rule from technical prspective",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "A case from technical perspective",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "A rule from business prspective",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION"
+    },
+    {
+      "id": "21",
+      "name": "When an application requires new assets, why you only need to create key features and functions once?",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pega's inheritance structure lets you reuse the new resources wherever needed in your application.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Pega's  structure does not let you reuse the new resources wherever needed in your application. So the same rule and functions need to be created for every class",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION"
+    },
+    {
+      "id": "22",
+      "name": "What are rules",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The instructions to create, process and resolve a case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "rules describe the behaviour of individual cases",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Pega platform uses the rules you create to generate application code",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Rules are always easy to understand for business users",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Each rule is an instance of a rule type.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "A rule type is an abstract model of a specific case behavior.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "There are different rules types for process flow, automated email notification or case.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "What is a rule type? Is it a template for creating a rule?",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "A rule is an instruction for describing a specific case behavior, such as a process or automated decision.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Pega wizard can be helpful to generate (create and modify) rules to describe cases, processes and UI forms. More controls can be done by using designer studio.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "When a pega developer adds a process to a case life cycle from pega express or case designer, which rule is created",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "flow",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "activity",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "process",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "diagram",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "while approving a case, sending email to customer should be implemented using a message rule. What is the advantage of keeping your application modular this way?",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "This helps updating the content of the email without impacting the rest of the business process.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "As per pega`s best practice, this should be implemented though it has no actual benefits.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "The application modularity provides which three significant benefits:",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "versioning",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "delegation",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "reuse",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "As a pega developer you created a UI form to collect Customer details as part of insurance case. Using this UI form for mediclaim will be part of which modularity.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "versioning",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "delegation",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "reuse",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "You configured a message to send the email. This message content need to be modified periodically. Which type of application modularity you should use.",
+      "image": "null.png",
+      "type": "radio",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "versioning",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "delegation",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "reuse",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Message rule of insurance case changes but not very frequently. It mostly changes when the case behaviour changes.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "versioning",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "delegation",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "reuse",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "To package rules for distribution as part of an application, you collect rules into a group called a ruleset.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "ruleset is container of rules.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Rules are stored in ruleset version so that if the behaviour of rule changes, that partucular rule can be overridden in the next high version of ruleset.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Pega express shows you the ruleset and version info while storing a rule if you use the pega express to develop your application",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "what does this mean when a developer says that the rule is stored in AddressChange:01-01-03",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "the rule is stored in AddressChange ruleset",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "the rule is stored in 01-01-03 ruleset version",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "the rule is stored in AddressChange application",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "the rule is stored in 01-01-03 application version",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "what are the major, patch and minor in AddressChange:01-02-03",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "the major is 01, minor is 02 and patch is 03",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "the major is 03, minor is 02 and patch is 01",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "the major is 01, minor is 03 and patch is 02",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "the major is 03, minor is 01 and patch is 02",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Major version represents a substantial release of an application",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "minor version represents an interim release or enhancements to a major release.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "patch version consists of fixes to address bugs in an application. ",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "the Accounting department uses an application to manage expense reports. If Accounting wants to extend the application to track employee time off for payroll accounting, Which version of ruleset you should change to collect the rules.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "major",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "minor",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "patch",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "configuration change",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "you need to update an expense reporting application to make automatic audit travel reimbursements.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "major",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "minor",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "patch",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "configuration change",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "you notice that a field in the current version of an application has an incorrect label.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "major",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "minor",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "patch",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "configuration change",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Application consists of sequence of rulesets called ruleset stack.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Select the options which are correct.",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Each version of an application contains a unique ruleset stack.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The ruleset stack determines the order in which Pega looks through rulesets to find the rule being used.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Each entry in the ruleset stack represents all the versions of the specified ruleset, starting with the listed version and working down to the lowest minor and patch version for the specified major version.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Each entry in the ruleset stack represents all the versions of the specified ruleset, starting with the listed version and working up to the highest minor and patch version for the specified major version.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "As a developer, Mateusz add a simple UI to collect the customer details. It was having the first name, last name and gender. He did the change in Customers:01-01-01 ruleset version. days after, an enhancement request come where Date of Birth field was added by Urszula in Customers:01-01-02 ruleset version. Which are correct.",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "If the user`s application enlists 01-01-02 then only they can see the Date of birth field in the UI.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "If the user`s application enlists 01-01-01 they can not see the Date of birth field in the UI.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "user must create a new application as old application cannot be modified with th new ruleset version",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "user must create a new application version as old application version cannot be modified with th new ruleset version",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "As a developer, Mateusz add a simple UI to collect the customer details. It was having the first name, last name and gender. He did the change in Customers:01-01-01 ruleset version. days after, an enhancement request come where Date of Birth field was added by Urszula in Customers:01-01-02 ruleset version. Michal uses Customer:01.01 application which enlist Customers:01-01-01 version and Justyna uses Customer:01.02 application which enlists Customers:01-01-02 version. Now which are correct?",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Justyna can see the date of birth field.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Mateusz cannot see the date of birth field.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Both Mateusz an Justyna can see date of birth field",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "No one can see date of birth field.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Grouping the rules by class helps the developer in figuring out on how to re-use.",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "What are the rules mostly contained by Integration class.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "contains the rules that describe how to process a case or cases, such as processes, data elements, and user interfaces",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "contains the rules that describe how the application interacts with other systems, such as a customer database or a third-party web server.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "contains the rules that describe the data objects used in the application, such as a customer or collection of order items.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "contains the rules that describe how the application embeds the rule for internal usage.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "What are the rules mostly contained by Work class.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "contains the rules that describe how to process a case or cases, such as processes, data elements, and user interfaces",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "contains the rules that describe how the application interacts with other systems, such as a customer database or a third-party web server.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "contains the rules that describe the data objects used in the application, such as a customer or collection of order items.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "contains the rules that describe how the application embeds the rule for internal usage.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "What are the rules mostly contained by Data class.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "contains the rules that describe how to process a case or cases, such as processes, data elements, and user interfaces",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "contains the rules that describe how the application interacts with other systems, such as a customer database or a third-party web server.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "contains the rules that describe the data objects used in the application, such as a customer or collection of order items.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "contains the rules that describe how the application embeds the rule for internal usage.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "Pega Express identifies appropriate work or data or integration class for you when you create a rule from Pega Express",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "A class that contains another class is called a parent class.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "A class that is contained under another class is called a child class.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "A child class can reuse, or inherit, any of the rules defined for its parent class.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "What are true about class hierarchy?",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The classes that comprise an application are called a class hierarchy",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The class hierarchy determines how system architects can reuse rules within the application.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The class hierarchy consists of several groups of classes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "class hierarchy has nothing to do with inheritance.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "ABC corp is planning to have insurance quote for property and life.How many cases they need to create",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "one",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "two",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "none, they can use OOTB case class",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "non of the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Classes which mostly collect very common rules and data elemensts should be part of which layer.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Organization",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Division",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Unit",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Application",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "If you want to use the industry application to fasten your developement, what you should create to inherit the industry application feature.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Create an application to inherit industry application",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Create classes to inherit industry application classes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Create ruleset to inherit ruleset",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "create access group to inherit industry applications access group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "when you create a case class, do you need to create property to store the case creation time or case created by user`s name",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "What you can infer from the class ABC-Sales-Work",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "ABC- is organisation class, ABC-Sales- is ABC`s Sales division class, ABC-Sales-Work is work class",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "ABC-Sales-Work rules can refer from ABC-Sales- class rules",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "ABC-Sales-Work rules can refer from ABC- class rules",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "ABC-Sales-Work rules can refer from Data- class rules",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Class organizes rules with an application and based on the position class in class hierarchy, this class facilitates the reusability of the rules.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "The combination of rule type, name, class, and ruleset allows Pega to provide a unique identity for each rule.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "rule resolution is a process used by pega at runtime to determine the rule to be executed",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "what are the ways to create a new rule?",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "From the +Create menu, select the rule category, then the rule type.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "In the Application Explorer, select the class in which you want to create the rule, then select the rule category, then select the rule type.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "In a field on a form, enter the name of the rule to create, then click the Target icon.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "private edits are for quick debugging purpose",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "private edits can be done only for unlocked rules",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "private edits can be done only for unlocked rules if that rule is checked out by another user.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "in the rule header, click on the private to see the rules checked out by you",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "private checked out rules are put in the private ruleset which ocupied top spot in the ruleset stack.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "name": "if my pega login operator id is mafra@abc.com, what would be my private ruleset name",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "mafra@abc.com@",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "mafra@abc.com",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "mafra@",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "mafra",
+          "correctanswer": "false"
+        }
+      ]
     }
   ]
 }
