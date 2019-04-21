@@ -583,6 +583,584 @@
           "correctanswer": "false"
         }
       ]
+    },
+    {
+      "id": "26",
+      "name": "What`s true about data page?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "You use a data page to retrieve data for your application, regardless of the source",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Datapage cannot be an editable page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Data pages cache data on demand to a clipboard page and have a scope.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "You can make the data retrieved accessible for all applications, or limited to the logged in user or specific case only.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Whats true about data pages?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Every data page defines a refresh strategy.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The refresh strategy defines when the data page is considered stale and needs to be reloaded. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Data pages are created and updated on demand.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Even if a data page is considered stale, the page is never reloaded until it is referenced.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Whats true about data pages?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The available refresh strategy options depend on the scope of the page.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Data pages can use a variety of sources to load data.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "A data page provides an abstraction between the application and data layers",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "This means that you can use the data page in your application without knowing the data source. Your application configuration does not need to change if the source does.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Before creating the Data page which things to figure out.",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "What is the structure of the data page?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "What is the scope of the data page?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "How is the data page sourced?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "When does the data become stale?",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Can we create a data page from data explorer by doing an Add data page?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Does data explorere shows the existed data pages.",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Data page structure can be of mode page or list.",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Page is selected when only one record can be loaded",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "List is selected when multiple records need to be loaded",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "report definition can be used as a source for Page structure",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Look up can be used as a source for list structure",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Whats true about Editable data page?",
+      "image": "null.png",
+      "type": "radio",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Editable data page can be modified",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Editable data page changes propagated to data base",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Editable data page can be of Node scope",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Refresh strategy can be set for Editable data page",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "What are the data page scopes available?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "thread",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "requestor",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "node",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "readonly",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "If a customer service representative (CSR) is working on several cases for different customers and wanted to use the data pagein the context of a case. What should be the scope of data page?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "thread",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "requestor",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "node",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "If data page contains information specific to logged in operator such as worklist related information, what should be the scope of the data page.",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "thread",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "requestor",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "node",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "If some data need to be accessed by all users of all application for a node, what should be the scope of this data page?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "thread",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "requestor",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "node",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "If a finance application wants to store the currency exchange info, which data page scope this data should be kept.",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "thread",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "requestor",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "node",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "in multinode system , the node scope data page would be created per node?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "If a data page is hitting a connect rest service to get the weather information, how to map the input and output data?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Request Data Transform for mapping input data",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Response Data Transform for mapping output data",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "There is no provision to provide request or response data transform",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Data page can take the end point url too",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Refresh strategy can be available in Load Management tab of a Data page",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "whats true about refresh strategy of data pages?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "For requestor or thread pages, you can reload the data for each interaction or by evaluating a when rule.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The data page can also be marked for refresh based on an elapsed time interval calculated from the last load time.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "If you combine the Do not reload when and Reload if older than options, the data page refreshes as soon as either condition is met.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Editable data page can be refreshed only using when rule",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Whats true about node level data page?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Node data page loads in user`s context",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Node data page runs in its own access group context",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "If a data page is configured to reload if older than one hour, the page is marked for reload after one hour. It is not reloaded until the next request for the page occurs following the configured time.",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "You need to fetch exchange rates that are updated on a daily basis from a web service and make them available in your application using a data page. Which scope would you select for the data page?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Thread",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Node",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Request",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Application",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "You have a data page with customer data. The data page is configured to reload if it is older than one hour. Which of the following best describes when the data page will reload?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The data page reloads on the next access one hour after it was last accessed.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "The data page reloads automatically one hour after it was created.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "The data page reloads automatically one hour after it was last accessed.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "The data page reloads on the next access one hour after it was created.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "You have configured a data page to look up customer data in a database table. The data source changes to a REST web service. Which of the following best describes the actions you should take to make sure your application uses the right data source?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Wait until the data page reloads on the next access one hour after it was created.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Update your application to remove any reference to the data page.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Configure a new data page for the new data source, then update your application to use the new data page.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Update the data page to change the data source information.",
+          "correctanswer": "true"
+        }
+      ]
     }
   ]
 }
