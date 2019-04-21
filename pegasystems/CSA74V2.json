@@ -31,7 +31,7 @@
     },
     {
       "id": "2",
-      "name": "Whay a user view is created",
+      "name": "Why a user view is created",
       "hint": "Designing user views",
       "image": "null.png",
       "type": "check",
@@ -39,7 +39,7 @@
         {
           "id": "2983",
           "answer": "to collect information",
-          "correctanswer": "false"
+          "correctanswer": "true"
         },
         {
           "id": "2984",
