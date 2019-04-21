@@ -1722,6 +1722,484 @@
           "correctanswer": "false"
         }
       ]
+    },
+    {
+      "id": "75",
+      "name": "When updating a rule in Pega Express, Express automatically manages the check-out/check-in process for you",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "name": "When updating a rule in Pega Designer Studio, Designer Studio automatically manages the check-out/check-in process for you",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "name": "If a rule is checked out by you, will other developer be able to check out that rule",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "name": "If a locked rule is private checked out by you, will other developer be able to private check out that rule",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "name": "Can you bulk discard or checkin the rules checkout by you from Private >> Bulk Action",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "name": "How can you remove the rules from your checked out list",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "checkout",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "checkin",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "discard",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Save",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "name": "Directed inheritance is the only option that allows an application class to inherit rules defined for standard Pega classes, such as the Work- or Data- class.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "name": "Directed inheritance is the only option that allows an application class to inherit rules from another application`s classes.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "name": "Pattern inheritance describes the business relationship between classes.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "name": "Pattern inheritance indicates the reusability of rules throughout an organization, such as whether a rule is usable by a single case type, an entire department, or even an entire organization.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "name": "Pega only provides pattern inheritance and directed inheritance.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "name": "pattern inheritance uses the class before the '-' to find the rules as part of inheritance. For e.g. ABC-Sales-Work would be inherited from ABC-Sales- for reusing the rules",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "name": "Direct inheritance uses the class name mentioned in the class itself. For e.g. ABC-Sales-Work would be inherited from Work-Cover- for reusing the rules. This class name should be mentioned in the direct inheritance class for ABC-sales-Work class.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "name": " The class group contains all of the case types in an application.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "name": " Above the class group is the division layer. The division layer contains the work, data, and integration classes for the division.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "name": " Above the division layer is the organization layer. The organization layer contains all of the classes for applications across an entire business or other organization. The organization layer often contains data and integration classes that can be applied across the entire organization.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "name": " ABC corp has two divisions one is Sales and other is IT. Both need customer information. This customer business entity should eb created in which layer for re-use.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Organization layer",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Division layer",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Unit layer",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Class group layer",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "name": "Baseclass inherits from None. In a Pega application, @baseclass is the ultimate base class. All other classes inherit from @baseclass..",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "name": "An application references a data element found in the Work-class. How is this rule inherited by the application?",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "By adding the ruleset that contains the property to the application.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "By applying directed inheritance.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "By applying pattern inheritance.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "By naming PegaRULES as the built-on application.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "name": "Select the two items of information used to uniquely identify a rule. (Choose Two)",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The application that uses the rule.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "The description of the rule.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "The type of the rule.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "The class of the rule.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "name": "A company provides two applications to its employees. The first application is managed by the Accounting department, and allows employees to submit expense reports for reimbursement. The second application is managed by the IT department, and allows employees to submit support tickets for IT-related issues.\nBoth applications require a data element to track the status of cases. Select the best strategy for implementing this requirement.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Check the inheritance path to determine if an appropriate data element is already available.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Create one data element in the org layer for both applications to use.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Create a data element for each case type, because they may use different status values.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Create one data element in the class group layer for both applications to use.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "name": "You check out a rule to update it. While the rule is checked out, another developer decides to test a case type by creating and processing the case. What happens when the application attempts to use the rule you checked out?",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The application cannot run because the rule is unavailable.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "The application returns an error and stops processing the case, because the rule is unavailable for use.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "The application runs the checked-out version of the rule, because that is the most up-to-date version of the rule.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "The application ignores the checked-out version and uses the previous version in the application ruleset.",
+          "correctanswer": "true"
+        }
+      ]
     }
   ]
 }
