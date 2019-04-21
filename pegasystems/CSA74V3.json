@@ -159,7 +159,7 @@
         {
           "id": "2986",
           "answer": "The optional action should be available when the case is Resolved status",
-          "correctanswer": "true"
+          "correctanswer": "false"
         }
       ]
     },
