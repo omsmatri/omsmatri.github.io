@@ -43,7 +43,7 @@
         },
         {
           "id": "2984",
-          "answer": "false",
+          "answer": "No need of data propagation configuration as data is by default copied to child case",
           "correctanswer": "false"
         },
         {
@@ -53,7 +53,7 @@
         },
         {
           "id": "2986",
-          "answer": "false",
+          "answer": "None of the above",
           "correctanswer": "false"
         }
       ]
