@@ -922,6 +922,452 @@
           "correctanswer": "false"
         }
       ]
+    },
+    {
+      "id": "37",
+      "name": "If a case is dealing with multiple pages, are these pages will be in  memory accessible by clipboard.",
+      "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "As you run a process, Pega sends information to the clipboard, adding or removing pages and properties from memory",
+      "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "The data element (property and value) is stored on the clipboard in a structure called a page.",
+      "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "pyWorkPage stores all the data generated while creating and processing a case.",
+      "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "pyWorkPage stores data such as the case creation date or the case ID. ",
+      "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "If the pyWorkpage contains an embedded page, that means this case is dealing with some data type mentioned in embedded page.",
+      "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "If you are processing a child case, the clipboard holds its parent case data in which page",
+      "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "pyWorkPage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "pyWorkCover",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Can We refer parent case data in child case by referring pyWorkCover page",
+      "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "The clipboard page name must be included the pages and classes tab of a rule to refer the page and its property in the rule. This is needed for validation purpose as the rule refers the page and it`s property and pega needs to validate it.",
+      "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "To open the Clipboard tool, click the Clipboard icon on the Developer toolbar in Designer Studio.",
+      "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "The User Pages category contains pages created due to user action, either directly or indirectly.",
+      "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "If a pega developer configure or tests a rule or do some case processing, the clipboard pages created by this process will be part User pages Category.",
+      "hint": "REVIEWING APPLICATION DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "If you just open an old case, which page should be having its data in clipboard. Under which category, this page would be listed?",
+      "hint": "REVIEWING APPLICATION DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "pyWorkPage",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "casePage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "User Pages",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Data Pages",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "Data pages under clipboard contains only read only pages defined by data page rules.",
+      "hint": "REVIEWING APPLICATION DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Data pages under clipboard contains editable pages defined by data page rules.",
+      "hint": "REVIEWING APPLICATION DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": " Linked Property Pages category contains read-only pages created by linked properties, which contain information from data objects referenced by a linked property.",
+      "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "The System Pages category contains pages that describe the current user session, such as the active user and the active application. ",
+      "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "Once user logs in, pega creates requestor page, logged in user page under which clipboard category.",
+      "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Data Pages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Linked Property Pages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "User Pages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "System Pages",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "While testing case behavior for an online shopping application, you want to confirm that the application properly generates a list of the customer's previous orders when querying the company's order management system. In which category of clipboard pages would you expect to find the page that contains this list?",
+      "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "User pages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Linked property Pages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Data Pages",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "System Pages",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": " pyWorkPage stores which type of information?",
+      "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Data cached from an outside system.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Information about the Pega server.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Information about the current operator.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Information about a case.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": " You use the Clipboard tool to perform which two tasks? (Choose Two)",
+      "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Test case behavior by setting property values for an open case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Test a rule to determine whether the rule executes correctly.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Test whether a declarative expression properly calculates a target value.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Review the current values of case data.",
+          "correctanswer": "true"
+        }
+      ]
     }
   ]
 }
