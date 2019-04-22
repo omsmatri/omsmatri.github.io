@@ -206,8 +206,8 @@
     {
       "id": "8",
       "name": "Please select Advanced properties.",
-      "image": "null.png",
       "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -235,8 +235,8 @@
     {
       "id": "9",
       "name": "Please select Advanced properties.",
-      "image": "null.png",
       "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -264,8 +264,8 @@
     {
       "id": "10",
       "name": "Which is a numerically ordered list.",
-      "image": "null.png",
       "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -293,6 +293,7 @@
     {
       "id": "11",
       "name": "Which is a numerically ordered list.",
+      "hint": "DEFINING USER VIEWS",
       "image": "null.png",
       "type": "check",
       "options": [
@@ -316,12 +317,12 @@
           "answer": "Page List",
           "correctanswer": "true"
         }
-      ],
-      "hint": "DEFINING USER VIEWS"
+      ]
     },
     {
       "id": "12",
       "name": "Which is a numerically not ordered list.",
+      "hint": "DEFINING USER VIEWS",
       "image": "null.png",
       "type": "check",
       "options": [
@@ -345,12 +346,12 @@
           "answer": "Page List",
           "correctanswer": "false"
         }
-      ],
-      "hint": "DEFINING USER VIEWS"
+      ]
     },
     {
       "id": "13",
       "name": "Which properties need page definition",
+      "hint": "DEFINING USER VIEWS",
       "image": "null.png",
       "type": "check",
       "options": [
@@ -374,12 +375,12 @@
           "answer": "Page List",
           "correctanswer": "true"
         }
-      ],
-      "hint": "DEFINING USER VIEWS"
+      ]
     },
     {
       "id": "14",
       "name": "Encrypted text can be decrypted for display",
+      "hint": "DEFINING USER VIEWS",
       "image": "null.png",
       "type": "radio",
       "options": [
@@ -393,12 +394,12 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "hint": "DEFINING USER VIEWS"
+      ]
     },
     {
       "id": "15",
       "name": "Password property can be decrypted as text",
+      "hint": "DEFINING USER VIEWS",
       "image": "null.png",
       "type": "check",
       "options": [
@@ -422,12 +423,12 @@
           "answer": "Page List",
           "correctanswer": "true"
         }
-      ],
-      "hint": "DEFINING USER VIEWS"
+      ]
     },
     {
       "id": "16",
       "name": "Text strings that do not contain double quotation marks (“”), tabs, carriage returns, or line breaks",
+      "hint": "DEFINING USER VIEWS",
       "image": "null.png",
       "type": "radio",
       "options": [
@@ -451,8 +452,7 @@
           "answer": "Text",
           "correctanswer": "false"
         }
-      ],
-      "hint": "DEFINING USER VIEWS"
+      ]
     },
     {
       "id": "17",
@@ -542,6 +542,7 @@
     {
       "id": "21",
       "name": "The Picklist data type has an additional field for you to choose the list of values by clicking the gear icon.",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -555,7 +556,6 @@
           "correctanswer": "false"
         }
       ],
-      "image": "null.png",
       "hint": "DEFINING USER VIEWS"
     },
     {
@@ -602,6 +602,323 @@
         {
           "id": "2986",
           "answer": "You can configure the user view for a step after you create the entire case life cycle.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "How to add validation in Pega Express for a view.",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Case >> Step >> Configure View >> Conditions >> Add condition to add field, comparator and value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "We can add the error message to show if the validation fails",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Case >> Step >> Configure View >> Conditions >> Add condition to directly select a validate rule also",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Validation error message cannot be configured",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Whats`s true about Validate rule?",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA, validate rule can include edit validate as well as validate rule too",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Create >> Process >> Validate to create a validate rule.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Records >> Process (Right Click) >> Create >> Validate to create a validate rule.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Validate rule cannot reference another validate rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "validate rule can include the edit validate rule only",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Where a validate rule can be referenced?",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Activity",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Flow action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Data transform",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Flow",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Why must a validation condition that tests whether a date is in the future or the past be configured in Designer Studio?",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Validating that a date is in the future or the past requires the use of a function.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "This can be done in Pega express too.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Which validation rule should be used to validate email field having @ character or not.",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Edit validate as we need to validate pattern",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Validate rule to validate pattern",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Activity rule to validate pattern",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Data transform rule to validate pattern",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "To use an edit validate rule with a validate rule, open the validate rule. In the Select a function field, select the function Validation of [Property Name] using [Edit Validate Name]. In the Validation of field, enter the property you want to validate. Then in the using field, select an edit validate rule.",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "can we apply an edit validate to a page or page list or page group",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "can we apply an edit validate to a single value or value list or value group",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Edit validate rules contain java codes",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "The validation added to a stage evaluated before execution enters the stage",
+      "image": "null.png",
+      "type": "radio",
+      "hint": "VALIDATING CASE DATA",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "You have a requirement to add a bank checking account number field to a view. Routing numbers must contain nine digits. How would you configure the field to support this requirement?",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use a decimal property type and make the field required.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use an edit validate rule that validates the routing number pattern.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Set the minimum and maximum values to 9 in a text field.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "In an edit validate rule, configure a function to test for a routing number pattern.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "You have a requirement to add to a view a check box that indicates the user qualifies for an auto insurance discount. In order to qualify, two conditions must be met. First, the user must be older than 25. Second, the user cannot have received a traffic violation in the past three years. Unless both conditions are met and the user selects the check box, the form displays an error when the user submits the form. Which one of the following approaches would you use to support this requirement?",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use a single validate rule to verify both of these conditions.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Use an edit validate rule that validates both conditions.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Use two validate rules, one for each condition.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Associate an edit validate rule with the flow action that references the form.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "You are adding a field to your case type in which users must enter the day, month, and year they were hired before the user can submit the user form. The field type must enforce a date format. What two validation approaches would you use to meet the validation requirements? (Choose Two)",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use the required option",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Use the read-only option",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Define the field type as a date",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Add the word \"Required\" to the field label",
           "correctanswer": "false"
         }
       ]
