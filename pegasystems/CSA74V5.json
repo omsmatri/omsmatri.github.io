@@ -1,0 +1,610 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "Please select single value properties.",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Date",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "DateTime",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Single Page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "value Group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Please select single value properties.",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Decimal",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Double",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Single Page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "value Group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Please select single value properties.",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Integer",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Identifier",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Single Page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "value Group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Please select single value properties.",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Password",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Text",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Single Page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "value Group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Please select single value properties.",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "TextEncrypted",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "TimeOfday",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "TrueFalse",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "value Group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Please select page properties.",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Page Group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Single Page",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Page List",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "value Group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Please select Advanced properties.",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Java Object",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Java Object Group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Java Object List",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Page Group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Please select Advanced properties.",
+      "image": "null.png",
+      "hint": "DEFINING USER VIEWS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Java Property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Value Group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Java Property List",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Page List",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Please select Advanced properties.",
+      "image": "null.png",
+      "hint": "DEFINING USER VIEWS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Value List",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Value Group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Page Group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Page List",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Which is a numerically ordered list.",
+      "image": "null.png",
+      "hint": "DEFINING USER VIEWS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Value List",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Value Group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Page Group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Page List",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Which is a numerically ordered list.",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Value List",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Value Group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Page Group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Page List",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "DEFINING USER VIEWS"
+    },
+    {
+      "id": "12",
+      "name": "Which is a numerically not ordered list.",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Value List",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Value Group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Page Group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Page List",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "DEFINING USER VIEWS"
+    },
+    {
+      "id": "13",
+      "name": "Which properties need page definition",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Page",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Value Group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Page Group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Page List",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "DEFINING USER VIEWS"
+    },
+    {
+      "id": "14",
+      "name": "Encrypted text can be decrypted for display",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "DEFINING USER VIEWS"
+    },
+    {
+      "id": "15",
+      "name": "Password property can be decrypted as text",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Page Group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Page List",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "DEFINING USER VIEWS"
+    },
+    {
+      "id": "16",
+      "name": "Text strings that do not contain double quotation marks (“”), tabs, carriage returns, or line breaks",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "identifier",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Password",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Encrypted text",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Text",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "DEFINING USER VIEWS"
+    },
+    {
+      "id": "17",
+      "name": "Before you configure a user view, which things to think about?",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "What fields do users need to see in the UI?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "How will users enter values in those fields?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Can users modify the field values or are the fields read-only?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "DEFINING USER VIEWS"
+    },
+    {
+      "id": "18",
+      "name": "Turn Editing Off/on, how does this feature help in right top.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "if you want to edit in pega express mode, make this field show as \"Turn editing off\"",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "if you want to edit in pega express mode, make this field show as \"Turn editing on\"",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "DEFINING USER VIEWS"
+    },
+    {
+      "id": "19",
+      "name": "The Picklist data type has an additional field for you to choose the type of list (drop-down list or radio buttons) by clicking the gear icon.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "DEFINING USER VIEWS"
+    },
+    {
+      "id": "20",
+      "name": "After you add the required data elements and save your view, the system adds new data elements to your application. You can then reuse those data elements when you create new views.",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "DEFINING USER VIEWS"
+    },
+    {
+      "id": "21",
+      "name": "The Picklist data type has an additional field for you to choose the list of values by clicking the gear icon.",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "DEFINING USER VIEWS"
+    },
+    {
+      "id": "22",
+      "name": "while designing the UI, if more than one UI is having same button or same UI controls, it is best practice to maintain consistency by showing them in their previous location",
+      "image": "null.png",
+      "hint": "DEFINING USER VIEWS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "When is the earliest opportunity for you to configure the user view for a step in a case life cycle in Pega Express?",
+      "image": "null.png",
+      "hint": "DEFINING USER VIEWS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "You can configure the user view for a step after you add that step to the case life cycle.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "You can configure the user view for a step before you start creating the case life cycle.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "You can configure the user view for a step any time after you configure the pick list data types.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "You can configure the user view for a step after you create the entire case life cycle.",
+          "correctanswer": "false"
+        }
+      ]
+    }
+  ]
+}
