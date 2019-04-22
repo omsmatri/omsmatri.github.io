@@ -1161,6 +1161,861 @@
           "correctanswer": "true"
         }
       ]
+    },
+    {
+      "id": "48",
+      "name": "Pega express data explorer allows you to reuse of existing data types",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "In Designer Studio, the Data Explorer supports the reuse of existing data types, such as the data types provided as part of Pega Platform.",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "In Pega Express, the Data Explorer allows you to create a new data type and establish its position within the class hierarchy.",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "I want to create a Customer party class which is similar to Data-Party-Person but not having all fields I need for customer party class. What should I do",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Create a new data class for customer and configure it to extend form Data-Party-Person class",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Add new fields for Data-Party-Person Class",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "No need of creating any new data class or field values as Data-Party-Person class is able to handle any field value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "I should go for another OOTB Party class",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Whats true about Data model tab?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "You can use the Data model tab in the Case Designer to add properties from your case type. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "You can use the Data model tab in the Case Designer to remove properties from your case type.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Properties are called fields in the Data model tab. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Select Show reusable fields to display all fields inherited and available in the case type.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "If I want to capture a phone number and want to specify a list of types, such as home, work, and mobile. Which field type I should select in Pega express?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Picklist",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Dropdown",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Field group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Page group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "If I want to have attachment capability, can I configure it from pega express.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "If I want to reference a user in the system capability, which field type I should select from pega express.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "User reference",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Reference user",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Operator reference",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "If I want to show a location on google map capability, which field type I should select from pega express.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Location",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "User location",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Location map",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Google location",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "What does the Field group in Pega express means in Designer studio",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Value group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "page",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Page list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "What does the Field group(list) in Pega express means in Designer studio",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Value group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Page list",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "Which are not a complex type in Pega express.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Attachment",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Field group(list)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Location",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Field group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Which are not a complex type in Pega express.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Picklist",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Field group(list)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "User reference",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Field group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Which are fancy type in Pega express.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Attachment",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Field group(list)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Location",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Field group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "Select the valid Simple field types in Pega express",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Currency",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Email",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Location",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Field group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "Select the valid Simple field types in Pega express",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Text(single line)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Text(paragraph)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Location",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Field group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "Select the valid Simple field types in Pega express",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "TrueFalse",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Date & Time",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Boolean",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Date only",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Select the valid Simple field types in Pega express",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "User reference",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Date & Time",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Time only",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Date only",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "Select the valid complex field types in Pega express",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Field group(page)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Field group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Field group(list)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Data reference",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "can we configure to calculate a field declaratively from data model",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "From gear icon in the field row, you can configure the calculation for the field need to be calculated declaratively",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No such possibility in Pega express",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "From data model, we can see the field as well as validation applies to the case",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "Once a property is created in pega, will it follow the following features what is provided to any rule in pega?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "versioning",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "scaling",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "inheritance",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "access control",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "I have created a property named customerlist of type page list and later realise to change it to a value list. Will pega allow me to do that.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "The property type cannot be changed after the property has been saved.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "Whats true about the display and validation section?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The Display and validation section allows you to define how the property should be validated in an UI control.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "It helps in setting a static list of values",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The Display and validation section allows you to define how the property should appear on the screen by specifying a UI control.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "You also have the option to specify a table with valid values for the property.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "pega Identifies special properties — your application can read but not write to these properties.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "px",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "pz",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "py",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "pv",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "name": "We can use these properties in our application.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "px",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "pz",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "py",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "pv",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "name": "Which type of properties supports internal system processing — the meaning of values may change with new product releases. Your application can read but not write to these properties.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "px",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "pz",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "py",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "pv",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "name": "Can I create a property starting with following letters",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "px",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "pz",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "py",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "pv",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "name": "A claim case records the items of loss. The property reference that describes an item of loss looks like this: .ItemOfLoss(1).Description. The property reference .ItemOfLoss(1) is an example of a __________ property?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page list",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "single value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "value list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "name": "You want to capture the delivery method for a purchase request. The options are: Standard, premium, or next-day. You use the Data Model tab to create the property. How would you define the list with the options?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Picklist",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Text(paragraph)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Radio button",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Field group(list)",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "name": "A candidate's language skills are captured in a candidate case. What type of property is used to capture the candidate's language skill if the property reference looks like this: .Language(Spanish)?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Value group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Text",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Single value",
+          "correctanswer": "false"
+        }
+      ]
     }
   ]
 }
