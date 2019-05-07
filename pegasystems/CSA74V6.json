@@ -437,6 +437,8 @@
     {
       "id": "17",
       "name": "Can we have a Lawyer party to a case by just modifying the role field?",
+      "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -449,13 +451,12 @@
           "answer": "Yes",
           "correctanswer": "true"
         }
-      ],
-      "hint": "CONFIGURING A WORK PARTY",
-      "image": "null.png"
+      ]
     },
     {
       "id": "18",
       "name": "Can we have more than one role having same role name defined for a case?",
+      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
       "type": "radio",
       "options": [
@@ -469,8 +470,7 @@
           "answer": "No",
           "correctanswer": "true"
         }
-      ],
-      "hint": "CONFIGURING A WORK PARTY"
+      ]
     },
     {
       "id": "19",
@@ -630,6 +630,563 @@
         {
           "id": "2986",
           "answer": "Subprocess",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "A home loan company has home appraisal offices in various regions. Each office has its own work queue. Company policy requires that home appraisals are assigned to offices based on the home's location. For example, appraisals for homes located in Boston are assigned to the New England office work queue. Which routing approach would you choose to support this requirement?",
+      "image": "null.png",
+      "hint": "ROUTING ASSIGNMENTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Route the assignment based on an appraiser role.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Route the assignment based on appraiser skills.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "It is not possible to support this requirement. The router must define a specific work queue.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Route the assignment to the correct work queue based on a decision rule.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "A process is having three assignments to collect the data which need to be Populated by three particular user, Can we route the case to the appropriate party based on the assignment?",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "After submitting the expense report, the expense case should be reviewed by some reviewer. As a pega developer, you should assign the review assignment to a particular reviewer or to a work queue?",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "work queue",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "work list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "A worklist is a list of all open assignments, ordered by urgency, for a specific user. For example, an assignment that requires a human resources manager to approve employee time off requests routes to the human resources manager's worklist.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Managers can access and assign work to the worklists of users who report to the managers.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "A work queue is a list of all open assignments, ordered by urgency, for a group of users.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Assignments stay in the work queue until a user associated with the work queue selects an assignment, or a manager sends an assignment in the work queue to a specific user. ",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "A user accesses assignments from a ___________. Users in a work group access assignments from a _________________.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "worklist, work queue",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "work queue, worklist",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Which option of Routing not available in Pega Express",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current user",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Specific user",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Custom",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Which option of Routing not available in Pega Express",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use business logic",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Custom",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Based on some condition , the assignment need to be routed to a worklist or work queue. Which of the following option should be selected",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use business logic",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Specific user",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "If the loan amount is more than 100K Usd, it should be assigned to the Senior manager or else to Manager. Use option should be used for routing",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use business logic",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Specific user",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "As a pega developer, you want to implement a routing where an assignemnt should be routed to a skilled case worker. Which option should you choose?",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use business logic",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Custom",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "As a pega developer, you want to implement a routing where an assignemnt should be routed to a skilled case worker having a French language skill more than 5. Which option should you choose?",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Custom with skill level 4",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Custom with skill level 5",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Single level approval routing (You can assign an approval task to a specific user, work queue, or the reporting manager of the user working on the case) can be suitably achieved by using which option.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use business logic",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Specific user",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Cascading approval routing can be achieved by Cascading approval routin or the outcome of decision rule (matrix routing).",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "To route assignments based on a reporting structure in a cascading approval process: Approval Smart Shape >> General >> Approval Flow Type (Cascading) >> Approval based on (Reporting structure)>> Approval to be completed by(Reporting manager) >> Approval level (one or All or custom)",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Cascading approval can have following options, Please select the appropriate ones.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "One\tThe manager specified in the Approval to be completed by field must approve the case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "All\tThe entire reporting structure, starting with the manager specified in the Approval to be completed by field, must approve the case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Custom\tA variable number of reviewers must approve the case, based on a list of when conditions.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Business logic\tA variable number of reviewers must approve the case, based on a list of when conditions.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "You have four managers in your reporting structure, however you want only three to approve to if the loan amount is 50000 USD. What should be the when condition evaluation field and levels of approvals.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Loan Type, 3",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Loan amount, 3",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Cascading approval based on authority matrix calls which type of rule to get the routing to value.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "decision table",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "decision map",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "decision tree",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "When",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ROUTING ASSIGNMENTS"
+    },
+    {
+      "id": "47",
+      "name": "Can we configure a page list to get the list of reviewers for cascading approval under Authority matrix?",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "ROUTING ASSIGNMENTS"
+    },
+    {
+      "id": "48",
+      "name": "An expense report process requires the assignment for travel expenses to be routed to a specific auditor. The auditor is also a member of an auditing work group. How would you route the assignment so that the user receives it?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "To the user's manager",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "To the user",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "To the user's work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "To the user's work group",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ROUTING ASSIGNMENTS"
+    },
+    {
+      "id": "49",
+      "name": "An insurance company provides personal property insurance. Jewelry is categorized as a special type of personal property. Requests for jewelry coverage require that a user managing the request is trained to appraise jewelry. The requirement is to route assignments for jewelry appraisals to users who have this skill. Which one of the following routing approaches would you use?",
+      "image": "null.png",
+      "hint": "ROUTING ASSIGNMENTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Route requests to a reporting manager who assigns the request to an available user to ensure fast processing.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Route requests to a work group that uses skill rating parameters for work group members.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Route requests to a decision table which routes the request to a work group in a location where there are users who have appraisal skills.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Route directly to a user who is a member of work group that uses skill rating parameters.",
           "correctanswer": "false"
         }
       ]
