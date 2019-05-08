@@ -1190,6 +1190,302 @@
           "correctanswer": "false"
         }
       ]
+    },
+    {
+      "id": "50",
+      "name": "A conditional path is a branch in the life cycle of a case that is contingent upon run-time values. By defining the business logic decisions that cause a case to follow different paths, you can improve the flexibility of your application.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "A conditional path is a branch in the life cycle of a case that is contingent upon run-time values. By defining the business logic decisions that cause a case to follow different paths, you can improve the flexibility of your application.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "As a pega deveoper you are adding an evaluation to check whether the loan amount is more than 25000K or not. If the loan amount is more than 25000 K, you want to initiate a fraud check for the loan application too else it would be only credit score check.Can we implement this as part of Case life cycle view uisng the OOTB smart shapes/stages without using any flow inside the stage for evaluating the loan amount.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "Automated decision can be modelled using Pega express",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "While configuring Automated decision in Pega express, how to configure the next stage or step.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Go to Drop down",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Change Stage",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "By default, all processes are configured with the \"Always\" condition, which always returns a true result, to ensure that the process is always used in case processing. ",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "For a newly joined employee to an organization, the IT team and facilities process need to be started concurrently as theye are indepemdent. Can this be achievable using Pega Express?",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "worklist, work queue",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "work queue, worklist",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "Parallel processes allow a case to advance down multiple paths within a stage at the same time.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "Parallel processes can only be configured in Case Designer by adding the first process to the stage, then selecting Add parallel process from the stage menu.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "When a user opens the case to perform an assignment in one process, the case may be locked, preventing another user from performing an assignment in the other process.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Parallel processes do not have a configurable order. The processes you select for parallel processes must be adaptable to any order.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Conditional paths in a case life cycle are used to define ______________________. (Choose Two)",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "subprocesses that run in the context of the current case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "paths in the case life cycle that are followed based on run-time values",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "subprocesses that run in parallel with the context of the current case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "paths in the case life cycle that are chosen by a user at run-time",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "A parallel process is defined as ___________________________.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "a process that is not part of the primary flow in the case life cycle",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "a process that executes over the same time period as other processes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "a process that executes in the context of the current case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "a process that executes in the context of another process",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "Automating decisions based on business logic enables ___________________________.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "application users to mark a specific location for business exceptions that may arise in the process flow",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "architects to spend less time building the application",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "application users to focus on more nuanced decisions that require business expertise",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "architects to improve the performance of the application",
+          "correctanswer": "false"
+        }
+      ]
     }
   ]
 }
