@@ -685,6 +685,575 @@
           "correctanswer": "false"
         }
       ]
+    },
+    {
+      "id": "29",
+      "name": "Circumstancing allows you to describe exception behavior with a set of targeted rules rather than one complex rule. Each targeted rule configures behavior to address a specific exception.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "What types of circumstance conditions are supported in Pega?",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "The rule variant is effective after a certain date, or during a range of dates.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "The rule variant is effective whenever the value of a date property satisfies the circumstancing condition. ",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "The rule variant is effective whenever a combination of property values satisfies the circumstancing condition.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "The rule variant is effective whenever the value of a single property satisfies the circumstancing condition. ",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "What type of circumstancing will a real estate firm use to display a disclosure statement that varies by both the status and location of the listing?",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "A bank waives account fees for customers who maintain an account balance of 10000 euros. But for customers in Germany, the account balance must exceed 25000 euros. In this situation, you use a circumstance template to define the properties on which to circumstance the rule. You then use a circumstance definition to specify the minimum balance and country for the exception — 25000 euros for customers in Germany.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Many companies offer a quicker response on complaints or inquiries for customers with premium or elite status. In this situation, you circumstance a service level rule based upon the value of the property that records customer status. If the value is silver for a case, the application uses the circumstanced variant for customers with silver status, rather than the base rule.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Companies often update a business process in response to business conditions, but must process existing cases under the previous version of the process. A process goes into effect on January 1 to reflect a more rigorous review of loan applications. But cases created before this date are to be completed using the old process. In this situation, you circumstance the updated process based upon the value of the pxCreateDate property — the date a case was created. If the value of pxCreateDate is a date after January 1, the application uses the updated process instead of the original process.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "During December, a retailer offers free shipping on any order over 50 dollars. During the rest of the year, only orders over 100 dollars receive free shipping. In this situation, you apply a date range to the rule that calculates the shipping charge. If a customer places an order in December, then the application applies the 50 dollars threshold for free shipping. If the customer places an order in any other month, the application applies the 100 dollars threshold instead.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "To circumstance on one variable, select Property and date?",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "To circumstance on multiple variable, select template?",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "While circumstancing by date, Rule to be effective only if the value of the specified date property occurs within a date range",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=No",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Specify date property=Yes, Specify start date=No, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Specify date property=No, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "While circumstancing by date, Rule to be effective only if the value of the specified date property occurs after a certain date",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=No",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Specify date property=Yes, Specify start date=No, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Specify date property=No, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "While circumstancing by date, Rule to be effective only within a date range",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=No",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Specify date property=Yes, Specify start date=No, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Specify date property=No, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "While circumstancing by date, Rule to be effective only after a certain date",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=No",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Specify date property=Yes, Specify start date=No, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Specify date property=No, Specify start date=Yes, Specify end date=No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "To circumstance by more than one property, specify the circumstance definition and circumstance template rules that define the combination of conditions. For each circumstanced rule, you must provide a unique circumstance definition.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": " In which of the following situations would you use a rule circumstance to resolve the requirement?",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A process does not execute if a user is not married.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "An online order process optionally allows customers to update the credit card number saved with their account.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "A national insurance company requires a different minimum for liability coverage in each state.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "A service level notifies the assigned user when a goal interval is exceeded, and notifies the user's manager when a deadline interval is exceeded.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "An application change goes into effect on June 15, 2016. Due to this change, two fields are added to a user form to collect information for compliance purposes. Assuming that today is April 30, 2016, how should you configure circumstancing for the form?",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Circumstance the form by template and definition; in the definition, specify June 15, 2016, as the cut-off date.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Update the existing form to apply a circumstance; specify June 15, 2016, as the end date.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Circumstance the form by property and date; specify June 15, 2016, as the start date.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Circumstance the form by property and date; test that the creation date for the case is on or after June 15, 2016.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Which statement best describes the role of the base rule in circumstancing?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The base rule is a template used to create all of the circumstanced variants.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "The base rule is used if no circumstanced variant applies.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The base rule lists all of the properties for which a rule can be circumstanced.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "The base rule describes case behavior in effect until a certain date.",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CIRCUMSTANCING RULES"
     }
   ]
 }
