@@ -1,0 +1,690 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "Which of the following statements are true about correspondence?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pega allows you to automate and create timely and clear communication with participants in a case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "This communication ranges from simple notifications of assigned tasks to complex communications that contain case-specific data and calls-to-action. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The communication only supports email.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Adding correspondence to a business process keeps customers and case workers engaged throughout the case life cycle.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "What are the channels through which pega can send communication?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "email",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "letter",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "fax",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "text messages",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "What are the things to be considered for an effective communication.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Who is the user that receives the communication? ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "How will the communication be sent? Third, when does the communication need to be sent?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "When does the communication need to be sent?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "None of the above?",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "The case is having customer and interested Party. How do you configure to send the communication to all?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "By sending communication to customer role",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "By sending the communication to customer email address",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "By sending the communication to the party under which customer and interested party comes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "What are the roles defined for a correspondence in Pega?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Owner (The person who created the case.)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Customer (The person on whose behalf the case is transacted. This person may not process the case, but may want — or need — notification of any changes.)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Interested (A person who tracks the progress of a case but does not process the case.)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Originator",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "The system is having correspondence template for email. Should it be used for other communication channel as per pega`s best practice?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Can we send a communication from the case stage using a smart shape?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "While communicating with a Case user, is it advisable to hard code the party name of the user in communication or use the case user email directly?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Party name should be used, never use email address as that may change later point of time",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Party name should not be used. Always use email address.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "What other rules can be referred from a correspondence rule?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "section",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "paragraph",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "correspondence fragment",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Correspondence or template rules are created for every channel type like email, fax, letter or sms",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Email correspondence can be configured from the case life cycle in either Pega Express or Designer Studio. For other types of correspondence, you must create a correspondence rule in Designer Studio and send the correspondence using a correspondence activity.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "You configured a party to receive fax communication only but you are trying to send the email type of communication to the party, will it work?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "How would you configure a notification for the case manager when the case reaches an assignment for some user to work.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "From case>> settings>> Notifications, enable the \"Email user when assignment is routed to worklist option\"",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "From the Case stage step, this can be added from the contextual panel as it has Notification form to fill",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "This is achievable if only the user is routing the case to that assignment",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "In Designer Studio, the Notifications tab presents additional options to change the subject or content of the assignment notification.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "To have better flexibility of sending email, corrNew rule should be used in Utility shape of a flow.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Utility shape with corrNew can send any type of communication which is not possible with Send Email step as it only can send email communication.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Utility shape CorrNew takes the PartyRole as well as CorrName parameter",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "The correspondence content can be added from which places?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Send email step contexual panel",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "from the correspondence rule",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "from the Notification rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "from the Corespondes fragment rule included in the correspondence",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "When the correspondence is an email, the outgoing email includes HTML formatting, even if no HTML elements appear within the source. When the correspondence is phone text, the message does not contain HTML formatting.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Inserting a paragraph, section or correspondence fragement can only be done in correspondence fron Designer studio",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE"
+    },
+    {
+      "id": "21",
+      "name": "You want to send a Monthly credit card payment email to your customer with copyright message as footer, company logo as header, instructions on what to do after this email and expected actions from the customer. How to design  it?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Four correspondence fragment, each for header, footer, instructions and expected actions",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Two fragments for header and footer, two paragraph each for instructions and expected action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Two fragments for header and footer, the other details can be part of this correspondence rule",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "One correspondence rule should be used for all content.",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE"
+    },
+    {
+      "id": "22",
+      "name": "You want to send a Monthly credit card payment email to your customer with copyright message as footer, company logo as header, instructions on what to do after this email and expected actions from the customer. How to design  it?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Four correspondence fragment, each for header, footer, instructions and expected actions",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Two fragments for header and footer, one paragraph for instructions and one section for expected action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Two fragments for header and footer, the other details can be part of a section rule included in this correspondence rule",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "One correspondence rule should be used for all content.",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE"
+    },
+    {
+      "id": "23",
+      "name": "Can we directly modify the correspondence source  (JSP code)",
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Which tag is used to refer the rule or property in correspondence rule? For example, you want to refer .pyLabel property using jsp, how to do it?",
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "<<.pyLabel>>",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "<.pyLabel>",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "{.pyLabel}",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "{{.pyLabel}}",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "What three questions should you ask when creating a correspondence? (Choose Three)",
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Which email server should the correspondence use?",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "How will the correspondence be sent?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Who is the user that receives the correspondence?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "When does the correspondence need to be sent?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2987",
+          "answer": "How often should you send the correspondence?",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Which two statements identify why you should automate correspondence? (Choose Two)",
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Automating correspondence allows for sending consistent information to users.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Automating correspondence keeps all interested parties informed of the current status of a case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Automating correspondence allows you to advance a case.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Automating correspondence allows you to send timely communication.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": " In a new hire process, a hiring manager needs to be automatically notified by email, when a job application case reaches a Collect Work Sample assignment. How would you configure this correspondence requirement?",
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "After the assignment, add a SendEmail SmartShape.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Before the assignment, add a SendEmail SmartShape.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Add a SendCorrespondence local action to the assignment.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Enable assignment notifications for the case type.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": " You are configuring a standard email to automatically be sent to loan applicants informing them that their loan has been approved. The requirement states that the email must include values for the applicant's name, the loan office, and the loan amount. The email must also include boilerplate content stating the loan's terms and conditions, which is regularly updated. This content is in a paragraph rule shared by other standard emails throughout the organization. How would you configure your email?",
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Insert applicant's name, loan office, and loan amount properties. Also, copy and paste the paragraph content into your email.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Insert applicant's name, loan office, and loan amount properties. Also, insert the paragraph rule.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Add placeholder text for the applicant's name, loan office, and amount. Also, insert the paragraph rule.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Insert the applicant name and loan office properties. Include a correspondence fragment that contains a link to the organization's website page that contains loans and conditions.",
+          "correctanswer": "false"
+        }
+      ]
+    }
+  ]
+}
