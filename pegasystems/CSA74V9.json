@@ -127,6 +127,7 @@
     {
       "id": "7",
       "name": "when you create user views in the case life cycle, which rule is created?",
+      "hint": "CONFIGURING A USER FORM",
       "image": "null.png",
       "type": "radio",
       "options": [
@@ -150,8 +151,7 @@
           "answer": "section",
           "correctanswer": "true"
         }
-      ],
-      "hint": "CONFIGURING A USER FORM"
+      ]
     },
     {
       "id": "8",
@@ -453,7 +453,7 @@
         {
           "id": "2984",
           "answer": "Modify the presentation of property in each section suitably to achieve this",
-          "correctanswer": "false"
+          "correctanswer": "true"
         },
         {
           "id": "2985",
@@ -499,6 +499,8 @@
     {
       "id": "20",
       "name": "The default Pega skin rule provides breakpoints for managing transitions between monitor, tablet, and mobile phone displays using responsive breakpoints.",
+      "hint": "CONFIGURING A USER FORM",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -511,9 +513,7 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "image": "null.png",
-      "hint": "CONFIGURING A USER FORM"
+      ]
     },
     {
       "id": "21",
@@ -694,6 +694,872 @@
         {
           "id": "2984",
           "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Event and action as a cause-and-effect pair. Users perform events that trigger UI changes. The changes are the action.Is this correct assumption?",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "What attributes can be set for UI elements?",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "visibility",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "disable",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "required",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "What setting values available for UI element attributes like visibility,diable or required while referring a section rule in UI?",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Always",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Condition(expression)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Condition(when rule)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "If not blank",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2987",
+          "answer": "If not zero",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "What setting values available for UI element attributes like visibility,diable or required while referring a property rule in UI?",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Always",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Condition(expression)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Condition(when rule)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "If not blank",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2987",
+          "answer": "If not zero",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Which setting values are only applicable for UI element attributes like visibility,diable or required while referring a property rule in UI?",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Always",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Condition(expression)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Condition(when rule)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "If not blank",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2987",
+          "answer": "If not zero",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Visible when conditions to hide or display data fields based on a value entered by users.",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "How to prevent the UI elements on the screen from repositioning when the visible content is displayed.",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Reserve space when hidden",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Run visibility condition on client",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "white space when hidden",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Inline hide when hidden",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "For what visibility option, Run visibility condition on client option is displayed ",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "If not enabled",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "If not blank",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "If not zero",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Condition (expression)",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Run visibility condition on client reduces the number of server trips and avoids page refreshes.",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Configuring Visibility and Disable options to run on the client reduces the number of server trips and avoids page refreshes. This is achieved by using Run visibility condition on client and Run disabled content condition on client.",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "What is your first consideration when configuring field attributes for dynamic display?",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "identify the UI element target that you want to dynamically show and hide before deciding at which level (section, layout, or field) to apply the visible when condition.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "identify the UI element target that you want to dynamically enable and disable before deciding at which level (section, layout, or field) to apply the visible when condition.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "identify the UI element target that you want to dynamically make required before deciding at which level (section, layout, or field) to apply the visible when condition.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Whats true about action sets?",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "action sets to configure dynamic UI changes based on the event-action model.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "It has configuration to configure event which is nothing but a trigger performed by users, such as clicking a button, hovering a pointer over a field, or entering a value in a field.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "It has configuration to configure an action which is a response performed by the system as a result of the user event. For example, when users click a button, the application creates a case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "It has configuration to configure an action which is Restrictions such as when rules, which can be applied to an event and action combination. For example, you can configure conditions so that hovering over a field displays a smart tip message only if the field contains a property value.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Action sets can be configured for both layout as well as for cell?",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "One event can trigger more than one actionsets",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS"
+    },
+    {
+      "id": "42",
+      "name": "One or more events can trigger an action and an event can trigger more than one set of actions. When configuring action sets, avoid configuring conflicting behavior for an event.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS"
+    },
+    {
+      "id": "43",
+      "name": "Find out which is not an event?",
+      "image": "null.png",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Click a control such as a button, link, or icon",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Double-click a row in the grid",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Right-click the entire grid",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Opens a new window",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Find out which is not an event?",
+      "image": "null.png",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Press the Escape key on the keyboard",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Select a value from the state drop-down",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Select a check box",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Opens the row in edit mode",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Find out which is not an action?",
+      "image": "null.png",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Shows a menu",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Closes the assignment and returns to the home page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Updates the list of counties",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2987",
+          "answer": "Unmasks the password",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Enter a value in the quantity field",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "What are the main considerations when preparing to configure an action set?",
+      "image": "null.png",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The UI control",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "which event to configure to the control.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "which action to configure to the control.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": " You use the Applicability drop-down list to configure whether the action set processes if the control is displayed in read-only mode, editable mode, or both.",
+      "image": "null.png",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Can we map more than one event to same action or vice versa.",
+      "image": "null.png",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Starting with Pega Platform 7.4, you can create user views for an individual data type from Pega Express. ",
+      "image": "null.png",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "Can a View include another view",
+      "image": "null.png",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "What can be included in a view?",
+      "image": "null.png",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Fields",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Views",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "data types",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Which of the following sets represent action sets (event > action) in Pega Platform? (Choose Two)",
+      "image": "null.png",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Run data transform > Enter",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Tab key > Add new work",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Double-click > Scan barcode/QR code",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Open mobile app > Focus",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "Upon selecting a marital status from a dropdown (showing single, married, divorced), you want to ask spouse details. How this can be achieved?",
+      "image": "null.png",
+      "type": "check",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "spouse details section can use boolean expression for marital status = Married",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "spouse details section can use when expression for marital status = Married",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "spouse details section can use boolean expression for marital status = \"\"",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "spouse details section can use when expression for marital status is not blank",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": " How do you configure an action set on a button to clear user selections and then review the previous actions on the case?",
+      "image": "null.png",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "First, configure a Click event with a Refresh action. Next, configure a Double-click event and a View History action.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "First, configure a Click event with a View History action. Next, add a Refresh action to the event.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "First, configure a Click event with a Refresh action. Next, configure a Click event and a View History action.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "First, configure a Click event with a Refresh action. Next, add a View History action to the event.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "What are the benefits of Dynamic UI in Pega?",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Real-time response to end-user behavior",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Robust functionality available for most user interactions",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Fewer full page refreshes, resulting in improved UI responsiveness",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Reduced visual clutter on the screen",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "Dynamic UI design differs from responsive UI design. Dynamic UI relies on configuring what elements appear on the form. Responsive UI controls how form elements align and shift to match the display size.",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "Dynamic behavior enables application developers to hide portions of the UI until those portions are needed, and then expose them in response to some trigger, such as a property value falling within an allowed range, or when users click a button.",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "An online shopping cart that requires users' shipping and billing addresses. Users can select a box to indicate that their shipping and billing addresses are the same. The section for the billing address disappears when users select the box. ",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Selecting the checkbox is event and hiding the billing address section is the action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Selecting the checkbox is action and hiding the billing address section is the event",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "What type of events are available in Pega.",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property-based events",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "user events",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "ui-based events",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "auto events",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Which type of event occurs when a data value changes or when a value meets specific criteria.",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property-based events",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "user events",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "ui-based events",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "auto events",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Which type of event occurs when an end user takes some action on the page, such as selecting an option or clicking on a link.",
+      "hint": "CREATING DYNAMIC CONTENT IN USER VIEWS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property-based events",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "user events",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "ui-based events",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "auto events",
           "correctanswer": "false"
         }
       ]
