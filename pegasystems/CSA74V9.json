@@ -1,0 +1,702 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "A section is the rule used in Pega to configure the contents of a user view.",
+      "hint": "CONFIGURING A USER FORM",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Dynamic layouts arrange items in a flexible form that automatically adjusts to screen size.",
+      "hint": "CONFIGURING A USER FORM",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "What type of layouts are used in Pega?",
+      "hint": "CONFIGURING A USER FORM",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "dynamic layout",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Single layout",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Column layout",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "repeating layout",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Design templates are used to configure section layouts ",
+      "hint": "CONFIGURING A USER FORM",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Design templates can include section(s) as well as property(properties).",
+      "hint": "CONFIGURING A USER FORM",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2984",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Design templates allow you to apply a consistent structure to a form. You can change the structure by changing the template.",
+      "hint": "CONFIGURING A USER FORM",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2984",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "when you create user views in the case life cycle, which rule is created?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Harness",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Dynamic layout",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Flow action",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "section",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "CONFIGURING A USER FORM"
+    },
+    {
+      "id": "8",
+      "name": "Which thing can be done from section rule only?",
+      "hint": "CONFIGURING A USER FORM",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "adding more than one field can only be done on a section rule.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "adding more than one layout can only be done on a section rule.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "adding more than one section can only be done on a section rule.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Design template to organize fields supports which templates.",
+      "hint": "CONFIGURING A USER FORM",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "one column",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "two columns of equal width",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "two columns split 70/30 (one column is 70 percent of the available width and the remaining column is 30 percent)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "How to change the design templates for UI?",
+      "hint": "CONFIGURING A USER FORM",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "In Pega Express, you can change the design template when running a case by clicking Configure this view in the upper right corner of the form.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "This only can be changed from pega express.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "In Designer Studio, you can change the design template on the Design tab of the section rule.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "This only can be changed from pega designer studio.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "What are the three ways a section can be configured?",
+      "hint": "CONFIGURING A USER FORM",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "through a user view using Pega Express.  ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Certain section configurations can only be accomplished by accessing and modifying the section rule directly using Designer Studio.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "You can also configure the section using a design template.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "I want the fields to be listed in a specific order.How can I achieve this.",
+      "hint": "CONFIGURING A USER FORM",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Using design template in pega express",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Using section rule in pega express",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Using design template in designer studio",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Using section rule in designer studio",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "The user view rule can be easily converted from design template to section and vice versa.",
+      "hint": "CONFIGURING A USER FORM",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "What different dynamic layout styles are available",
+      "hint": "CONFIGURING A USER FORM",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Default",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Inline-grid triple.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Inline-grid double",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Inline",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2987",
+          "answer": "Stacked",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "When you want to display a collection of data that belongs to a page list or a page group, you use a repeating layout.",
+      "hint": "CONFIGURING A USER FORM",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "What different repeating layout styles are available",
+      "hint": "CONFIGURING A USER FORM",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Tabbed Repeat layout",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Column Repeat layout",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2987",
+          "answer": "Repeating dynamic layout",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2981",
+          "answer": "Grid layout",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2982",
+          "answer": "Tree layout",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Tree Grid layout",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "If the data need to be presented in a non-linear, aesthetic format, which layout should be used.",
+      "hint": "CONFIGURING A USER FORM",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2987",
+          "answer": "Repeating dynamic layout",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Grid layout",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Tree layout",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Tree Grid layout",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "You want to configure a field of type text to display as textbox in first screen and checkbox in second screen.How to achieve this?",
+      "hint": "CONFIGURING A USER FORM",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Modify the field property rule to add Checkbox control",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Modify the presentation of property in each section suitably to achieve this",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Modify the field property rule to add both textbox and Checkbox control",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "when the width of a mobile phone screen crosses a breakpoint, the layout responds to provide a more useful display. ",
+      "hint": "CONFIGURING A USER FORM",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "system default responsive breakpoints in skin",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "system default responsive breakpoints in Application",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "system default responsive breakpoints in operator preference",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "The default Pega skin rule provides breakpoints for managing transitions between monitor, tablet, and mobile phone displays using responsive breakpoints.",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "CONFIGURING A USER FORM"
+    },
+    {
+      "id": "21",
+      "name": "Elements can move around, resize, or completely disappear based on screen resolution and size.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CONFIGURING A USER FORM"
+    },
+    {
+      "id": "22",
+      "name": "Pega requires that the first (left-most) column be set to primary importance. The remaining columns can be set to secondary or other importance in any order.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CONFIGURING A USER FORM"
+    },
+    {
+      "id": "23",
+      "name": "For a grid, select the following statements which are true.",
+      "image": "null.png",
+      "hint": "CONFIGURING A USER FORM",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "When the display width is lower than first responsive breakpoint, column set with importance other are omitted",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "When the display width is lower than first responsive breakpoint, column set with importance secondary are omitted",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "When the display width is lower than first responsive breakpoint, column set with importance primary are omitted",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "When the display width is lower than first responsive breakpoint, column set with importance \"everything else\" are omitted",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "You have created a form that lists a group of recreational activities that users can select when booking a vacation. One column lists the activity name, a second column provides the check box for activity selection, and a third column displays a thumbnail image of the activity. You want to ensure that users have the information they need to make their selections regardless of screen size. When viewed on a small screen, you do not need to display the images. What three configuration steps would you take to support this requirement? (Choose Three)",
+      "image": "null.png",
+      "hint": "CONFIGURING A USER FORM",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Set the check box column to primary importance.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Set the image column to other importance.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Set the activity name column to primary importance.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Set the check box column to secondary importance.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Set the activity name and check box columns to primary importance.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Set the image column to secondary importance.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "You want to list the orders placed by a customer over the past six months. For each order, you need to display the order number, the date of the order, the total amount of the order, payment method, and order status in a series of columns. What type of layout do you use to present the list of orders to a user?",
+      "image": "null.png",
+      "hint": "CONFIGURING A USER FORM",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "An inline-grid dynamic layout",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "An inline dynamic layout",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "A repeating dynamic layout",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "A table",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "What are two ways you can add a table to a view? (Choose Two)",
+      "image": "null.png",
+      "hint": "CONFIGURING A USER FORM",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Add the table column properties to a view in Pega Express.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Add a field group list to a view in Pega Express.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Embed the table in the section used by the view.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Add a table to a section used by the view.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": " A table grid can have only one column with Primary importance?",
+      "image": "null.png",
+      "hint": "CONFIGURING A USER FORM",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    }
+  ]
+}
