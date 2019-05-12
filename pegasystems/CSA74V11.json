@@ -1,0 +1,398 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "Use case type records to establish the parent child relationships.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "A case that does not have a parent case, but can cover, or become a parent of, other cases.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Top-level",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Child",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Parent",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "cover case",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "A case that is covered by a parent case. When you configure a case as a child case, Pega maintains a relationship between the parent and child cases. Child cases represent work that must be completed to resolve the parent.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Top-level",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Child",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Parent",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "cover case",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Which statements are correct related to multiple child case for a parent case?",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A parent case creating multiple child cases allows for work to be processed in parallel.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Each child case can be handled by different parties with different expertise. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "When processing child cases in parallel, the parent case may need to wait until a child case is complete before the parent case can be resolved.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Implementing a business process in a separate case type also allows you to reuse the case type as needed. For example, claims for both automobile and property insurance may involve a bodily injury claim.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Which statements are true related to wait shape?",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "You can enforce dependencies between parent and child cases with the Wait step.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "When a parent case reaches the Wait step, the case pauses until the dependency resolves.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Once the dependency resolves, the case resumes processing.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "The Wait step enforces the following types of dependencies:",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pausing a case until another case (or all cases) reach a specified status",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Can only be implemented in flow/case life cycle",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Pausing a case until a predetermined time expires",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "You are only able to define a single status for the Wait step to check. If you encounter a situation where you need to check multiple statuses, consult the Wait Shape for mid process dependency.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "The ability to set the Wait step as a timer is only available in Designer Studio.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "With an accident claim, you may give someone 24 hours to upload pictures for the accident. You would want to pause the case until the wait time has elapsed.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "This can be configured from designer studio",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "This can be configured from pega express",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "This can be configured from pega express as well as designer studio.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Case Designer, click + STEP > ... More Utilities > Create Case > Select to add a Create Case step to the Case life cycle.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Designer Studio gives you one additional option to create a case as a top level case instead of a child case.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "You can configure a case to wait for a set amount of time or until a subcase reaches a defined status.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Which requirement is best implemented using a Wait step in a case?",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "You need to send an email after a user completes a form.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "You need to pause a case until a user uploads a signed document.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "You cannot complete a purchase case on a website unless you complete a new account child case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "You cannot proceed in an expense report until a manager approves the request.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "In an mortgage application, the user creates a loan request. In order for the loan request to be approved, the loan officer must receive the results of an appraisal. How would you configure the case types to reflect their relationship? ",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Make mortgage a parent case type. Make loan request and appraisal child case types.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Make appraisal a parent case type, and loan request a child case type.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Make both loan request and appraisal peer case types.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Make loan request a parent case type, and appraisal a child case type.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "In an online shopping application, the primary case type PurchaseOrder has two child case types: Payment and Packaging. In processing PurchaseOrder case PO-100,  Payment case PayMnt-30 and Packaging case Pack-16 are created. Which statement about the processing of PO-100, PayMnt-30, and Pack-16 is correct?",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Both PayMnt-30 and Pack-16 have to be resolved before PO-100 can be resolved.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "PO-100 has to be resolved before either PayMnt-30 and Pack-16 is resolved.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "PO-100 can be resolved when either PayMnt-30 or Pack-16 is resolved.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Pack-16 has to be resolved before PayMnt-30 is resolved.",
+          "correctanswer": "false"
+        }
+      ]
+    }
+  ]
+}
