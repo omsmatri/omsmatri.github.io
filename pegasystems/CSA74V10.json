@@ -1658,6 +1658,410 @@
           "correctanswer": "false"
         }
       ]
+    },
+    {
+      "id": "72",
+      "name": "Using the BLOB penalizes performance for reporting because ____________",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "BLOB Data need to be decompressed",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Report fields need to be extracted from BLOB",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Report is fetching the Blob field in filter",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "The BLOB field provides greater flexibility and performance for case data. The BLOB field is capable of storing an unlimited amount of data. The BLOB field also allows the data model of a case to change without impacting database storage. And the BLOB field allows an application to read or write the entire case at once.",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "name": "A database table is mapped to onboarding class where Hireddate is exposed. Is this field available in blob",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "name": "Which statements are true related to Property optimization?",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pega writes data to both property field and the blob field",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "When a report uses optimized data, pega reads from property column.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Not decompressing the BLOB field to read case data, optimization reduces the time and memory needed to run the report.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "name": "Which properties are exposed for storing process data?",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The creation date of a case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The status of a case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The case ID",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Properties that store process data begin with the letters px, py, or pz.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "name": "A system architect created a property Hired date for the onboarding case. Is this property exposed?",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "name": "How to know a Report definition rule is using a not optimized property?",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Report definition rule shows a warning for each property which is used in report but not optimized",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "From designer Studio landing page, you can see all the rules with warnings too",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "From pega express landing page, you can see all the rules with warnings too",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "name": "Exposing properties allows Pega to read the property value without decompressing the BLOB to extract the property value.",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "name": "Which statements are true related to Property Optimization tool?",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pega exposes the property as a database column, and populates the new column by extracting values from the BLOB column",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "For an embedded property in a page group or page list, the tool automatically creates a new database table for the property, and the appropriate Index- class and Declare Index rule to update the new table.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "This can be configured to run later point of time by a background process",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "name": "Background processing may take minutes or longer, depending on volume. Computations in your applications involving the property value may fail or produce incorrect results until all background processing is complete.",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "name": "Designer Studio > System > Database > Column Population Jobs to see the status of the background process running column population job.",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "name": "You can view the classes for which a property has been optimized on the Advanced tab of the Property record.",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "name": "Select the three true statements about the use of a BLOB field. (Choose Three)",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A BLOB allows an application to read or write an entire case in one database transaction.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "A BLOB can store an object of any size.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "A BLOB automatically exposes properties for reporting.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Case data can only be stored in a BLOB.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2987",
+          "answer": "A BLOB provides flexibility by avoiding the need for schema changes when the data model changes.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "name": "Which type of data is exposed by default?",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Neither process metrics nor business metrics are exposed by default.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Process metrics, such as the current stage or status, are exposed by default.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Business metrics, such as the total value of a sales order, are exposed by default.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Both process metrics and business metrics are exposed by default.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "name": "A report contains five columns of data about sales quotes.\n\nThe case ID (.pyID)\n\nThe currently assigned sales representative (.pxAssignedOperatorID)\n\nThe creation date of the sales quote (.pxCreateDate)\n\nThe sales territory (.Territory)\n\nThe expiration data of the quote (.ExpiryDate)\n\nPrior to property optimization, which two properties does the report identify as potentially impacting performance? (Choose Two)",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Sales territory (.Territory)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Expiration date (.ExpiryDate)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Assigned case worker (.pxAssignedOperatorID)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Creation date (.pxCreateDate)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Case ID (.pyID)",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "name": "What are the benefits of BLOB?",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Unlimited storage size — BLOB fields are not constrained by size, so a BLOB field can contain any amount of information.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Flexibility — Pega writes all case data to the BLOB, so changes to the data model of a case are contained within the BLOB. Using the BLOB field avoids the need to update the database structure, or schema, as the data model changes.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "High performance — Since the BLOB field stores all case data, Pega reads and writes the entire case at one time. This optimizes application performance for end users as they create and process cases.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
     }
   ]
 }
