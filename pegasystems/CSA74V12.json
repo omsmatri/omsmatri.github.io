@@ -1,0 +1,2219 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "Unit testing helps in finding the configuration error early",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "In a banking application, you configured routing, how do you you ensure that this routing works as expected",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "By writing unit test case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "test this in real production data",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "By writing junit test case as pega doesn`t support anything for unit testing a rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "none in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "How to configure a unit test for a report defintion",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "report definition test case cannot be done by unit test",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "report definition test case can be done",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Report definition works on database data and not on memory data, so there is no test case support for this rule",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "the decision rule configured routing is not working as expected. it is data sourced by a data page.\r\nDoes unit testing helps in identifying the rule which is cauing trouble",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Benefits of unit testing are",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "bringing devops culture",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "improving application quality",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "fix issues before releasing an application",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "none in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "while unit testing a rule, which rule can we use to initialize the rule data.",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "data transform",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "activity",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Report definition",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "what data transform is use as a default one for testing a rule from run record",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "pyCaseDefault",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "pyDefault",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "pyTestDefault",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "White unit testing a rule , data is populated in the test page just to make sure it doesn`t disturb any other pge",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "While unit testing a rule, cn we copy clipboard page to test page",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "click reset page button to clear the result of previous test",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "while testing a rule, couple of pages populated. One is RuleToRun and the other is temp_page (here page is a rule name with space replacing _).",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "no",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "RuleToRun have the specific rule info which was tested.",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "temp_page (page is rule name replacing space with _) is created to have the necessary data before testing a rule.",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "What are the ways of viewing the unit test output is",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "clipboard",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "tracer",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Performance Analyzer",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "run unit test",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "once you unit test a rule, you see the convertTestcase button available to create a test case",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "A test case identifies one or more testable conditions that determine whether a rule returns an expected result.",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "UNIT TESTING APPLICATION RULES"
+    },
+    {
+      "id": "18",
+      "name": "you can access the saved test case rule from the rule`s \"Test cases\" tab",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "UNIT TESTING APPLICATION RULES"
+    },
+    {
+      "id": "19",
+      "name": "you can run the test cases from the test suite after inluding test cases inside a test suite?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "UNIT TESTING APPLICATION RULES"
+    },
+    {
+      "id": "20",
+      "name": "Each expected result consists of an assertion that describes one or more conditions to test",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES"
+    },
+    {
+      "id": "21",
+      "name": "Other example of assertions are",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "decision result",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "expected run time",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "page",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "UNIT TESTING APPLICATION RULES"
+    },
+    {
+      "id": "22",
+      "name": "Which assertion you should use to test the value of the specified property. It requires the page on which the property is defined, a comparison operation, and a comparison value",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "decision result",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "expected run time",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Which type of assertion is used to check pxUrgencyWork is equal to 10",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "decision result",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "expected run time",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Which type of assertion is used to test the value returned by a decision rule. Requires values for each input property needed by the decision rule to return the expected result",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "decision result",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "expected run time",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "There is a decision rule which is configured to return REcruitingWB if the input property is false and ReferralWB if the input property is true. REferred By Employee is input property. Which assertion should be used When Referred by employee is false return RecruitingWB",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "decision result",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "expected run time",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Which assertion should be used to test whether a rule executes within an allowed amount of time. Requires a comparison operation and an allowed time in seconds\t",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "decision result",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "expected run time",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "page",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Which assertion should be used when Expected run time is less than or equal to three seconds",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "decision result",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "expected run time",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "page",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Which assertion should be used to test for the presence of a page in memory. Requires the name of the page and a comparison operation\t",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "decision result",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "expected run time",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "To check a data page is having any errors or not, which assertion you should use?",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "decision result",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "expected run time",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "A test case describes one or more assertions that describe expected behavior for a rule.",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Test cases can be stored in any ruleset or some specific ruleset which is configured for storing test cases?",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Specialy configured ruleset",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Any ruleset",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "How to configure a pega test environment?",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "configuring a test application built on developement application",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "test application should have ruleset configured to save the pega test cases",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Developement application should be configured to have the ruleset to save pega test cases",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Developement application is enough, no new application needed",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Whats true about Pega automated testing?",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "In Designer Studio, the Automated Testing landing page lists all the test cases defined for an application and the status of each test case as of its last execution. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "From the landing page, you can create test suites consisting of one or more test cases. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "To access the landing page, click the Designer Studio menu and select Application > Automated Testing.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "none in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "If a test case fails, click Failed to open the result and identify each assertion that returned an unexpected result.",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "If a test case returns expected results, a green Passed status button is displayed. ",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "If a test case passes, no test results are displayed when you click the button.",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Automated Landing Page lists all the test cases defined for an application and the status of each test case as of its last execution.",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Which best describes the benefit of unit testing rules?",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Unit testing validates a rule configuration to ensure that any dependent rules are available to the application.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Unit testing identifies configuration issues that may impact application performance on a production system.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Unit testing validates information that must be provided before the rule can be saved.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Unit testing identifies configuration issues that can propagate to other rules with potentially serious consequences.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "When unit testing a rule, you can identify a data transform to use during the test. What does the data transform do?",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Identifies an automated test result to compare rule execution against.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Copies test results to the clipboard.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Records the result of the unit test.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Provides initial values for properties used in rule evaluation.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "You have created a test case for a decision table and verified the results. A few weeks later, another developer runs the test case again and the test fails. Changes to which two of the following configurations could have caused this result? (Choose Two)",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The page containing the decision table input properties",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "The return values used in the decision table",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The input property values used in the decision table",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "The user performing the unit test",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Which statements are true related to tracer?",
+      "image": "null.png",
+      "hint": "DEBUGGING PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "In Pega, the Tracer allows you to capture and view the events that occur during case processing.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Unlike the Clipboard tool, which presents the current value of properties in memory, the Tracer presents a complete log of the events that occur during case processing.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "This allows you to identify the cause of execution errors, such as Java exceptions or incorrect property values.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "The user performing the unit test",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Which statements are true related to tracer?",
+      "image": "null.png",
+      "hint": "DEBUGGING PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "In the Tracer log, most steps return a status of Good, indicating that the step completed successfully. If a step returns a status of Fail, an error occurred and the step completed unsuccessfully. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "An error in an application may only indicate the last step in a sequence of failed steps, but not the cause of the fail sequence. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Reviewing the sequence of events in the Tracer helps to identify the root cause that leads to the error seen by users.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Which statements are true related to tracer?",
+      "image": "null.png",
+      "hint": "DEBUGGING PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "To open the Tracer, on the Developer toolbar, click Tracer.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "The Tracer logs all the actions and events that occur in a requestor session in Designer Studio.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Each event is logged in order of occurrence and is identified by thread, event type, and status.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "While testing a functionality, i ran tracer and saw four event lines of a data transform execution.How to view the contents in memory at the first line of the data transform execution",
+      "image": "null.png",
+      "hint": "DEBUGGING PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Click on the line number in the Tracer to view details about the event",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Such features are not available in pega tracel",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Which features can be configured from settings configuration of tracer",
+      "image": "null.png",
+      "hint": "DEBUGGING PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Select the rule types, rulesets, and events to trace.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Identify when a step results in a Java exception or a status of Fail or Warn",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Trace local variables",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Trace java variables",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Which features can be configured from break points configuration of tracer.",
+      "image": "null.png",
+      "hint": "DEBUGGING PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Identify when the application reaches a specific step in an activity",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Identify when the application reaches a specific step in case life cycle",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Identify when the application reaches a specific step in a data transform",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "none in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Which features can be configured from Watch configuration of tracer.",
+      "image": "null.png",
+      "hint": "DEBUGGING PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Monitor a variable to detect when its value changes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Monitor a rule to detect when its executed",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Monitor a database transaction to detect when a record is inserted or deleted",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "none in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "The user enters a response on a form and clicks Submit. The Pega Platform application returns an error. Which tool can you use to determine the cause of the error in your application?",
+      "image": "null.png",
+      "hint": "DEBUGGING PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use the Tracer tool, search for the first FAIL status, and see which step is causing the error",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Use the Clipboard tool and search for the property value on pyWorkPage that is causing the error",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Use the Live UI tool and search for the form that is causing the error",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Use the Alerts tool and search for the alert that is reporting the error.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "The Tracer tool shows you a log of detailed information on your application. Select two methods you can use to limit the amount of information to the specific time when an error occurs. (Choose Two)",
+      "hint": "DEBUGGING PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Clear the Tracer tool after the error occurs.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Set a breakpoint at the beginning of your application.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Pause the Tracer tool until just prior to when the error occurs.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Start the Tracer tool just prior to when the error occurs.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "You would like to use the Tracer tool to debug an error in your application. In which portal can you use the Tracer tool?",
+      "hint": "DEBUGGING PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Case Manager Portal",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Case Worker Portal",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Designer Studio",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Pega Express",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Whats true related to a case?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A case is work that delivers a business outcome.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The outcome of a case is a meaningful deliverable provided to a customer, partner, or internal stakeholder.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "deliverable can be processing a health insurance claim, onboarding a new mortgage, or designing and releasing a new product.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Whats true about case type?",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "In a Pega application, you model repeatable business transactions with case types. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "A case type is an abstract model of a business transaction, while a case is a specific instance of the transaction.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "You can think of a case type as a template for creating and processing cases.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "When a new transaction starts, a new case is created based on the case type definition.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "whats true about case type?",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Each case type captures the life cycle of a specific type of transaction, from creation to resolution. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "A case type defines data structures, processes, tasks, and user interfaces required for processing the transaction.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "A case type defines the database structure, transactions and how to save data in database",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "whats true about stages?",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Cases are organized into high-level milestones, known as stages. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Stages are the first level of organizing the different tasks, or processes required to complete work associated with a case. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Stages help to organize the life cycle of a case around the key events that support the primary goal of the case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "Stages are further organized into processes which define one or more paths the case must follow.",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "Processes contain a series of actions, or steps that must be completed to resolve the case.",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "The modeling technique used to describe in business terms how a business application should work is called case life cycle design",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "whats true about stages?",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A stage is the first level of organizing work in your case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "By capturing business requirements in stages, you get a sense of what needs to be done first, what must happen in sequence, and what can happen in parallel during case processing. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "In a case life cycle, stages that lead to the expected outcome are called primary stages.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "The sequence of primary stages is often referred to as the happy path.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "Whats true about alternate stages? ",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "When that happens, use an alternate stage to describe the actions needed to resolve the situation.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "In some situations, work does not always go according to plan. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Alternate stages are used to organize process steps that are not part of the “normal course of events” but must be available under certain circumstances.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Use alternate stages to organize the process steps used to manage exceptions from the primary path.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Whats true about alternate stages?",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "when modeling the life cycle of an online ordering application, you must consider that orders can be canceled prior to being shipped. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "If an order is canceled, a number of tasks must be completed before the order is considered canceled.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "The first task is to process the order for cancellation, then the payment must be refunded and, finally the customer must be notified that the order was canceled.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "What are the Guidelines for defining stages?",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Organizing Stages",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Naming stages",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Number of stages",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "Stages typically represent the transfer of the case from one authority to another, or from one part of the organization to another. Stages may also represent a significant change in the status of the case.",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Organizing Stages",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Naming stages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Number of stages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "Use names that are most meaningful and relevant to the business users. Use a noun, or noun phrase, to describe the context of the stage. As much as possible, try to limit the stage name to no more than two words.",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Organizing Stages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Naming stages",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Number of stages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "Consider limiting the number of primary stages in any given case to seven and the number of alternate stages to five. If you find yourself needing more than 10 primary stages or more than five alternate stages, consider combining two or more stages, or using a separate case type.",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Organizing Stages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Naming stages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Number of stages",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "There is no minimum number of stages for a case. Focus on maintaining a number of stages less than the maximum guidelines outlined here.",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "Stage transitions allow you to further refine the run-time order of stages.",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "For primary stages, when all steps in a stage are completed, the default option is an automatic transition to the next primary stage.",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "A case worker must review a request and can either approve or reject the request. If the request is approved, normal processing continues, and the case advances to the next step or stage in the primary path. If the request is rejected, the case advances to a predefined stage, which may or may not be in the primary path. Is this controlled transition?",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "Whats true about controlled transition?",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "To allow transitions to other stages before the completion of the current stage, you can add a controlled transition to a stage.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Controlled transitions can be configured for any primary or alternate stage, and can occur either as an action in a step or as a specific step in a process.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Change stage helps in controlled transition",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "controlled transition can be done in following ways?",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2984",
+          "answer": "Collect Information",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Change stage smart shape",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Use Approve/Rweject step`s flow tab to control stage",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "Whats true about processes?",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2984",
+          "answer": "In a case life cycle, processes are organized within stages and define one or more paths the case must follow.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "A process contains a series of tasks, or steps.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "By organizing related tasks into processes, you can control how, when, and by whom work is performed in each stage of the case life cycle.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "Whats are the guidelines for defining processes?",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Naming processes and steps",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Organizing process steps",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Designing the processes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "none in the list.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "As part of Naming processes and steps, When naming processes and steps, use a “verb + noun” naming convention (ex. perform “this action” on “this object.”)",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "name": "As part of Organizing process steps, Consider limiting the number of steps in each process to five, plus or minus two.",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "name": "As part of Organizing process steps, If more than seven obvious steps are needed, consider breaking down some steps into other processes.",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "name": "In Pega Platform, processes are organized within stages and define one or more paths the case must follow.",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "name": "When modeling the life cycle of a case, stages typically represent a _______________ or a ________________. (Choose Two)",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "transfer of authority",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "significant change in the status of a case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "subset of data used to resolve the case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "single actor performing a single action",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "name": "When modeling the life cycle of a case, alternate stages typically represent ____________ and can ___________. (Choose Two)",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "be sequenced into the primary stages",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "exceptions to the normal course of events",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "a separate, but related business transaction",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "only be accessed manually",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "name": "A subset of data used to resolve the case is typically used as criteria for defining sub-cases.",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "name": "A separate, but related, business transaction is typically represented as a sub-case.",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "name": "A rejected request is sent back to the originator to be updated. The process steps for updating the request are organized in an alternate stage. When the Change Stage step is encountered, the case flow automatically transitions to the stage defined in the Change Stage step.",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "name": "The case status is the primary indicator of the progress of a case towards resolution.",
+      "image": "null.png",
+      "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "name": "The case status is updated as the case moves through the case life cycle.",
+      "image": "null.png",
+      "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "name": "You can set the case status on each step in the case life cycle. When the case advances to a step, Pega automatically updates the status of the case to the value defined for that step.",
+      "image": "null.png",
+      "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "name": "Pega includes standard case status values, such as Open, Pending-Approval, and Resolved-Completed. You can also add custom status values.",
+      "image": "null.png",
+      "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "name": "To update the status of a case, In Pega Express, open a case type and select a step where you want to change the status.",
+      "image": "null.png",
+      "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "name": "When it is time for you to work on your next case, you could see many cases with arbitrary IDs such as B-5, I-23, N-33, G-57, or O-62. Which case do you choose? These case IDs by themselves give you no help in determining what work you need to perform on those cases. Some could take five minutes, others could take one hour. Pega solves this problem by allowing an architect to write an instruction for each step in a process.",
+      "image": "null.png",
+      "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "name": "whats true about instructions?",
+      "image": "null.png",
+      "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "An instruction for a step identifies to a user what should be accomplished in an assignment. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Users see instructions in their worklist, when they open a case, or when they are prompted for input in a user view. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "When configuring the case, you switch to Designer Studio and add the instruction in the contextual properties panel so it is clear what work needs to be done on the collect information step.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "none in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "name": "Adding instructions to a step ____________.",
+      "image": "null.png",
+      "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Instructs an architect how to build the step.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Describes the business value of the step.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Describes to an end user what should be done in the step.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Defines what the step should do.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "name": "A step in the case life cycle has a case status value of Pending-Approval. When is the status of the case automatically updated?",
+      "image": "null.png",
+      "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "At the beginning of the step",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "At the end of the step",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Only if the user manually updates the case status",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "The status of a case cannot be automatically updated",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "name": "What type of step typically requires contextual instructions?",
+      "image": "null.png",
+      "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Create Case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Collect information",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Change stage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Approve/Reject",
+          "correctanswer": "false"
+        }
+      ]
+    }
+  ]
+}
