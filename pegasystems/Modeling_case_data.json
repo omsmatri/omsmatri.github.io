@@ -1079,6 +1079,2027 @@
           "correctanswer": "true"
         }
       ]
+    },
+    {
+  "questions": [
+    {
+      "id": "1",
+      "name": "ABC Corp is having an ecommerce application where first time user need to be registered. While registering themselves, they are supposed to provide a billing and shipping address. If shipping address is same as billing address, user should select a checkbox to copy the billing address data to shipping address.",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Data transform can be helpful here to copy the data",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Activity can be helpful here to copy the data",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Flow would be helpful",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "section would be helpful",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "ABC corp is having a insurance case. As per logic, a mediclaim child case can be initialised from insurance case. The mediclaim case should be copying some data already part of insurance case and some policy data from a data source. How to achieve it?",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use data propagation to copy the necessary data from the parent case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No need of data propagation configuration as data is by default copied to child case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "use pyDefault or pySetFieldDefaults to copy the Policy data from a data page populated with Policy data source",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Can I iterate over a page list or page group in data transform",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Can I iterate over a value list or value group in data transform",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "I want to copy data from a page list to another pagelist. The source page list is supposed to have a property to check before copying. is this possible to achieve this is data transform",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "I want to copy data from a page list to another pagelist. The source page list is supposed to have a property to check before copying. is this possible to achieve this is data transform",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "For each Page in >> When >> Append To",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "For each Page in >> When >> Set",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Set",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "For each Page in >> When >> Append and Map to",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "A single value property named pyLabel should be referred as .pyLabel",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "ABC cop has a value group property name phone which might contain the value for Home and office. How to refer this property in data transform",
+      "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": ".Phone(Home) and .Phone(Office)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Phone(Home) and Phone(Office)",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "How to refer the last property of a value list property named Address.",
+      "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": ".Address(<LAST>)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": ".Address(LAST)",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "How to refer the first property of a value list property named Address",
+      "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": ".Address(1)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": ".Address(<First>)",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "You are doing an iteration in a pagelist named Address. how to access the current page of the page list",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": ".Address(<CURRENT>)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+    },
+    {
+      "id": "12",
+      "name": "Your page list contains 5 pages. You deleted a page indexed 3. What would be the index of 2nd last page.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "1",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "2",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "3",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "4",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+    },
+    {
+      "id": "13",
+      "name": "How to add a data transform to a stage.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "There is a process icon in every stage which can be used to open the flow behind this stage. Modify this flow's connector (between assignments in most cases) to add appropriate data transform",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Without opening the flow of the stage , still we can add the data transform using panel",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+    },
+    {
+      "id": "14",
+      "name": "How to set default property values for a case.",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "pySetFieldDefaults",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "pyDefault",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "pySetDefaults",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "pyDefaults",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+    },
+    {
+      "id": "15",
+      "name": "If the view is using a clipboard page and the clipboard page is not created, the view won`t be rendered.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+    },
+    {
+      "id": "16",
+      "name": "Pega express or case designer uses pySetFieldDefaults to add/update/remove properties automatically",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+    },
+    {
+      "id": "17",
+      "name": "pyDefault data transform calls pySetFieldDefaults data transform",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+    },
+    {
+      "id": "18",
+      "name": "You are calling a data tranform named pyDefault from Abc-Sales-Work class. There is a data transform with the same name in Abc-Sales- class. calling the data transform pyDefault from Abc-Sales-Work class always calls pyDefault",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "It may call the parent class data transform if superclass option is selected for the data tranaform in Abc-Sales- class",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "It may call the parent class data transform if superclass option is selected for the data tranaform in Abc-Sales-Work class",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+    },
+    {
+      "id": "19",
+      "name": "You are calling a data tranform named pyDefault from Abc-Sales-Work class. There is a data transform with the same name in Abc-Sales- class. the pyDefault data transform of Abc-Sales-Work class is having superclass option selected.If the pyDefault sets .pylabel to ABC-Sales- in pyDefault of ABC-Sales- class and sets .pylabel to ABC-Sales-Work in pyDefault of ABC-Sales-Work class\", which value of pylabel will prevail while executing pyDefault from ABC-Sales-Work context.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "ABC-Sales-Work",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "ABC-Sales-",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+    },
+    {
+      "id": "20",
+      "name": "Super class data transform works even if the data transform name is not same.",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ],
+      "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+    },
+    {
+      "id": "21",
+      "name": "The class group initializes the urgency to 10 for every case it contains. However, we want to set the urgency of one of its child case to 30. How to do it?",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Modify pyDefault data transform of class group to achieve it as per pega best practice",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Modify pyDefault data transform of child case to set urgency to 30",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Modify pyDefault data transform of child case to add 20 to the urgency value.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "modify the pySetFieldDefaults data transform of class group",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+    },
+    {
+      "id": "22",
+      "name": " In an event reservation application, you are configuring a Select Flights view in which in which the user enters the destination (.Destination). Later in the life cycle, you want to display the destination value as the location (.Location) value in a Hotel Reservation view. How do you configure the data transform? ",
+      "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Set .Destination as the target property equal to .Location as the source property.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Apply the pySetFieldDefault data transform to set the .Location property when the user enters the .Destination property value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Set .Location as the target property equal to .Destination as the source property.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Invoke a when condition to update the .Location property value when the user enters a .Destination property value.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "The case type hierarchy in your insurance application consists of three case types: Claim (top level), Personal Injury (subcase type of Claim), and Emergency Care (subcase type of Personal Injury). In the Claim case type, a data transform sets the claim date and work urgency. To reduce maintenance, you do not want to set in each subcase the properties that were already set in the parent data transforms. However, you want to set work urgency to different values in each subcase type. What two configuration steps would you take to meet this requirement? (Choose Two)",
+      "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "In the Claims data transform, for each subcase type, configure an Update Page action and set the work urgency value.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Select the Call superclass data transform option in the Claims data transform and clear the option in the Personal Injury and Emergency Care data transforms.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Select the Call superclass data transform option in each of the subcase type data transforms",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "In each subcase type data transform, set the work urgency to the required value.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": " You have added a page list property named Dependents to a view in the Case Designer. This page list contains the property .Relationship. You want to display the list in the view and populate a field with the default value of \"Not Applicable.\" How do you configure the pySetFieldDefaults data transform to meet this requirement? ",
+      "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Set .Dependents(1).Relationship to \"Not Applicable\"",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Set .Dependents(1).pyLabel and a comment action using the value \"Not Applicable\"",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Set \"Not Applicable\" to equal .Dependents(1).Relationship",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Set .Dependents(1).pyLabel to an empty string and a parameter named \"Not Applicable\"",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "In which two of the following situations would you use a data transform? (Choose Two)",
+      "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Set default values when creating a case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Copy data from one page to another",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Create properties after the case has been created",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Execute a flow action",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "What`s true about data page?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "You use a data page to retrieve data for your application, regardless of the source",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Datapage cannot be an editable page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Data pages cache data on demand to a clipboard page and have a scope.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "You can make the data retrieved accessible for all applications, or limited to the logged in user or specific case only.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Whats true about data pages?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Every data page defines a refresh strategy.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The refresh strategy defines when the data page is considered stale and needs to be reloaded. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Data pages are created and updated on demand.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Even if a data page is considered stale, the page is never reloaded until it is referenced.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Whats true about data pages?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The available refresh strategy options depend on the scope of the page.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Data pages can use a variety of sources to load data.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "A data page provides an abstraction between the application and data layers",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "This means that you can use the data page in your application without knowing the data source. Your application configuration does not need to change if the source does.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Before creating the Data page which things to figure out.",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "What is the structure of the data page?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "What is the scope of the data page?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "How is the data page sourced?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "When does the data become stale?",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Can we create a data page from data explorer by doing an Add data page?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Does data explorere shows the existed data pages.",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Data page structure can be of mode page or list.",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Page is selected when only one record can be loaded",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "List is selected when multiple records need to be loaded",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "report definition can be used as a source for Page structure",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Look up can be used as a source for list structure",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Whats true about Editable data page?",
+      "image": "null.png",
+      "type": "radio",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Editable data page can be modified",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Editable data page changes propagated to data base",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Editable data page can be of Node scope",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Refresh strategy can be set for Editable data page",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "What are the data page scopes available?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "thread",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "requestor",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "node",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "readonly",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "If a customer service representative (CSR) is working on several cases for different customers and wanted to use the data pagein the context of a case. What should be the scope of data page?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "thread",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "requestor",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "node",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "If data page contains information specific to logged in operator such as worklist related information, what should be the scope of the data page.",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "thread",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "requestor",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "node",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "If some data need to be accessed by all users of all application for a node, what should be the scope of this data page?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "thread",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "requestor",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "node",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "If a finance application wants to store the currency exchange info, which data page scope this data should be kept.",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "thread",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "requestor",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "node",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "in multinode system , the node scope data page would be created per node?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "If a data page is hitting a connect rest service to get the weather information, how to map the input and output data?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Request Data Transform for mapping input data",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Response Data Transform for mapping output data",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "There is no provision to provide request or response data transform",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Data page can take the end point url too",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Refresh strategy can be available in Load Management tab of a Data page",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "whats true about refresh strategy of data pages?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "For requestor or thread pages, you can reload the data for each interaction or by evaluating a when rule.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The data page can also be marked for refresh based on an elapsed time interval calculated from the last load time.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "If you combine the Do not reload when and Reload if older than options, the data page refreshes as soon as either condition is met.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Editable data page can be refreshed only using when rule",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Whats true about node level data page?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Node data page loads in user`s context",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Node data page runs in its own access group context",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "If a data page is configured to reload if older than one hour, the page is marked for reload after one hour. It is not reloaded until the next request for the page occurs following the configured time.",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "You need to fetch exchange rates that are updated on a daily basis from a web service and make them available in your application using a data page. Which scope would you select for the data page?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Thread",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Node",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Request",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Application",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "You have a data page with customer data. The data page is configured to reload if it is older than one hour. Which of the following best describes when the data page will reload?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The data page reloads on the next access one hour after it was last accessed.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "The data page reloads automatically one hour after it was created.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "The data page reloads automatically one hour after it was last accessed.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "The data page reloads on the next access one hour after it was created.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "You have configured a data page to look up customer data in a database table. The data source changes to a REST web service. Which of the following best describes the actions you should take to make sure your application uses the right data source?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Wait until the data page reloads on the next access one hour after it was created.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Update your application to remove any reference to the data page.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Configure a new data page for the new data source, then update your application to use the new data page.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Update the data page to change the data source information.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Pega express data explorer allows you to reuse of existing data types",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "In Designer Studio, the Data Explorer supports the reuse of existing data types, such as the data types provided as part of Pega Platform.",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "In Pega Express, the Data Explorer allows you to create a new data type and establish its position within the class hierarchy.",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "I want to create a Customer party class which is similar to Data-Party-Person but not having all fields I need for customer party class. What should I do",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Create a new data class for customer and configure it to extend form Data-Party-Person class",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Add new fields for Data-Party-Person Class",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "No need of creating any new data class or field values as Data-Party-Person class is able to handle any field value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "I should go for another OOTB Party class",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Whats true about Data model tab?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "You can use the Data model tab in the Case Designer to add properties from your case type. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "You can use the Data model tab in the Case Designer to remove properties from your case type.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Properties are called fields in the Data model tab. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Select Show reusable fields to display all fields inherited and available in the case type.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "If I want to capture a phone number and want to specify a list of types, such as home, work, and mobile. Which field type I should select in Pega express?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Picklist",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Dropdown",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Field group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Page group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "If I want to have attachment capability, can I configure it from pega express.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "If I want to reference a user in the system capability, which field type I should select from pega express.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "User reference",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Reference user",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Operator reference",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "If I want to show a location on google map capability, which field type I should select from pega express.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Location",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "User location",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Location map",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Google location",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "What does the Field group in Pega express means in Designer studio",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Value group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "page",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Page list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "What does the Field group(list) in Pega express means in Designer studio",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Value group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Page list",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "Which are not a complex type in Pega express.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Attachment",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Field group(list)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Location",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Field group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Which are not a complex type in Pega express.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Picklist",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Field group(list)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "User reference",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Field group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Which are fancy type in Pega express.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Attachment",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Field group(list)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Location",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Field group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "Select the valid Simple field types in Pega express",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Currency",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Email",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Location",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Field group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "Select the valid Simple field types in Pega express",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Text(single line)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Text(paragraph)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Location",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Field group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "Select the valid Simple field types in Pega express",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "TrueFalse",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Date & Time",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Boolean",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Date only",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Select the valid Simple field types in Pega express",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "User reference",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Date & Time",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Time only",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Date only",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "Select the valid complex field types in Pega express",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Field group(page)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Field group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Field group(list)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Data reference",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "can we configure to calculate a field declaratively from data model",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "From gear icon in the field row, you can configure the calculation for the field need to be calculated declaratively",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No such possibility in Pega express",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "From data model, we can see the field as well as validation applies to the case",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "Once a property is created in pega, will it follow the following features what is provided to any rule in pega?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "versioning",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "scaling",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "inheritance",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "access control",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "I have created a property named customerlist of type page list and later realise to change it to a value list. Will pega allow me to do that.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "The property type cannot be changed after the property has been saved.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "Whats true about the display and validation section?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The Display and validation section allows you to define how the property should be validated in an UI control.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "It helps in setting a static list of values",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The Display and validation section allows you to define how the property should appear on the screen by specifying a UI control.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "You also have the option to specify a table with valid values for the property.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "pega Identifies special properties — your application can read but not write to these properties.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "px",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "pz",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "py",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "pv",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "name": "We can use these properties in our application.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "px",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "pz",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "py",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "pv",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "name": "Which type of properties supports internal system processing — the meaning of values may change with new product releases. Your application can read but not write to these properties.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "px",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "pz",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "py",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "pv",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "name": "Can I create a property starting with following letters",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "px",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "pz",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "py",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "pv",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "name": "A claim case records the items of loss. The property reference that describes an item of loss looks like this: .ItemOfLoss(1).Description. The property reference .ItemOfLoss(1) is an example of a __________ property?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page list",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "single value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "value list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "name": "You want to capture the delivery method for a purchase request. The options are: Standard, premium, or next-day. You use the Data Model tab to create the property. How would you define the list with the options?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Picklist",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Text(paragraph)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Radio button",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Field group(list)",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "name": "A candidate's language skills are captured in a candidate case. What type of property is used to capture the candidate's language skill if the property reference looks like this: .Language(Spanish)?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Value group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Text",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Single value",
+          "correctanswer": "false"
+        }
+      ]
     }
+  ]
+}
   ]
 }
