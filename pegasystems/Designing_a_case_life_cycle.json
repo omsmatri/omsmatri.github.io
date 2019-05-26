@@ -3276,6 +3276,408 @@
         }
       ],
       "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "1",
+      "name": "ABC Corp wants to add an option to change the shipping address while doing online shopping. Supporting this out of the sequence event is needed as customer may want to change their shipping address due to some festival or travelling. Customer should be able to take this action regardless of any stage or step of shopping the items. How this should be handled.",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Optional actions",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "optional processes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "alternate stages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Optional actions supplement the tasks users can do as they work on a case.",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Optional actions enable users to leave the primary path of a case to complete another task or process.",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": " optional action is not part of the automated workflow.",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "How to determine that user really needs a optional user action",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Should users be allowed to update information at any time during a case or stage?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Do you need multiple steps to update information?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Should users be allowed to change stage at any time during a case or stage?",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Can information be updated in a single screen?",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Optional actions can be made available for a stage or an entire case.",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "An optional action is added to a case.",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The optional action should be available when the case is New status",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The optional action should be available when the case is Open status",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The optional action should be available when the case is InProgress status",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "The optional action should be available when the case is Resolved status",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Optional actions are of two types, one is optional processes and other is optional user actions.",
+      "image": "null.png",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "ABC corp has an option action to change shipping address to run while customer is doing online shopping case. Change shipping Address might involve more than one screen. Which local action to choose.",
+      "image": "null.png",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "optional process",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "optional user action",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "ABC corp has an option action to change shipping address to run while customer is doing online shopping case. Change shipping Address has only one screen. Which local action to choose.",
+      "image": "null.png",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "optional process",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "optional user action",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "The only difference between an optional process and the other processes in a case is that users determine when the optional process executes.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "12",
+      "name": "An optional process allows users to perform a series of tasks outside of the primary path of a case. After completion of the optional process, uses may or may not return to the primary path.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "13",
+      "name": "ABC Corp`s ecommerce application, customer can cancel the order at any time. Post cancellation, either the order is resolved or user is transitioneds back to the order case with no items in cart. How to implement this requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Optional action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "alternate stage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "stage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "14",
+      "name": "While doing online shopping in ANC Corp`s website, there is 30% probability that user may want to change the shipping address. Updating the shipping address is simple and takes only one screen. ABC corp wants that customer should be landed on the same screen after doing the shipping address change. How to achieve this.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "optional user action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Option process",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "15",
+      "name": "An optional user action is a single task and typically returns to the primary path of a case, whereas an optional process is a series of steps that may or may not return to the primary path of a case.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "16",
+      "name": "After selecting a case type, a pega developer can use the workflow tab to select the Optional Actions. This would show the optional actions for the case.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "it works in this way for case designer only",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "it works in this way for pega express only",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "it works in this way for case designer as well as pega express",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "17",
+      "name": "Clik on +Action to add optional action. For optional action applicable to case, click on +Action under case wide actions. For ptional action applicable to stage, click on +Action under stage-only actions",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "18",
+      "name": "A business process requirement states that users should be able to modify the shipping address at any time and not interrupt the primary case. Which of the following options is the best way to design for this requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Add a local action to the case type.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Add a step in a process.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Add a process in a stage.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Add an optional process to any stage in the case type.",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
     }
   ]
 }
