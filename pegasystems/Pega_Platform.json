@@ -1,0 +1,150 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "An application lets customers book airline reservations online. What would you expect to be defined as the case type in the application?",
+      "hint": "BEST PRACTICES AND APPLICATION DEVELOPMENT GUARDRAILS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "An airline ticket",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "A reviewed reservation",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "A reservation",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "A confirmation email",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "You are helping to implement the technical components of a new application. Before you can begin work, you must obtain definitions of the business processes and service-level agreements. Which members of the development team would you go to for this information?",
+      "hint": "BEST PRACTICES AND APPLICATION DEVELOPMENT GUARDRAILS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Subject Matter Experts (SMEs)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Case participants",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Stakeholders",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Business architects",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "You want to engage business and IT resources to review the working models. What two best practices accomplish this objective?  (Choose Two)",
+      "hint": "BEST PRACTICES AND APPLICATION DEVELOPMENT GUARDRAILS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Direct Capture of Objectives (DCO)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Approval process",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Iterative delivery",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Guardrail compliance",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": " Which two are benefits of following Pega guardrails. (Choose Two)",
+      "hint": "BEST PRACTICES AND APPLICATION DEVELOPMENT GUARDRAILS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Guardrails help developers build applications that are easier to maintain and have fewer defects.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Guardrails help managers create schedules for efficiently allocating developer resources.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Guardrails help project managers ensure that applications are completed on time.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Guardrails help developers to track compliance with Pega best practices.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    
+    {
+      "id": "5",
+      "name": "When collecting information for a loan application, a case worker needs to enter the date of birth on the loan application form. What two  tasks do you perform to enable the case worker to enter this information? (Choose Two) ",
+      "hint": "BEST PRACTICES AND APPLICATION DEVELOPMENT GUARDRAILS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Add a date of birth data field to the case type",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Add the date of birth field to all the user views in the case type",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Add the date of birth field to the case worker's view of the case type",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Add a date of birth field to the appropriate stage",
+          "correctanswer": "false"
+        }
+      ]
+    }
+  ]
+}
