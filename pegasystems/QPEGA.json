@@ -2,13 +2,13 @@
   "questions": [
     {
       "id": "1",
-      "name": "An organization wants to automate its existing expense reporting process. Which two actions should the organization take in order to follow Pega’s best practices for application design? (Choose Two)",
+      "name": "CSA 74 Sample Exam1 URL",
       "image": "null.png",
       "type": "QnA",
       "options": [
         {
           "id": "2985",
-          "answer": "Use DCO to enter business requirements for the application to facilitate direct engagement of IT and business resources.",
+          "answer": "http://omstech.xyz/Exam/CSA74.html",
           "correctanswer": "true"
         }
       ]
