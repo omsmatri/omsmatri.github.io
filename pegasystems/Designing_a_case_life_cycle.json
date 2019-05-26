@@ -3678,6 +3678,741 @@
         }
       ],
       "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "19",
+      "name": "Which requirement could be satisfied with a user action?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Requiring a separate approval process whenever an order exceeds USD 10,000.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Reassign any task that remains open after three days to another user.",
+          "correctanswer": "false"{
+  "questions": [
+    {
+      "id": "1",
+      "name": "What should you not consider before creating a user view?",
+      "hint": "Designing user views",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "what fields the users need to see",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "how values will be entered",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "whether users can modify or only read the values",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "what are all fields user needs for the case.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Why a user view is created",
+      "hint": "Designing user views",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "to collect information",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "to process information",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "to see or show information",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "to store the information",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "The data stored by user in a view can be used by other users?",
+      "image": "null.png",
+      "hint": "Designing user views",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "From case life cycle the views can be added or updated",
+      "image": "null.png",
+      "hint": "Designing user views",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "From designer studio, a harness can be modified to include a view",
+      "hint": "Designing user views",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "From designer studio, a section can be modified to include a view",
+      "hint": "Designing user views",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "What is intent-driven UI?",
+      "hint": "Designing user views",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Provide users with information when they need it.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "provides all the information to specific users in a view regardless of when they need it",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "An intent-driven UI shows users what they need to know to perform a task",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "ABC corporation has an ecommerce application where user can buy products. Showing them a link in the upper UI is an example of intent driven UI?",
+      "image": "null.png",
+      "hint": "Designing user views, No as the change address will divert the user from shopping and its not very relevant to shopping.",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "false",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "true",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Users spend less time searching for relevant information when the intent is the focus of each case life cycle step.",
+      "image": "null.png",
+      "hint": "Designing user views",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "What is a model driven UI?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Align the user view with the case life cycle to ensure the user interface is model-driven.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "A model-driven approach results in faster application development, and a contextually sensitive UI",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "UI that can quickly change when business rules change.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "11",
+      "name": "What is a model driven UI?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Align the user view with the case life cycle to ensure the user interface is model-driven.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "A model-driven approach results in faster application development, and a contextually sensitive UI",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The requirements of each step of case life cycle stage dictate the information in the view.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "12",
+      "name": "While designing a simple UI, what things need to be taken care?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Minimize data elements to an optimal set that is critical to the task.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Focus on what users are trying to accomplish.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The life cycle and the next best action from the current step are irrevant information",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Always, Users should be referring some documents on how to use a view",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "13",
+      "name": "While designing a simple UI, what things need to be taken care?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Minimize data elements to an optimal set that is critical to the task.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Focus on what users are trying to accomplish.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Be aware of where users are in the life cycle and the next best action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Users should not have to guess how to proceed while looking at a view",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "14",
+      "name": "While designing a simple UI, what things need to be taken care?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "show any data element which might be required to the task.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Focus on what case`s outcome will be.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Be aware of where users are in the life cycle and the next best action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Users should not have to guess how to proceed while looking at a view",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "15",
+      "name": "What are the best UI practices?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Create patterns in language, layout, and design to help users complete their tasks. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Design consistency enables users to recognize similar tasks in other application views.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The same feature should be given in different flavor so user won`t get bore. for e.g delete an item from the ecommerce application link is in icon for electronics item and for rest items, it`s a button ",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "The labels and placements of elements doesn`t play any part in UI best practices",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Restrict choices to a set of valid values and allows users to select only one value. You can use radio buttons when only a small number of options (for example, fewer than five) is available."
+    },
+    {
+      "id": "16",
+      "name": "ABC Corp is having an insuarnace application where mediclaim case can be created from insurance case. Insurance case is having insured party details. Mediclaim case must need to make sure the party is insured to proceed in it`s life cycle. How this can be achieved?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "insured party data can be shared from insurance case to mediclaim case when mediclaim case is initialised",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "mediclaim case cannot access the insured party data provided earlier to insurance case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "insured party details can be copied to mediclaim case only if mediclaim case is child case of insurance case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "insured party details can be copied to mediclaim case only if mediclaim case is sibling case of insurance case",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Exchanging data between cases"
+    },
+    {
+      "id": "17",
+      "name": "Data propagation is beneficial due to",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "save time by eliminating the manual task of copying data.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "save time by eliminating the manual task to provide relevant information to caseworkers",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "data propagation can be done to case after the case is created.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "data propagation can be done for parent case too",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Exchanging data between cases"
+    },
+    {
+      "id": "18",
+      "name": "Data propagation ensures that the appropriate information is moved into a child case",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Exchanging data between cases"
+    },
+    {
+      "id": "19",
+      "name": "ABC corpor is creating an insurance case and mediclaim case is a child case of insurance case. in first stage of of insurance case, mdiclaim case is created and insured data is available to mediclaim case. In second stage of insurance case, contact number of insured party is upodated in insurance case. will that info available in mediclaim case?",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ],
+      "image": "null.png",
+      "hint": "Exchanging data between cases"
+    },
+    {
+      "id": "20",
+      "name": "ABC corpor is creating an insurance case and mediclaim case is a child case of insurance case. in first stage of of insurance case, mdiclaim case is created and insured data is available to mediclaim case. In mediclaim case, contact number of insured party is upodated. will that info available in insurance case?",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ],
+      "image": "null.png",
+      "hint": "Exchanging data between cases"
+    },
+    {
+      "id": "21",
+      "name": "ABC corpor is creating an insurance case and mediclaim case is a child case of insurance case. in second stage of of insurance case, mediclaim case is created and insured data is available to mediclaim case. In first stage of insurance case, contact number of insured party is upodated. will that info available in mediclaim case?",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "Exchanging data between cases"
+    },
+    {
+      "id": "22",
+      "name": "Data propagation can only be done using properties or using data transform too.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pega express only allows properties.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "pega designer studio only allows properties using case designer.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Pega express allows properties as well as data transform.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "pega designer studio allows properties as well as data transform using case designer.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Can a developer use properties or data transform in create case  in CREATE CASE step.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "As a developer you want to transfer a page from a  pagelist where the pySelected field is true. How this page data can be used as a data propagation to child case.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A single page cant be transferred to a child case, whole pagelist need to be transferred by using property ",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "A single page cant be transferred to a child case, whole pagelist need to be transferred by using data transform",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "A single page can be transferred to a child case by using property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "A single page can be transferred to a child case by using conditional logic of data transform",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "You can update a child case, or all the child cases of a parent case, after the case has been created.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "it is possible to do from pega express",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "This option is available only in the Case Designer in Designer Studio.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Case calculations are available only in the Case Designer in Designer Studio.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "If a insurance case generates multiple mediclaim cases, a case calculation on the parent insurance case can sum the insurance cost total for each of the mediclaim child cases.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "This can be achieved by using case calculation",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "there is no such thing as case calculation",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Data propagation to a spin-off case is configured in the Designer Studio, using the Case Designer",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "data propagation can be done in designer studio for child case is Case explorer>>Parent case >>Settings>>add properties or data transform for Designer studio",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "data propagation can be done in designer studio for any spin off case is Case explorer>>Parent case >>Work flow>>Step>>More>>Utilities>>Create Case to add data transform for Designer studio",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Using spin off case feature , a parent case can be created from a child case.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
     }
   ]
 }
