@@ -475,6 +475,7 @@
     {
       "id": "19",
       "name": "How to configure which party role would be of which class like Data-Party-Com or data-Party-Gov etc",
+      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
       "type": "radio",
       "options": [
@@ -488,12 +489,13 @@
           "answer": "Configure using Class dropdown",
           "correctanswer": "false"
         }
-      ],
-      "hint": "CONFIGURING A WORK PARTY"
+      ]
     },
     {
       "id": "20",
       "name": "When a Ford Dealership CSR creates a Repair case, as a pega developer you want to copy the operator information to Owner Party. How to do this in a best possible way?",
+      "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -506,9 +508,7 @@
           "answer": "Run addWorkObjectParty api as part of the process of case type",
           "correctanswer": "false"
         }
-      ],
-      "image": "null.png",
-      "hint": "CONFIGURING A WORK PARTY"
+      ]
     },
     {
       "id": "21",
@@ -533,7 +533,6 @@
       "id": "22",
       "name": "Select the Display on creation check box to prompt users to add this work party every time a case is created.",
       "image": "null.png",
-      "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
       "options": [
         {
@@ -546,7 +545,8 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": "CONFIGURING A WORK PARTY"
     },
     {
       "id": "23",
@@ -656,8 +656,8 @@
     {
       "id": "38",
       "name": "As you run a process, Pega sends information to the clipboard, adding or removing pages and properties from memory",
-      "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -675,8 +675,8 @@
     {
       "id": "39",
       "name": "The data element (property and value) is stored on the clipboard in a structure called a page.",
-      "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -694,8 +694,8 @@
     {
       "id": "40",
       "name": "pyWorkPage stores all the data generated while creating and processing a case.",
-      "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -713,8 +713,8 @@
     {
       "id": "41",
       "name": "pyWorkPage stores data such as the case creation date or the case ID. ",
-      "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -732,8 +732,8 @@
     {
       "id": "42",
       "name": "If the pyWorkpage contains an embedded page, that means this case is dealing with some data type mentioned in embedded page.",
-      "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -751,8 +751,8 @@
     {
       "id": "43",
       "name": "If you are processing a child case, the clipboard holds its parent case data in which page",
-      "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -770,8 +770,8 @@
     {
       "id": "44",
       "name": "Can We refer parent case data in child case by referring pyWorkCover page",
-      "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -789,8 +789,8 @@
     {
       "id": "45",
       "name": "The clipboard page name must be included the pages and classes tab of a rule to refer the page and its property in the rule. This is needed for validation purpose as the rule refers the page and it`s property and pega needs to validate it.",
-      "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -808,8 +808,8 @@
     {
       "id": "46",
       "name": "To open the Clipboard tool, click the Clipboard icon on the Developer toolbar in Designer Studio.",
-      "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -827,8 +827,8 @@
     {
       "id": "47",
       "name": "The User Pages category contains pages created due to user action, either directly or indirectly.",
-      "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -911,7 +911,6 @@
     {
       "id": "51",
       "name": "Data pages under clipboard contains editable pages defined by data page rules.",
-      "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
       "options": [
         {
@@ -924,13 +923,13 @@
           "answer": "false",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": "REVIEWING APPLICATION DATA"
     },
     {
       "id": "52",
       "name": " Linked Property Pages category contains read-only pages created by linked properties, which contain information from data objects referenced by a linked property.",
       "image": "null.png",
-      "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
       "options": [
         {
@@ -943,7 +942,8 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": "REVIEWING APPLICATION DATA"
     },
     {
       "id": "53",
@@ -1081,12 +1081,10 @@
       ]
     },
     {
-  "questions": [
-    {
       "id": "1",
       "name": "ABC Corp is having an ecommerce application where first time user need to be registered. While registering themselves, they are supposed to provide a billing and shipping address. If shipping address is same as billing address, user should select a checkbox to copy the billing address data to shipping address.",
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "check",
       "options": [
         {
@@ -1114,8 +1112,8 @@
     {
       "id": "2",
       "name": "ABC corp is having a insurance case. As per logic, a mediclaim child case can be initialised from insurance case. The mediclaim case should be copying some data already part of insurance case and some policy data from a data source. How to achieve it?",
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "check",
       "options": [
         {
@@ -1143,8 +1141,8 @@
     {
       "id": "3",
       "name": "Can I iterate over a page list or page group in data transform",
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
       "options": [
         {
@@ -1162,8 +1160,8 @@
     {
       "id": "4",
       "name": "Can I iterate over a value list or value group in data transform",
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
       "options": [
         {
@@ -1181,8 +1179,8 @@
     {
       "id": "5",
       "name": "I want to copy data from a page list to another pagelist. The source page list is supposed to have a property to check before copying. is this possible to achieve this is data transform",
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
       "options": [
         {
@@ -1200,9 +1198,9 @@
     {
       "id": "6",
       "name": "I want to copy data from a page list to another pagelist. The source page list is supposed to have a property to check before copying. is this possible to achieve this is data transform",
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
       "type": "check",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "options": [
         {
           "id": "2983",
@@ -1229,8 +1227,8 @@
     {
       "id": "7",
       "name": "A single value property named pyLabel should be referred as .pyLabel",
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
       "options": [
         {
@@ -1248,8 +1246,8 @@
     {
       "id": "8",
       "name": "ABC cop has a value group property name phone which might contain the value for Home and office. How to refer this property in data transform",
-      "image": "null.png",
       "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -1267,8 +1265,8 @@
     {
       "id": "9",
       "name": "How to refer the last property of a value list property named Address.",
-      "image": "null.png",
       "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -1286,8 +1284,8 @@
     {
       "id": "10",
       "name": "How to refer the first property of a value list property named Address",
-      "image": "null.png",
       "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -1305,6 +1303,7 @@
     {
       "id": "11",
       "name": "You are doing an iteration in a pagelist named Address. how to access the current page of the page list",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
       "type": "radio",
       "options": [
@@ -1318,12 +1317,12 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+      ]
     },
     {
       "id": "12",
       "name": "Your page list contains 5 pages. You deleted a page indexed 3. What would be the index of 2nd last page.",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
       "type": "radio",
       "options": [
@@ -1347,12 +1346,12 @@
           "answer": "4",
           "correctanswer": "false"
         }
-      ],
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+      ]
     },
     {
       "id": "13",
       "name": "How to add a data transform to a stage.",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
       "type": "radio",
       "options": [
@@ -1366,12 +1365,12 @@
           "answer": "Without opening the flow of the stage , still we can add the data transform using panel",
           "correctanswer": "false"
         }
-      ],
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+      ]
     },
     {
       "id": "14",
       "name": "How to set default property values for a case.",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
       "type": "check",
       "options": [
@@ -1395,13 +1394,13 @@
           "answer": "pyDefaults",
           "correctanswer": "false"
         }
-      ],
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+      ]
     },
     {
       "id": "15",
       "name": "If the view is using a clipboard page and the clipboard page is not created, the view won`t be rendered.",
       "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
       "options": [
         {
@@ -1414,13 +1413,13 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+      ]
     },
     {
       "id": "16",
       "name": "Pega express or case designer uses pySetFieldDefaults to add/update/remove properties automatically",
       "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
       "options": [
         {
@@ -1433,12 +1432,12 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+      ]
     },
     {
       "id": "17",
       "name": "pyDefault data transform calls pySetFieldDefaults data transform",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
       "options": [
         {
@@ -1451,13 +1450,13 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+      ]
     },
     {
       "id": "18",
       "name": "You are calling a data tranform named pyDefault from Abc-Sales-Work class. There is a data transform with the same name in Abc-Sales- class. calling the data transform pyDefault from Abc-Sales-Work class always calls pyDefault",
       "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "check",
       "options": [
         {
@@ -1480,13 +1479,13 @@
           "answer": "It may call the parent class data transform if superclass option is selected for the data tranaform in Abc-Sales-Work class",
           "correctanswer": "true"
         }
-      ],
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+      ]
     },
     {
       "id": "19",
       "name": "You are calling a data tranform named pyDefault from Abc-Sales-Work class. There is a data transform with the same name in Abc-Sales- class. the pyDefault data transform of Abc-Sales-Work class is having superclass option selected.If the pyDefault sets .pylabel to ABC-Sales- in pyDefault of ABC-Sales- class and sets .pylabel to ABC-Sales-Work in pyDefault of ABC-Sales-Work class\", which value of pylabel will prevail while executing pyDefault from ABC-Sales-Work context.",
       "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
       "options": [
         {
@@ -1499,12 +1498,13 @@
           "answer": "ABC-Sales-",
           "correctanswer": "false"
         }
-      ],
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+      ]
     },
     {
       "id": "20",
       "name": "Super class data transform works even if the data transform name is not same.",
+      "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
       "options": [
         {
@@ -1517,13 +1517,13 @@
           "answer": "false",
           "correctanswer": "true"
         }
-      ],
-      "image": "null.png",
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+      ]
     },
     {
       "id": "21",
       "name": "The class group initializes the urgency to 10 for every case it contains. However, we want to set the urgency of one of its child case to 30. How to do it?",
+      "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
       "options": [
         {
@@ -1546,9 +1546,7 @@
           "answer": "modify the pySetFieldDefaults data transform of class group",
           "correctanswer": "false"
         }
-      ],
-      "image": "null.png",
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY"
+      ]
     },
     {
       "id": "22",
@@ -1640,8 +1638,8 @@
     {
       "id": "25",
       "name": "In which two of the following situations would you use a data transform? (Choose Two)",
-      "image": "null.png",
       "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -1669,8 +1667,8 @@
     {
       "id": "26",
       "name": "What`s true about data page?",
-      "image": "null.png",
       "hint": "CACHING DATA WITH DATA PAGES",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -1698,8 +1696,8 @@
     {
       "id": "27",
       "name": "Whats true about data pages?",
-      "image": "null.png",
       "hint": "CACHING DATA WITH DATA PAGES",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -1727,8 +1725,8 @@
     {
       "id": "28",
       "name": "Whats true about data pages?",
-      "image": "null.png",
       "hint": "CACHING DATA WITH DATA PAGES",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -1756,8 +1754,8 @@
     {
       "id": "29",
       "name": "Before creating the Data page which things to figure out.",
-      "image": "null.png",
       "hint": "CACHING DATA WITH DATA PAGES",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -1785,8 +1783,8 @@
     {
       "id": "30",
       "name": "Can we create a data page from data explorer by doing an Add data page?",
-      "image": "null.png",
       "hint": "CACHING DATA WITH DATA PAGES",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -1804,8 +1802,8 @@
     {
       "id": "31",
       "name": "Does data explorere shows the existed data pages.",
-      "image": "null.png",
       "hint": "CACHING DATA WITH DATA PAGES",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -1823,8 +1821,8 @@
     {
       "id": "32",
       "name": "Data page structure can be of mode page or list.",
-      "image": "null.png",
       "hint": "CACHING DATA WITH DATA PAGES",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -1852,9 +1850,9 @@
     {
       "id": "33",
       "name": "Whats true about Editable data page?",
+      "hint": "CACHING DATA WITH DATA PAGES",
       "image": "null.png",
       "type": "radio",
-      "hint": "CACHING DATA WITH DATA PAGES",
       "options": [
         {
           "id": "2983",
@@ -1881,8 +1879,8 @@
     {
       "id": "34",
       "name": "What are the data page scopes available?",
-      "image": "null.png",
       "hint": "CACHING DATA WITH DATA PAGES",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -1910,8 +1908,8 @@
     {
       "id": "35",
       "name": "If a customer service representative (CSR) is working on several cases for different customers and wanted to use the data pagein the context of a case. What should be the scope of data page?",
-      "image": "null.png",
       "hint": "CACHING DATA WITH DATA PAGES",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -1939,8 +1937,8 @@
     {
       "id": "36",
       "name": "If data page contains information specific to logged in operator such as worklist related information, what should be the scope of the data page.",
-      "image": "null.png",
       "hint": "CACHING DATA WITH DATA PAGES",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -1968,8 +1966,8 @@
     {
       "id": "37",
       "name": "If some data need to be accessed by all users of all application for a node, what should be the scope of this data page?",
-      "image": "null.png",
       "hint": "CACHING DATA WITH DATA PAGES",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -1997,8 +1995,8 @@
     {
       "id": "38",
       "name": "If a finance application wants to store the currency exchange info, which data page scope this data should be kept.",
-      "image": "null.png",
       "hint": "CACHING DATA WITH DATA PAGES",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -2026,8 +2024,8 @@
     {
       "id": "39",
       "name": "in multinode system , the node scope data page would be created per node?",
-      "image": "null.png",
       "hint": "CACHING DATA WITH DATA PAGES",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -2045,8 +2043,8 @@
     {
       "id": "40",
       "name": "If a data page is hitting a connect rest service to get the weather information, how to map the input and output data?",
-      "image": "null.png",
       "hint": "CACHING DATA WITH DATA PAGES",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -3099,7 +3097,6 @@
         }
       ]
     },
-    ,
     {
       "id": "20",
       "name": "Key building block of an application",
