@@ -1,0 +1,1231 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "Unit testing helps in finding the configuration error early",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "In a banking application, you configured routing, how do you you ensure that this routing works as expected",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "By writing unit test case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "test this in real production data",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "By writing junit test case as pega doesn`t support anything for unit testing a rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "none in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "How to configure a unit test for a report defintion",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "report definition test case cannot be done by unit test",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "report definition test case can be done",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Report definition works on database data and not on memory data, so there is no test case support for this rule",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "the decision rule configured routing is not working as expected. it is data sourced by a data page.\r\nDoes unit testing helps in identifying the rule which is cauing trouble",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Benefits of unit testing are",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "bringing devops culture",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "improving application quality",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "fix issues before releasing an application",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "none in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "while unit testing a rule, which rule can we use to initialize the rule data.",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "data transform",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "activity",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Report definition",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "what data transform is use as a default one for testing a rule from run record",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "pyCaseDefault",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "pyDefault",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "pyTestDefault",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "White unit testing a rule , data is populated in the test page just to make sure it doesn`t disturb any other pge",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "While unit testing a rule, cn we copy clipboard page to test page",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "click reset page button to clear the result of previous test",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "while testing a rule, couple of pages populated. One is RuleToRun and the other is temp_page (here page is a rule name with space replacing _).",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "no",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "RuleToRun have the specific rule info which was tested.",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "temp_page (page is rule name replacing space with _) is created to have the necessary data before testing a rule.",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "What are the ways of viewing the unit test output is",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "clipboard",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "tracer",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Performance Analyzer",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "run unit test",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "once you unit test a rule, you see the convertTestcase button available to create a test case",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "A test case identifies one or more testable conditions that determine whether a rule returns an expected result.",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "UNIT TESTING APPLICATION RULES"
+    },
+    {
+      "id": "18",
+      "name": "you can access the saved test case rule from the rule`s \"Test cases\" tab",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "UNIT TESTING APPLICATION RULES"
+    },
+    {
+      "id": "19",
+      "name": "you can run the test cases from the test suite after inluding test cases inside a test suite?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "UNIT TESTING APPLICATION RULES"
+    },
+    {
+      "id": "20",
+      "name": "Each expected result consists of an assertion that describes one or more conditions to test",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES"
+    },
+    {
+      "id": "21",
+      "name": "Other example of assertions are",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "decision result",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "expected run time",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "page",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "UNIT TESTING APPLICATION RULES"
+    },
+    {
+      "id": "22",
+      "name": "Which assertion you should use to test the value of the specified property. It requires the page on which the property is defined, a comparison operation, and a comparison value",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "decision result",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "expected run time",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Which type of assertion is used to check pxUrgencyWork is equal to 10",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "decision result",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "expected run time",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Which type of assertion is used to test the value returned by a decision rule. Requires values for each input property needed by the decision rule to return the expected result",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "decision result",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "expected run time",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "There is a decision rule which is configured to return REcruitingWB if the input property is false and ReferralWB if the input property is true. REferred By Employee is input property. Which assertion should be used When Referred by employee is false return RecruitingWB",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "decision result",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "expected run time",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Which assertion should be used to test whether a rule executes within an allowed amount of time. Requires a comparison operation and an allowed time in seconds\t",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "decision result",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "expected run time",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "page",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Which assertion should be used when Expected run time is less than or equal to three seconds",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "decision result",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "expected run time",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "page",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Which assertion should be used to test for the presence of a page in memory. Requires the name of the page and a comparison operation\t",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "decision result",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "expected run time",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "To check a data page is having any errors or not, which assertion you should use?",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "decision result",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "expected run time",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "A test case describes one or more assertions that describe expected behavior for a rule.",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Test cases can be stored in any ruleset or some specific ruleset which is configured for storing test cases?",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Specialy configured ruleset",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Any ruleset",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "How to configure a pega test environment?",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "configuring a test application built on developement application",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "test application should have ruleset configured to save the pega test cases",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Developement application should be configured to have the ruleset to save pega test cases",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Developement application is enough, no new application needed",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Whats true about Pega automated testing?",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "In Designer Studio, the Automated Testing landing page lists all the test cases defined for an application and the status of each test case as of its last execution. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "From the landing page, you can create test suites consisting of one or more test cases. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "To access the landing page, click the Designer Studio menu and select Application > Automated Testing.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "none in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "If a test case fails, click Failed to open the result and identify each assertion that returned an unexpected result.",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "If a test case returns expected results, a green Passed status button is displayed. ",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "If a test case passes, no test results are displayed when you click the button.",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Automated Landing Page lists all the test cases defined for an application and the status of each test case as of its last execution.",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Which best describes the benefit of unit testing rules?",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Unit testing validates a rule configuration to ensure that any dependent rules are available to the application.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Unit testing identifies configuration issues that may impact application performance on a production system.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Unit testing validates information that must be provided before the rule can be saved.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Unit testing identifies configuration issues that can propagate to other rules with potentially serious consequences.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "When unit testing a rule, you can identify a data transform to use during the test. What does the data transform do?",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Identifies an automated test result to compare rule execution against.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Copies test results to the clipboard.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Records the result of the unit test.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Provides initial values for properties used in rule evaluation.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "You have created a test case for a decision table and verified the results. A few weeks later, another developer runs the test case again and the test fails. Changes to which two of the following configurations could have caused this result? (Choose Two)",
+      "image": "null.png",
+      "hint": "UNIT TESTING APPLICATION RULES",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The page containing the decision table input properties",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "The return values used in the decision table",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The input property values used in the decision table",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "The user performing the unit test",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Which statements are true related to tracer?",
+      "image": "null.png",
+      "hint": "DEBUGGING PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "In Pega, the Tracer allows you to capture and view the events that occur during case processing.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Unlike the Clipboard tool, which presents the current value of properties in memory, the Tracer presents a complete log of the events that occur during case processing.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "This allows you to identify the cause of execution errors, such as Java exceptions or incorrect property values.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "The user performing the unit test",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Which statements are true related to tracer?",
+      "image": "null.png",
+      "hint": "DEBUGGING PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "In the Tracer log, most steps return a status of Good, indicating that the step completed successfully. If a step returns a status of Fail, an error occurred and the step completed unsuccessfully. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "An error in an application may only indicate the last step in a sequence of failed steps, but not the cause of the fail sequence. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Reviewing the sequence of events in the Tracer helps to identify the root cause that leads to the error seen by users.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Which statements are true related to tracer?",
+      "image": "null.png",
+      "hint": "DEBUGGING PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "To open the Tracer, on the Developer toolbar, click Tracer.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "The Tracer logs all the actions and events that occur in a requestor session in Designer Studio.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Each event is logged in order of occurrence and is identified by thread, event type, and status.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "While testing a functionality, i ran tracer and saw four event lines of a data transform execution.How to view the contents in memory at the first line of the data transform execution",
+      "image": "null.png",
+      "hint": "DEBUGGING PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Click on the line number in the Tracer to view details about the event",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Such features are not available in pega tracel",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Which features can be configured from settings configuration of tracer",
+      "image": "null.png",
+      "hint": "DEBUGGING PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Select the rule types, rulesets, and events to trace.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Identify when a step results in a Java exception or a status of Fail or Warn",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Trace local variables",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Trace java variables",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Which features can be configured from break points configuration of tracer.",
+      "image": "null.png",
+      "hint": "DEBUGGING PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Identify when the application reaches a specific step in an activity",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Identify when the application reaches a specific step in case life cycle",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Identify when the application reaches a specific step in a data transform",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "none in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Which features can be configured from Watch configuration of tracer.",
+      "image": "null.png",
+      "hint": "DEBUGGING PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Monitor a variable to detect when its value changes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Monitor a rule to detect when its executed",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Monitor a database transaction to detect when a record is inserted or deleted",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "none in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "The user enters a response on a form and clicks Submit. The Pega Platform application returns an error. Which tool can you use to determine the cause of the error in your application?",
+      "image": "null.png",
+      "hint": "DEBUGGING PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use the Tracer tool, search for the first FAIL status, and see which step is causing the error",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Use the Clipboard tool and search for the property value on pyWorkPage that is causing the error",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Use the Live UI tool and search for the form that is causing the error",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Use the Alerts tool and search for the alert that is reporting the error.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "The Tracer tool shows you a log of detailed information on your application. Select two methods you can use to limit the amount of information to the specific time when an error occurs. (Choose Two)",
+      "hint": "DEBUGGING PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Clear the Tracer tool after the error occurs.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Set a breakpoint at the beginning of your application.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Pause the Tracer tool until just prior to when the error occurs.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Start the Tracer tool just prior to when the error occurs.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "You would like to use the Tracer tool to debug an error in your application. In which portal can you use the Tracer tool?",
+      "hint": "DEBUGGING PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Case Manager Portal",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Case Worker Portal",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Designer Studio",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Pega Express",
+          "correctanswer": "false"
+        }
+      ]
+    }
+  ]
+}
