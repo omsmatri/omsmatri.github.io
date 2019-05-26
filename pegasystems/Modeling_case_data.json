@@ -4869,6 +4869,1041 @@
           "correctanswer": "true"
         }
       ]
+    },
+    {
+      "id": "32",
+      "name": "You can specify a data transform when creating a spin-off, child, or multiple child cases from designer studio case designer?",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "You can update a child case, or all the child cases of a parent case, by using the Update a Case smart shape in the case designer.",
+      "image": "null.png",
+      "type": "radio",
+      "hint": "Exchanging data between cases",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Updating an existing case can be configured in Designer Studio, in the Case Designer. This feature is not available in Pega Express.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Update case smart shape utility has All child cases (and descendants) or A single case",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "ABC corp wants to conditionally update few of its child case, not all the child cases. How to do it?",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "select All child cases (and descendants) option from Update case smart shape of parent case and add the conditional logic to the data transform",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Add conditional logic to All child cases (and descendants) option from Update case smart shape of parent case",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "ABC corp`s insurance case can have only one mediclaim case as child case. ABC corp wants to conditionally update mediclaim child case. How to do it?",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "parent case stage should have one update steps with configured condition to update a single case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Add conditional logic to All child cases (and descendants) option from Update case smart shape of parent case",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "You can update a child case of a parent case, by using the Update a Case smart shape in the case designer.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "parent case stage should have one update steps configured to update a single case by providing the child case id (In the With ID, enter the property reference or unique identifier for an open case.)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "There is no way we can pass the child case id to the update case step from parent case stages.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Calculations are configured in Designer Studio, using the Case Designer. This feature is not available in Pega Express.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Calculations are configured in Designer Studio, using the Case Designer>>case explorer>>parent case>>settings>>calculation",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Calculations are configured in Designer Studio, using the Case Designer>>case explorer>>parent case>>settings>>calculation for more than one case types",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Calculations are configured in Designer Studio, using the Case Designer>>case explorer>>parent case>>settings>>calculation for only one case type",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Calculations are configured in Designer Studio, using the Case Designer. This feature can do any arithmatic operation.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "false",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "true",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Calculations are configured in Designer Studio, using the Case Designer. This feature can do only sum arithmatic operation.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "in calculation, the calculated property of parent case and the case type property should be of same type.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "When does data propagation occur?",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "When a value in the child case or spin-off case changes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "When a case is created",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Whenever a parent's value changes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "When a parent's value changes and a data transform is used to configure the data propagation",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "You have a purchase request case and want to spin off a supplier case for a new supplier. How can you copy data to the supplier case?",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "a data page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "a decision tree",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "the Update a Case smart shape",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "a data transform",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Use __________ to sum a value in a child case and record the total value in the parent case.",
+      "hint": "Exchanging data between cases",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "a calculation",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "the Update a Case smart shape",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "data propagation",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "a data transform",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Use __________ to conditionalize the logic to determine which data should be propagated.",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "a data transform",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "a data page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "the property mapper",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "a decision tree",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "The insurance case of ABC corp shows a UI where user can see the insured details as well as the communication options by which insured wants to be communicated (select two)",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "communications options are reference data",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "insured details are master data",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "communications options are master data",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "insured details are reference data",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "What is the advantage of using reference data?",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "it facilitates automation",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "it just any data which doesn`t help in faster processing of case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "it helps in validation of input values",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "it just any data which doesn`t help in automation of case",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "A change to the reference data values may need an associated change in the business process to support the change.",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "A change in master data is always as part of existing business processes.",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "What are the ways  you can use reference data in a Pega application",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "static list",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "local data storage",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "external database table",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "application",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "configuring a list to select the communication preference for customer with mail, email, fax, sms. Which preference you should select for this?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "static list",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "local data storage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "external database table",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "application",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "configuring a list to select the phone preference for customer with home, work and mobile. Which preference you should select for this?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "static list",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "local data storage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "external database table",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "application",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "configuring a list to show the different offices (Office city name and country name) a company has. Which preference you should select for this?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "static list",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "local data storage",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "external database table",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "application",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "Show the insurance credibility by checking the credit score. Which preference you should select for getting the credit score?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "static list",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "local data storage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "external database table",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "application",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "What are the ways to get the data from the external databse?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "database table class mapping tool",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "sql connector",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "connect soap",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "service soap",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "You want to create a list of products and their attributes to distribute with an application. Which method do you use to create the reference data?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "static list",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "local data storage",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "external database table",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "application",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Can you add records to local data storage without adding the key?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "No",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Yes",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "Can we delete the added record from the local data storage?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "check",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "No",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Yes",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "In pega express, you can refer the local data storage against a property and in the view, this property would show up data using the data page to access the local storage",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "How to see the existing class mappings.",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Designer Studio >> Data Model >> Classes & Properties >> Database Class Mappings",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Designer Studio >> Data Model >> System >> Database Class Mappings",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Designer Studio >> Class Model >> Classes & Properties >> Database Class Mappings",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Designer Studio >> Case Model >> Classes & Properties >> Database Class Mappings",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "A Class named ABC-data-Office maps to office table. Recently, there is a new office opened in Germany. Earlier all offices were in USA. So developer need to add a country column to Office table. How to map this column to an existing property named CountryID",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Modify the external mapping tab of class to map CountryID to country column",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "The Database Table Class Mapping wizard can do this",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "You don`t need any modification",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "The Database Table Class Mapping wizard creates always a new class and properties.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "The Database Table Class Mapping wizard creates the necessary data pages to fetch the list of data or look up any particular data.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "Obj-methods to open, save, and remove rows from the table mapped by the class created by the Database Table Class Mapping wizard .",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "Does Database Table Class Mapping wizard creates only two data pages one for look up and one for fetching the instances.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "Does Database Table Class Mapping wizard creates the two data pages one for look up and one for fetching the instances. Is it always created from pega express.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "Does Database Table Class Mapping wizard creates the two data pages one for look up and one for fetching the instances. Is it always created from pega designer studio.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "Does Database Table Class Mapping wizard creates the two data pages one for look up and one for fetching the instances. Is it optional to create from pega designer studio.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "Which of the following would be typical data stored in a local data source?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Insurance policy data",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Customer details",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Delivery options",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Case data",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "name": "In which types of UI control is reference data from the local data source typically used?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Label",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Drop-Down",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Text field",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Button",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "name": "The External Database Table Class Mapping wizard creates a data class and a database table. How do you make this data available to your application?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Use a static list",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Use local storage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Use case data",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Use a data page",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "name": "Which two use cases are a good use of reference data? (Choose Two)",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "check",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "To access an external database",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "To add case data",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "To add a new employee",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "To provide a limited set of input values for a field",
+          "correctanswer": "true"
+        }
+      ]
     }
   ]
 }
