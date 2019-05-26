@@ -15,6 +15,7 @@
 	{ "name": "CSA74V11","description":"Certified System Architect 73 And 74","questions":"42","status":"active"},
 	{ "name": "CSA74V12","description":"Certified System Architect 73 And 74","questions":"91","status":"active"},
 	{ "name": "Testing_and_debugging_applications.json","description":"Testing and debugging applications 74","questions":"50","status":"inactive"},
+	{ "name": "Designing_a_case_life_cycle","description":"Designing a case life cycle 74","questions":"41","status":"inactive"},
 	{ "name": "CUIS71","description":"Certified UI Specialist 71","questions":"55","status":"active"},
 	{ "name": "CSACASE","description":"CSA PEGA8 Case Questions","questions":"3","status":"active"},
 	{ "name": "CSADATA","description":"CSA PEGA8 Data modelling Questions","questions":"62","status":"active"},
