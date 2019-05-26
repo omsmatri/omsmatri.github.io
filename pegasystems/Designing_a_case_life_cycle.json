@@ -987,6 +987,939 @@
           "correctanswer": "false"
         }
       ]
+    },
+    {
+      "id": "1",
+      "name": "Use case type records to establish the parent child relationships.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "A case that does not have a parent case, but can cover, or become a parent of, other cases.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Top-level",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Child",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Parent",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "cover case",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "A case that is covered by a parent case. When you configure a case as a child case, Pega maintains a relationship between the parent and child cases. Child cases represent work that must be completed to resolve the parent.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Top-level",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Child",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Parent",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "cover case",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Which statements are correct related to multiple child case for a parent case?",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A parent case creating multiple child cases allows for work to be processed in parallel.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Each child case can be handled by different parties with different expertise. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "When processing child cases in parallel, the parent case may need to wait until a child case is complete before the parent case can be resolved.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Implementing a business process in a separate case type also allows you to reuse the case type as needed. For example, claims for both automobile and property insurance may involve a bodily injury claim.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Which statements are true related to wait shape?",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "You can enforce dependencies between parent and child cases with the Wait step.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "When a parent case reaches the Wait step, the case pauses until the dependency resolves.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Once the dependency resolves, the case resumes processing.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "The Wait step enforces the following types of dependencies:",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pausing a case until another case (or all cases) reach a specified status",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Can only be implemented in flow/case life cycle",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Pausing a case until a predetermined time expires",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "You are only able to define a single status for the Wait step to check. If you encounter a situation where you need to check multiple statuses, consult the Wait Shape for mid process dependency.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "The ability to set the Wait step as a timer is only available in Designer Studio.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "With an accident claim, you may give someone 24 hours to upload pictures for the accident. You would want to pause the case until the wait time has elapsed.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "This can be configured from designer studio",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "This can be configured from pega express",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "This can be configured from pega express as well as designer studio.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Case Designer, click + STEP > ... More Utilities > Create Case > Select to add a Create Case step to the Case life cycle.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Designer Studio gives you one additional option to create a case as a top level case instead of a child case.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "You can configure a case to wait for a set amount of time or until a subcase reaches a defined status.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Which requirement is best implemented using a Wait step in a case?",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "You need to send an email after a user completes a form.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "You need to pause a case until a user uploads a signed document.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "You cannot complete a purchase case on a website unless you complete a new account child case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "You cannot proceed in an expense report until a manager approves the request.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "In an mortgage application, the user creates a loan request. In order for the loan request to be approved, the loan officer must receive the results of an appraisal. How would you configure the case types to reflect their relationship? ",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Make mortgage a parent case type. Make loan request and appraisal child case types.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Make appraisal a parent case type, and loan request a child case type.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Make both loan request and appraisal peer case types.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Make loan request a parent case type, and appraisal a child case type.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "In an online shopping application, the primary case type PurchaseOrder has two child case types: Payment and Packaging. In processing PurchaseOrder case PO-100,  Payment case PayMnt-30 and Packaging case Pack-16 are created. Which statement about the processing of PO-100, PayMnt-30, and Pack-16 is correct?",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Both PayMnt-30 and Pack-16 have to be resolved before PO-100 can be resolved.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "PO-100 has to be resolved before either PayMnt-30 and Pack-16 is resolved.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "PO-100 can be resolved when either PayMnt-30 or Pack-16 is resolved.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Pack-16 has to be resolved before PayMnt-30 is resolved.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "To use an edit validate rule with a validate rule, open the validate rule. In the Select a function field, select the function Validation of [Property Name] using [Edit Validate Name]. In the Validation of field, enter the property you want to validate. Then in the using field, select an edit validate rule.",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "You wanted to add a phone number to User interface, you just made this field of Integer date type, Is it enough?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2986",
+          "answer": "Yes, the integer data type only ensures that the user enters numbers in the field.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "No, as the integer data type doesn`t validate correct number of digits",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "You have a requirement to add a bank checking account number field to a view. Routing numbers must contain nine digits. How would you configure the field to support this requirement?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use a decimal property type and make the field required.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use an edit validate rule that validates the routing number pattern.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Set the minimum and maximum values to 9 in a text field.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "In an edit validate rule, configure a function to test for a routing number pattern.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "You have a requirement to add to a view a check box that indicates the user qualifies for an auto insurance discount. In order to qualify, two conditions must be met. First, the user must be older than 25. Second, the user cannot have received a traffic violation in the past three years. Unless both conditions are met and the user selects the check box, the form displays an error when the user submits the form. Which one of the following approaches would you use to support this requirement?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use a single validate rule to verify both of these conditions.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Use an edit validate rule that validates both conditions.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Use two validate rules, one for each condition.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Associate an edit validate rule with the flow action that references the form.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "You are adding a field to your case type in which users must enter the day, month, and year they were hired before the user can submit the user form. The field type must enforce a date format. What two validation approaches would you use to meet the validation requirements? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Define the field type as an integer",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use the required option",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Add the word \"Required\" to the field label",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Use the read-only option",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2987",
+          "answer": "Define the field type as a date",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "VALIDATING CASE DATA"
+    },
+    {
+      "id": "22",
+      "name": "In a mortgage application, a valid credit score must be available before the case can enter the underwriting stage.",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "This can be achieved by adding edit validate rule to all fields and this is advised as per best practice",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "This can be achieved by stage (Underwriting) level validate rule which would kick in before the case even enters the stage",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "This can be achieved by previous stage level validate rule which would kick in after the case leaves the stage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Validate rules enable you to use a single property when ______________.\ndifferent values are required based on business logic",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Which statements are correct related to Flow actions?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Flow actions can be accessed from the Process Modeler or from the Application Explorer under the Process category.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": " Flow actions provide additional processing capabilities such as running data transforms and calling validation rules.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": " This is done by configuring the flow action rule Pega automatically creates when adding a Collect information step in your case life cycle. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Using Pega Express to validate simple form creates/updates which rules?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pega Express creates the validate rule and applies the rule to the flow action that corresponds to the user view.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "It doesn`t create or update any validate rule. It just updates the flow action only",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Which statements are true related to validations?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pega Express automatically applies the validation rule to the flow action that corresponds to the user view.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Pega Express only supports comparisons against a constant value.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "create more complex validations that require you to manually update the flow action properties panel from designer studio",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "What Extra configuration available while validating data from designer studio?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "In Designer Studio, you can create validate rules that model more complex validation conditionssuch as a condition that requires a function to determine the comparison value. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "In Designer Studio, you can create validate rules that model more complex validation conditions, such as a condition that compares the results of two fields ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "You can create a validate rule in Designer Studio to provide an entry condition for a stage in the case workflow.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": " if a payment amount is less than or equal to zero, then return an error message stating that the payment amount must be greater than zero. For this validation, I should use Pega express or Pega designer studio",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pega Express",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Can be possible from Designer studio also",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "not possible from Pega Express",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2983",
+          "answer": "not in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Case life cycle>>step>>configure view>>select condition>> Add condition to add validation details and error message in Pega express.",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "In designer studio, Application Explorer, right-click the case type>>Create > Process > Validate to create a validate rule.",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "If you want to validate the startdate of an employee page property, the validate rule`s applies to class is same as Employee property`s applies to class. what should be in the property field in the validate rule?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": ".Employee.StartDate",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": ".Employee(1).StartDate",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": ".Employee().StartDate",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": ".StartDate",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "In the validation conditions, what informations are included?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Select a function\t\t[a datetime] is in the [past/future]",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "If\t\t.Employee.StartDate is in the Past",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Message\t\tStart date must be later than the current date",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "A validation condition that tests whether a date is in the future or the past. Where this rule should be configured?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pega designer studio because the validation uses a funtion",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "pega express",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Edit validate rules validate character patterns. ",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "You want users to enter a valid email address in a field using a text property type. How to validate this as per pega`s best practice?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Edit-Validate rule",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Validate rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Boolean expression",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "What should be the property type to associate that with edit validate rule?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Value list",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "value group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Page list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Employee joining date will be used both for existing employee (where the joining date is a past date) and new employee  (where the joining date is a future date). How to make sure that this validation works?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Two validation rule should be created for two processes, one used by existing employee and the other by new employee",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No such need, this can be handled by one edit validate rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No such need, this can be handled by one validate rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
     }
   ]
 }
