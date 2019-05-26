@@ -1,0 +1,17 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "CSA 74 Sample Exam1 URL",
+      "image": "null.png",
+      "type": "QnA",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "http://omstech.xyz/Exam/CSA74.html",
+          "correctanswer": "true"
+        }
+      ]
+    }
+  ]
+}
