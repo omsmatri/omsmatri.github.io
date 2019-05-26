@@ -8,7 +8,7 @@
 	{ "name": "CSA74V4","description":"Certified System Architect 73 And 74","questions":"79","status":"active"},
 	{ "name": "CSA74V5","description":"Certified System Architect 73 And 74","questions":"57","status":"active"},
 	{ "name": "CSA74V6","description":"Certified System Architect 73 And 74","questions":"83","status":"inactive"},
-	{ "name": "Modeling_case_data","description":"Modeling case data 74","questions":"26","status":"active"},
+	{ "name": "Modeling_case_data","description":"Modeling case data 74","questions":"46","status":"active"},
 	{ "name": "Automating_business_policies","description":"Automating business policies 74","questions":"149","status":"active"},
 	{ "name": "Designing_a_user_interface","description":"Designing a user interface 74","questions":"61","status":"active"},
 	{ "name": "Designing_business_reports","description":"Designing business reports 74","questions":"87","status":"active"},
