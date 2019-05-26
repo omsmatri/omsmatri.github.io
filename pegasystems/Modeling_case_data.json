@@ -1,0 +1,638 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "Ford client want to design an application for its Auto repair process where the customer should get a mail whenever there is an update on the repair case. ONce the application is live, Mr Carlo comes to the Ford Dealership to repair his car. Which of the following statements are true",
+      "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Mr Carlo would be a client Party",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Mr Carlo would be a customer Party",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Ford dealership would be a client Party",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Ford dealership would be dealer party",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Ford client want to design an application for its Auto repair process where the customer should get a mail whenever there is an update on the repair case. ONce the application is live, Mr Carlo comes to the Ford Dealership to repair his car. Which of the following statements are true",
+      "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Mr Carlo`s information should be captured in this repair case as a party",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Mr Carlo`s information should be captured in this repair case as a customer party",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Mr Carlo`s information should be captured in this repair case as a dealer party",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Ford Dealership`s information should be captured in this repair case as a party too",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "What parties are defaulted when you go to settings tab of a case type rule?",
+      "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Customer",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Owner",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Interested",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Operator",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "For the Automobile repair application of Ford, ford dealership is taking an automobile repair case of Mr Brown. Mr Brown calls the Ford Dealership (and talked with Miss Cox ) to book an appointment. Which of the following statements are true?",
+      "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Mr Brown would be Customer Party",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Mr Brown would be Owner Party",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Miss Cox would be Owner",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Miss Cox would be interested Party",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "When a Pega developer adds or modifes the Party in Settings tab of Case type rule, which pega rule is modified.",
+      "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "pyCaseManagementDefault ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "pyManagementDefault ",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "pyCaseManagementDefaultParty",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "pyCasePartyDefault ",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "What information is relevant when you create a party?",
+      "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Case Participant is an individual or an organization.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Does the party work on the case or interested on the status updates",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Does the Party has a very long name",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Does the party belongs to a particular timezone",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "What is not a valid standard Pega Party class.",
+      "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Data-Party-Com",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Data-Party-Gov",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Data-Party-Org",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Data-Party-Owner",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "What is not a valid standard Pega Party class.",
+      "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Data-Party-Person",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Data-Party-Operator",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Data-Party-Org",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Data-Party-Individual",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "What is not a valid standard Pega Party class.",
+      "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Data-Party-Com",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Data-Party-Gov",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Data-Party-Org",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Data-Party-Company",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "For the Car repair case, Miss Tori is assigned as a case worker. However,she needs some help so she is assisted with a Case manager. As a developer you wanted to have two work parties for case, one is Owner and the other is Manager. Which of the following statements are true",
+      "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Owner Party should be of Data-Party-Operator class",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Manager Party should be of Data-Party-Operator class",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Owner Party should be of Data-Party-Person class",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Manager Party should be of Data-Party-Person class",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "For the Car repair case, Miss Tori took a call for appointment from Mr Brown to repaid Mr Brown`s car. Which of the following statements are true",
+      "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Mr Brown would be Customer Party",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Miss Tori would be of Owner Party",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Customer party would be of Data-Party-Person class",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Owner party would be of Data-Party-Person class",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Ford company has a repair application. Ford wants to have social wing for Helpage.org which is a non-profit organization. There should be a contract case involved both the parties as well as Govt to enforce the contract. Which statements are correct?",
+      "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Govt would be a party of Data-Party-Gov class",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Ford would be a party of Data-Party-Com class",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Helpage would be a party of Data-Party-Org class",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "What are the facts to evaluate before defining a party?",
+      "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Are multiple instances of the party associated with the case? For example, does the case involve one customer or several customers?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Is the information available when the case is created? Or does the information become available during case processing?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "How will you obtain the information to populate the party details? Do you expect the user to enter this information? Can you copy the information from session information or case data?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "What information do you need to know about the party? For example, do you only need the name and email address, or do you also need to know their marital status?",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "For a banking application, CSR opens a new account for a customer. How as a pega developer you should design this case to have customer as a party?",
+      "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "When creating a case, select the Display on creation option for the party in the Case Designer Parties configuration section",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Use addWorkObjectParty API activity just after initializing the case.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "For a banking application, CSR opens a new account for a customer. How as a pega developer you should design this case to have CSR as a party?",
+      "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "When creating a case, select the Display on creation option for the party in the Case Designer Parties configuration section",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use addWorkObjectParty API activity while starting the case.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "For a banking application, CSR opens a new account for a customer. Opening a new bank account case, have few child cases under it. How as a pega developer you should design the child cases to have CSR as a party?",
+      "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "When creating a case, select the Display on creation option for the party in the Case Designer Parties configuration section",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use addWorkObjectParty API activity while starting the case.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Can we have a Lawyer party to a case by just modifying the role field?",
+      "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "No",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Yes",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Can we have more than one role having same role name defined for a case?",
+      "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "How to configure which party role would be of which class like Data-Party-Com or data-Party-Gov etc",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Configure using Type dropdown",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Configure using Class dropdown",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CONFIGURING A WORK PARTY"
+    },
+    {
+      "id": "20",
+      "name": "When a Ford Dealership CSR creates a Repair case, as a pega developer you want to copy the operator information to Owner Party. How to do this in a best possible way?",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Configure a Data transform in the Case Designer >> Settings to copy the information from OperatorID page",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Run addWorkObjectParty api as part of the process of case type",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY"
+    },
+    {
+      "id": "21",
+      "name": "You are initializing a Party of Data-Party-Person but want to use a data transform of Data-Party-Operator class. Will it be possible?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "No",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Yes",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CONFIGURING A WORK PARTY"
+    },
+    {
+      "id": "22",
+      "name": "Select the Display on creation check box to prompt users to add this work party every time a case is created.",
+      "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Select the Required check box to indicate that this work party must be present in every new case. Selecting this check box adds required fields to the work item entry form to collect information about the party.",
+      "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Select the Allow multiple check box to allow more than one instance of your work party to participate in a case.",
+      "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "You can also define or edit a work party directly on the work party rule. To do so, go to the Application Explorer, expand the appropriate case type, and select Process > Work Parties > pyCaseManagementDefault.",
+      "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Which standard flow shape represents an automated system action?",
+      "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Utility",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Connector",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Assignment",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Subprocess",
+          "correctanswer": "false"
+        }
+      ]
+    }
+  ]
+}
