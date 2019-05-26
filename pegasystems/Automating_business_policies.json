@@ -1254,6 +1254,1002 @@
         }
       ],
       "hint": "CIRCUMSTANCING RULES"
+    },
+    {
+      "id": "1",
+      "name": "What are the milestones for the SLA",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Goal",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Deadline",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Failed Deadeline",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Passed Deadline",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "The Goal and Deadline time starts at same time when the assignment started?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Passed Deadline starts just after the Goal time is finished.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2984",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2983",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Passed Deadline can be repeated until the assignment is completed. To apply the passed deadline behavior indefinitely until the assignment is completed, leave the field named Leave passed deadline events empty.?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Passed Deadline can only be repeated with fixed number times?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Goal can be repeated provided the goal and deadline time are equal?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "A SLA is defined for the assignment. the GOAL has urgency of 10. As soon this Assignment started for a case, the urgency of the Goal adds up to the Case`s Urgency? ",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "A SLA always starts as soon as case enters in to an assignment?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "What are the actions can be taken on SLA milestones when assignment meets the assignment.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Resume the case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "sends mail to manager",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "increase the urgency",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the Above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Service level agreements for processes, stages, and case types often require only goal and deadline intervals.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "What capabilities do you gain by configuring a service level agreement rule in Designer Studio?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "determine when an assignment is ready for users to perform",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "What to do with late assignment",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Route the assignment to some other user if the assignment is not completed in Goal milestone",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "In Pega express, you can access the service level rule and change the default timer start.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "You can only increase Urgency when you add SLA from Pega Express",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "To access the Goal and Deadline entry fields in Designer Studio, under Service level agreement, select Custom.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Either you can increase urgency or add some action handler like sending email in SLA. Both cannot be configured from SLA when you are configuring the SLA rule from designer studio.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "While configuring the SLA from Case >> Settings >> Goal & deadline, can we configure the start time of the case.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "While configuring the SLA from Case >> Settings >> Goal & deadline, what are the options available?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "This case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Parent case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Top level case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Fixed Time",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "You can only increase urgency from SLA when you are configuring the SLA rule from Case >> Settings >> Goal & deadline",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "You can increase urgency or add some action handler like Notify assigne in SLA using case designer",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT"
+    },
+    {
+      "id": "20",
+      "name": "The custom option only comes when you configure the step Goal and Deadline, that too fron Designer studio",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT"
+    },
+    {
+      "id": "21",
+      "name": "What are the assignment ready option comes in SLA rule while configuring it in Designer Studio?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Immediately",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Timed Delay",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Dynamically defined on a property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Constant value in HH:MM:SS",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT"
+    },
+    {
+      "id": "22",
+      "name": "For example, a mortgage or bond may have a known, fixed maturity date that doesn't depend on when processing starts on it. A property in the work item, not a fixed time interval, may become the goal or deadline date. can this be achievable using SLA?",
+      "image": "null.png",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Calculate service levels >> Set to the value of a property — Goals and deadlines are defined as the value of a property rather than fixed intervals",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Calculate service levels >> Interval from when assignment is ready — Enter fixed numeric values in the Days and HH:MM:SS fields to define goal and deadline intervals.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Can we add more than one perform actions in Goal & Deadline",
+      "image": "null.png",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "The work queue have two case items with same assignment but with different assignment urgency. When the use use getnextwork to get a case for work, which case item would be assigned to user?",
+      "image": "null.png",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Case with high assignment urgency",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Case with low assignment urgency",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Pega caps urgency adjustments at 100. At an urgency value of 100, Pega ignores further urgency adjustments and continues other actions. ",
+      "image": "null.png",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "As per the existing logic, the passed deadline can be fired maximum of 5 times. everytime it adds urgency of 10 and send a mail to manager. When the first iteration of passed deadline happened, assignment urgency was 70 and manager has one mail. If all the 5 passed deadline executed, what would be the final assignment urgency and how many total passed deadline mails the Manager has got.",
+      "image": "null.png",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "100 urgency, 5 mails",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "110 urgency, 5 mails",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "100 urgency, 4 mails",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Can we run a local action to increase the urgency of an assignment?",
+      "image": "null.png",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Can we set the default urgency from the case type rule?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "As an assignment ages in a workbasket or worklist, Pega increases the value of which property according to the configuration of the service level agreement.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": ".pxUrgencyAssignSLA",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": ".pyUrgencyAssignAdjust",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": ".pxUrgencyWork",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": ".pyUrgencyAssignSLA",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Manual adjustment for the assignment urgency. This value enables a user to increase the urgency of an assignment by running a local action.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": ".pxUrgencyAssignSLA",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": ".pyUrgencyAssignAdjust",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": ".pxUrgencyWork",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": ".pyUrgencyAssignSLA",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "What is true about  .pxUrgencyAssign",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "the assignment urgency is recorded using the property .pxUrgencyAssign",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Pega calculates .pxUrgencyAssign, as a sum of three input properties: .pxUrgencyWork, .pxUrgencyAssignSLA, and .pyUrgencyAssignAdjust.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": ".pxUrgencyAssign is contributed by .pyUrgencyWork",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": ".pxUrgencyAssign is not contributed by .pxUrgencyWork",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "The three factors influencing assignment urgency value are the default urgency for the case type, the urgency calculated from the service level rule, and manual adjustments (if enabled).",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Can we add SLA to a stage only from designer studio?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Selecting Custom from the Service level agreement list displays the Goal and Deadline entry fields. Pega uses the values in the Goal and Deadline fields to create a service level agreement rule. If you need to add a passed deadline interval, select Use Existing. You can create your custom rule from the options that display for Use Existing.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Delay the assignment until a specified time.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Dynamically defined on a property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Timed delay",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Immediately",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Always",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "From the Calculate service levels list, select whether to track the service level intervals against a fixed interval or against the value of a property. Use a property reference to adjust the intervals for each case. Use fixed intervals to ensure that the intervals are the same length of time for each case.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "In SLA, can we configure to calculate only business days for any milestone",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "What actions can be configured from the Perform action dropdown of SLA in designer studio?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Call flow",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Run Activity",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Advance flow",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Transfer",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "What actions can be configured from the Perform action dropdown of SLA in designer studio?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Apply data transform",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Notify manager",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Notify assignee",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Notify Party",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Conditionally, I want to trigger the escalation action for an assignment when the case belongs to a particulat state.is this possible by using when condition in escalation action?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Which variable in the assignment urgency calculation enables users to increment the service level urgency on a case-by-case basis?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": ".pxUrgencyAssign",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": ".pxUrgencyAssignSLA",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": ".pyUrgencyAssignAdjust",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": ".pxUrgencyWork",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "The goal milestone in a service level defines the amount of time  _____________________.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "allowed for a user to advance a case to the next stage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "in which the case or step must be completed",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "in which the case or step should be completed",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "allowed before an assignment is considered overdue",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "The primary purpose of a service level is to __________.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "generate service level reports",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "assign cases to the appropriate case worker",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "track assignment status over time",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "help ensure timely completion of assignments",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "<table style=\"width: 80%;\"><colgroup><col><col><col><col></colgroup><thead><tr><th>&nbsp;</th><th>Urgency Adjustment</th><th>Interval length</th><th>Limit</th></tr></thead><tbody><tr><td>Start of service level</td><td style=\"text-align: center;\">20</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>Goal interval</td><td style=\"text-align: center;\">10</td><td style=\"text-align: center;\">8 hours</td><td>&nbsp;</td></tr><tr><td>Deadline interval</td><td style=\"text-align: center;\">20</td><td style=\"text-align: center;\">24 hours</td><td>&nbsp;</td></tr><tr><td>Passed Deadline interval</td><td style=\"text-align: center;\">20</td><td style=\"text-align: center;\">24 hours</td><td style=\"text-align: center;\">3</td></tr></tbody></table>\r\n\t  \r\n\t  The service level provides a four-hour initial delay. If the case urgency is set to 10 and the case reaches the assignment at 9 A.M. Monday, what is the assignment urgency at 12 P.M. Wednesday?\r\n\t  ",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "50",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "100",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "80",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "60",
+          "correctanswer": "true"
+        }
+      ]
     }
   ]
 }
