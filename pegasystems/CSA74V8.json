@@ -1,0 +1,1259 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "Which of the following statements are true about correspondence?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pega allows you to automate and create timely and clear communication with participants in a case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "This communication ranges from simple notifications of assigned tasks to complex communications that contain case-specific data and calls-to-action. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The communication only supports email.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Adding correspondence to a business process keeps customers and case workers engaged throughout the case life cycle.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "What are the channels through which pega can send communication?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "email",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "letter",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "fax",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "text messages",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "What are the things to be considered for an effective communication.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Who is the user that receives the communication? ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "How will the communication be sent? Third, when does the communication need to be sent?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "When does the communication need to be sent?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "None of the above?",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "The case is having customer and interested Party. How do you configure to send the communication to all?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "By sending communication to customer role",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "By sending the communication to customer email address",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "By sending the communication to the party under which customer and interested party comes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "What are the roles defined for a correspondence in Pega?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Owner (The person who created the case.)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Customer (The person on whose behalf the case is transacted. This person may not process the case, but may want — or need — notification of any changes.)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Interested (A person who tracks the progress of a case but does not process the case.)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Originator",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "The system is having correspondence template for email. Should it be used for other communication channel as per pega`s best practice?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Can we send a communication from the case stage using a smart shape?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "While communicating with a Case user, is it advisable to hard code the party name of the user in communication or use the case user email directly?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Party name should be used, never use email address as that may change later point of time",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Party name should not be used. Always use email address.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "What other rules can be referred from a correspondence rule?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "section",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "paragraph",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "correspondence fragment",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Correspondence or template rules are created for every channel type like email, fax, letter or sms",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Email correspondence can be configured from the case life cycle in either Pega Express or Designer Studio. For other types of correspondence, you must create a correspondence rule in Designer Studio and send the correspondence using a correspondence activity.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "You configured a party to receive fax communication only but you are trying to send the email type of communication to the party, will it work?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "How would you configure a notification for the case manager when the case reaches an assignment for some user to work.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "From case>> settings>> Notifications, enable the \"Email user when assignment is routed to worklist option\"",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "From the Case stage step, this can be added from the contextual panel as it has Notification form to fill",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "This is achievable if only the user is routing the case to that assignment",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "In Designer Studio, the Notifications tab presents additional options to change the subject or content of the assignment notification.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "To have better flexibility of sending email, corrNew rule should be used in Utility shape of a flow.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Utility shape with corrNew can send any type of communication which is not possible with Send Email step as it only can send email communication.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Utility shape CorrNew takes the PartyRole as well as CorrName parameter",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "The correspondence content can be added from which places?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Send email step contexual panel",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "from the correspondence rule",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "from the Notification rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "from the Corespondes fragment rule included in the correspondence",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "When the correspondence is an email, the outgoing email includes HTML formatting, even if no HTML elements appear within the source. When the correspondence is phone text, the message does not contain HTML formatting.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Inserting a paragraph, section or correspondence fragement can only be done in correspondence fron Designer studio",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE"
+    },
+    {
+      "id": "21",
+      "name": "You want to send a Monthly credit card payment email to your customer with copyright message as footer, company logo as header, instructions on what to do after this email and expected actions from the customer. How to design  it?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Four correspondence fragment, each for header, footer, instructions and expected actions",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Two fragments for header and footer, two paragraph each for instructions and expected action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Two fragments for header and footer, the other details can be part of this correspondence rule",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "One correspondence rule should be used for all content.",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE"
+    },
+    {
+      "id": "22",
+      "name": "You want to send a Monthly credit card payment email to your customer with copyright message as footer, company logo as header, instructions on what to do after this email and expected actions from the customer. How to design  it?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Four correspondence fragment, each for header, footer, instructions and expected actions",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Two fragments for header and footer, one paragraph for instructions and one section for expected action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Two fragments for header and footer, the other details can be part of a section rule included in this correspondence rule",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "One correspondence rule should be used for all content.",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE"
+    },
+    {
+      "id": "23",
+      "name": "Can we directly modify the correspondence source  (JSP code)",
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Which tag is used to refer the rule or property in correspondence rule? For example, you want to refer .pyLabel property using jsp, how to do it?",
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "<<.pyLabel>>",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "<.pyLabel>",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "{.pyLabel}",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "{{.pyLabel}}",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "What three questions should you ask when creating a correspondence? (Choose Three)",
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Which email server should the correspondence use?",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "How will the correspondence be sent?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Who is the user that receives the correspondence?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "When does the correspondence need to be sent?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2987",
+          "answer": "How often should you send the correspondence?",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Which two statements identify why you should automate correspondence? (Choose Two)",
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Automating correspondence allows for sending consistent information to users.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Automating correspondence keeps all interested parties informed of the current status of a case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Automating correspondence allows you to advance a case.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Automating correspondence allows you to send timely communication.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": " In a new hire process, a hiring manager needs to be automatically notified by email, when a job application case reaches a Collect Work Sample assignment. How would you configure this correspondence requirement?",
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "After the assignment, add a SendEmail SmartShape.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Before the assignment, add a SendEmail SmartShape.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Add a SendCorrespondence local action to the assignment.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Enable assignment notifications for the case type.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": " You are configuring a standard email to automatically be sent to loan applicants informing them that their loan has been approved. The requirement states that the email must include values for the applicant's name, the loan office, and the loan amount. The email must also include boilerplate content stating the loan's terms and conditions, which is regularly updated. This content is in a paragraph rule shared by other standard emails throughout the organization. How would you configure your email?",
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Insert applicant's name, loan office, and loan amount properties. Also, copy and paste the paragraph content into your email.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Insert applicant's name, loan office, and loan amount properties. Also, insert the paragraph rule.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Add placeholder text for the applicant's name, loan office, and amount. Also, insert the paragraph rule.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Insert the applicant name and loan office properties. Include a correspondence fragment that contains a link to the organization's website page that contains loans and conditions.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Circumstancing allows you to describe exception behavior with a set of targeted rules rather than one complex rule. Each targeted rule configures behavior to address a specific exception.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "What types of circumstance conditions are supported in Pega?",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "The rule variant is effective after a certain date, or during a range of dates.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "The rule variant is effective whenever the value of a date property satisfies the circumstancing condition. ",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "The rule variant is effective whenever a combination of property values satisfies the circumstancing condition.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "The rule variant is effective whenever the value of a single property satisfies the circumstancing condition. ",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "What type of circumstancing will a real estate firm use to display a disclosure statement that varies by both the status and location of the listing?",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "A bank waives account fees for customers who maintain an account balance of 10000 euros. But for customers in Germany, the account balance must exceed 25000 euros. In this situation, you use a circumstance template to define the properties on which to circumstance the rule. You then use a circumstance definition to specify the minimum balance and country for the exception — 25000 euros for customers in Germany.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Many companies offer a quicker response on complaints or inquiries for customers with premium or elite status. In this situation, you circumstance a service level rule based upon the value of the property that records customer status. If the value is silver for a case, the application uses the circumstanced variant for customers with silver status, rather than the base rule.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Companies often update a business process in response to business conditions, but must process existing cases under the previous version of the process. A process goes into effect on January 1 to reflect a more rigorous review of loan applications. But cases created before this date are to be completed using the old process. In this situation, you circumstance the updated process based upon the value of the pxCreateDate property — the date a case was created. If the value of pxCreateDate is a date after January 1, the application uses the updated process instead of the original process.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "During December, a retailer offers free shipping on any order over 50 dollars. During the rest of the year, only orders over 100 dollars receive free shipping. In this situation, you apply a date range to the rule that calculates the shipping charge. If a customer places an order in December, then the application applies the 50 dollars threshold for free shipping. If the customer places an order in any other month, the application applies the 100 dollars threshold instead.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "To circumstance on one variable, select Property and date?",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "To circumstance on multiple variable, select template?",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "While circumstancing by date, Rule to be effective only if the value of the specified date property occurs within a date range",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=No",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Specify date property=Yes, Specify start date=No, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Specify date property=No, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "While circumstancing by date, Rule to be effective only if the value of the specified date property occurs after a certain date",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=No",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Specify date property=Yes, Specify start date=No, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Specify date property=No, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "While circumstancing by date, Rule to be effective only within a date range",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=No",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Specify date property=Yes, Specify start date=No, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Specify date property=No, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "While circumstancing by date, Rule to be effective only after a certain date",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=No",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Specify date property=Yes, Specify start date=No, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Specify date property=No, Specify start date=Yes, Specify end date=No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "To circumstance by more than one property, specify the circumstance definition and circumstance template rules that define the combination of conditions. For each circumstanced rule, you must provide a unique circumstance definition.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": " In which of the following situations would you use a rule circumstance to resolve the requirement?",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A process does not execute if a user is not married.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "An online order process optionally allows customers to update the credit card number saved with their account.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "A national insurance company requires a different minimum for liability coverage in each state.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "A service level notifies the assigned user when a goal interval is exceeded, and notifies the user's manager when a deadline interval is exceeded.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "An application change goes into effect on June 15, 2016. Due to this change, two fields are added to a user form to collect information for compliance purposes. Assuming that today is April 30, 2016, how should you configure circumstancing for the form?",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Circumstance the form by template and definition; in the definition, specify June 15, 2016, as the cut-off date.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Update the existing form to apply a circumstance; specify June 15, 2016, as the end date.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Circumstance the form by property and date; specify June 15, 2016, as the start date.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Circumstance the form by property and date; test that the creation date for the case is on or after June 15, 2016.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Which statement best describes the role of the base rule in circumstancing?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The base rule is a template used to create all of the circumstanced variants.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "The base rule is used if no circumstanced variant applies.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The base rule lists all of the properties for which a rule can be circumstanced.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "The base rule describes case behavior in effect until a certain date.",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CIRCUMSTANCING RULES"
+    }
+  ]
+}

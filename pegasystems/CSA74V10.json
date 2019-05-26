@@ -1,0 +1,2067 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "What are the benefits of Real-time information?",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Business analysts and work managers use reports to assess the performance of the application.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Report information allows users to review or select items from a list or table while working in an assignment.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Report information allows users to lessen the number of assignments.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Report information allows users to lessen the number of pega developers.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "What report a manager should use to check process peformance?",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A report showing number and dates of resolved cases.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "A report showing case id and dates of all cases.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "A report showing case id and dates of unresolved cases.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "What report should be proposed by business analyst to check process peformance?",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A report showing number and dates of resolved cases.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "A report showing case id and dates of all cases.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "A report showing case id and dates of unresolved cases.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "A human resources application processes cases for onboarding newly hired employees. The organization has three office locations. The facilities manager wants a report to monitor new hires. The manager wants to see when the new employees were hired and where each person is assigned. You design a report in the onboarding class that has four columns. Each column includes a property — case ID, new hire name, date of hire, office location, and salary. When the manager generates the report, the report populates a list of rows with values for each column.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "In Report definition rule, there is a column to show currency which need to show with the currency symbol",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "you can format currency properties to include a currency symbol.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "no need of formatting, currency column in report will come with automatic currency symbol",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "currency column needs a function to show the currency symbol with the currency value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "You want to see new employee`s details in 30, 60 and 90 days period. How to achieve this 30,60,90 days criteria in report definition between their hire date and evaluatuio date.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use function in filter column",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "use formatting in filter column",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Do a table join with Date table",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "You work for a company with two locations, Atlanta and Boston. You want to create a report of onboarding cases only for the Atlanta office location. ",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "You create a report definition with filter in the report that tests whether the office location for each onboarding case is Atlanta.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "You create a report definition with filter in the report that tests whether the office location for each onboarding case is Boston.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "You create a report definition with a join whether the office location for each onboarding case is Atlanta.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "You may want to filter all cases created in the previous month. You can select the Previous Month symbolic option rather than write a function to define the period. Previous month is known as_____________",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "symbolic dates",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "periodic dates",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "monthly dates",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "For your company, you created an onboarding class where Employeename, Hireddate property holds the new hired employee name and joining date respectively. How to get all the new hired employee joined last month.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "report fetches data based on a filter cond .hireddate is previous month",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "report fetches data based on a filter rule .hireddate is previous month",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "report fetches data based on a filter cond .hireddate is last month",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "report fetches data based on a filter rule .hireddate is last month",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "You want to see the customer cases having (Open) status. The case can have maximum of three(New, Open, Resolved) statuses. How to achieve this?",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Create a report with filter cond .pyStatusWork is equal Open",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Create a report with filter cond .pyStatusWork is Not equal New and .pyStatusWork is Not equal Resolved",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Create a report with filter cond .pyStatusWork is Not equal New or .pyStatusWork is Not equal Resolved",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "By using report, you will learn where bottlenecks are, where there are opportunities to improve response time, and what emerging trends need attention?",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "By using report, you will learn where Poor performance, such as long times to complete tasks, may show a poor application design.?",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "A business report that provides relevant information can show what is happening, what has happened over a period of time, and how what is happening matches or differs from your plan.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "As an e-commerce store manager, I would like to know how many new orders are there for the lenovo P51 laptop and how many cancellation order for P50 lenovo laptop. This would be which type of report.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Process Report",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Business Report",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Metrics Report",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "System Report",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Which of the following cause would effect to create a Process Report?",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Number of cases resolved last week",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "how long it takes to complete an assignment",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "how often a path is followed in a flow",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "the number of Service Level Agreement (SLA) violations.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Which of the following cause would effect to create a Business Report?",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Number of cases resolved last week",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "number of orders for a certain item",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "how often a path is followed in a flow",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "how many cancellations there are of a certain type of order",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "As a business manager of a multinational company, you tried to measure Average profit margin for all automobile sales last year and you found out that the average margin is below the target percentage. What should be the associated business decision after this.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "The sales department decides to train its sales staff on promoting cars and options that have the highest margins.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "The sales department decides to offer bonus to its sales staff on meeting their highest margins.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "As a business manager of a multinational company, you tried to measure Number of auto loans made in a month as compared to personal loans for the same period and you found out that the number of personal loans is significantly lower than the number of auto loans. What should be the associated business decision after this.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "No Action needed",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "The goal is to have the numbers approximately equal. The marketing department increases marketing resources for personal loans.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "As a business manager of a multinational company, you tried to measure Number of office desks shipped each week for the past month and how many are now in inventory and you found out that the number of orders shows an upward trend. What should be the associated business decision after this.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "No Action needed",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As a result, inventory levels are unacceptably low. The purchasing department decides to restock more desks on a weekly basis.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "The application automatically defines and generates process data for process metrics.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Whats true about process reports?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "the application automatically defines and generates process data. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Process metrics operate on Pega Platform parameters.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Process reports focus on process metrics that are unique to your case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CREATING BUSINESS REPORTS"
+    },
+    {
+      "id": "22",
+      "name": "Process reports provide the information which enables business analysts and business managers to discover issues that may affect processing performance",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CREATING BUSINESS REPORTS"
+    },
+    {
+      "id": "23",
+      "name": "As a business manager, I want to measure Open loan application cases exceeding the standard three-day service level deadline and found that Most of the open cases are for loan amounts greater than 300,000 USD. What should be decision outcome of it?",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Loan amounts that exceed this amount must go through an additional review step, which accounts for the delay. The department manager decides to increase the service level deadline for loans exceeding 300,000 USD from 3 to 4 days.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No action",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "As a business manager, I want to measure Average duration of assignments by type and action and found that This report identifies which user actions take the longest to complete. What should be decision outcome of it?",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Spend time on improving the efficiency of those assignments taking the most amount of time to complete.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No action",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "A sales manager runs weekly reports on how long it takes to prepare a car for customer delivery. Which type of report metrics apply to this report?",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Business metrics, because how long it takes to prepare a car for customer delivery is not a metric based on a Pega Platform parameter.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Process metrics, because how long it takes to prepare a car for customer delivery is a metric based on a Pega Platform parameter.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "What can a Work manager do with Report browser?",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "search reports",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "organize reports",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "schedule reports",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "run reports",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "The public category group include standard process reports provided by Pega. Public category reports are available to all managers in an application.",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "The private category group includes reports that are created and saved for individual work managers. Managers can share their reports with other managers by putting them into the public categories group.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Standard Pega process reports are grouped into how many categories. ",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "4",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "6",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "8",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "10",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Resolved cases in an application at the level of each individual step, or actions, within a business process. The reports analyze the completed work to determine whether business processes are efficient and effective. For example, there is a report that tracks processing time in hours by task and action is provided by which process report?",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Analyze Performance",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Analyze Quality",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Case Metrics",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Monitor Assignments",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Resolved cases in an application. Similar to reports that analyze performance, quality reports analyze completed work to determine if business processes are efficient and effective. For example, there is a quality report that measures the average elapsed time per status.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Analyze Performance",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Analyze Quality",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Case Metrics",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Monitor Assignments",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "The number of cases created each day for the last seven days and the time per stage for resolved cases.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Analyze Performance",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Analyze Quality",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Case Metrics",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Monitor Assignments",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Assignments for open (or unresolved) cases in an application. The reports tracks the work based on the user to whom the case is assigned. For example, there is a report that measures time lines by task.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Analyze Performance",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Analyze Quality",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Case Metrics",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Monitor Assignments",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Assignments for open (or unresolved) cases. The reports focus on the work and not individual users. For example, there is a report that measures throughput in the past week by work type.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Monitor Processes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Open Cases",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Service Level Performance",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Step Performance",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Case-level SLA status for open cases. This report focuses on the timeliness of a case from the time a case is created to the time the case is resolved.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Monitor Processes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Open Cases",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Service Level Performance",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Step Performance",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Assignment SLA status grouped by assignment or by operator.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Monitor Processes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Open Cases",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Service Level Performance",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Step Performance",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Assignment-level SLA status grouped by assignment, and an historical view of the time it took an operator to complete a step.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Monitor Processes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Open Cases",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Service Level Performance",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Step Performance",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "The report data can be displayed in a list, in a summary format, or in a chart.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "List reports display a list of cases whose data is organized into columns and rows.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Summary reports aggregate case data into categories by use of a summarizing function, such as counting the number of results in a particular column or averaging the values in the column.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Add charts to summary reports to help end users visualize report data, and allow users to “drill” down into the report data for greater insight.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CREATING BUSINESS REPORTS"
+    },
+    {
+      "id": "42",
+      "name": "Can we filter the report list based on charts or summaries or lists.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CREATING BUSINESS REPORTS"
+    },
+    {
+      "id": "43",
+      "name": "While adding a Reports tab, you can add a report type like List, Summary or Chart.",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "From Designer Studio, right-click the class in Application Explorer, then select Create > Reports > Report Definition to create Report",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "From Designer Studio, create Report or from Records>>Reports>>Report Definition>>Create to create report\t  ",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "When creating a report in Pega Express, you specify the name when you save the report, rather than when you create the report.",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "The data elements you are using in your report can significantly impact the performance of your application. Therefore, Data Explorer only shows you optimized data elements. Designer Studio provides access to more data elements.",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "In the report browser, when you hover your mouse cursor to the right of any column heading and a down arrow appears on the far right of that column. Select the arrow and a menu displays to edit the column.",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "you can choose to Sort a column",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Delete a column",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Summarize a column and other actions.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "By default, your report is available in the Report Browser when created in the Case Manager portal.",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "In Designer Studio, use a setting in the Report Viewer tab if you want to make the report available in the Report Browser. In this example, this setting allows users to generate business reports they can use to monitor application performance.",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "In the Case Manager portal, a manager can click Edit report, right-click a column heading and select Summary function, and then select how to summarize the results.",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "In the Case Manager portal, a manager can click Edit report, then click Edit chart, and select the All chart types to see and select other types of charts.",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "In the Case Manager portal, a manager can click Edit report, then right-click on the column heading, and select Sort > Lowest to highest or Highest to Lowest.",
+      "image": "null.png",
+      "type": "radio",
+      "hint": "CREATING BUSINESS REPORTS",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "The facilities manager wants to sort the new hires by start date so that the manager can prepare the office space. Assume the report orders the columns as Employee, Start Date, and Location. First you select the start date as the column you want to sort first. Then you specify the column as the first one in the sort order. When you generate the report, the employee with the most current start date appears at the top of the list. The other employees are listed in descending order according their start dates.",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "How you ",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Text characters are sorted alphabetically.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "numbers are sorted numerically.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "You can control which column is sorted first by specifying the sort order.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "Grouping can only be performed in Designer Studio, not in the Case Manager portal.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "When you group results, the grouped column values appear once for each group. The rows that contain the column value are listed under the group by value. ",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": " you want to show onboarding cases for each office location. You specify office location as the one you want to group. When you run the report, each location name appears once in the left column. The cases are grouped in rows next to the location name.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "Adding a report filter is an optional step.",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "The moment you are done with editing and save report, the report is saved to My Reports category",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "To Create Report , case Manager >> Reports( Report Browser) >> Add Report to create a new report",
+      "hint": "CREATING BUSINESS REPORTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "Create New Report Pane contains the case type (work instance case name) and report type( list/summary/chart)",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "How you Organizing report results",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Summarize the values in one or more columns. When you summarize report results, you can also graphically display the summary results.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Group the results under a column that you specify.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Sort values in columns.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "How you Organizing report results",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "count",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "minimum",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "maximum",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "average",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2987",
+          "answer": "sum",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2988",
+          "answer": "sort",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "To Display Chart graphically, open the chart tab>>include chart>>select the type of chart. Post to this , drag the summarized column to vertical drop zone. Select the column you want to measure and drag it to the horizontal drop-zone.",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "You cannot group summary report results. Remove the summarizing function on any report columns before grouping results",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "To show the results in grouping, identify the column to be grouped and enter 1 in sort order column. In the groping section, select the column by its sort order",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "You can sort the columns in report definition by mentioning which sort type (Lowest to Highest/Highest to Lowest) and sort order.",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "A manager has requested a report that shows the purchase requests for each of the regional cost centers. The manager wants to organize the results so the cost center appears only once on the report and the requests are listed under cost center. How would you configure the report definition?",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Filter the results so that only cost center and requests are included in the report.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Summarize the requests column by count.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Use the cost center column to group the results.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Use the requests column to group the results.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "A manager requests a report that contains the following columns: Create Date, Case ID, Create Operator, and Work Status. You must sort the Case ID values so the case with the highest ID value appears at the top of the list and descends in order. How would you design the report definition to support this requirement?",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Add a filter condition where Case ID is greater than one.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Make sure that the Case ID is the first column in the report.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "For the Case ID property, select Highest to Lowest sort type.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "For the Case ID property, select Count in the Summarize column.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "Your organization has a standard loan request report that contains columns for loan ID, loan officer, work status, and a loan creation date. A manager requests a report that includes only loans created in the previous quarter and do not have a status of New. How would you configure the report filter to support this requirement?",
+      "image": "null.png",
+      "hint": "CREATING BUSINESS REPORTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Create two conditions: Work Status does not equal New, AND Creation Date is less than current quarter.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Create one condition: Work status does not equal New where Creation Date is equal to Previous Quarter.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Create two conditions: Work Status does not equal New, AND Creation Date is equal to Previous Quarter.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Create two conditions: Work Condition equals New OR Creation Date does not equal Previous Quarter.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "Using the BLOB penalizes performance for reporting because ____________",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "BLOB Data need to be decompressed",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Report fields need to be extracted from BLOB",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Report is fetching the Blob field in filter",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "The BLOB field provides greater flexibility and performance for case data. The BLOB field is capable of storing an unlimited amount of data. The BLOB field also allows the data model of a case to change without impacting database storage. And the BLOB field allows an application to read or write the entire case at once.",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "name": "A database table is mapped to onboarding class where Hireddate is exposed. Is this field available in blob",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "name": "Which statements are true related to Property optimization?",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pega writes data to both property field and the blob field",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "When a report uses optimized data, pega reads from property column.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Not decompressing the BLOB field to read case data, optimization reduces the time and memory needed to run the report.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "name": "Which properties are exposed for storing process data?",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The creation date of a case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The status of a case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The case ID",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Properties that store process data begin with the letters px, py, or pz.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "name": "A system architect created a property Hired date for the onboarding case. Is this property exposed?",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "name": "How to know a Report definition rule is using a not optimized property?",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Report definition rule shows a warning for each property which is used in report but not optimized",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "From designer Studio landing page, you can see all the rules with warnings too",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "From pega express landing page, you can see all the rules with warnings too",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "name": "Exposing properties allows Pega to read the property value without decompressing the BLOB to extract the property value.",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "name": "Which statements are true related to Property Optimization tool?",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pega exposes the property as a database column, and populates the new column by extracting values from the BLOB column",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "For an embedded property in a page group or page list, the tool automatically creates a new database table for the property, and the appropriate Index- class and Declare Index rule to update the new table.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "This can be configured to run later point of time by a background process",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "name": "Background processing may take minutes or longer, depending on volume. Computations in your applications involving the property value may fail or produce incorrect results until all background processing is complete.",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "name": "Designer Studio > System > Database > Column Population Jobs to see the status of the background process running column population job.",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "name": "You can view the classes for which a property has been optimized on the Advanced tab of the Property record.",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "name": "Select the three true statements about the use of a BLOB field. (Choose Three)",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A BLOB allows an application to read or write an entire case in one database transaction.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "A BLOB can store an object of any size.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "A BLOB automatically exposes properties for reporting.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Case data can only be stored in a BLOB.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2987",
+          "answer": "A BLOB provides flexibility by avoiding the need for schema changes when the data model changes.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "name": "Which type of data is exposed by default?",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Neither process metrics nor business metrics are exposed by default.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Process metrics, such as the current stage or status, are exposed by default.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Business metrics, such as the total value of a sales order, are exposed by default.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Both process metrics and business metrics are exposed by default.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "name": "A report contains five columns of data about sales quotes.\n\nThe case ID (.pyID)\n\nThe currently assigned sales representative (.pxAssignedOperatorID)\n\nThe creation date of the sales quote (.pxCreateDate)\n\nThe sales territory (.Territory)\n\nThe expiration data of the quote (.ExpiryDate)\n\nPrior to property optimization, which two properties does the report identify as potentially impacting performance? (Choose Two)",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Sales territory (.Territory)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Expiration date (.ExpiryDate)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Assigned case worker (.pxAssignedOperatorID)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Creation date (.pxCreateDate)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2987",
+          "answer": "Case ID (.pyID)",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "name": "What are the benefits of BLOB?",
+      "hint": "OPTIMIZING REPORT DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Unlimited storage size — BLOB fields are not constrained by size, so a BLOB field can contain any amount of information.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Flexibility — Pega writes all case data to the BLOB, so changes to the data model of a case are contained within the BLOB. Using the BLOB field avoids the need to update the database structure, or schema, as the data model changes.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "High performance — Since the BLOB field stores all case data, Pega reads and writes the entire case at one time. This optimizes application performance for end users as they create and process cases.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    }
+  ]
+}
