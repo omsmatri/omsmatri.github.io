@@ -31,8 +31,8 @@
     {
       "id": "2",
       "name": "Whats true about case type?",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -60,8 +60,8 @@
     {
       "id": "3",
       "name": "whats true about case type?",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -89,8 +89,8 @@
     {
       "id": "4",
       "name": "whats true about stages?",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -118,8 +118,8 @@
     {
       "id": "5",
       "name": "Stages are further organized into processes which define one or more paths the case must follow.",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -137,8 +137,8 @@
     {
       "id": "6",
       "name": "Processes contain a series of actions, or steps that must be completed to resolve the case.",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -156,8 +156,8 @@
     {
       "id": "7",
       "name": "The modeling technique used to describe in business terms how a business application should work is called case life cycle design",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -175,8 +175,8 @@
     {
       "id": "8",
       "name": "whats true about stages?",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -204,8 +204,8 @@
     {
       "id": "9",
       "name": "Whats true about alternate stages? ",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -233,8 +233,8 @@
     {
       "id": "10",
       "name": "Whats true about alternate stages?",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -262,8 +262,8 @@
     {
       "id": "11",
       "name": "What are the Guidelines for defining stages?",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -291,8 +291,8 @@
     {
       "id": "12",
       "name": "Stages typically represent the transfer of the case from one authority to another, or from one part of the organization to another. Stages may also represent a significant change in the status of the case.",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -320,8 +320,8 @@
     {
       "id": "13",
       "name": "Use names that are most meaningful and relevant to the business users. Use a noun, or noun phrase, to describe the context of the stage. As much as possible, try to limit the stage name to no more than two words.",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -349,8 +349,8 @@
     {
       "id": "14",
       "name": "Consider limiting the number of primary stages in any given case to seven and the number of alternate stages to five. If you find yourself needing more than 10 primary stages or more than five alternate stages, consider combining two or more stages, or using a separate case type.",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -378,8 +378,8 @@
     {
       "id": "15",
       "name": "There is no minimum number of stages for a case. Focus on maintaining a number of stages less than the maximum guidelines outlined here.",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -397,8 +397,8 @@
     {
       "id": "16",
       "name": "Stage transitions allow you to further refine the run-time order of stages.",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -416,8 +416,8 @@
     {
       "id": "17",
       "name": "For primary stages, when all steps in a stage are completed, the default option is an automatic transition to the next primary stage.",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -435,8 +435,8 @@
     {
       "id": "18",
       "name": "A case worker must review a request and can either approve or reject the request. If the request is approved, normal processing continues, and the case advances to the next step or stage in the primary path. If the request is rejected, the case advances to a predefined stage, which may or may not be in the primary path. Is this controlled transition?",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -454,8 +454,8 @@
     {
       "id": "19",
       "name": "Whats true about controlled transition?",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -483,8 +483,8 @@
     {
       "id": "20",
       "name": "controlled transition can be done in following ways?",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -513,7 +513,6 @@
       "id": "21",
       "name": "Whats true about processes?",
       "image": "null.png",
-      "hint": "DESIGNING A CASE LIFE CYCLE",
       "type": "radio",
       "options": [
         {
@@ -536,13 +535,14 @@
           "answer": "None in the list",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": "DESIGNING A CASE LIFE CYCLE"
     },
     {
       "id": "22",
       "name": "Whats are the guidelines for defining processes?",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -570,8 +570,8 @@
     {
       "id": "23",
       "name": "As part of Naming processes and steps, When naming processes and steps, use a “verb + noun” naming convention (ex. perform “this action” on “this object.”)",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -589,8 +589,8 @@
     {
       "id": "24",
       "name": "As part of Organizing process steps, Consider limiting the number of steps in each process to five, plus or minus two.",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -608,8 +608,8 @@
     {
       "id": "25",
       "name": "As part of Organizing process steps, If more than seven obvious steps are needed, consider breaking down some steps into other processes.",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -627,8 +627,8 @@
     {
       "id": "26",
       "name": "In Pega Platform, processes are organized within stages and define one or more paths the case must follow.",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -646,8 +646,8 @@
     {
       "id": "27",
       "name": "When modeling the life cycle of a case, stages typically represent a _______________ or a ________________. (Choose Two)",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -675,8 +675,8 @@
     {
       "id": "28",
       "name": "When modeling the life cycle of a case, alternate stages typically represent ____________ and can ___________. (Choose Two)",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -704,8 +704,8 @@
     {
       "id": "29",
       "name": "A subset of data used to resolve the case is typically used as criteria for defining sub-cases.",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -723,8 +723,8 @@
     {
       "id": "30",
       "name": "A separate, but related, business transaction is typically represented as a sub-case.",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -742,8 +742,8 @@
     {
       "id": "31",
       "name": "A rejected request is sent back to the originator to be updated. The process steps for updating the request are organized in an alternate stage. When the Change Stage step is encountered, the case flow automatically transitions to the stage defined in the Change Stage step.",
-      "image": "null.png",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -761,8 +761,8 @@
     {
       "id": "32",
       "name": "The case status is the primary indicator of the progress of a case towards resolution.",
-      "image": "null.png",
       "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -780,8 +780,8 @@
     {
       "id": "33",
       "name": "The case status is updated as the case moves through the case life cycle.",
-      "image": "null.png",
       "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -799,8 +799,8 @@
     {
       "id": "34",
       "name": "You can set the case status on each step in the case life cycle. When the case advances to a step, Pega automatically updates the status of the case to the value defined for that step.",
-      "image": "null.png",
       "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -818,8 +818,8 @@
     {
       "id": "35",
       "name": "Pega includes standard case status values, such as Open, Pending-Approval, and Resolved-Completed. You can also add custom status values.",
-      "image": "null.png",
       "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -837,8 +837,8 @@
     {
       "id": "36",
       "name": "To update the status of a case, In Pega Express, open a case type and select a step where you want to change the status.",
-      "image": "null.png",
       "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -856,8 +856,8 @@
     {
       "id": "37",
       "name": "When it is time for you to work on your next case, you could see many cases with arbitrary IDs such as B-5, I-23, N-33, G-57, or O-62. Which case do you choose? These case IDs by themselves give you no help in determining what work you need to perform on those cases. Some could take five minutes, others could take one hour. Pega solves this problem by allowing an architect to write an instruction for each step in a process.",
-      "image": "null.png",
       "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -875,8 +875,8 @@
     {
       "id": "38",
       "name": "whats true about instructions?",
-      "image": "null.png",
       "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -904,8 +904,8 @@
     {
       "id": "39",
       "name": "Adding instructions to a step ____________.",
-      "image": "null.png",
       "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -933,8 +933,8 @@
     {
       "id": "40",
       "name": "A step in the case life cycle has a case status value of Pending-Approval. When is the status of the case automatically updated?",
-      "image": "null.png",
       "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -962,8 +962,8 @@
     {
       "id": "41",
       "name": "What type of step typically requires contextual instructions?",
-      "image": "null.png",
       "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -1921,8 +1921,6 @@
         }
       ]
     },
-    {
-  "questions": [
     {
       "id": "1",
       "name": "Please select single value properties.",
@@ -3693,8 +3691,21 @@
         {
           "id": "2984",
           "answer": "Reassign any task that remains open after three days to another user.",
-          "correctanswer": "false"{
-  "questions": [
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "An application randomly sends a survey to customers once their case is resolved.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Allow a user to transfer a case to another employee at any stage of the case.",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
     {
       "id": "1",
       "name": "What should you not consider before creating a user view?",
