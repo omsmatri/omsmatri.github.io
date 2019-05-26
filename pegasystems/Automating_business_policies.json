@@ -2250,6 +2250,1389 @@
           "correctanswer": "true"
         }
       ]
+    },
+    {
+      "id": "27",
+      "name": "A home loan company has home appraisal offices in various regions. Each office has its own work queue. Company policy requires that home appraisals are assigned to offices based on the home's location. For example, appraisals for homes located in Boston are assigned to the New England office work queue. Which routing approach would you choose to support this requirement?",
+      "image": "null.png",
+      "hint": "ROUTING ASSIGNMENTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Route the assignment based on an appraiser role.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Route the assignment based on appraiser skills.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "It is not possible to support this requirement. The router must define a specific work queue.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Route the assignment to the correct work queue based on a decision rule.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "A process is having three assignments to collect the data which need to be Populated by three particular user, Can we route the case to the appropriate party based on the assignment?",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "After submitting the expense report, the expense case should be reviewed by some reviewer. As a pega developer, you should assign the review assignment to a particular reviewer or to a work queue?",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "work queue",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "work list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "A worklist is a list of all open assignments, ordered by urgency, for a specific user. For example, an assignment that requires a human resources manager to approve employee time off requests routes to the human resources manager's worklist.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Managers can access and assign work to the worklists of users who report to the managers.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "A work queue is a list of all open assignments, ordered by urgency, for a group of users.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Assignments stay in the work queue until a user associated with the work queue selects an assignment, or a manager sends an assignment in the work queue to a specific user. ",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "A user accesses assignments from a ___________. Users in a work group access assignments from a _________________.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "worklist, work queue",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "work queue, worklist",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Which option of Routing not available in Pega Express",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current user",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Specific user",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Custom",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Which option of Routing not available in Pega Express",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use business logic",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Custom",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Based on some condition , the assignment need to be routed to a worklist or work queue. Which of the following option should be selected",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use business logic",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Specific user",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "If the loan amount is more than 100K Usd, it should be assigned to the Senior manager or else to Manager. Use option should be used for routing",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use business logic",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Specific user",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "As a pega developer, you want to implement a routing where an assignemnt should be routed to a skilled case worker. Which option should you choose?",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use business logic",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Custom",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "As a pega developer, you want to implement a routing where an assignemnt should be routed to a skilled case worker having a French language skill more than 5. Which option should you choose?",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Custom with skill level 4",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Custom with skill level 5",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Single level approval routing (You can assign an approval task to a specific user, work queue, or the reporting manager of the user working on the case) can be suitably achieved by using which option.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use business logic",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Specific user",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Cascading approval routing can be achieved by Cascading approval routin or the outcome of decision rule (matrix routing).",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "To route assignments based on a reporting structure in a cascading approval process: Approval Smart Shape >> General >> Approval Flow Type (Cascading) >> Approval based on (Reporting structure)>> Approval to be completed by(Reporting manager) >> Approval level (one or All or custom)",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Cascading approval can have following options, Please select the appropriate ones.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "One\tThe manager specified in the Approval to be completed by field must approve the case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "All\tThe entire reporting structure, starting with the manager specified in the Approval to be completed by field, must approve the case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Custom\tA variable number of reviewers must approve the case, based on a list of when conditions.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Business logic\tA variable number of reviewers must approve the case, based on a list of when conditions.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "You have four managers in your reporting structure, however you want only three to approve to if the loan amount is 50000 USD. What should be the when condition evaluation field and levels of approvals.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Loan Type, 3",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Loan amount, 3",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Cascading approval based on authority matrix calls which type of rule to get the routing to value.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "decision table",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "decision map",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "decision tree",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "When",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ROUTING ASSIGNMENTS"
+    },
+    {
+      "id": "47",
+      "name": "Can we configure a page list to get the list of reviewers for cascading approval under Authority matrix?",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "ROUTING ASSIGNMENTS"
+    },
+    {
+      "id": "48",
+      "name": "An expense report process requires the assignment for travel expenses to be routed to a specific auditor. The auditor is also a member of an auditing work group. How would you route the assignment so that the user receives it?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "To the user's manager",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "To the user",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "To the user's work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "To the user's work group",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ROUTING ASSIGNMENTS"
+    },
+    {
+      "id": "49",
+      "name": "An insurance company provides personal property insurance. Jewelry is categorized as a special type of personal property. Requests for jewelry coverage require that a user managing the request is trained to appraise jewelry. The requirement is to route assignments for jewelry appraisals to users who have this skill. Which one of the following routing approaches would you use?",
+      "image": "null.png",
+      "hint": "ROUTING ASSIGNMENTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Route requests to a reporting manager who assigns the request to an available user to ensure fast processing.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Route requests to a work group that uses skill rating parameters for work group members.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Route requests to a decision table which routes the request to a work group in a location where there are users who have appraisal skills.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Route directly to a user who is a member of work group that uses skill rating parameters.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "A conditional path is a branch in the life cycle of a case that is contingent upon run-time values. By defining the business logic decisions that cause a case to follow different paths, you can improve the flexibility of your application.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "A conditional path is a branch in the life cycle of a case that is contingent upon run-time values. By defining the business logic decisions that cause a case to follow different paths, you can improve the flexibility of your application.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "As a pega deveoper you are adding an evaluation to check whether the loan amount is more than 25000K or not. If the loan amount is more than 25000 K, you want to initiate a fraud check for the loan application too else it would be only credit score check.Can we implement this as part of Case life cycle view uisng the OOTB smart shapes/stages without using any flow inside the stage for evaluating the loan amount.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "Automated decision can be modelled using Pega express",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "While configuring Automated decision in Pega express, how to configure the next stage or step.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Go to Drop down",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Change Stage",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "By default, all processes are configured with the \"Always\" condition, which always returns a true result, to ensure that the process is always used in case processing. ",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "For a newly joined employee to an organization, the IT team and facilities process need to be started concurrently as theye are indepemdent. Can this be achievable using Pega Express?",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "worklist, work queue",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "work queue, worklist",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "Parallel processes allow a case to advance down multiple paths within a stage at the same time.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "Parallel processes can only be configured in Case Designer by adding the first process to the stage, then selecting Add parallel process from the stage menu.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "When a user opens the case to perform an assignment in one process, the case may be locked, preventing another user from performing an assignment in the other process.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Parallel processes do not have a configurable order. The processes you select for parallel processes must be adaptable to any order.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Conditional paths in a case life cycle are used to define ______________________. (Choose Two)",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "subprocesses that run in the context of the current case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "paths in the case life cycle that are followed based on run-time values",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "subprocesses that run in parallel with the context of the current case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "paths in the case life cycle that are chosen by a user at run-time",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "A parallel process is defined as ___________________________.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "a process that is not part of the primary flow in the case life cycle",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "a process that executes over the same time period as other processes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "a process that executes in the context of the current case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "a process that executes in the context of another process",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "Automating decisions based on business logic enables ___________________________.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "application users to mark a specific location for business exceptions that may arise in the process flow",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "architects to spend less time building the application",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "application users to focus on more nuanced decisions that require business expertise",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "architects to improve the performance of the application",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "Rule delegation empowers business users to respond to continuously changing business conditions.",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Rule delegation can also help reduce the workload for architects of minor, low risk maintenance items and provide a degree of empowerment to those closest to the day-to-day operations.",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Establish a unique access group for the business users to whom you will delegate rules.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Delegate rules for process items that change repeatedly.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Delegate rules that are easy for the business user to change.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Delegate rules that are easy for the developer to change and needs more technical expertise.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "You want to delegate some rule for the senior Managers but right now all the Managers and Senior Managers are using one access group and one work group. How to configure the delegation?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2984",
+          "answer": "Configure all the Senior Manager to have one senior Manager access group and delegate the rule for this Senior Manager access group.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Delegate the rule to each senior Manager",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Delegate the rule to the Manager access group as it can be configurable further by using access group and operator information",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Create a new work group for senior managers and Delegate the rule to the work group used by senior Managers only",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "Which of the rules are suitable to be delegated to business users from case manager portal?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Paragraph",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Decision Table",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "data types that have data records",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Correspondence",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "Which of the rules are suitable to be delegated to business users from case manager portal?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Paragraph",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "SLA",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "data types that have data records",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Correspondence",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "Can we delegate almost any rule to Business user?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "What is a good test for a name for a delegated rule?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A good test of a rule name is to build a sentence using the rule name, the rule type, and the business logic.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The rule name must be having an adejecting with noun and verb",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "What is a role of a Business architect (BA)?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Identify the business users who manage the delegated rules.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Create an access group for business users responsible for managing the delegated rules.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Organize the business users who manage the delegated rules in the access group.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Identify the rules to delegate.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2987",
+          "answer": "Organize the rules to delegate in a production ruleset. This ruleset must remain unlocked in the production environment as changes cannot be made to rules in a locked ruleset.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2988",
+          "answer": "Delegate the rules for availability in a user portal.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "What is a role of a Senior system architect (SSA) or lead system architect (LSA)?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Identify the business users who manage the delegated rules.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Create an access group for business users responsible for managing the delegated rules.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Organize the business users who manage the delegated rules in the access group.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Identify the rules to delegate.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2987",
+          "answer": "Organize the rules to delegate in a production ruleset. This ruleset must remain unlocked in the production environment as changes cannot be made to rules in a locked ruleset.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2988",
+          "answer": "Delegate the rules for availability in a user portal.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "What is a role of a System administrator (during development, an SSA may perform this task with test operators to test the configuration)?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Identify the business users who manage the delegated rules.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Create an access group for business users responsible for managing the delegated rules.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Organize the business users who manage the delegated rules in the access group.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Identify the rules to delegate.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2987",
+          "answer": "Organize the rules to delegate in a production ruleset. This ruleset must remain unlocked in the production environment as changes cannot be made to rules in a locked ruleset.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2988",
+          "answer": "Delegate the rules for availability in a user portal.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "name": "What are thye must performed roles of a SSA in delegating the rule?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Identify the business users who manage the delegated rules.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Create an access group for business users responsible for managing the delegated rules.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Organize the business users who manage the delegated rules in the access group.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Identify the rules to delegate.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2987",
+          "answer": "Organize the rules to delegate in a production ruleset. This ruleset must remain unlocked in the production environment as changes cannot be made to rules in a locked ruleset.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2988",
+          "answer": "Delegate the rules for availability in a user portal.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "name": "If a rule is delegated to an access group but the access group is not authorised to modify the delegated rule, still the delegated rule can be updated?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "name": "Which of the rules are suitable to be delegated to business users from case manager portal?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Paragraph",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Decision Table",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "When",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Correspondence",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "name": "To update any rule on a production system, an unlocked ruleset must contain the rule. An unlocked ruleset is a ruleset in which rules can be modified and saved.",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "name": "The delegated rules are present in production ruleset. Add the ruleset to the application rule as a production ruleset. A production ruleset is a ruleset containing rules that can be modified after the application deploys.",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "name": "The ruleset containing the delegated rules must remain unlocked in production so business users can make changes to the delegated rules. Changes cannot be made to a rule in a locked ruleset.",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "name": "To delegate a rule, an operator ID must be assigned to an available role that has the pxCanDelegateRules privilege. By default, this privilege extends to users assigned to the Administrator or SysAdm4 access role. If you need to delegate a rule and cannot, contact your Pega Platform system administrator to confirm that your operator ID has this privilege.",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "name": "Business user delegates need to understand the possible impact of their changes.",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "name": "Select two benefits of adopting a rule delegation strategy. (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Adopting a rule delegation strategy can help improve the business' ability to adapt to changing business conditions.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Adopting a rule delegation strategy enable business users to change business policies more quickly by avoiding long approval processes.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Adopting a rule delegation strategy enables business users and architects to focus on their specific tasks related to application development and maintenance.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Adopting a rule delegation strategy can help lower the overall costs of building and maintaining business applications, because fewer architects are required if business users can make changes to the application on their own.",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "DELEGATING BUSINESS RULES"
+    },
+    {
+      "id": "83",
+      "name": " What two items should a developer configure before delegating a rule? (Choose Two)",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "An unlocked ruleset added to the Application rule as a production ruleset",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "A separate Operator ID that has access to the delegated rules",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "An Access Group that has access to the production ruleset",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "An Access Role that has access to the production ruleset",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "DELEGATING BUSINESS RULES"
     }
   ]
 }
