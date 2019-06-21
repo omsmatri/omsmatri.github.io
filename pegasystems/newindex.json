@@ -5,30 +5,37 @@
       "url": "CSA74",
       "content": [
         {
+          "encrypted": "true",
           "url": "Modeling_case_data",
           "tag_line": "Modeling case data"
         },
         {
+          "encrypted": "true",
           "url": "Automating_business_policies",
           "tag_line": "Automating business policies"
         },
         {
+          "encrypted": "true",
           "url": "Designing_a_user_interface",
           "tag_line": "Designing a user interface"
         },
         {
+          "encrypted": "true",
           "url": "Designing_business_reports",
           "tag_line": "Designing business reports"
         },
         {
+          "encrypted": "true",
           "url": "Testing_and_debugging_applications",
           "tag_line": "Testing and debugging applications"
         },
         {
+          "encrypted": "true",
           "url": "Designing_a_case_life_cycle",
           "tag_line": "Designing a case life cycle"
         },
         {
+          "encrypted": "true",
           "url": "Pega_Platform",
           "tag_line": "Pega Platform"
         }
@@ -39,14 +46,17 @@
       "url": "CSA8",
       "content": [
         {
+          "encrypted": "true",
           "url": "CSA8",
           "tag_line": "Certified System Architect"
         },
         {
+          "encrypted": "false",
           "url": "CSACASE",
           "tag_line": "CSA Case Questions"
         },
         {
+          "encrypted": "true",
           "url": "CSADATA",
           "tag_line": "CSA Data modelling Questions"
         }
