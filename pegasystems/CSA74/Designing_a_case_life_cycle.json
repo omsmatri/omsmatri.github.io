@@ -1,0 +1,4429 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "Whats true related to a case?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A case is work that delivers a business outcome.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The outcome of a case is a meaningful deliverable provided to a customer, partner, or internal stakeholder.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "deliverable can be processing a health insurance claim, onboarding a new mortgage, or designing and releasing a new product.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Whats true about case type?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "In a Pega application, you model repeatable business transactions with case types. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "A case type is an abstract model of a business transaction, while a case is a specific instance of the transaction.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "You can think of a case type as a template for creating and processing cases.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "When a new transaction starts, a new case is created based on the case type definition.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "whats true about case type?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Each case type captures the life cycle of a specific type of transaction, from creation to resolution. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "A case type defines data structures, processes, tasks, and user interfaces required for processing the transaction.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "A case type defines the database structure, transactions and how to save data in database",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "whats true about stages?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Cases are organized into high-level milestones, known as stages. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Stages are the first level of organizing the different tasks, or processes required to complete work associated with a case. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Stages help to organize the life cycle of a case around the key events that support the primary goal of the case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Stages are further organized into processes which define one or more paths the case must follow.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Processes contain a series of actions, or steps that must be completed to resolve the case.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "The modeling technique used to describe in business terms how a business application should work is called case life cycle design",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "whats true about stages?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A stage is the first level of organizing work in your case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "By capturing business requirements in stages, you get a sense of what needs to be done first, what must happen in sequence, and what can happen in parallel during case processing. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "In a case life cycle, stages that lead to the expected outcome are called primary stages.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "The sequence of primary stages is often referred to as the happy path.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Whats true about alternate stages? ",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "When that happens, use an alternate stage to describe the actions needed to resolve the situation.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "In some situations, work does not always go according to plan. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Alternate stages are used to organize process steps that are not part of the “normal course of events” but must be available under certain circumstances.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Use alternate stages to organize the process steps used to manage exceptions from the primary path.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Whats true about alternate stages?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "when modeling the life cycle of an online ordering application, you must consider that orders can be canceled prior to being shipped. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "If an order is canceled, a number of tasks must be completed before the order is considered canceled.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "The first task is to process the order for cancellation, then the payment must be refunded and, finally the customer must be notified that the order was canceled.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "What are the Guidelines for defining stages?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Organizing Stages",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Naming stages",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Number of stages",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Stages typically represent the transfer of the case from one authority to another, or from one part of the organization to another. Stages may also represent a significant change in the status of the case.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Organizing Stages",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Naming stages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Number of stages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Use names that are most meaningful and relevant to the business users. Use a noun, or noun phrase, to describe the context of the stage. As much as possible, try to limit the stage name to no more than two words.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Organizing Stages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Naming stages",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Number of stages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Consider limiting the number of primary stages in any given case to seven and the number of alternate stages to five. If you find yourself needing more than 10 primary stages or more than five alternate stages, consider combining two or more stages, or using a separate case type.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Organizing Stages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Naming stages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Number of stages",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "There is no minimum number of stages for a case. Focus on maintaining a number of stages less than the maximum guidelines outlined here.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Stage transitions allow you to further refine the run-time order of stages.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "For primary stages, when all steps in a stage are completed, the default option is an automatic transition to the next primary stage.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "A case worker must review a request and can either approve or reject the request. If the request is approved, normal processing continues, and the case advances to the next step or stage in the primary path. If the request is rejected, the case advances to a predefined stage, which may or may not be in the primary path. Is this controlled transition?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Whats true about controlled transition?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "To allow transitions to other stages before the completion of the current stage, you can add a controlled transition to a stage.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Controlled transitions can be configured for any primary or alternate stage, and can occur either as an action in a step or as a specific step in a process.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Change stage helps in controlled transition",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "controlled transition can be done in following ways?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2984",
+          "answer": "Collect Information",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Change stage smart shape",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Use Approve/Rweject step`s flow tab to control stage",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Whats true about processes?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2984",
+          "answer": "In a case life cycle, processes are organized within stages and define one or more paths the case must follow.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "A process contains a series of tasks, or steps.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "By organizing related tasks into processes, you can control how, when, and by whom work is performed in each stage of the case life cycle.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "DESIGNING A CASE LIFE CYCLE"
+    },
+    {
+      "id": "22",
+      "name": "Whats are the guidelines for defining processes?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Naming processes and steps",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Organizing process steps",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Designing the processes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "none in the list.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "As part of Naming processes and steps, When naming processes and steps, use a “verb + noun” naming convention (ex. perform “this action” on “this object.”)",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "As part of Organizing process steps, Consider limiting the number of steps in each process to five, plus or minus two.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "As part of Organizing process steps, If more than seven obvious steps are needed, consider breaking down some steps into other processes.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "In Pega Platform, processes are organized within stages and define one or more paths the case must follow.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "When modeling the life cycle of a case, stages typically represent a _______________ or a ________________. (Choose Two)",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "transfer of authority",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "significant change in the status of a case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "subset of data used to resolve the case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "single actor performing a single action",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "When modeling the life cycle of a case, alternate stages typically represent ____________ and can ___________. (Choose Two)",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "be sequenced into the primary stages",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "exceptions to the normal course of events",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "a separate, but related business transaction",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "only be accessed manually",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "A subset of data used to resolve the case is typically used as criteria for defining sub-cases.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "A separate, but related, business transaction is typically represented as a sub-case.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "A rejected request is sent back to the originator to be updated. The process steps for updating the request are organized in an alternate stage. When the Change Stage step is encountered, the case flow automatically transitions to the stage defined in the Change Stage step.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "The case status is the primary indicator of the progress of a case towards resolution.",
+      "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "The case status is updated as the case moves through the case life cycle.",
+      "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "You can set the case status on each step in the case life cycle. When the case advances to a step, Pega automatically updates the status of the case to the value defined for that step.",
+      "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Pega includes standard case status values, such as Open, Pending-Approval, and Resolved-Completed. You can also add custom status values.",
+      "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "To update the status of a case, In Pega Express, open a case type and select a step where you want to change the status.",
+      "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "When it is time for you to work on your next case, you could see many cases with arbitrary IDs such as B-5, I-23, N-33, G-57, or O-62. Which case do you choose? These case IDs by themselves give you no help in determining what work you need to perform on those cases. Some could take five minutes, others could take one hour. Pega solves this problem by allowing an architect to write an instruction for each step in a process.",
+      "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "whats true about instructions?",
+      "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "An instruction for a step identifies to a user what should be accomplished in an assignment. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Users see instructions in their worklist, when they open a case, or when they are prompted for input in a user view. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "When configuring the case, you switch to Designer Studio and add the instruction in the contextual properties panel so it is clear what work needs to be done on the collect information step.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "none in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Adding instructions to a step ____________.",
+      "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Instructs an architect how to build the step.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Describes the business value of the step.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Describes to an end user what should be done in the step.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Defines what the step should do.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "A step in the case life cycle has a case status value of Pending-Approval. When is the status of the case automatically updated?",
+      "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "At the beginning of the step",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "At the end of the step",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Only if the user manually updates the case status",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "The status of a case cannot be automatically updated",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "What type of step typically requires contextual instructions?",
+      "hint": "GUIDING USERS THROUGH A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Create Case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Collect information",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Change stage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Approve/Reject",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Use case type records to establish the parent child relationships.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "A case that does not have a parent case, but can cover, or become a parent of, other cases.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Top-level",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Child",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Parent",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "cover case",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "A case that is covered by a parent case. When you configure a case as a child case, Pega maintains a relationship between the parent and child cases. Child cases represent work that must be completed to resolve the parent.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Top-level",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Child",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Parent",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "cover case",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Which statements are correct related to multiple child case for a parent case?",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A parent case creating multiple child cases allows for work to be processed in parallel.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Each child case can be handled by different parties with different expertise. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "When processing child cases in parallel, the parent case may need to wait until a child case is complete before the parent case can be resolved.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Implementing a business process in a separate case type also allows you to reuse the case type as needed. For example, claims for both automobile and property insurance may involve a bodily injury claim.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Which statements are true related to wait shape?",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "You can enforce dependencies between parent and child cases with the Wait step.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "When a parent case reaches the Wait step, the case pauses until the dependency resolves.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Once the dependency resolves, the case resumes processing.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "The Wait step enforces the following types of dependencies:",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pausing a case until another case (or all cases) reach a specified status",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Can only be implemented in flow/case life cycle",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Pausing a case until a predetermined time expires",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "You are only able to define a single status for the Wait step to check. If you encounter a situation where you need to check multiple statuses, consult the Wait Shape for mid process dependency.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "The ability to set the Wait step as a timer is only available in Designer Studio.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "With an accident claim, you may give someone 24 hours to upload pictures for the accident. You would want to pause the case until the wait time has elapsed.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "This can be configured from designer studio",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "This can be configured from pega express",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "This can be configured from pega express as well as designer studio.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Case Designer, click + STEP > ... More Utilities > Create Case > Select to add a Create Case step to the Case life cycle.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Designer Studio gives you one additional option to create a case as a top level case instead of a child case.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "You can configure a case to wait for a set amount of time or until a subcase reaches a defined status.",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Which requirement is best implemented using a Wait step in a case?",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "You need to send an email after a user completes a form.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "You need to pause a case until a user uploads a signed document.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "You cannot complete a purchase case on a website unless you complete a new account child case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "You cannot proceed in an expense report until a manager approves the request.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "In an mortgage application, the user creates a loan request. In order for the loan request to be approved, the loan officer must receive the results of an appraisal. How would you configure the case types to reflect their relationship? ",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Make mortgage a parent case type. Make loan request and appraisal child case types.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Make appraisal a parent case type, and loan request a child case type.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Make both loan request and appraisal peer case types.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Make loan request a parent case type, and appraisal a child case type.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "In an online shopping application, the primary case type PurchaseOrder has two child case types: Payment and Packaging. In processing PurchaseOrder case PO-100,  Payment case PayMnt-30 and Packaging case Pack-16 are created. Which statement about the processing of PO-100, PayMnt-30, and Pack-16 is correct?",
+      "hint": "MANAGING CASE-PROCESSING DEPENDENCIES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Both PayMnt-30 and Pack-16 have to be resolved before PO-100 can be resolved.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "PO-100 has to be resolved before either PayMnt-30 and Pack-16 is resolved.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "PO-100 can be resolved when either PayMnt-30 or Pack-16 is resolved.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Pack-16 has to be resolved before PayMnt-30 is resolved.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "To use an edit validate rule with a validate rule, open the validate rule. In the Select a function field, select the function Validation of [Property Name] using [Edit Validate Name]. In the Validation of field, enter the property you want to validate. Then in the using field, select an edit validate rule.",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "You wanted to add a phone number to User interface, you just made this field of Integer date type, Is it enough?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2986",
+          "answer": "Yes, the integer data type only ensures that the user enters numbers in the field.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "No, as the integer data type doesn`t validate correct number of digits",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "You have a requirement to add a bank checking account number field to a view. Routing numbers must contain nine digits. How would you configure the field to support this requirement?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use a decimal property type and make the field required.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use an edit validate rule that validates the routing number pattern.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Set the minimum and maximum values to 9 in a text field.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "In an edit validate rule, configure a function to test for a routing number pattern.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "You have a requirement to add to a view a check box that indicates the user qualifies for an auto insurance discount. In order to qualify, two conditions must be met. First, the user must be older than 25. Second, the user cannot have received a traffic violation in the past three years. Unless both conditions are met and the user selects the check box, the form displays an error when the user submits the form. Which one of the following approaches would you use to support this requirement?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use a single validate rule to verify both of these conditions.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Use an edit validate rule that validates both conditions.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Use two validate rules, one for each condition.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Associate an edit validate rule with the flow action that references the form.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "You are adding a field to your case type in which users must enter the day, month, and year they were hired before the user can submit the user form. The field type must enforce a date format. What two validation approaches would you use to meet the validation requirements? (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Define the field type as an integer",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use the required option",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Add the word \"Required\" to the field label",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Use the read-only option",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2987",
+          "answer": "Define the field type as a date",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "VALIDATING CASE DATA"
+    },
+    {
+      "id": "22",
+      "name": "In a mortgage application, a valid credit score must be available before the case can enter the underwriting stage.",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "This can be achieved by adding edit validate rule to all fields and this is advised as per best practice",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "This can be achieved by stage (Underwriting) level validate rule which would kick in before the case even enters the stage",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "This can be achieved by previous stage level validate rule which would kick in after the case leaves the stage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Validate rules enable you to use a single property when ______________.\ndifferent values are required based on business logic",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Which statements are correct related to Flow actions?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Flow actions can be accessed from the Process Modeler or from the Application Explorer under the Process category.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": " Flow actions provide additional processing capabilities such as running data transforms and calling validation rules.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": " This is done by configuring the flow action rule Pega automatically creates when adding a Collect information step in your case life cycle. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Using Pega Express to validate simple form creates/updates which rules?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pega Express creates the validate rule and applies the rule to the flow action that corresponds to the user view.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "It doesn`t create or update any validate rule. It just updates the flow action only",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Which statements are true related to validations?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pega Express automatically applies the validation rule to the flow action that corresponds to the user view.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Pega Express only supports comparisons against a constant value.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "create more complex validations that require you to manually update the flow action properties panel from designer studio",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "What Extra configuration available while validating data from designer studio?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "In Designer Studio, you can create validate rules that model more complex validation conditionssuch as a condition that requires a function to determine the comparison value. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "In Designer Studio, you can create validate rules that model more complex validation conditions, such as a condition that compares the results of two fields ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "You can create a validate rule in Designer Studio to provide an entry condition for a stage in the case workflow.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": " if a payment amount is less than or equal to zero, then return an error message stating that the payment amount must be greater than zero. For this validation, I should use Pega express or Pega designer studio",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pega Express",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Can be possible from Designer studio also",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "not possible from Pega Express",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2983",
+          "answer": "not in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Case life cycle>>step>>configure view>>select condition>> Add condition to add validation details and error message in Pega express.",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "In designer studio, Application Explorer, right-click the case type>>Create > Process > Validate to create a validate rule.",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "If you want to validate the startdate of an employee page property, the validate rule`s applies to class is same as Employee property`s applies to class. what should be in the property field in the validate rule?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": ".Employee.StartDate",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": ".Employee(1).StartDate",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": ".Employee().StartDate",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": ".StartDate",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "In the validation conditions, what informations are included?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Select a function\t\t[a datetime] is in the [past/future]",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "If\t\t.Employee.StartDate is in the Past",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Message\t\tStart date must be later than the current date",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "A validation condition that tests whether a date is in the future or the past. Where this rule should be configured?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pega designer studio because the validation uses a funtion",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "pega express",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Edit validate rules validate character patterns. ",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "You want users to enter a valid email address in a field using a text property type. How to validate this as per pega`s best practice?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Edit-Validate rule",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Validate rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Boolean expression",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "What should be the property type to associate that with edit validate rule?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Value list",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "value group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Page list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Employee joining date will be used both for existing employee (where the joining date is a past date) and new employee  (where the joining date is a future date). How to make sure that this validation works?",
+      "hint": "VALIDATING CASE DATA",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Two validation rule should be created for two processes, one used by existing employee and the other by new employee",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No such need, this can be handled by one edit validate rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No such need, this can be handled by one validate rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Please select single value properties.",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Date",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "DateTime",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Single Page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "value Group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Please select single value properties.",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Decimal",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Double",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Single Page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "value Group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Please select single value properties.",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Integer",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Identifier",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Single Page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "value Group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Please select single value properties.",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Password",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Text",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Single Page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "value Group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Please select single value properties.",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "TextEncrypted",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "TimeOfday",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "TrueFalse",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "value Group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Please select page properties.",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Page Group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Single Page",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Page List",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "value Group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Please select Advanced properties.",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Java Object",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Java Object Group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Java Object List",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Page Group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Please select Advanced properties.",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Java Property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Value Group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Java Property List",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Page List",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Please select Advanced properties.",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Value List",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Value Group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Page Group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Page List",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Which is a numerically ordered list.",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Value List",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Value Group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Page Group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Page List",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Which is a numerically ordered list.",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Value List",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Value Group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Page Group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Page List",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Which is a numerically not ordered list.",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Value List",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Value Group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Page Group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Page List",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Which properties need page definition",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Page",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Value Group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Page Group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Page List",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Encrypted text can be decrypted for display",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Password property can be decrypted as text",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Page Group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Page List",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Text strings that do not contain double quotation marks (“”), tabs, carriage returns, or line breaks",
+      "hint": "DEFINING USER VIEWS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "identifier",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Password",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Encrypted text",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Text",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Before you configure a user view, which things to think about?",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "What fields do users need to see in the UI?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "How will users enter values in those fields?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Can users modify the field values or are the fields read-only?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "DEFINING USER VIEWS"
+    },
+    {
+      "id": "18",
+      "name": "Turn Editing Off/on, how does this feature help in right top.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "if you want to edit in pega express mode, make this field show as \"Turn editing off\"",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "if you want to edit in pega express mode, make this field show as \"Turn editing on\"",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "DEFINING USER VIEWS"
+    },
+    {
+      "id": "19",
+      "name": "The Picklist data type has an additional field for you to choose the type of list (drop-down list or radio buttons) by clicking the gear icon.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "DEFINING USER VIEWS"
+    },
+    {
+      "id": "20",
+      "name": "After you add the required data elements and save your view, the system adds new data elements to your application. You can then reuse those data elements when you create new views.",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "DEFINING USER VIEWS"
+    },
+    {
+      "id": "21",
+      "name": "The Picklist data type has an additional field for you to choose the list of values by clicking the gear icon.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "DEFINING USER VIEWS"
+    },
+    {
+      "id": "22",
+      "name": "while designing the UI, if more than one UI is having same button or same UI controls, it is best practice to maintain consistency by showing them in their previous location",
+      "image": "null.png",
+      "hint": "DEFINING USER VIEWS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "When is the earliest opportunity for you to configure the user view for a step in a case life cycle in Pega Express?",
+      "image": "null.png",
+      "hint": "DEFINING USER VIEWS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "You can configure the user view for a step after you add that step to the case life cycle.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "You can configure the user view for a step before you start creating the case life cycle.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "You can configure the user view for a step any time after you configure the pick list data types.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "You can configure the user view for a step after you create the entire case life cycle.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "How to add validation in Pega Express for a view.",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Case >> Step >> Configure View >> Conditions >> Add condition to add field, comparator and value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "We can add the error message to show if the validation fails",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Case >> Step >> Configure View >> Conditions >> Add condition to directly select a validate rule also",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Validation error message cannot be configured",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Whats`s true about Validate rule?",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA, validate rule can include edit validate as well as validate rule too",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Create >> Process >> Validate to create a validate rule.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Records >> Process (Right Click) >> Create >> Validate to create a validate rule.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Validate rule cannot reference another validate rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "validate rule can include the edit validate rule only",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Where a validate rule can be referenced?",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Activity",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Flow action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Data transform",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Flow",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Why must a validation condition that tests whether a date is in the future or the past be configured in Designer Studio?",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Validating that a date is in the future or the past requires the use of a function.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "This can be done in Pega express too.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Which validation rule should be used to validate email field having @ character or not.",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Edit validate as we need to validate pattern",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Validate rule to validate pattern",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Activity rule to validate pattern",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Data transform rule to validate pattern",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "To use an edit validate rule with a validate rule, open the validate rule. In the Select a function field, select the function Validation of [Property Name] using [Edit Validate Name]. In the Validation of field, enter the property you want to validate. Then in the using field, select an edit validate rule.",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "can we apply an edit validate to a page or page list or page group",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "can we apply an edit validate to a single value or value list or value group",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Edit validate rules contain java codes",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "The validation added to a stage evaluated before execution enters the stage",
+      "image": "null.png",
+      "type": "radio",
+      "hint": "VALIDATING CASE DATA",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "You have a requirement to add a bank checking account number field to a view. Routing numbers must contain nine digits. How would you configure the field to support this requirement?",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use a decimal property type and make the field required.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use an edit validate rule that validates the routing number pattern.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Set the minimum and maximum values to 9 in a text field.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "In an edit validate rule, configure a function to test for a routing number pattern.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "You have a requirement to add to a view a check box that indicates the user qualifies for an auto insurance discount. In order to qualify, two conditions must be met. First, the user must be older than 25. Second, the user cannot have received a traffic violation in the past three years. Unless both conditions are met and the user selects the check box, the form displays an error when the user submits the form. Which one of the following approaches would you use to support this requirement?",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use a single validate rule to verify both of these conditions.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Use an edit validate rule that validates both conditions.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Use two validate rules, one for each condition.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Associate an edit validate rule with the flow action that references the form.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "You are adding a field to your case type in which users must enter the day, month, and year they were hired before the user can submit the user form. The field type must enforce a date format. What two validation approaches would you use to meet the validation requirements? (Choose Two)",
+      "image": "null.png",
+      "hint": "VALIDATING CASE DATA",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Use the required option",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Use the read-only option",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Define the field type as a date",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Add the word \"Required\" to the field label",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "ABC Corp wants to add an option to change the shipping address while doing online shopping. Supporting this out of the sequence event is needed as customer may want to change their shipping address due to some festival or travelling. Customer should be able to take this action regardless of any stage or step of shopping the items. How this should be handled.",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Optional actions",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "optional processes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "alternate stages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Optional actions supplement the tasks users can do as they work on a case.",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Optional actions enable users to leave the primary path of a case to complete another task or process.",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": " optional action is not part of the automated workflow.",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "How to determine that user really needs a optional user action",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Should users be allowed to update information at any time during a case or stage?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Do you need multiple steps to update information?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Should users be allowed to change stage at any time during a case or stage?",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Can information be updated in a single screen?",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Optional actions can be made available for a stage or an entire case.",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "An optional action is added to a case.",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The optional action should be available when the case is New status",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The optional action should be available when the case is Open status",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The optional action should be available when the case is InProgress status",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "The optional action should be available when the case is Resolved status",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Optional actions are of two types, one is optional processes and other is optional user actions.",
+      "image": "null.png",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "ABC corp has an option action to change shipping address to run while customer is doing online shopping case. Change shipping Address might involve more than one screen. Which local action to choose.",
+      "image": "null.png",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "optional process",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "optional user action",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "ABC corp has an option action to change shipping address to run while customer is doing online shopping case. Change shipping Address has only one screen. Which local action to choose.",
+      "image": "null.png",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "optional process",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "optional user action",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "The only difference between an optional process and the other processes in a case is that users determine when the optional process executes.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "12",
+      "name": "An optional process allows users to perform a series of tasks outside of the primary path of a case. After completion of the optional process, uses may or may not return to the primary path.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "13",
+      "name": "ABC Corp`s ecommerce application, customer can cancel the order at any time. Post cancellation, either the order is resolved or user is transitioneds back to the order case with no items in cart. How to implement this requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Optional action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "alternate stage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "stage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "14",
+      "name": "While doing online shopping in ANC Corp`s website, there is 30% probability that user may want to change the shipping address. Updating the shipping address is simple and takes only one screen. ABC corp wants that customer should be landed on the same screen after doing the shipping address change. How to achieve this.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "optional user action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Option process",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "15",
+      "name": "An optional user action is a single task and typically returns to the primary path of a case, whereas an optional process is a series of steps that may or may not return to the primary path of a case.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "16",
+      "name": "After selecting a case type, a pega developer can use the workflow tab to select the Optional Actions. This would show the optional actions for the case.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "it works in this way for case designer only",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "it works in this way for pega express only",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "it works in this way for case designer as well as pega express",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "17",
+      "name": "Clik on +Action to add optional action. For optional action applicable to case, click on +Action under case wide actions. For ptional action applicable to stage, click on +Action under stage-only actions",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "18",
+      "name": "A business process requirement states that users should be able to modify the shipping address at any time and not interrupt the primary case. Which of the following options is the best way to design for this requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Add a local action to the case type.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Add a step in a process.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Add a process in a stage.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Add an optional process to any stage in the case type.",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "19",
+      "name": "Which requirement could be satisfied with a user action?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Requiring a separate approval process whenever an order exceeds USD 10,000.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Reassign any task that remains open after three days to another user.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "An application randomly sends a survey to customers once their case is resolved.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Allow a user to transfer a case to another employee at any stage of the case.",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "1",
+      "name": "ABC Corp wants to add an option to change the shipping address while doing online shopping. Supporting this out of the sequence event is needed as customer may want to change their shipping address due to some festival or travelling. Customer should be able to take this action regardless of any stage or step of shopping the items. How this should be handled.",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Optional actions",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "optional processes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "alternate stages",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Optional actions supplement the tasks users can do as they work on a case.",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Optional actions enable users to leave the primary path of a case to complete another task or process.",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": " optional action is not part of the automated workflow.",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "How to determine that user really needs a optional user action",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Should users be allowed to update information at any time during a case or stage?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Do you need multiple steps to update information?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Should users be allowed to change stage at any time during a case or stage?",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Can information be updated in a single screen?",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Optional actions can be made available for a stage or an entire case.",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "An optional action is added to a case.",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The optional action should be available when the case is New status",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The optional action should be available when the case is Open status",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The optional action should be available when the case is InProgress status",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "The optional action should be available when the case is Resolved status",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Optional actions are of two types, one is optional processes and other is optional user actions.",
+      "image": "null.png",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "ABC corp has an option action to change shipping address to run while customer is doing online shopping case. Change shipping Address might involve more than one screen. Which local action to choose.",
+      "image": "null.png",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "optional process",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "optional user action",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "ABC corp has an option action to change shipping address to run while customer is doing online shopping case. Change shipping Address has only one screen. Which local action to choose.",
+      "image": "null.png",
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "optional process",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "optional user action",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "The only difference between an optional process and the other processes in a case is that users determine when the optional process executes.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "12",
+      "name": "An optional process allows users to perform a series of tasks outside of the primary path of a case. After completion of the optional process, uses may or may not return to the primary path.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "13",
+      "name": "ABC Corp`s ecommerce application, customer can cancel the order at any time. Post cancellation, either the order is resolved or user is transitioneds back to the order case with no items in cart. How to implement this requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Optional action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "alternate stage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "stage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "14",
+      "name": "While doing online shopping in ANC Corp`s website, there is 30% probability that user may want to change the shipping address. Updating the shipping address is simple and takes only one screen. ABC corp wants that customer should be landed on the same screen after doing the shipping address change. How to achieve this.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "optional user action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Option process",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "15",
+      "name": "An optional user action is a single task and typically returns to the primary path of a case, whereas an optional process is a series of steps that may or may not return to the primary path of a case.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "16",
+      "name": "After selecting a case type, a pega developer can use the workflow tab to select the Optional Actions. This would show the optional actions for the case.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "it works in this way for case designer only",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "it works in this way for pega express only",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "it works in this way for case designer as well as pega express",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "17",
+      "name": "Clik on +Action to add optional action. For optional action applicable to case, click on +Action under case wide actions. For ptional action applicable to stage, click on +Action under stage-only actions",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "18",
+      "name": "A business process requirement states that users should be able to modify the shipping address at any time and not interrupt the primary case. Which of the following options is the best way to design for this requirement?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Add a local action to the case type.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Add a step in a process.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Add a process in a stage.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Add an optional process to any stage in the case type.",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "19",
+      "name": "Which requirement could be satisfied with a user action?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Requiring a separate approval process whenever an order exceeds USD 10,000.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Reassign any task that remains open after three days to another user.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "An application randomly sends a survey to customers once their case is resolved.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Allow a user to transfer a case to another employee at any stage of the case.",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "ADDING OPTIONAL ACTIONS TO A CASE TYPE"
+    },
+    {
+      "id": "1",
+      "name": "What should you not consider before creating a user view?",
+      "hint": "Designing user views",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "what fields the users need to see",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "how values will be entered",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "whether users can modify or only read the values",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "what are all fields user needs for the case.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Why a user view is created",
+      "hint": "Designing user views",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "to collect information",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "to process information",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "to see or show information",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "to store the information",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "The data stored by user in a view can be used by other users?",
+      "image": "null.png",
+      "hint": "Designing user views",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "From case life cycle the views can be added or updated",
+      "image": "null.png",
+      "hint": "Designing user views",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "From designer studio, a harness can be modified to include a view",
+      "hint": "Designing user views",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "From designer studio, a section can be modified to include a view",
+      "hint": "Designing user views",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "What is intent-driven UI?",
+      "hint": "Designing user views",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Provide users with information when they need it.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "provides all the information to specific users in a view regardless of when they need it",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "An intent-driven UI shows users what they need to know to perform a task",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "ABC corporation has an ecommerce application where user can buy products. Showing them a link in the upper UI is an example of intent driven UI?",
+      "image": "null.png",
+      "hint": "Designing user views, No as the change address will divert the user from shopping and its not very relevant to shopping.",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "false",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "true",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Users spend less time searching for relevant information when the intent is the focus of each case life cycle step.",
+      "image": "null.png",
+      "hint": "Designing user views",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "What is a model driven UI?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Align the user view with the case life cycle to ensure the user interface is model-driven.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "A model-driven approach results in faster application development, and a contextually sensitive UI",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "UI that can quickly change when business rules change.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "11",
+      "name": "What is a model driven UI?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Align the user view with the case life cycle to ensure the user interface is model-driven.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "A model-driven approach results in faster application development, and a contextually sensitive UI",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The requirements of each step of case life cycle stage dictate the information in the view.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "12",
+      "name": "While designing a simple UI, what things need to be taken care?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Minimize data elements to an optimal set that is critical to the task.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Focus on what users are trying to accomplish.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The life cycle and the next best action from the current step are irrevant information",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Always, Users should be referring some documents on how to use a view",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "13",
+      "name": "While designing a simple UI, what things need to be taken care?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Minimize data elements to an optimal set that is critical to the task.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Focus on what users are trying to accomplish.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Be aware of where users are in the life cycle and the next best action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Users should not have to guess how to proceed while looking at a view",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "14",
+      "name": "While designing a simple UI, what things need to be taken care?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "show any data element which might be required to the task.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Focus on what case`s outcome will be.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Be aware of where users are in the life cycle and the next best action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Users should not have to guess how to proceed while looking at a view",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "Designing user views"
+    },
+    {
+      "id": "15",
+      "name": "What are the best UI practices?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Create patterns in language, layout, and design to help users complete their tasks. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Design consistency enables users to recognize similar tasks in other application views.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The same feature should be given in different flavor so user won`t get bore. for e.g delete an item from the ecommerce application link is in icon for electronics item and for rest items, it`s a button ",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "The labels and placements of elements doesn`t play any part in UI best practices",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Restrict choices to a set of valid values and allows users to select only one value. You can use radio buttons when only a small number of options (for example, fewer than five) is available."
+    },
+    {
+      "id": "16",
+      "name": "ABC Corp is having an insuarnace application where mediclaim case can be created from insurance case. Insurance case is having insured party details. Mediclaim case must need to make sure the party is insured to proceed in it`s life cycle. How this can be achieved?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "insured party data can be shared from insurance case to mediclaim case when mediclaim case is initialised",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "mediclaim case cannot access the insured party data provided earlier to insurance case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "insured party details can be copied to mediclaim case only if mediclaim case is child case of insurance case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "insured party details can be copied to mediclaim case only if mediclaim case is sibling case of insurance case",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Exchanging data between cases"
+    },
+    {
+      "id": "17",
+      "name": "Data propagation is beneficial due to",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "save time by eliminating the manual task of copying data.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "save time by eliminating the manual task to provide relevant information to caseworkers",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "data propagation can be done to case after the case is created.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "data propagation can be done for parent case too",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Exchanging data between cases"
+    },
+    {
+      "id": "18",
+      "name": "Data propagation ensures that the appropriate information is moved into a child case",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "Exchanging data between cases"
+    },
+    {
+      "id": "19",
+      "name": "ABC corpor is creating an insurance case and mediclaim case is a child case of insurance case. in first stage of of insurance case, mdiclaim case is created and insured data is available to mediclaim case. In second stage of insurance case, contact number of insured party is upodated in insurance case. will that info available in mediclaim case?",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ],
+      "image": "null.png",
+      "hint": "Exchanging data between cases"
+    },
+    {
+      "id": "20",
+      "name": "ABC corpor is creating an insurance case and mediclaim case is a child case of insurance case. in first stage of of insurance case, mdiclaim case is created and insured data is available to mediclaim case. In mediclaim case, contact number of insured party is upodated. will that info available in insurance case?",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ],
+      "image": "null.png",
+      "hint": "Exchanging data between cases"
+    },
+    {
+      "id": "21",
+      "name": "ABC corpor is creating an insurance case and mediclaim case is a child case of insurance case. in second stage of of insurance case, mediclaim case is created and insured data is available to mediclaim case. In first stage of insurance case, contact number of insured party is upodated. will that info available in mediclaim case?",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "Exchanging data between cases"
+    },
+    {
+      "id": "22",
+      "name": "Data propagation can only be done using properties or using data transform too.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pega express only allows properties.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "pega designer studio only allows properties using case designer.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Pega express allows properties as well as data transform.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "pega designer studio allows properties as well as data transform using case designer.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Can a developer use properties or data transform in create case  in CREATE CASE step.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "As a developer you want to transfer a page from a  pagelist where the pySelected field is true. How this page data can be used as a data propagation to child case.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A single page cant be transferred to a child case, whole pagelist need to be transferred by using property ",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "A single page cant be transferred to a child case, whole pagelist need to be transferred by using data transform",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "A single page can be transferred to a child case by using property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "A single page can be transferred to a child case by using conditional logic of data transform",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "You can update a child case, or all the child cases of a parent case, after the case has been created.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "it is possible to do from pega express",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "This option is available only in the Case Designer in Designer Studio.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Case calculations are available only in the Case Designer in Designer Studio.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "If a insurance case generates multiple mediclaim cases, a case calculation on the parent insurance case can sum the insurance cost total for each of the mediclaim child cases.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "This can be achieved by using case calculation",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "there is no such thing as case calculation",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Data propagation to a spin-off case is configured in the Designer Studio, using the Case Designer",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "data propagation can be done in designer studio for child case is Case explorer>>Parent case >>Settings>>add properties or data transform for Designer studio",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "data propagation can be done in designer studio for any spin off case is Case explorer>>Parent case >>Work flow>>Step>>More>>Utilities>>Create Case to add data transform for Designer studio",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Using spin off case feature , a parent case can be created from a child case.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    }
+  ]
+}
