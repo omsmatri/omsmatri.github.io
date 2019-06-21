@@ -1,0 +1,56 @@
+{
+  "tutorials": [
+    {
+      "title": "Certified System Architect 7.4",
+      "url": "CSA74",
+      "content": [
+        {
+          "url": "Modeling_case_data",
+		  "tag_line":"Modeling case data"
+        },
+        {
+          "url": "Automating_business_policies",
+		  "tag_line":"Automating business policies"
+        },
+        {
+          "url": "Designing_a_user_interface",
+		  "tag_line":"Designing a user interface"
+        },
+        {
+          "url": "Designing_business_reports",
+		  "tag_line":"Designing business reports"
+        },
+        {
+          "url": "Testing_and_debugging_applications",
+		  "tag_line":"Testing and debugging applications"
+        },
+        {
+          "url": "Designing_a_case_life_cycle",
+		  "tag_line":"Designing a case life cycle"
+        },
+        {
+          "url": "Pega_Platform",
+		  "tag_line":"Pega Platform"
+        }
+      ]
+    },
+	{
+      "title": "Certified System Architect 8",
+      "url": "CSA8",
+      "content": [
+        {
+          "url": "CSA8",
+		  "tag_line":"Certified System Architect"
+        },
+        {
+          "url": "CSACASE",
+		  "tag_line":"CSA Case Questions",
+        },
+        {
+          "url": "CSADATA",
+		  "tag_line":"CSA Data modelling Questions"
+        }
+      ]
+    }
+  ]
+}
