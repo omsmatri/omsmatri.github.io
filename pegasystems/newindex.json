@@ -41,14 +41,6 @@
         {
           "url": "CSA8",
 		  "tag_line":"Certified System Architect"
-        },
-        {
-          "url": "CSACASE",
-		  "tag_line":"CSA Case Questions",
-        },
-        {
-          "url": "CSADATA",
-		  "tag_line":"CSA Data modelling Questions"
         }
       ]
     }
