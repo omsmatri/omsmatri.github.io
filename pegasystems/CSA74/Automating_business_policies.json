@@ -1,0 +1,3638 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "Which of the following statements are true about correspondence?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pega allows you to automate and create timely and clear communication with participants in a case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "This communication ranges from simple notifications of assigned tasks to complex communications that contain case-specific data and calls-to-action. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The communication only supports email.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Adding correspondence to a business process keeps customers and case workers engaged throughout the case life cycle.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "What are the channels through which pega can send communication?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "email",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "letter",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "fax",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "text messages",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "What are the things to be considered for an effective communication.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Who is the user that receives the communication? ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "How will the communication be sent? Third, when does the communication need to be sent?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "When does the communication need to be sent?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "None of the above?",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "The case is having customer and interested Party. How do you configure to send the communication to all?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "By sending communication to customer role",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "By sending the communication to customer email address",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "By sending the communication to the party under which customer and interested party comes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "What are the roles defined for a correspondence in Pega?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Owner (The person who created the case.)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Customer (The person on whose behalf the case is transacted. This person may not process the case, but may want — or need — notification of any changes.)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Interested (A person who tracks the progress of a case but does not process the case.)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Originator",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "The system is having correspondence template for email. Should it be used for other communication channel as per pega`s best practice?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Can we send a communication from the case stage using a smart shape?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "While communicating with a Case user, is it advisable to hard code the party name of the user in communication or use the case user email directly?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Party name should be used, never use email address as that may change later point of time",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Party name should not be used. Always use email address.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "What other rules can be referred from a correspondence rule?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "section",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "paragraph",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "correspondence fragment",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Correspondence or template rules are created for every channel type like email, fax, letter or sms",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Email correspondence can be configured from the case life cycle in either Pega Express or Designer Studio. For other types of correspondence, you must create a correspondence rule in Designer Studio and send the correspondence using a correspondence activity.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "You configured a party to receive fax communication only but you are trying to send the email type of communication to the party, will it work?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "How would you configure a notification for the case manager when the case reaches an assignment for some user to work.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "From case>> settings>> Notifications, enable the \"Email user when assignment is routed to worklist option\"",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "From the Case stage step, this can be added from the contextual panel as it has Notification form to fill",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "This is achievable if only the user is routing the case to that assignment",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "In Designer Studio, the Notifications tab presents additional options to change the subject or content of the assignment notification.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "To have better flexibility of sending email, corrNew rule should be used in Utility shape of a flow.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Utility shape with corrNew can send any type of communication which is not possible with Send Email step as it only can send email communication.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Utility shape CorrNew takes the PartyRole as well as CorrName parameter",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "The correspondence content can be added from which places?",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Send email step contexual panel",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "from the correspondence rule",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "from the Notification rule",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "from the Corespondes fragment rule included in the correspondence",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "When the correspondence is an email, the outgoing email includes HTML formatting, even if no HTML elements appear within the source. When the correspondence is phone text, the message does not contain HTML formatting.",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Inserting a paragraph, section or correspondence fragement can only be done in correspondence fron Designer studio",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE"
+    },
+    {
+      "id": "21",
+      "name": "You want to send a Monthly credit card payment email to your customer with copyright message as footer, company logo as header, instructions on what to do after this email and expected actions from the customer. How to design  it?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Four correspondence fragment, each for header, footer, instructions and expected actions",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Two fragments for header and footer, two paragraph each for instructions and expected action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Two fragments for header and footer, the other details can be part of this correspondence rule",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "One correspondence rule should be used for all content.",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE"
+    },
+    {
+      "id": "22",
+      "name": "You want to send a Monthly credit card payment email to your customer with copyright message as footer, company logo as header, instructions on what to do after this email and expected actions from the customer. How to design  it?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Four correspondence fragment, each for header, footer, instructions and expected actions",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Two fragments for header and footer, one paragraph for instructions and one section for expected action",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Two fragments for header and footer, the other details can be part of a section rule included in this correspondence rule",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "One correspondence rule should be used for all content.",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE"
+    },
+    {
+      "id": "23",
+      "name": "Can we directly modify the correspondence source  (JSP code)",
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Which tag is used to refer the rule or property in correspondence rule? For example, you want to refer .pyLabel property using jsp, how to do it?",
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "<<.pyLabel>>",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "<.pyLabel>",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "{.pyLabel}",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "{{.pyLabel}}",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "What three questions should you ask when creating a correspondence? (Choose Three)",
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Which email server should the correspondence use?",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "How will the correspondence be sent?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Who is the user that receives the correspondence?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "When does the correspondence need to be sent?",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2987",
+          "answer": "How often should you send the correspondence?",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Which two statements identify why you should automate correspondence? (Choose Two)",
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Automating correspondence allows for sending consistent information to users.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Automating correspondence keeps all interested parties informed of the current status of a case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Automating correspondence allows you to advance a case.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Automating correspondence allows you to send timely communication.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": " In a new hire process, a hiring manager needs to be automatically notified by email, when a job application case reaches a Collect Work Sample assignment. How would you configure this correspondence requirement?",
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "After the assignment, add a SendEmail SmartShape.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Before the assignment, add a SendEmail SmartShape.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Add a SendCorrespondence local action to the assignment.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Enable assignment notifications for the case type.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": " You are configuring a standard email to automatically be sent to loan applicants informing them that their loan has been approved. The requirement states that the email must include values for the applicant's name, the loan office, and the loan amount. The email must also include boilerplate content stating the loan's terms and conditions, which is regularly updated. This content is in a paragraph rule shared by other standard emails throughout the organization. How would you configure your email?",
+      "image": "null.png",
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Insert applicant's name, loan office, and loan amount properties. Also, copy and paste the paragraph content into your email.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Insert applicant's name, loan office, and loan amount properties. Also, insert the paragraph rule.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Add placeholder text for the applicant's name, loan office, and amount. Also, insert the paragraph rule.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Insert the applicant name and loan office properties. Include a correspondence fragment that contains a link to the organization's website page that contains loans and conditions.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Circumstancing allows you to describe exception behavior with a set of targeted rules rather than one complex rule. Each targeted rule configures behavior to address a specific exception.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "What types of circumstance conditions are supported in Pega?",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "The rule variant is effective after a certain date, or during a range of dates.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "The rule variant is effective whenever the value of a date property satisfies the circumstancing condition. ",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "The rule variant is effective whenever a combination of property values satisfies the circumstancing condition.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "The rule variant is effective whenever the value of a single property satisfies the circumstancing condition. ",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "What type of circumstancing will a real estate firm use to display a disclosure statement that varies by both the status and location of the listing?",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "A bank waives account fees for customers who maintain an account balance of 10000 euros. But for customers in Germany, the account balance must exceed 25000 euros. In this situation, you use a circumstance template to define the properties on which to circumstance the rule. You then use a circumstance definition to specify the minimum balance and country for the exception — 25000 euros for customers in Germany.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Many companies offer a quicker response on complaints or inquiries for customers with premium or elite status. In this situation, you circumstance a service level rule based upon the value of the property that records customer status. If the value is silver for a case, the application uses the circumstanced variant for customers with silver status, rather than the base rule.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Companies often update a business process in response to business conditions, but must process existing cases under the previous version of the process. A process goes into effect on January 1 to reflect a more rigorous review of loan applications. But cases created before this date are to be completed using the old process. In this situation, you circumstance the updated process based upon the value of the pxCreateDate property — the date a case was created. If the value of pxCreateDate is a date after January 1, the application uses the updated process instead of the original process.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "During December, a retailer offers free shipping on any order over 50 dollars. During the rest of the year, only orders over 100 dollars receive free shipping. In this situation, you apply a date range to the rule that calculates the shipping charge. If a customer places an order in December, then the application applies the 50 dollars threshold for free shipping. If the customer places an order in any other month, the application applies the 100 dollars threshold instead.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Single Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Multiple Value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Date property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "As of dates",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "To circumstance on one variable, select Property and date?",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "To circumstance on multiple variable, select template?",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "While circumstancing by date, Rule to be effective only if the value of the specified date property occurs within a date range",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=No",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Specify date property=Yes, Specify start date=No, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Specify date property=No, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "While circumstancing by date, Rule to be effective only if the value of the specified date property occurs after a certain date",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=No",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Specify date property=Yes, Specify start date=No, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Specify date property=No, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "While circumstancing by date, Rule to be effective only within a date range",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=No",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Specify date property=Yes, Specify start date=No, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Specify date property=No, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "While circumstancing by date, Rule to be effective only after a certain date",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Specify date property=Yes, Specify start date=Yes, Specify end date=No",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Specify date property=Yes, Specify start date=No, Specify end date=Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Specify date property=No, Specify start date=Yes, Specify end date=No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "To circumstance by more than one property, specify the circumstance definition and circumstance template rules that define the combination of conditions. For each circumstanced rule, you must provide a unique circumstance definition.",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": " In which of the following situations would you use a rule circumstance to resolve the requirement?",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A process does not execute if a user is not married.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "An online order process optionally allows customers to update the credit card number saved with their account.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "A national insurance company requires a different minimum for liability coverage in each state.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "A service level notifies the assigned user when a goal interval is exceeded, and notifies the user's manager when a deadline interval is exceeded.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "An application change goes into effect on June 15, 2016. Due to this change, two fields are added to a user form to collect information for compliance purposes. Assuming that today is April 30, 2016, how should you configure circumstancing for the form?",
+      "hint": "CIRCUMSTANCING RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Circumstance the form by template and definition; in the definition, specify June 15, 2016, as the cut-off date.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Update the existing form to apply a circumstance; specify June 15, 2016, as the end date.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Circumstance the form by property and date; specify June 15, 2016, as the start date.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Circumstance the form by property and date; test that the creation date for the case is on or after June 15, 2016.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Which statement best describes the role of the base rule in circumstancing?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The base rule is a template used to create all of the circumstanced variants.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "The base rule is used if no circumstanced variant applies.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The base rule lists all of the properties for which a rule can be circumstanced.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "The base rule describes case behavior in effect until a certain date.",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CIRCUMSTANCING RULES"
+    },
+    {
+      "id": "1",
+      "name": "What are the milestones for the SLA",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Goal",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Deadline",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Failed Deadeline",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Passed Deadline",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "The Goal and Deadline time starts at same time when the assignment started?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Passed Deadline starts just after the Goal time is finished.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2984",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2983",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Passed Deadline can be repeated until the assignment is completed. To apply the passed deadline behavior indefinitely until the assignment is completed, leave the field named Leave passed deadline events empty.?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Passed Deadline can only be repeated with fixed number times?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Goal can be repeated provided the goal and deadline time are equal?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "A SLA is defined for the assignment. the GOAL has urgency of 10. As soon this Assignment started for a case, the urgency of the Goal adds up to the Case`s Urgency? ",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "A SLA always starts as soon as case enters in to an assignment?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "What are the actions can be taken on SLA milestones when assignment meets the assignment.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Resume the case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "sends mail to manager",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "increase the urgency",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the Above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Service level agreements for processes, stages, and case types often require only goal and deadline intervals.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "What capabilities do you gain by configuring a service level agreement rule in Designer Studio?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "determine when an assignment is ready for users to perform",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "What to do with late assignment",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Route the assignment to some other user if the assignment is not completed in Goal milestone",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "In Pega express, you can access the service level rule and change the default timer start.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "You can only increase Urgency when you add SLA from Pega Express",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "To access the Goal and Deadline entry fields in Designer Studio, under Service level agreement, select Custom.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Either you can increase urgency or add some action handler like sending email in SLA. Both cannot be configured from SLA when you are configuring the SLA rule from designer studio.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "While configuring the SLA from Case >> Settings >> Goal & deadline, can we configure the start time of the case.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "While configuring the SLA from Case >> Settings >> Goal & deadline, what are the options available?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "This case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Parent case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Top level case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Fixed Time",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "You can only increase urgency from SLA when you are configuring the SLA rule from Case >> Settings >> Goal & deadline",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "You can increase urgency or add some action handler like Notify assigne in SLA using case designer",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT"
+    },
+    {
+      "id": "20",
+      "name": "The custom option only comes when you configure the step Goal and Deadline, that too fron Designer studio",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT"
+    },
+    {
+      "id": "21",
+      "name": "What are the assignment ready option comes in SLA rule while configuring it in Designer Studio?",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Immediately",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Timed Delay",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Dynamically defined on a property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Constant value in HH:MM:SS",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT"
+    },
+    {
+      "id": "22",
+      "name": "For example, a mortgage or bond may have a known, fixed maturity date that doesn't depend on when processing starts on it. A property in the work item, not a fixed time interval, may become the goal or deadline date. can this be achievable using SLA?",
+      "image": "null.png",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Calculate service levels >> Set to the value of a property — Goals and deadlines are defined as the value of a property rather than fixed intervals",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Calculate service levels >> Interval from when assignment is ready — Enter fixed numeric values in the Days and HH:MM:SS fields to define goal and deadline intervals.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Can we add more than one perform actions in Goal & Deadline",
+      "image": "null.png",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "The work queue have two case items with same assignment but with different assignment urgency. When the use use getnextwork to get a case for work, which case item would be assigned to user?",
+      "image": "null.png",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Case with high assignment urgency",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Case with low assignment urgency",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Pega caps urgency adjustments at 100. At an urgency value of 100, Pega ignores further urgency adjustments and continues other actions. ",
+      "image": "null.png",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "As per the existing logic, the passed deadline can be fired maximum of 5 times. everytime it adds urgency of 10 and send a mail to manager. When the first iteration of passed deadline happened, assignment urgency was 70 and manager has one mail. If all the 5 passed deadline executed, what would be the final assignment urgency and how many total passed deadline mails the Manager has got.",
+      "image": "null.png",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "100 urgency, 5 mails",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "110 urgency, 5 mails",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "100 urgency, 4 mails",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Can we run a local action to increase the urgency of an assignment?",
+      "image": "null.png",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Can we set the default urgency from the case type rule?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "As an assignment ages in a workbasket or worklist, Pega increases the value of which property according to the configuration of the service level agreement.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": ".pxUrgencyAssignSLA",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": ".pyUrgencyAssignAdjust",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": ".pxUrgencyWork",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": ".pyUrgencyAssignSLA",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Manual adjustment for the assignment urgency. This value enables a user to increase the urgency of an assignment by running a local action.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": ".pxUrgencyAssignSLA",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": ".pyUrgencyAssignAdjust",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": ".pxUrgencyWork",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": ".pyUrgencyAssignSLA",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "What is true about  .pxUrgencyAssign",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "the assignment urgency is recorded using the property .pxUrgencyAssign",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Pega calculates .pxUrgencyAssign, as a sum of three input properties: .pxUrgencyWork, .pxUrgencyAssignSLA, and .pyUrgencyAssignAdjust.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": ".pxUrgencyAssign is contributed by .pyUrgencyWork",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": ".pxUrgencyAssign is not contributed by .pxUrgencyWork",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "The three factors influencing assignment urgency value are the default urgency for the case type, the urgency calculated from the service level rule, and manual adjustments (if enabled).",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Can we add SLA to a stage only from designer studio?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Selecting Custom from the Service level agreement list displays the Goal and Deadline entry fields. Pega uses the values in the Goal and Deadline fields to create a service level agreement rule. If you need to add a passed deadline interval, select Use Existing. You can create your custom rule from the options that display for Use Existing.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Delay the assignment until a specified time.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Dynamically defined on a property",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Timed delay",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Immediately",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Always",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "From the Calculate service levels list, select whether to track the service level intervals against a fixed interval or against the value of a property. Use a property reference to adjust the intervals for each case. Use fixed intervals to ensure that the intervals are the same length of time for each case.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "In SLA, can we configure to calculate only business days for any milestone",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "What actions can be configured from the Perform action dropdown of SLA in designer studio?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Call flow",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Run Activity",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Advance flow",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Transfer",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "What actions can be configured from the Perform action dropdown of SLA in designer studio?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Apply data transform",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Notify manager",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Notify assignee",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Notify Party",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Conditionally, I want to trigger the escalation action for an assignment when the case belongs to a particulat state.is this possible by using when condition in escalation action?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Which variable in the assignment urgency calculation enables users to increment the service level urgency on a case-by-case basis?",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": ".pxUrgencyAssign",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": ".pxUrgencyAssignSLA",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": ".pyUrgencyAssignAdjust",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": ".pxUrgencyWork",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "The goal milestone in a service level defines the amount of time  _____________________.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "allowed for a user to advance a case to the next stage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "in which the case or step must be completed",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "in which the case or step should be completed",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "allowed before an assignment is considered overdue",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "The primary purpose of a service level is to __________.",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "generate service level reports",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "assign cases to the appropriate case worker",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "track assignment status over time",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "help ensure timely completion of assignments",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "<table style=\"width: 80%;\"><colgroup><col><col><col><col></colgroup><thead><tr><th>&nbsp;</th><th>Urgency Adjustment</th><th>Interval length</th><th>Limit</th></tr></thead><tbody><tr><td>Start of service level</td><td style=\"text-align: center;\">20</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>Goal interval</td><td style=\"text-align: center;\">10</td><td style=\"text-align: center;\">8 hours</td><td>&nbsp;</td></tr><tr><td>Deadline interval</td><td style=\"text-align: center;\">20</td><td style=\"text-align: center;\">24 hours</td><td>&nbsp;</td></tr><tr><td>Passed Deadline interval</td><td style=\"text-align: center;\">20</td><td style=\"text-align: center;\">24 hours</td><td style=\"text-align: center;\">3</td></tr></tbody></table>\r\n\t  \r\n\t  The service level provides a four-hour initial delay. If the case urgency is set to 10 and the case reaches the assignment at 9 A.M. Monday, what is the assignment urgency at 12 P.M. Wednesday?\r\n\t  ",
+      "hint": "CONFIGURING A SERVICE LEVEL AGREEMENT",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "50",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "100",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "80",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "60",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "A home loan company has home appraisal offices in various regions. Each office has its own work queue. Company policy requires that home appraisals are assigned to offices based on the home's location. For example, appraisals for homes located in Boston are assigned to the New England office work queue. Which routing approach would you choose to support this requirement?",
+      "image": "null.png",
+      "hint": "ROUTING ASSIGNMENTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Route the assignment based on an appraiser role.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Route the assignment based on appraiser skills.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "It is not possible to support this requirement. The router must define a specific work queue.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Route the assignment to the correct work queue based on a decision rule.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "A process is having three assignments to collect the data which need to be Populated by three particular user, Can we route the case to the appropriate party based on the assignment?",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "After submitting the expense report, the expense case should be reviewed by some reviewer. As a pega developer, you should assign the review assignment to a particular reviewer or to a work queue?",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "work queue",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "work list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "A worklist is a list of all open assignments, ordered by urgency, for a specific user. For example, an assignment that requires a human resources manager to approve employee time off requests routes to the human resources manager's worklist.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Managers can access and assign work to the worklists of users who report to the managers.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "A work queue is a list of all open assignments, ordered by urgency, for a group of users.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Assignments stay in the work queue until a user associated with the work queue selects an assignment, or a manager sends an assignment in the work queue to a specific user. ",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "A user accesses assignments from a ___________. Users in a work group access assignments from a _________________.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "worklist, work queue",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "work queue, worklist",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Which option of Routing not available in Pega Express",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current user",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Specific user",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Custom",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Which option of Routing not available in Pega Express",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use business logic",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Custom",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Based on some condition , the assignment need to be routed to a worklist or work queue. Which of the following option should be selected",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use business logic",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Specific user",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "If the loan amount is more than 100K Usd, it should be assigned to the Senior manager or else to Manager. Use option should be used for routing",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use business logic",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Specific user",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "As a pega developer, you want to implement a routing where an assignemnt should be routed to a skilled case worker. Which option should you choose?",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use business logic",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Custom",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "As a pega developer, you want to implement a routing where an assignemnt should be routed to a skilled case worker having a French language skill more than 5. Which option should you choose?",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Custom with skill level 4",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Custom with skill level 5",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Single level approval routing (You can assign an approval task to a specific user, work queue, or the reporting manager of the user working on the case) can be suitably achieved by using which option.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Current User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Use business logic",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Work queue",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Specific user",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Cascading approval routing can be achieved by Cascading approval routin or the outcome of decision rule (matrix routing).",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "To route assignments based on a reporting structure in a cascading approval process: Approval Smart Shape >> General >> Approval Flow Type (Cascading) >> Approval based on (Reporting structure)>> Approval to be completed by(Reporting manager) >> Approval level (one or All or custom)",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Cascading approval can have following options, Please select the appropriate ones.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "One\tThe manager specified in the Approval to be completed by field must approve the case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "All\tThe entire reporting structure, starting with the manager specified in the Approval to be completed by field, must approve the case.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Custom\tA variable number of reviewers must approve the case, based on a list of when conditions.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Business logic\tA variable number of reviewers must approve the case, based on a list of when conditions.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "You have four managers in your reporting structure, however you want only three to approve to if the loan amount is 50000 USD. What should be the when condition evaluation field and levels of approvals.",
+      "hint": "ROUTING ASSIGNMENTS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Loan Type, 3",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Loan amount, 3",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Cascading approval based on authority matrix calls which type of rule to get the routing to value.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "decision table",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "decision map",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "decision tree",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "When",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ROUTING ASSIGNMENTS"
+    },
+    {
+      "id": "47",
+      "name": "Can we configure a page list to get the list of reviewers for cascading approval under Authority matrix?",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "ROUTING ASSIGNMENTS"
+    },
+    {
+      "id": "48",
+      "name": "An expense report process requires the assignment for travel expenses to be routed to a specific auditor. The auditor is also a member of an auditing work group. How would you route the assignment so that the user receives it?",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "To the user's manager",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "To the user",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "To the user's work queue",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "To the user's work group",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "ROUTING ASSIGNMENTS"
+    },
+    {
+      "id": "49",
+      "name": "An insurance company provides personal property insurance. Jewelry is categorized as a special type of personal property. Requests for jewelry coverage require that a user managing the request is trained to appraise jewelry. The requirement is to route assignments for jewelry appraisals to users who have this skill. Which one of the following routing approaches would you use?",
+      "image": "null.png",
+      "hint": "ROUTING ASSIGNMENTS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Route requests to a reporting manager who assigns the request to an available user to ensure fast processing.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Route requests to a work group that uses skill rating parameters for work group members.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Route requests to a decision table which routes the request to a work group in a location where there are users who have appraisal skills.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Route directly to a user who is a member of work group that uses skill rating parameters.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "A conditional path is a branch in the life cycle of a case that is contingent upon run-time values. By defining the business logic decisions that cause a case to follow different paths, you can improve the flexibility of your application.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "A conditional path is a branch in the life cycle of a case that is contingent upon run-time values. By defining the business logic decisions that cause a case to follow different paths, you can improve the flexibility of your application.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "As a pega deveoper you are adding an evaluation to check whether the loan amount is more than 25000K or not. If the loan amount is more than 25000 K, you want to initiate a fraud check for the loan application too else it would be only credit score check.Can we implement this as part of Case life cycle view uisng the OOTB smart shapes/stages without using any flow inside the stage for evaluating the loan amount.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "Automated decision can be modelled using Pega express",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "While configuring Automated decision in Pega express, how to configure the next stage or step.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Go to Drop down",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Change Stage",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "By default, all processes are configured with the \"Always\" condition, which always returns a true result, to ensure that the process is always used in case processing. ",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "For a newly joined employee to an organization, the IT team and facilities process need to be started concurrently as theye are indepemdent. Can this be achievable using Pega Express?",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "worklist, work queue",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "work queue, worklist",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "Parallel processes allow a case to advance down multiple paths within a stage at the same time.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "Parallel processes can only be configured in Case Designer by adding the first process to the stage, then selecting Add parallel process from the stage menu.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "When a user opens the case to perform an assignment in one process, the case may be locked, preventing another user from performing an assignment in the other process.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Parallel processes do not have a configurable order. The processes you select for parallel processes must be adaptable to any order.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Conditional paths in a case life cycle are used to define ______________________. (Choose Two)",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "subprocesses that run in the context of the current case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "paths in the case life cycle that are followed based on run-time values",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "subprocesses that run in parallel with the context of the current case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "paths in the case life cycle that are chosen by a user at run-time",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "A parallel process is defined as ___________________________.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "a process that is not part of the primary flow in the case life cycle",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "a process that executes over the same time period as other processes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "a process that executes in the context of the current case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "a process that executes in the context of another process",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "Automating decisions based on business logic enables ___________________________.",
+      "hint": "CONTROLLING THE FLOW OF A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "application users to mark a specific location for business exceptions that may arise in the process flow",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "architects to spend less time building the application",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "application users to focus on more nuanced decisions that require business expertise",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "architects to improve the performance of the application",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "Rule delegation empowers business users to respond to continuously changing business conditions.",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Rule delegation can also help reduce the workload for architects of minor, low risk maintenance items and provide a degree of empowerment to those closest to the day-to-day operations.",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Establish a unique access group for the business users to whom you will delegate rules.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Delegate rules for process items that change repeatedly.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Delegate rules that are easy for the business user to change.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Delegate rules that are easy for the developer to change and needs more technical expertise.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "You want to delegate some rule for the senior Managers but right now all the Managers and Senior Managers are using one access group and one work group. How to configure the delegation?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2984",
+          "answer": "Configure all the Senior Manager to have one senior Manager access group and delegate the rule for this Senior Manager access group.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Delegate the rule to each senior Manager",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Delegate the rule to the Manager access group as it can be configurable further by using access group and operator information",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Create a new work group for senior managers and Delegate the rule to the work group used by senior Managers only",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "Which of the rules are suitable to be delegated to business users from case manager portal?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Paragraph",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Decision Table",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "data types that have data records",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Correspondence",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "Which of the rules are suitable to be delegated to business users from case manager portal?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Paragraph",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "SLA",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "data types that have data records",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Correspondence",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "Can we delegate almost any rule to Business user?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "What is a good test for a name for a delegated rule?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A good test of a rule name is to build a sentence using the rule name, the rule type, and the business logic.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The rule name must be having an adejecting with noun and verb",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "What is a role of a Business architect (BA)?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Identify the business users who manage the delegated rules.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Create an access group for business users responsible for managing the delegated rules.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Organize the business users who manage the delegated rules in the access group.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Identify the rules to delegate.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2987",
+          "answer": "Organize the rules to delegate in a production ruleset. This ruleset must remain unlocked in the production environment as changes cannot be made to rules in a locked ruleset.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2988",
+          "answer": "Delegate the rules for availability in a user portal.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "What is a role of a Senior system architect (SSA) or lead system architect (LSA)?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Identify the business users who manage the delegated rules.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Create an access group for business users responsible for managing the delegated rules.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Organize the business users who manage the delegated rules in the access group.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Identify the rules to delegate.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2987",
+          "answer": "Organize the rules to delegate in a production ruleset. This ruleset must remain unlocked in the production environment as changes cannot be made to rules in a locked ruleset.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2988",
+          "answer": "Delegate the rules for availability in a user portal.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "What is a role of a System administrator (during development, an SSA may perform this task with test operators to test the configuration)?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Identify the business users who manage the delegated rules.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Create an access group for business users responsible for managing the delegated rules.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Organize the business users who manage the delegated rules in the access group.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Identify the rules to delegate.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2987",
+          "answer": "Organize the rules to delegate in a production ruleset. This ruleset must remain unlocked in the production environment as changes cannot be made to rules in a locked ruleset.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2988",
+          "answer": "Delegate the rules for availability in a user portal.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "name": "What are thye must performed roles of a SSA in delegating the rule?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Identify the business users who manage the delegated rules.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Create an access group for business users responsible for managing the delegated rules.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Organize the business users who manage the delegated rules in the access group.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Identify the rules to delegate.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2987",
+          "answer": "Organize the rules to delegate in a production ruleset. This ruleset must remain unlocked in the production environment as changes cannot be made to rules in a locked ruleset.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2988",
+          "answer": "Delegate the rules for availability in a user portal.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "name": "If a rule is delegated to an access group but the access group is not authorised to modify the delegated rule, still the delegated rule can be updated?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "name": "Which of the rules are suitable to be delegated to business users from case manager portal?",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Paragraph",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Decision Table",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "When",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Correspondence",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "name": "To update any rule on a production system, an unlocked ruleset must contain the rule. An unlocked ruleset is a ruleset in which rules can be modified and saved.",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "name": "The delegated rules are present in production ruleset. Add the ruleset to the application rule as a production ruleset. A production ruleset is a ruleset containing rules that can be modified after the application deploys.",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "name": "The ruleset containing the delegated rules must remain unlocked in production so business users can make changes to the delegated rules. Changes cannot be made to a rule in a locked ruleset.",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "name": "To delegate a rule, an operator ID must be assigned to an available role that has the pxCanDelegateRules privilege. By default, this privilege extends to users assigned to the Administrator or SysAdm4 access role. If you need to delegate a rule and cannot, contact your Pega Platform system administrator to confirm that your operator ID has this privilege.",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "name": "Business user delegates need to understand the possible impact of their changes.",
+      "hint": "DELEGATING BUSINESS RULES",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "name": "Select two benefits of adopting a rule delegation strategy. (Choose Two)",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Adopting a rule delegation strategy can help improve the business' ability to adapt to changing business conditions.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Adopting a rule delegation strategy enable business users to change business policies more quickly by avoiding long approval processes.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Adopting a rule delegation strategy enables business users and architects to focus on their specific tasks related to application development and maintenance.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Adopting a rule delegation strategy can help lower the overall costs of building and maintaining business applications, because fewer architects are required if business users can make changes to the application on their own.",
+          "correctanswer": "false"
+        }
+      ],
+      "hint": "DELEGATING BUSINESS RULES"
+    },
+    {
+      "id": "83",
+      "name": " What two items should a developer configure before delegating a rule? (Choose Two)",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "An unlocked ruleset added to the Application rule as a production ruleset",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "A separate Operator ID that has access to the delegated rules",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "An Access Group that has access to the production ruleset",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "An Access Role that has access to the production ruleset",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "DELEGATING BUSINESS RULES"
+    }
+  ]
+}
