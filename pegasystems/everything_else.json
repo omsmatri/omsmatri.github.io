@@ -5791,6 +5791,7 @@
       "id": "204",
       "name": "Which technique should you use if you want to update values when the user submits a form?",
       "hint": "",
+	  "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -5838,6 +5839,7 @@
       "id": "206",
       "name": "Which technique should you use if you want the total price to update immediately when a quantity is changed?",
       "hint": "",
+	  "image": "null.png",
       "type": "radio",
       "options": [
         {
