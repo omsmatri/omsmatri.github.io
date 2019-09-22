@@ -2379,6 +2379,3548 @@
           "correctanswer": "true"
         }
       ]
+    },
+    {
+      "id": "101",
+      "name": "If a data page is configured to reload if older than one hour, the page is marked for reload after one hour. It is not reloaded until the next request for the page occurs following the configured time.",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "name": "You need to fetch exchange rates that are updated on a daily basis from a web service and make them available in your application using a data page. Which scope would you select for the data page?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Thread",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Node",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Request",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Application",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "name": "You have a data page with customer data. The data page is configured to reload if it is older than one hour. Which of the following best describes when the data page will reload?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The data page reloads on the next access one hour after it was last accessed.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "The data page reloads automatically one hour after it was created.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "The data page reloads automatically one hour after it was last accessed.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "The data page reloads on the next access one hour after it was created.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "name": "You have configured a data page to look up customer data in a database table. The data source changes to a REST web service. Which of the following best describes the actions you should take to make sure your application uses the right data source?",
+      "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Wait until the data page reloads on the next access one hour after it was created.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Update your application to remove any reference to the data page.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Configure a new data page for the new data source, then update your application to use the new data page.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Update the data page to change the data source information.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "name": "Pega express data explorer allows you to reuse of existing data types",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "name": "In Designer Studio, the Data Explorer supports the reuse of existing data types, such as the data types provided as part of Pega Platform.",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "image": "null.png",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "name": "In Pega Express, the Data Explorer allows you to create a new data type and establish its position within the class hierarchy.",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "image": "null.png",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "name": "I want to create a Customer party class which is similar to Data-Party-Person but not having all fields I need for customer party class. What should I do",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "image": "null.png",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Create a new data class for customer and configure it to extend form Data-Party-Person class",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Add new fields for Data-Party-Person Class",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "No need of creating any new data class or field values as Data-Party-Person class is able to handle any field value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "I should go for another OOTB Party class",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "name": "Whats true about Data model tab?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "You can use the Data model tab in the Case Designer to add properties from your case type. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "You can use the Data model tab in the Case Designer to remove properties from your case type.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Properties are called fields in the Data model tab. ",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Select Show reusable fields to display all fields inherited and available in the case type.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "name": "If I want to capture a phone number and want to specify a list of types, such as home, work, and mobile. Which field type I should select in Pega express?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Picklist",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Dropdown",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Field group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Page group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "name": "If I want to have attachment capability, can I configure it from pega express.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "name": "If I want to reference a user in the system capability, which field type I should select from pega express.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "User",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "User reference",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Reference user",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Operator reference",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "name": "If I want to show a location on google map capability, which field type I should select from pega express.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Location",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "User location",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Location map",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Google location",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "name": "What does the Field group in Pega express means in Designer studio",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Value group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "page",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Page list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "name": "What does the Field group(list) in Pega express means in Designer studio",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Value group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page group",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Page list",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "name": "Which are not a complex type in Pega express.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Attachment",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Field group(list)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Location",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Field group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "name": "Which are not a complex type in Pega express.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Picklist",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Field group(list)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "User reference",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Field group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "name": "Which are fancy type in Pega express.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Attachment",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Field group(list)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Location",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Field group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "name": "Select the valid Simple field types in Pega express",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Currency",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Email",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Location",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Field group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "name": "Select the valid Simple field types in Pega express",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Text(single line)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Text(paragraph)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Location",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Field group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "Select the valid Simple field types in Pega express",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "TrueFalse",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Date & Time",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Boolean",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Date only",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Select the valid Simple field types in Pega express",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "User reference",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Date & Time",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Time only",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Date only",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "Select the valid complex field types in Pega express",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Field group(page)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Field group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Field group(list)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Data reference",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "can we configure to calculate a field declaratively from data model",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "From gear icon in the field row, you can configure the calculation for the field need to be calculated declaratively",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No such possibility in Pega express",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "From data model, we can see the field as well as validation applies to the case",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "Once a property is created in pega, will it follow the following features what is provided to any rule in pega?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "versioning",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "scaling",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "inheritance",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "access control",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "I have created a property named customerlist of type page list and later realise to change it to a value list. Will pega allow me to do that.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "The property type cannot be changed after the property has been saved.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "Whats true about the display and validation section?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The Display and validation section allows you to define how the property should be validated in an UI control.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "It helps in setting a static list of values",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The Display and validation section allows you to define how the property should appear on the screen by specifying a UI control.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "You also have the option to specify a table with valid values for the property.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "pega Identifies special properties — your application can read but not write to these properties.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "px",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "pz",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "py",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "pv",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "name": "We can use these properties in our application.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "px",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "pz",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "py",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "pv",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "name": "Which type of properties supports internal system processing — the meaning of values may change with new product releases. Your application can read but not write to these properties.",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "px",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "pz",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "py",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "pv",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "name": "Can I create a property starting with following letters",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "px",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "pz",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "py",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "pv",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "name": "A claim case records the items of loss. The property reference that describes an item of loss looks like this: .ItemOfLoss(1).Description. The property reference .ItemOfLoss(1) is an example of a __________ property?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "page list",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "single value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "value list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "name": "You want to capture the delivery method for a purchase request. The options are: Standard, premium, or next-day. You use the Data Model tab to create the property. How would you define the list with the options?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Picklist",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Text(paragraph)",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Radio button",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Field group(list)",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "name": "A candidate's language skills are captured in a candidate case. What type of property is used to capture the candidate's language skill if the property reference looks like this: .Language(Spanish)?",
+      "image": "null.png",
+      "hint": "DATA ELEMENTS IN PEGA APPLICATIONS",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Value group",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Text",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Single value",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Key building block of an application",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "A case from business perspective",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "A rule from technical prspective",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "A case from technical perspective",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "A rule from business prspective",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION"
+    },
+    {
+      "id": "21",
+      "name": "When an application requires new assets, why you only need to create key features and functions once?",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Pega's inheritance structure lets you reuse the new resources wherever needed in your application.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Pega's  structure does not let you reuse the new resources wherever needed in your application. So the same rule and functions need to be created for every class",
+          "correctanswer": "false"
+        }
+      ],
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION"
+    },
+    {
+      "id": "22",
+      "name": "What are rules",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The instructions to create, process and resolve a case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "rules describe the behaviour of individual cases",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Pega platform uses the rules you create to generate application code",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Rules are always easy to understand for business users",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Each rule is an instance of a rule type.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "A rule type is an abstract model of a specific case behavior.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "There are different rules types for process flow, automated email notification or case.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "What is a rule type? Is it a template for creating a rule?",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Rules are stored in ruleset version so that if the behaviour of rule changes, that partucular rule can be overridden in the next high version of ruleset.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Pega express shows you the ruleset and version info while storing a rule if you use the pega express to develop your application",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "what does this mean when a developer says that the rule is stored in AddressChange:01-01-03",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "the rule is stored in AddressChange ruleset",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "the rule is stored in 01-01-03 ruleset version",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "the rule is stored in AddressChange application",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "the rule is stored in 01-01-03 application version",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "what are the major, patch and minor in AddressChange:01-02-03",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "the major is 01, minor is 02 and patch is 03",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "the major is 03, minor is 02 and patch is 01",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "the major is 01, minor is 03 and patch is 02",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "the major is 03, minor is 01 and patch is 02",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Major version represents a substantial release of an application",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "minor version represents an interim release or enhancements to a major release.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "patch version consists of fixes to address bugs in an application. ",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "the Accounting department uses an application to manage expense reports. If Accounting wants to extend the application to track employee time off for payroll accounting, Which version of ruleset you should change to collect the rules.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "major",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "minor",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "patch",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "configuration change",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "you need to update an expense reporting application to make automatic audit travel reimbursements.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "major",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "minor",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "patch",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "configuration change",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "you notice that a field in the current version of an application has an incorrect label.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "major",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "minor",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "patch",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "configuration change",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Application consists of sequence of rulesets called ruleset stack.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Select the options which are correct.",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Each version of an application contains a unique ruleset stack.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The ruleset stack determines the order in which Pega looks through rulesets to find the rule being used.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Each entry in the ruleset stack represents all the versions of the specified ruleset, starting with the listed version and working down to the lowest minor and patch version for the specified major version.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Each entry in the ruleset stack represents all the versions of the specified ruleset, starting with the listed version and working up to the highest minor and patch version for the specified major version.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "As a developer, Mateusz add a simple UI to collect the customer details. It was having the first name, last name and gender. He did the change in Customers:01-01-01 ruleset version. days after, an enhancement request come where Date of Birth field was added by Urszula in Customers:01-01-02 ruleset version. Which are correct.",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "If the user`s application enlists 01-01-02 then only they can see the Date of birth field in the UI.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "If the user`s application enlists 01-01-01 they can not see the Date of birth field in the UI.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "user must create a new application as old application cannot be modified with th new ruleset version",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "user must create a new application version as old application version cannot be modified with th new ruleset version",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "As a developer, Mateusz add a simple UI to collect the customer details. It was having the first name, last name and gender. He did the change in Customers:01-01-01 ruleset version. days after, an enhancement request come where Date of Birth field was added by Urszula in Customers:01-01-02 ruleset version. Michal uses Customer:01.01 application which enlist Customers:01-01-01 version and Justyna uses Customer:01.02 application which enlists Customers:01-01-02 version. Now which are correct?",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Justyna can see the date of birth field.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Mateusz cannot see the date of birth field.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Both Mateusz an Justyna can see date of birth field",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "No one can see date of birth field.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Grouping the rules by class helps the developer in figuring out on how to re-use.",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "What are the rules mostly contained by Integration class.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "contains the rules that describe how to process a case or cases, such as processes, data elements, and user interfaces",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "contains the rules that describe how the application interacts with other systems, such as a customer database or a third-party web server.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "contains the rules that describe the data objects used in the application, such as a customer or collection of order items.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "contains the rules that describe how the application embeds the rule for internal usage.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "What are the rules mostly contained by Work class.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "contains the rules that describe how to process a case or cases, such as processes, data elements, and user interfaces",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "contains the rules that describe how the application interacts with other systems, such as a customer database or a third-party web server.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "contains the rules that describe the data objects used in the application, such as a customer or collection of order items.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "contains the rules that describe how the application embeds the rule for internal usage.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "What are the rules mostly contained by Data class.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "contains the rules that describe how to process a case or cases, such as processes, data elements, and user interfaces",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "contains the rules that describe how the application interacts with other systems, such as a customer database or a third-party web server.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "contains the rules that describe the data objects used in the application, such as a customer or collection of order items.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "contains the rules that describe how the application embeds the rule for internal usage.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "Pega Express identifies appropriate work or data or integration class for you when you create a rule from Pega Express",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "A class that contains another class is called a parent class.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "A class that is contained under another class is called a child class.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "A child class can reuse, or inherit, any of the rules defined for its parent class.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "What are true about class hierarchy?",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The classes that comprise an application are called a class hierarchy",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The class hierarchy determines how system architects can reuse rules within the application.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "The class hierarchy consists of several groups of classes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "class hierarchy has nothing to do with inheritance.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "ABC corp is planning to have insurance quote for property and life.How many cases they need to create",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "one",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "two",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "none, they can use OOTB case class",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "non of the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Classes which mostly collect very common rules and data elemensts should be part of which layer.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Organization",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Division",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Unit",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Application",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "If you want to use the industry application to fasten your developement, what you should create to inherit the industry application feature.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Create an application to inherit industry application",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Create classes to inherit industry application classes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Create ruleset to inherit ruleset",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "create access group to inherit industry applications access group",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "when you create a case class, do you need to create property to store the case creation time or case created by user`s name",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "What you can infer from the class ABC-Sales-Work",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "ABC- is organisation class, ABC-Sales- is ABC`s Sales division class, ABC-Sales-Work is work class",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "ABC-Sales-Work rules can refer from ABC-Sales- class rules",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "ABC-Sales-Work rules can refer from ABC- class rules",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "ABC-Sales-Work rules can refer from Data- class rules",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Class organizes rules with an application and based on the position class in class hierarchy, this class facilitates the reusability of the rules.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "The combination of rule type, name, class, and ruleset allows Pega to provide a unique identity for each rule.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "rule resolution is a process used by pega at runtime to determine the rule to be executed",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "what are the ways to create a new rule?",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "From the +Create menu, select the rule category, then the rule type.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "In the Application Explorer, select the class in which you want to create the rule, then select the rule category, then select the rule type.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "In a field on a form, enter the name of the rule to create, then click the Target icon.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "private edits are for quick debugging purpose",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "private edits can be done only for unlocked rules",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "private edits can be done only for unlocked rules if that rule is checked out by another user.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "in the rule header, click on the private to see the rules checked out by you",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "private checked out rules are put in the private ruleset which ocupied top spot in the ruleset stack.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "name": "if my pega login operator id is mafra@abc.com, what would be my private ruleset name",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "mafra@abc.com@",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "mafra@abc.com",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "mafra@",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "mafra",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "name": "When updating a rule in Pega Express, Express automatically manages the check-out/check-in process for you",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "name": "When updating a rule in Pega Designer Studio, Designer Studio automatically manages the check-out/check-in process for you",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "name": "If a rule is checked out by you, will other developer be able to check out that rule",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "name": "If a locked rule is private checked out by you, will other developer be able to private check out that rule",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "name": "Can you bulk discard or checkin the rules checkout by you from Private >> Bulk Action",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "name": "How can you remove the rules from your checked out list",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "checkout",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "checkin",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "discard",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Save",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "name": "Directed inheritance is the only option that allows an application class to inherit rules defined for standard Pega classes, such as the Work- or Data- class.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "name": "Directed inheritance is the only option that allows an application class to inherit rules from another application`s classes.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "name": "Pattern inheritance describes the business relationship between classes.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "name": "Pattern inheritance indicates the reusability of rules throughout an organization, such as whether a rule is usable by a single case type, an entire department, or even an entire organization.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "name": "Pega only provides pattern inheritance and directed inheritance.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "name": "pattern inheritance uses the class before the '-' to find the rules as part of inheritance. For e.g. ABC-Sales-Work would be inherited from ABC-Sales- for reusing the rules",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "name": "Direct inheritance uses the class name mentioned in the class itself. For e.g. ABC-Sales-Work would be inherited from Work-Cover- for reusing the rules. This class name should be mentioned in the direct inheritance class for ABC-sales-Work class.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "name": " The class group contains all of the case types in an application.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "name": " Above the class group is the division layer. The division layer contains the work, data, and integration classes for the division.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "name": " Above the division layer is the organization layer. The organization layer contains all of the classes for applications across an entire business or other organization. The organization layer often contains data and integration classes that can be applied across the entire organization.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "name": " ABC corp has two divisions one is Sales and other is IT. Both need customer information. This customer business entity should eb created in which layer for re-use.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Organization layer",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Division layer",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Unit layer",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Class group layer",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "name": "Baseclass inherits from None. In a Pega application, @baseclass is the ultimate base class. All other classes inherit from @baseclass..",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Yes",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "No",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "name": "An application references a data element found in the Work-class. How is this rule inherited by the application?",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "By adding the ruleset that contains the property to the application.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "By applying directed inheritance.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "By applying pattern inheritance.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "By naming PegaRULES as the built-on application.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "name": "Select the two items of information used to uniquely identify a rule. (Choose Two)",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The application that uses the rule.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "The description of the rule.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "The type of the rule.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "The class of the rule.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "name": "A company provides two applications to its employees. The first application is managed by the Accounting department, and allows employees to submit expense reports for reimbursement. The second application is managed by the IT department, and allows employees to submit support tickets for IT-related issues.\nBoth applications require a data element to track the status of cases. Select the best strategy for implementing this requirement.",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Check the inheritance path to determine if an appropriate data element is already available.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Create one data element in the org layer for both applications to use.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Create a data element for each case type, because they may use different status values.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Create one data element in the class group layer for both applications to use.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "name": "You check out a rule to update it. While the rule is checked out, another developer decides to test a case type by creating and processing the case. What happens when the application attempts to use the rule you checked out?",
+      "image": "null.png",
+      "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The application cannot run because the rule is unavailable.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "The application returns an error and stops processing the case, because the rule is unavailable for use.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "The application runs the checked-out version of the rule, because that is the most up-to-date version of the rule.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "The application ignores the checked-out version and uses the previous version in the application ruleset.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "You can specify a data transform when creating a spin-off, child, or multiple child cases from designer studio case designer?",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "You can update a child case, or all the child cases of a parent case, by using the Update a Case smart shape in the case designer.",
+      "image": "null.png",
+      "type": "radio",
+      "hint": "Exchanging data between cases",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Updating an existing case can be configured in Designer Studio, in the Case Designer. This feature is not available in Pega Express.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Update case smart shape utility has All child cases (and descendants) or A single case",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "ABC corp wants to conditionally update few of its child case, not all the child cases. How to do it?",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "select All child cases (and descendants) option from Update case smart shape of parent case and add the conditional logic to the data transform",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Add conditional logic to All child cases (and descendants) option from Update case smart shape of parent case",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "ABC corp`s insurance case can have only one mediclaim case as child case. ABC corp wants to conditionally update mediclaim child case. How to do it?",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "parent case stage should have one update steps with configured condition to update a single case",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Add conditional logic to All child cases (and descendants) option from Update case smart shape of parent case",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "You can update a child case of a parent case, by using the Update a Case smart shape in the case designer.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "parent case stage should have one update steps configured to update a single case by providing the child case id (In the With ID, enter the property reference or unique identifier for an open case.)",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "There is no way we can pass the child case id to the update case step from parent case stages.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Calculations are configured in Designer Studio, using the Case Designer. This feature is not available in Pega Express.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Calculations are configured in Designer Studio, using the Case Designer>>case explorer>>parent case>>settings>>calculation",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Calculations are configured in Designer Studio, using the Case Designer>>case explorer>>parent case>>settings>>calculation for more than one case types",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Calculations are configured in Designer Studio, using the Case Designer>>case explorer>>parent case>>settings>>calculation for only one case type",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Calculations are configured in Designer Studio, using the Case Designer. This feature can do any arithmatic operation.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "false",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "true",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Calculations are configured in Designer Studio, using the Case Designer. This feature can do only sum arithmatic operation.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "in calculation, the calculated property of parent case and the case type property should be of same type.",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "When does data propagation occur?",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "When a value in the child case or spin-off case changes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "When a case is created",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Whenever a parent's value changes",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "When a parent's value changes and a data transform is used to configure the data propagation",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "You have a purchase request case and want to spin off a supplier case for a new supplier. How can you copy data to the supplier case?",
+      "image": "null.png",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "a data page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "a decision tree",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "the Update a Case smart shape",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "a data transform",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Use __________ to sum a value in a child case and record the total value in the parent case.",
+      "hint": "Exchanging data between cases",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "a calculation",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "the Update a Case smart shape",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "data propagation",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "a data transform",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Use __________ to conditionalize the logic to determine which data should be propagated.",
+      "hint": "Exchanging data between cases",
+      "type": "radio",
+      "image": "null.png",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "a data transform",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "a data page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "the property mapper",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "a decision tree",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "The insurance case of ABC corp shows a UI where user can see the insured details as well as the communication options by which insured wants to be communicated (select two)",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "communications options are reference data",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "insured details are master data",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "communications options are master data",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "insured details are reference data",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "What is the advantage of using reference data?",
+      "hint": "MANAGING REFERENCE DATA",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "it facilitates automation",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "it just any data which doesn`t help in faster processing of case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "it helps in validation of input values",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "it just any data which doesn`t help in automation of case",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "A change to the reference data values may need an associated change in the business process to support the change.",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "A change in master data is always as part of existing business processes.",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "What are the ways  you can use reference data in a Pega application",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "static list",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "local data storage",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "external database table",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "application",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "configuring a list to select the communication preference for customer with mail, email, fax, sms. Which preference you should select for this?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "static list",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "local data storage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "external database table",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "application",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "configuring a list to select the phone preference for customer with home, work and mobile. Which preference you should select for this?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "static list",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "local data storage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "external database table",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "application",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "configuring a list to show the different offices (Office city name and country name) a company has. Which preference you should select for this?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "static list",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "local data storage",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "external database table",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "application",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "Show the insurance credibility by checking the credit score. Which preference you should select for getting the credit score?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "static list",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "local data storage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "external database table",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "application",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "What are the ways to get the data from the external databse?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "database table class mapping tool",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "sql connector",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "connect soap",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "service soap",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "You want to create a list of products and their attributes to distribute with an application. Which method do you use to create the reference data?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "static list",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "local data storage",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "external database table",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "application",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Can you add records to local data storage without adding the key?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "No",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Yes",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "Can we delete the added record from the local data storage?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "check",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "No",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Yes",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "In pega express, you can refer the local data storage against a property and in the view, this property would show up data using the data page to access the local storage",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "How to see the existing class mappings.",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Designer Studio >> Data Model >> Classes & Properties >> Database Class Mappings",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Designer Studio >> Data Model >> System >> Database Class Mappings",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Designer Studio >> Class Model >> Classes & Properties >> Database Class Mappings",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Designer Studio >> Case Model >> Classes & Properties >> Database Class Mappings",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "A Class named ABC-data-Office maps to office table. Recently, there is a new office opened in Germany. Earlier all offices were in USA. So developer need to add a country column to Office table. How to map this column to an existing property named CountryID",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Modify the external mapping tab of class to map CountryID to country column",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "The Database Table Class Mapping wizard can do this",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "You don`t need any modification",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "The Database Table Class Mapping wizard creates always a new class and properties.",
+      "image": "null.png",
+      "type": "radio",
+      "hint": "",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "The Database Table Class Mapping wizard creates the necessary data pages to fetch the list of data or look up any particular data.",
+      "image": "null.png",
+      "type": "radio",
+      "hint": "",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "Obj-methods to open, save, and remove rows from the table mapped by the class created by the Database Table Class Mapping wizard .",
+      "image": "null.png",
+      "type": "radio",
+      "hint": "",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "Does Database Table Class Mapping wizard creates only two data pages one for look up and one for fetching the instances.",
+      "image": "null.png",
+      "type": "radio",
+      "hint": "",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "Does Database Table Class Mapping wizard creates the two data pages one for look up and one for fetching the instances. Is it always created from pega express.",
+      "image": "null.png",
+      "type": "radio",
+      "hint": "",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "Does Database Table Class Mapping wizard creates the two data pages one for look up and one for fetching the instances. Is it always created from pega designer studio.",
+      "image": "null.png",
+      "type": "radio",
+      "hint": "",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "Does Database Table Class Mapping wizard creates the two data pages one for look up and one for fetching the instances. Is it optional to create from pega designer studio.",
+      "image": "null.png",
+      "type": "radio",
+      "hint": "",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "Which of the following would be typical data stored in a local data source?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Insurance policy data",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Customer details",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Delivery options",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Case data",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "name": "In which types of UI control is reference data from the local data source typically used?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Label",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Drop-Down",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Text field",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Button",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "name": "The External Database Table Class Mapping wizard creates a data class and a database table. How do you make this data available to your application?",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Use a static list",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Use local storage",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Use case data",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Use a data page",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "name": "Which two use cases are a good use of reference data? (Choose Two)",
+      "image": "null.png",
+      "hint": "MANAGING REFERENCE DATA",
+      "type": "check",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "To access an external database",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "To add case data",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "To add a new employee",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "To provide a limited set of input values for a field",
+          "correctanswer": "true"
+        }
+      ]
     }
   ]
 }
