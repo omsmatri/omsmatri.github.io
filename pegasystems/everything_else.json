@@ -4,6 +4,7 @@
       "id": "1",
       "name": "ABC Corp requires that policyholders receive email indicating the status of their auto insurance claim as the claim processed. You create the work party for the policyholder as an instance of which class?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -26,13 +27,13 @@
           "answer": "The Tracer",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "2",
       "name": "ABC Corp requires that policyholders receive email indicating the status of their auto insurance claim as the claim processed. You create the work party for the policyholder as an instance of which class?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -55,13 +56,13 @@
           "answer": "Data-Party-Org",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "3",
       "name": "Adding instructions to a step ____________.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -84,13 +85,13 @@
           "answer": "Describes the business value of the step.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "4",
       "name": "An application change goes into effect on June 15, 2016. Due to this change, two fields are added to a user form to collect information for compliance purposes. Assuming that today is April 30, 2016, how should you configure circumstancing for the form?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -113,13 +114,13 @@
           "answer": "Circumstance the form by property and date; test that the creation date for the case is on or after June 15, 2016.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "5",
       "name": "An application includes the property .Employee.Dependents(2).DateOfBirth. The property mode of .Dependents(2) is a _________________. (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -142,13 +143,13 @@
           "answer": "ValueGroup:",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "6",
       "name": "An application is organized as a hierarchy, the hierarchy is referred to as a ________________ and it governs how individual rules are ___________. (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -171,13 +172,13 @@
           "answer": "ruleset list, grouped",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "7",
       "name": "An application lets customers book airline reservations online. What would you expect to be defined as the case type in the application?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -200,13 +201,13 @@
           "answer": "A reservation",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "8",
       "name": "An application references a data element found in the Work-class. How is this rule inherited by the application?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -229,13 +230,13 @@
           "answer": "By applying pattern inheritance.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "9",
       "name": "An application will use a data page to store user preferences. This page needs to be available to all the cases associated with a single end user. The most appropriate scope for this data page is _______________. (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -258,13 +259,13 @@
           "answer": "Thread:",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "10",
       "name": "The approval process for a purchase request case must satisfy the following requirements: - A request for office supplies placed by the Facilities department that totals EUR100 or less is automatically approved. - A request for software is automatically rejected unless requested by the IT department. - Any request that exceeds EUR1000 is automatically subject to review by the auditing department. Which type of rule would you configure to satisfy this requirement?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -287,13 +288,13 @@
           "answer": "When",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "11",
       "name": "You are designing a case type that includes a process to perform when a case is rejecting. How do you model thisrequirement in the case life cycle?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -316,13 +317,13 @@
           "answer": "Add an alternate stage and add the rejection process to the stage.",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "12",
       "name": "Automating decisions based on business logic enables ___________________________.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -345,13 +346,13 @@
           "answer": "architects to improve the performance of the application",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "13",
       "name": "A business process requirement states that users should be able to modify the shipping address at any time and not interrupt the primary case. Which of the following options is the best way to design for this requirement?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -374,13 +375,13 @@
           "answer": "Add a step in a process.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "14",
       "name": "A candidate's language skills are captured in a candidate case. What type of property is used to capture the candidate's language skill if the property reference looks like this: .Language(Spanish)?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -403,13 +404,13 @@
           "answer": "Single value",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "15",
       "name": "The case type hierarchy in your insurance application consists of three case types: Claim (top level), Personal Injury (subcase type of Claim), and Emergency Care (subcase type of Personal Injury). In the Claim case type, a data transform sets the claim date and work urgency.To reduce maintenance, you do not want to set in each subcase the properties that were already set in the parent data transforms . However, you want to set work urgency to different values in each subcase type. What two configuration steps would you take to meet this requirement? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -432,13 +433,13 @@
           "answer": "Select the Call superclass data transform option in the Claims data transform and clear the option in the Personal Injury and Emergency Care data transforms.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "16",
       "name": "A claim case records the items of loss. The property reference that describes an item of loss looks like this: .ItemOfLoss(1).Description. The property reference .ItemOfLoss(1) is an example of a __________ property?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -461,13 +462,13 @@
           "answer": "Page:",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "17",
       "name": "Classes are used to ______________________. (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -490,13 +491,13 @@
           "answer": "organize a set of rules for reusability.",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "18",
       "name": "A company provides two applications to its employees. The first application is managed by the Accounting department, and allows employees to submit expense reports for reimbursement. The second application is managed by the IT department, and allows employees to submit support tickets for IT-related issues. Both applications require a data element to track the status of cases. Select the best strategy for implementing this requirement.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -519,13 +520,13 @@
           "answer": "Create one data element in the class group layer for both applications to use.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "19",
       "name": "Conditional paths in a case life cycle are used to define ______________________. (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -548,13 +549,13 @@
           "answer": "paths in the case life cycle that are chosen by a user at run-time",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "20",
       "name": "Consider a class named:ABC-FW-Global-USA-Expenses-Work-ReimbursementRequest Which class requires directed inheritance?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -577,13 +578,13 @@
           "answer": "ABC",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "21",
       "name": "Direct Capture of Objectives (DCO) provides many benefits. Which of the following are benefits of DCO? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -606,13 +607,13 @@
           "answer": "Use working models to better facilitate business and IT collaboration.",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "22",
       "name": "During a playback, you place a flow in draft mode to address which limitation?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -635,13 +636,13 @@
           "answer": "To allow users to choose decisions outcomes if a decision rule if not yet available.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "23",
       "name": "A dynamic layout uses an Inline format to organize UI elements on the screen. The Inline format is configured with two responsive breakpoints: the first one is to change to an Inline grid triple format at 1024 pixels, and the second one is to change to an Inline grid double format at 768 pixels. The UI elements are arranged into various numbers of rows depending on the screen size and number of elements on the screen. When the screen size is at 800 pixels and there are five elements on the screen, how many elements should be in the last row? (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -664,13 +665,13 @@
           "answer": "Five since it is in Inline format.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "24",
       "name": "An application allows bank customer to apply for a credit card. During the process of applying for the credit card,customers can elect to transfer a balance to the card.The bank currently offers three balance transfer options for customers applying for a new credit card:1. 0 percent interest for 6 months.2. 2.9 percent interest for 12 months.3. 3.9 percent interest for 24 months.The bank requires that customers first elect whether to transfer a balance. If customers elect to transfer a balance,they must select one of the three options.Which control allows you to display all the balance transfer offers on the form, but only allows the customer to selectone offer?",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -693,13 +694,13 @@
           "answer": "Check box",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "25",
       "name": "An expense report process requires the assignment for travel expenses to be routed to a specific auditor. The auditor is also a member of an auditing work group. How would you route the assignment so that the user receives it?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -722,13 +723,13 @@
           "answer": "To the user`s work queue",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "26",
       "name": "The External Database Table Class Mapping wizard creates a data class and a database table. How do you make this data available to your application?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -751,13 +752,13 @@
           "answer": "Use local storage",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "27",
       "name": "Given the following business requirement, \"Once a loan application is complete the case is routed to a group of underwriters for review.\" What type of routing is needed to ensure the case is handled by the next available underwriter? (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -780,13 +781,13 @@
           "answer": "Get Next Work routing",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "28",
       "name": "The goal milestone in a service level defines the amount of time _____________________.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -809,13 +810,13 @@
           "answer": "allowed before an assignment is considered overdue.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "29",
       "name": "A home loan company has home appraisal offices in various regions. Each office has its own work queue. Company policy requires that home appraisals are assigned to offices based on the home's location. For example, appraisals for homes located in Boston are assigned to the New England office work queue. Which routing approach would you choose to support this requirement?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -838,13 +839,13 @@
           "answer": "Route the assignment to the correct work queue based on a decision rule.",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "30",
       "name": "A hotel reservation application has the following requirement: Users must select the destination city from a list of options. The list is filtered on user entry. As a user types the city name, the list of options narrows. Which UI control allows you to implement this requirement?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -867,13 +868,13 @@
           "answer": "Menu",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "31",
       "name": "How do you configure an action set on a button to clear user selections and then review the previous actions on the case?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -896,13 +897,13 @@
           "answer": "First, configure a Click event with a Refresh action. Next, configure a Double-click event and a View History action.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "32",
       "name": "In a hotel reservation application, a form displays a list of hotels with available rooms based on the check-in and check-out dates entered by users. How do you configure the form to refresh the hotel list whenever the check-in or check-out date changes?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -925,13 +926,13 @@
           "answer": "Configure action sets on the date fields to refresh the section when the date values change.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "33",
       "name": "In a Job Recruitment application, business needs to schedule interviews for candidates who meet passing requirements. Each interview must be tracked from interview date/time to resolution date/time for quality control purposes. The status of interview can change from New, Open-Scheduled, Open-InProgress, Resolved-Rejected, and Resolved-Approved. What are the new records are essential for this application? (Choose Three)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -959,13 +960,13 @@
           "answer": "A service level to ensure timely resolution.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "34",
       "name": "In an airline reservation application, users enter departure and return dates and submit for flight search. This is implemented as a flow action. You need to ensure that the return date is later than the departure date. You also need to copy the dates to a search parameter page that is used for flight search. Select the two rule types that the flow action references to satisfy these requirements. (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -988,13 +989,13 @@
           "answer": "Data Transform",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "35",
       "name": "In an event reservation application, you are configuring a Select Flights view in which in which the user enters the destination (.Destination). Later in the life cycle, you want to display the destination value as the location (.Location) value in a Hotel Reservation view. How do you configure the data transform?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1017,13 +1018,13 @@
           "answer": "Invoke a when condition to update the .Location property value when the user enters a .Destination property value.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "36",
       "name": "In a new hire process, a hiring manager needs to be automatically notified by email, when a job application case reaches a Collect Work Sample assignment. How would you configure this correspondence requirement?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1046,13 +1047,13 @@
           "answer": "Before the assignment, add a SendEmail SmartShape.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "37",
       "name": "In an mortgage application, the user creates a loan request. In order for the loan request to be approved, the loan officer must receive the results of an appraisal. How would you configure the case types to reflect their relationship?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1075,13 +1076,13 @@
           "answer": "Make appraisal a parent case type, and loan request a child case type.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "38",
       "name": "In an online shopping application, the primary case type PurchaseOrder has two child case types: Payment and Packaging. In processing PurchaseOrder case PO-11, Payment case Pay-37 and Packaging case Pac-56 are created. Which statement about the processing of PO-11, Pay-37, and Pac-56 is correct?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1104,13 +1105,13 @@
           "answer": "PO-11 can be resolved when either Pay-37 or Pac-56 is resolved.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "39",
       "name": "You would like to use the Tracer tool to debug an error in your application. In which portal can you use the Tracer tool?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1133,13 +1134,13 @@
           "answer": "Designer Studio",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "40",
       "name": "In a purchase order application, you have been asked to add an order total field that is used on multiple forms in the application. You want to make sure that whenever the input values change, the order total will change in all the forms. Which two of the following reasons would you choose to use a declare expression rather than a data transform for calculating the value? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -1162,13 +1163,13 @@
           "answer": "A declare expression calculates a specific value that is used on multiple forms.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "41",
       "name": "An insurance company provides personal property insurance. Jewelry is categorized as a special type of personal property. Requests for jewelry coverage require that a user managing the request is trained to appraise jewelry. The requirement is to route assignments for jewelry appraisals to users who have this skill. Which one of the following routing approaches would you use?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1191,13 +1192,13 @@
           "answer": "Route requests to a decision table which routes the request to a work group in a location where there are users who have appraisal skills.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "42",
       "name": "An insurance company provides personal property insurance. Jewelry is categorized as a special type of personal property. Requests for jewelry coverage require that a user managing the request is trained to appraise jewelry. The requirement is to route assignments for jewelry appraisals to users who have this skill. Which one of the following routing approaches would you use?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1220,13 +1221,13 @@
           "answer": "Route directly to a user who is a member of work group that uses skill rating parameters.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "43",
       "name": "In the event-action model of dynamic UI, which of the following statements is correct regarding event processing? (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1249,13 +1250,13 @@
           "answer": "Actions attached to an event execute in random order.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "44",
       "name": "In which flow shape can you reference a Flow Action rule to present a section to the user? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -1278,13 +1279,13 @@
           "answer": "Decision shape",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "45",
       "name": "In which of the following situations would you use a data transform? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -1307,13 +1308,13 @@
           "answer": "Create properties after the case has been created",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "46",
       "name": "AIn which of the following situations would you use a rule circumstance to resolve the requirement?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1336,13 +1337,13 @@
           "answer": "An online order process optionally allows customers to update the credit card number saved with their account.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "47",
       "name": "In which two of the following situations would you use a data transform? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -1365,13 +1366,13 @@
           "answer": "Set default values when creating a case",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "48",
       "name": "In which types of UI control is reference data from the local data source typically used?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1394,13 +1395,13 @@
           "answer": "Button:",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "49",
       "name": "Layouts can be embedded in _______________ rules. (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1423,13 +1424,13 @@
           "answer": "Section:",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "50",
       "name": "A list report includes columns for purchase requests and regional cost centers. A manager wants the report to show the total number of purchase requests for each of the regional cost centers. How would you configure the report definition?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1452,13 +1453,13 @@
           "answer": "Summarize the regional cost centers by count.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "51",
       "name": "A loans application requires a borrower data type with fields to collect first/last name, address, employment, income, credit score, etc. In certain situations data type of spouse/partner and/or cosigner are required. Can all data types reuse the same properties? (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1481,13 +1482,13 @@
           "answer": "No, each data type must reference a unique data source",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "52",
       "name": "A manager has requested a report that shows the purchase requests for each of the regional cost centers. The manager wants to organize the results so the cost center appears only once on the report and the requests are listed under cost center. How would you configure the report definition?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1510,13 +1511,13 @@
           "answer": "Use the cost center column to group the results",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "53",
       "name": "A manager requests a report that contains the following columns: Create Date, Case ID, Create Operator, and Work Status. You must sort the Case ID values so the case with the highest ID value appears at the top of the list and descends in order. How would you design the report definition to support this requirement?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1539,13 +1540,13 @@
           "answer": "Make sure that the Case ID is the first column in the report.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "54",
       "name": "On which of the following would you find all of the test cases defined for an application and the status of each test case as of it's most recent execution. (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1568,13 +1569,13 @@
           "answer": "The Automated Testing landing page",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "55",
       "name": "You want to list the orders placed by a customer over the past six months. For each order, you need to display the order number, the date of the order, the total amount of the order, payment method, and order status in a series of columns. What type of layout do you use to present the list of orders to a user?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1597,13 +1598,13 @@
           "answer": "A repeating dynamic layout",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "56",
       "name": "You want to engage business and IT resources to review the working models. What two best practices accomplish this objective? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -1626,13 +1627,13 @@
           "answer": "Direct Capture of Objectives (DCO)",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "57",
       "name": "You want to capture the delivery method for a purchase request. The options are: Standard, premium, or next-day. You use the Data Model tab to create the property. How would you define the list with the options?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1655,13 +1656,13 @@
           "answer": "Field group (list )",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "58",
       "name": "orm allows customers to specify the amount of a balance transfer for their credit card. The form contains two fields: one to display the available balance on the customer's credit card, and one for the user to enter the amount of the balance transfer. You configure a validate rule to verify that the amount of a balance transfer is less than 75% of the available balance on the customer's credit card. How do you call the validate rule?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1684,13 +1685,13 @@
           "answer": "From the flow action where the customer submits the form",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "59",
       "name": "A parallel process is defined as ___________________________.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1713,13 +1714,13 @@
           "answer": "a process that executes over the same time period as other processes",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "60",
       "name": "The primary purpose of a service level is to __________.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1742,13 +1743,13 @@
           "answer": "track assignment status over time",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "61",
       "name": "A process routes loan request to a specific loan officer based on the type of loan. -if the loan is a mortgage, it is routed to Adam ross -if the loan is for an automobile, it is  outed to Don Smith -if the loan is an equity line the case is routed to Don Smith How would you configure a router to ensure the case advances to the correct loan officer?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1771,13 +1772,13 @@
           "answer": "Route the case to a worklist that references a decision table.",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "62",
       "name": "pyWorkPage stores which type of information?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1800,13 +1801,13 @@
           "answer": "Information about a case.",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "63",
       "name": "A report contains columns New Hire ID, New Hire Name, Start Date, and Location. The organization has offices in various cities throughout the U.S. A facilities manager requests a report that includes only new hires who are located in the Atlanta and Boston offices and have a start date within 30 days of the report date. How would you configure the filter to support this requirement?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1829,13 +1830,13 @@
           "answer": "Create three conditions: Location equals Boston AND location equals Atlanta AND Start Date equals next 30 days.",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "64",
       "name": "A report contains five columns of data about sales quotes. The case ID (.pyID) The currently assigned sales representative (.pxAssignedOperatorID) The creation date of the sales quote (.pxCreateDate) The sales territory (.Territory) The expiration data of the quote (.ExpiryDate) Prior to property optimization, which two properties does the report identify as potentially impacting performance? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -1858,13 +1859,13 @@
           "answer": "Case ID (.pyID)",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "65",
       "name": "Select the statement that best describes an Edit Validate rule. (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1887,13 +1888,13 @@
           "answer": "Used to limit the input to a specified number of characters",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "66",
       "name": "Select the three true statements about the use of a BLOB field. (Choose Three)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1916,13 +1917,13 @@
           "answer": "A BLOB allows an application to read or write an entire case in one database transaction. Case data can only be stored in a BLOB",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "67",
       "name": "Select the two items of information used to uniquely identify a rule. (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -1945,13 +1946,13 @@
           "answer": "The type of the rule.",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "68",
       "name": "Your organization has a standard loan request report that contains columns for loan ID, loan officer, work status, and a loan creation date. A manager requests a report that includes only loans created in the previous quarter and do not have a status of New. How would you configure the report filter to support this requirement?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -1974,13 +1975,13 @@
           "answer": "Create two conditions: Work Condition equals New OR Creation Date does not equal Previous Quarter.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "69",
       "name": "You use the Clipboard tool to perform which two tasks? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -2003,13 +2004,13 @@
           "answer": "Test a rule to determine whether the rule executes correctly.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "70",
       "name": "You want to capture the delivery method for a purchase request. The options are: Standard, premium, or next-day. You use the Data Model tab to create the property. How would you define the list with the options?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2032,13 +2033,13 @@
           "answer": "Field group (list )",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "71",
       "name": "You use the Clipboard tool to perform which two tasks? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -2061,13 +2062,13 @@
           "answer": "Test a rule to determine whether the rule executes correctly.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "72",
       "name": "You want to capture the delivery method for a purchase request. The options are: Standard, premium, or next-day. You use the Data Model tab to create the property. How would you define the list with the options?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2090,13 +2091,13 @@
           "answer": "Field group (list )",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "73",
       "name": "The Tracer tool shows you a log of detailed information on your application. Select two methods you can use to limit the amount of information to the specific time when an error occurs. (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -2119,13 +2120,13 @@
           "answer": "Pause the Tracer tool until just prior to when the error occurs.",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "74",
       "name": "Use data propagation to automatically copy values from a case to __________. (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2148,13 +2149,13 @@
           "answer": "subcases and a spin-off cases",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "75",
       "name": "The user enters a response on a form and clicks Submit. The Pega Platform application returns an error. Which tool can you use to determine the cause of the error in your application?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2177,13 +2178,13 @@
           "answer": "Use the Clipboard tool and search for the property value on pyWorkPage that is causing the error.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "76",
       "name": "A user must re-examine the contents of a new benefits enrollment before submission. The information should be displayed as read only. Which standard view should be used when implementing a solution for this requirement? (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2206,13 +2207,13 @@
           "answer": "Review:",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "77",
       "name": "Users are required to enter their date of birth in the format dd/mm/yyyy. Which two options ensure that a user provides a date in the correct format? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -2235,13 +2236,13 @@
           "answer": "Use a Calendar control to allow the user to select the date",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "78",
       "name": "Users can access an apartment hunting application from different devices with different screen sizes. A screen displays the photos of available properties. By default, the photos are displayed in three columns. When the screen width is less than 800 pixels, the photos should be displayed in two columns. How do you implement the screen for this requirement?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2264,13 +2265,13 @@
           "answer": "Circumstance the layout to display different number of columns at different screen sizes",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "79",
       "name": "Users can access an apartment search application from different devices with different screen sizes. A screen displays the photos of available properties. On a wide desktop screen, the photos are displayed in an inline format. On a smart phone, the photos should be displayed in a vertical stack. How do you implement the screen for this requirement?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2293,13 +2294,13 @@
           "answer": "Use a dynamic layout with a responsive breakpoint at smart phone screen width to change from an inline format to a stacked format.",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "80",
       "name": "A user view is using a one (1) column template displaying available products from which the customer may choose one or many. The list slightly longer than the available space on the form. Using Pega Express, which approach should be used without changing font size? (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2322,13 +2323,13 @@
           "answer": "Change the font style",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "81",
       "name": "Use __________ to conditionalize the logic to determine which data should be propagated.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2351,13 +2352,13 @@
           "answer": "a decision tree",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "82",
       "name": "Use __________ to sum a value in a child case and record the total value in the parent case.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2380,13 +2381,13 @@
           "answer": "the Update a Case smart shape",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "83",
       "name": "Using Live UI, you must reorder the position of fields on a user form. How do you use the tool in order to complete this task? (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2409,13 +2410,13 @@
           "answer": "In the hierarchy tree, drag and drop the element in the new position",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "84",
       "name": "You want to capture the delivery method for a purchase request. The options are: Standard, premium, or next-day. You use the Data Model tab to create the property. How would you define the list with the options?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2438,13 +2439,13 @@
           "answer": "Field group (list )",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "85",
       "name": "A Wait step may pause a case's processing until a predetermined time expires or ___________________________. (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2467,13 +2468,13 @@
           "answer": "a subcase or spin-off case is created",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "86",
       "name": "Your organization has a standard loan request report that contains columns for loan ID, loan officer, work status, and a loan creation date. A manager requests a report that includes only loans created in the previous quarter and do not have a status of New. How would you configure the report filter to support this requirement?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2496,13 +2497,13 @@
           "answer": "Create two conditions: Work Condition equals New OR Creation Date does not equal Previous Quarter.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "87",
       "name": "You use the Clipboard tool to perform which two tasks? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -2525,13 +2526,13 @@
           "answer": "Test a rule to determine whether the rule executes correctly.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "88",
       "name": "What are two types of Report Definitions available in Pega 7? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -2554,13 +2555,13 @@
           "answer": "Summary:",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "89",
       "name": "What are two ways you can add a table to a view? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -2583,13 +2584,13 @@
           "answer": "Add a field group list to a view in Pega Express.",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "90",
       "name": "You need to add a button to a user form. When the button is pressed, the application invokes a data transform, then create a new case. How do you implement this functionality?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2612,13 +2613,13 @@
           "answer": "Configure a style format for the button in the skin.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "91",
       "name": "You need to fetch exchange rates that are updated on a daily basis from a web service and make them available in your application using a data page. Which scope would you select for the data page?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2641,13 +2642,13 @@
           "answer": "Request",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "92",
       "name": "What does the Report Browser allow users to do? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -2670,13 +2671,13 @@
           "answer": "Run Reports",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "93",
       "name": "You have created a test case for a decision table and verified the results. A few weeks later, another developer runs the test case again and the test fails. Changes to which two of the following configurations could have caused this result? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -2699,13 +2700,13 @@
           "answer": "The page containing the decision table input properties",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "94",
       "name": "What three questions should you ask when creating a correspondence? (Choose Three)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -2733,13 +2734,13 @@
           "answer": "Who is the user that receives the correspondence?",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "95",
       "name": "What two items should a developer configure before delegating a rule? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -2762,13 +2763,13 @@
           "answer": "An unlocked ruleset added to the Application rule as a production ruleset",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "96",
       "name": "What type of step typically requires contextual instructions?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2791,13 +2792,13 @@
           "answer": "Create Case",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "97",
       "name": "When collecting information for a loan application, a case worker needs to enter the date of birth on the loan application form. What two tasks do you perform to enable the case worker to enter this information? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -2820,13 +2821,13 @@
           "answer": "Add a date of birth field to the appropriate stage",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "98",
       "name": "When creating a data page the requirement is to have the data cached and refreshed after 90 days, which refresh option is best suited to meet this requirement? (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2849,13 +2850,13 @@
           "answer": "Refresh Once Per Interaction",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "99",
       "name": "When creating correspondence, what property contains information collected from the case about the person/entity you would like to notify? (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2878,13 +2879,13 @@
           "answer": "pyWorkParty:",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "100",
       "name": "When does data propagation occur?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2907,13 +2908,13 @@
           "answer": "When a parent's value changes and a data transform is used to configure the data propagation",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "101",
       "name": "When does the Status of a case change when a Work Status change is configured on an Assignment shape? (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2936,13 +2937,13 @@
           "answer": "At the start of the Flow (Process) containing the Assignment shape",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "102",
       "name": "When is the earliest opportunity for you to configure the user view for a step in a case life cycle in Pega Express?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2965,13 +2966,13 @@
           "answer": "You can configure the user view for a step before you start creating the case life cycle.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "103",
       "name": "When launching a Modal Dialog, which Rule Type must be referenced ? (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -2994,13 +2995,13 @@
           "answer": "Portal:",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "104",
       "name": "When modeling the life cycle of a case, stages typically represent a _______________ or a ________________. (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -3023,13 +3024,13 @@
           "answer": "single actor performing a single action",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "105",
       "name": "When modeling the life cycle of a case, stages typically represent a _______________ or a ________________. (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -3052,13 +3053,13 @@
           "answer": "single actor performing a single action",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "106",
       "name": "When routing to a Work Queue, an assignment remains in the queue until it is selected by an operator. When selected, the case ____________. (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -3081,13 +3082,13 @@
           "answer": "is moved to the next queue by the operator's action",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "107",
       "name": "When unit testing a rule, you can identify a data transform to use during the test. What does the data transform do?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -3110,13 +3111,13 @@
           "answer": "Records the result of the unit test.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "108",
       "name": "When using the Clipboard, the page representing the open case is named? (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -3139,13 +3140,13 @@
           "answer": "pyWorkPage:",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "109",
       "name": "You have created a form that lists a group of recreational activities that users can select when booking a vacation. One column lists the activity name, a second column provides the check box for activity selection, and a third column displays a thumbnail image of the activity. You want to ensure that users have the information they need to make their selections regardless of screen size. When viewed on a small screen, you do not need to display the images. What three configuration steps would you take to support this requirement? (Choose Three)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -3178,13 +3179,13 @@
           "answer": "Set the activity name and check box columns to primary importance.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "110",
       "name": "Which best describes the benefit of unit testing rules?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -3207,13 +3208,13 @@
           "answer": "Unit testing identifies configuration issues that may impact application performance on a production system.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "111",
       "name": "Which is NOT a User Interface rule type? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -3236,13 +3237,13 @@
           "answer": "Section",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "112",
       "name": "Which List Controls can be sourced by a Data Page? (Choose Three)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -3275,13 +3276,13 @@
           "answer": "DateTime:",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "113",
       "name": "Which of the following are true about validating user input? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -3304,13 +3305,13 @@
           "answer": "Edit Validate rules allow us to record an expected relationship between properties and have the system manage them",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "114",
       "name": "Which of the following sets represent action sets (event > action) in Pega Platform? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -3333,13 +3334,13 @@
           "answer": "Open mobile app > Focus",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "115",
       "name": "Which of the following statements is FALSE? (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -3362,13 +3363,13 @@
           "answer": "You cannot create a report using a field from the BLOB ( a non-optimized property).",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "116",
       "name": "Which of the following would be typical data stored in a Local Data Source?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -3391,13 +3392,13 @@
           "answer": "Case Data",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "117",
       "name": "Which of the following would be typical data stored in a local data source?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -3420,13 +3421,13 @@
           "answer": "Delivery options",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "118",
       "name": "Which of these are typically configured on a dynamically layout? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -3449,13 +3450,13 @@
           "answer": "Number of columns in each row",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "119",
       "name": "Which of these rules are NOT created by the Database Table Class Mapping Wizard? (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -3478,13 +3479,13 @@
           "answer": "Report Definition",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "120",
       "name": "Which option for populating Work Party information allows users to optionally add a Work Party to a Case while completing an Assignment? (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -3507,13 +3508,13 @@
           "answer": "A data transform added to the pyCaseManaementDefault Work Parties rule",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "121",
       "name": "Which requirement could be satisfied with a user action?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -3536,13 +3537,13 @@
           "answer": "Reassign any task that remains open after three days to another user.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "122",
       "name": "Which requirement is best implemented using a Wait step in a case?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -3565,13 +3566,13 @@
           "answer": "You need to pause a case until a user uploads a signed document.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "123",
       "name": "Which requirements would be best implemented as an Alternate Stage when defining a Case Type? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -3594,13 +3595,13 @@
           "answer": "An expense report is rejected.",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "124",
       "name": "Which shape would you use if you wanted the system to automatically choose between multiple outcomes? (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -3623,13 +3624,13 @@
           "answer": "Utility",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "125",
       "name": "Which statement best describes the role of the base rule in circumstancing?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -3652,13 +3653,13 @@
           "answer": "The base rule is used if no circumstanced variant applies",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "126",
       "name": "Which statements about Draft Mode are true? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -3681,13 +3682,13 @@
           "answer": "Only existing rules may be referenced in flow shapes when Draft Mode is on.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "127",
       "name": "Which two are benefits of following Pega guardrails. (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -3710,13 +3711,13 @@
           "answer": "Guardrails help project managers ensure that applications are completed on time.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "128",
       "name": "Which two conditions are not unit tested? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -3739,13 +3740,13 @@
           "answer": "Decision rules are not causing performance issues",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "129",
       "name": "Which two statements identify why you should automate correspondence? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -3768,13 +3769,13 @@
           "answer": "Automating correspondence allows for sending consistent information to users.",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "130",
       "name": "Which two tasks do system architects perform on a Pega project? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -3797,13 +3798,13 @@
           "answer": "Develop feature prototypes.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "131",
       "name": "Which two use cases are a good use of reference data? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -3826,13 +3827,13 @@
           "answer": "To add a new employee",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "132",
       "name": "Which type of data is exposed by default?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -3855,13 +3856,13 @@
           "answer": "Neither process metrics nor business metrics are exposed by default",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "133",
       "name": "Which UI rule type is created when configuring a view? (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -3884,13 +3885,13 @@
           "answer": "Control:",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "134",
       "name": "Which variable in the assignment urgency calculation enables users to increment the service level urgency on a case-by-case basis?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -3913,13 +3914,13 @@
           "answer": ".pxUrgencyWork",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "135",
       "name": "While testing a process to approve a job applicant you, receive an error? Which tool allows you to review rule execution to determine where the error is coming from? (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -3942,13 +3943,13 @@
           "answer": "Tracer",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "136",
       "name": "You are adding a field to your case type in which users must enter the day, month, and year they were hired before the user can submit the user form. The field type must enforce a date format. What two validation approaches would you use to meet the validation requirements? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -3971,13 +3972,13 @@
           "answer": "Define the field type as an integer",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "137",
       "name": "You are asked to create a report definition that shows daily inventory levels. The manager wants to access the report in the Report Browser in the user portal. The manager also wants to add the report to a new category specifically for the distribution group. What two configurations are required to support this requests? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -4000,13 +4001,13 @@
           "answer": "Create a category rule for distribution group reports.",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "138",
       "name": "You are building a report to list all currently accounts with an unpaid balance overdue more than 90 days. Loans are to be sorted by descending total balance due. The report must display case ID (pyID), Account Type (AccountType), Account Start Date (pxCreateDateTime), Last Payment Date (LpyDate), Last Due Date (LduDate). Which of the following properties are not candidates for property optimization? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -4029,13 +4030,13 @@
           "answer": "Last Due Date",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "139",
       "name": "You are configuring a declarative network that contains eleven declare expressions which are used to calculate the interest rate for a home mortgage. For example, the target value Property Tax Assessment is used as a source value when calculating the Assessed Property Value. The declare expressions use target values from other expressions to calculate their target values. The field displaying the interest rate appears on the approval form. To improve performance, how can you reduce the number of calculations?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -4058,13 +4059,13 @@
           "answer": "Calculate the total interest rate value by adding all the declare expression target property values",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "140",
       "name": "You are configuring a declarative network that contains eleven declare expressions, which are used to calculate the interest rate for a home mortgage. For example, the target value Property Tax Assessment is used a source value when calculating the Assessed Property Value. The declare expressions use target values from other expressions to calculate their target values. The field displaying the interest rate appears on the approval form. To reduce the number of calculations in order to optimize performance, how would you configure the declare expressions? (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -4087,13 +4088,13 @@
           "answer": "Specify forward chaining in the declare expression that calculates the total interest rate value.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "141",
       "name": "You are configuring a standard email to automatically be sent to loan applicants informing them that their loan has been approved. The requirement states that the email must include values for the applicant's name, the loan office, and the loan amount. The email must also include boilerplate content stating the loan's terms and conditions, which is regularly updated. This content is in a paragraph rule shared by other standard emails throughout the organization. How would you configure your email?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -4116,13 +4117,13 @@
           "answer": "Add placeholder text for the applicant's name, loan office, and amount. Also, insert the paragraph rule.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "142",
       "name": "You are creating an application for a membership based education supplies service. You need to determine a total percentage of discount granted based on membership longevity (years), member type (public sector, private sector, magnate school), and total spending per purchase at time of purchase. The percentage of discount is calculated upon member check-out. Which of the following configuration options is best used to calculate the percentage of discount at time of purchase? (Choose One)",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -4145,13 +4146,13 @@
           "answer": "Use declarative processing using forward chaining to set the discount property value.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "143",
       "name": "You are designing a travel plan application. A hotel booking step displays a form in which users select a hotel and enter the number of days they are staying at the hotel. The form displays the total cost for the hotel room. The form also includes fields for selecting, at extra cost, options for valet parking. The cost for any selected options are totaled and then added to the total cost for the room to equal the grand total, which is displayed in a field. Which two of the following properties would you use as the target properties? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -4174,13 +4175,13 @@
           "answer": "Price of each Option",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "144",
       "name": "You are designing a travel plan application. A hotel booking step displays a form in which users select a hotel and enter the number of days they are staying at the hotel. The form displays the total cost for the hotel room. The form also includes fields for selecting, at extra cost, options such as valet parking. The application totals the cost for any selected options and adds that amount to the total room cost to equal the grand total, which is displayed in a field. Which two of the following properties would you use as the target properties? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -4203,13 +4204,13 @@
           "answer": "Price of each option",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "145",
       "name": "You are helping to implement the technical components of a new application. Before you can begin work, you must obtain definitions of the business processes and service-level agreements. Which members of the development team would you go to for this information?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -4232,13 +4233,13 @@
           "answer": "Case participants",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "146",
       "name": "You check out a rule to update it. While the rule is checked out, another developer decides to test a case type by creating and processing the case. What happens when the application attempts to use the rule you checked out?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -4261,13 +4262,13 @@
           "answer": "The application cannot run because the rule is unavailable.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "147",
       "name": "You have a data page with customer data. The data page is configured to reload if it is older than one hour. Which of the following best describes when the data page will reload?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -4290,13 +4291,13 @@
           "answer": "The data page reloads on the next access one hour after it was last accessed.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "148",
       "name": "You have added an approval process assignment to a loan request process. The requirement states that a request can be routed to one or more managers for their approval. Te hierarchy of approvals depends upon the total dollar amount of the request. For example, Cost Center Managers approve requests that are less than USD 25,000. A request of greater than or equal to USD 25,000 requires the approval of the Cost Center Manager, corporate Vice President, and Vice President of Finance. How would you configure the routing for the approval process assignment?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -4319,13 +4320,13 @@
           "answer": "Configure a cascading approval flow type based on an authority matrix.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "149",
       "name": "You have added a page list property named Dependents to a view in the Case Designer. This page list contains the property .Relationship. You want to display the list in the view and populate a field with the default value of \"Not Applicable.\" How do you configure the pySetFieldDefaults data transform to meet this requirement?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -4348,13 +4349,13 @@
           "answer": "Set \"Not Applicable\" to equal .Dependents(1).Relationship",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "150",
       "name": "You have a purchase request case and want to spin off a supplier case for a new supplier. How can you copy data to the supplier case?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -4377,13 +4378,13 @@
           "answer": "the Update a Case smart shape",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "151",
       "name": "You have a requirement to add a bank checking account number field to a view. Routing numbers must contain nine digits. How would you configure the field to support this requirement?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -4406,13 +4407,13 @@
           "answer": "In an edit validate rule, configure a function to test for a routing number pattern.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "152",
       "name": "You have a requirement to add to a view a check box that indicates the user qualifies for an auto insurance discount. In order to qualify, two conditions must be met. First, the user must be older than 25. Second, the user cannot have received a traffic violation in the past three years. Unless both conditions are met and the user selects the check box, the form displays an error when the user submits the form. Which one of the following approaches would you use to support this requirement?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -4435,13 +4436,13 @@
           "answer": "Use a single validate rule to verify both of these conditions.",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "153",
       "name": "You have been asked to configure the following relationship between three case types: Account Open, Link Savings, and Fund Account:\n1. A customer can complete an Account Open case before completing a Fund Account case. \n2. A customer must complete a Link Savings case before completing a Fund Account case.Which configuration satisfies this requirement?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -4464,13 +4465,13 @@
           "answer": "Configure the Account Open case type to create a Fund Account case as a child case. Configure the Fund Account case type to create a Link Savings case as a top-level case.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "154",
       "name": "You have been asked to create a pie chart that shows the number of cases each manager has created. A list report contains columns for manager name, case ID, and office. How would you configure the list report in order to create the pie chart?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -4493,13 +4494,13 @@
           "answer": "Summarize the manager name column.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "155",
       "name": "You have configured a data page to look up customer data in a database table. The data source changes to a REST web service. Which of the following best describes the actions you should take to make sure your application uses the right data source?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -4522,13 +4523,13 @@
           "answer": "Wait until the data page reloads on the next access one hour after it was created.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "156",
       "name": "which one is true",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -4551,13 +4552,13 @@
           "answer": "design template can be included in flow action.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "157",
       "name": "When the user is going to run the user interface, user wants to edit the section in run time.",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -4580,13 +4581,13 @@
           "answer": "section must be configured to use the templates",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "158",
       "name": "What rule types can be used to prevent processing errors?",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -4609,13 +4610,13 @@
           "answer": "flow",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "159",
       "name": "the User interface is having a name field to enter name. How to validate this entered value",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -4638,8 +4639,7 @@
           "answer": "data transform",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "160",
@@ -5299,6 +5299,7 @@
       "id": "186",
       "name": "ABC corp is having an online shopping application. In the bill page, when user updates an item quantity, the billing amount and total billing amount should be updated too. Select which one is least appropriate.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5321,13 +5322,13 @@
           "answer": "configure a declare expression rule for only Billing amount",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "187",
       "name": "ABC corp is having an online shopping application. In the bill review page, total billing amount should be shown. Which declarative chaining method is appropriate?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5340,13 +5341,13 @@
           "answer": "backward chaining",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "188",
       "name": "ABC corp is having an online shopping application. In all the page, when user updates an item quantity, the billing amount and total billing amount should be updated suitably. Which declarative chaining method is appropriate?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5359,13 +5360,13 @@
           "answer": "backward chaining",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "189",
       "name": "ABC corp is having an online shopping application. In item selection page, user selects one laptop for 800$. There is a declare expression which uses quantity as a input property and Bill amount as Target property. There is one more declara expression, which uses Bill amount as input property and Total bill amount as target property. After selecting one laptop, user click next. Now when the declare expression would be triggered considering that the Bill amount displays besides the laptop when user changes the quantity.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5388,13 +5389,13 @@
           "answer": "Total Bill amount declare expression will trigger at first page and bill amount declare expression will after user submission",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "190",
       "name": "ABC corp is having an online shopping application. On billing page, user can apply a promo code in promo code text box. If user provides a promocode, on change event of promocode triggers an activity to refresh the total bill amount.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5417,13 +5418,13 @@
           "answer": "This is computative processing",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "191",
       "name": "Procedural processing depends upon rules, such as data transforms, activities, or user interface (UI) rules, to instruct the application when to look for a trigger event.True or false",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5436,13 +5437,13 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "192",
       "name": "ABC corp is having an online shopping application. On billing page as well as on review order page, user can update quantity of item. user is calling a data transform in billing page to update the total amount. Once user submits the billing page, review order page appears. If user is completely relying on procedural processing, which scenario is supposed to be true.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5465,13 +5466,13 @@
           "answer": "None of the above",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "193",
       "name": "ABC corp is having an online shopping application. On billing page as well as on review order page, user can update quantity of item. If user is completely relying on declarative processing, which scenario is supposed to be true.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5494,13 +5495,13 @@
           "answer": "Define a declare expression rule with appropriate input and target properties to populate total bill amount when the quantity value chnages",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "194",
       "name": "ABC corp is having many online order cases. They want to prioritize the cases based on it`s urgency calculation.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5523,13 +5524,13 @@
           "answer": "None of the above",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "195",
       "name": "ABC corp is having a declare expression which works fine when user is in New case User interface( New harness) but doesn`t work if user is in subsequent stages (using perform harness). As a trouble shooter, what you should check ",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5552,13 +5553,13 @@
           "answer": "None of the above",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "196",
       "name": "Identify the rule which is not a declarative rules",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5581,13 +5582,13 @@
           "answer": "declare trigger",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "197",
       "name": "Identify the rule which is not a declarative rules",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5610,13 +5611,13 @@
           "answer": "declare trigger",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "198",
       "name": "Identify the rule which is not a declarative rules",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5639,13 +5640,13 @@
           "answer": "declare trigger",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "199",
       "name": "Identify the rule which is not a declarative rules",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5668,13 +5669,13 @@
           "answer": "declare trigger",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "200",
       "name": "Identify the declarative rule which supports backward chaining",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5697,13 +5698,13 @@
           "answer": "declare trigger",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "201",
       "name": "Identify the declarative rule which may be used for doing something when the case is committed or deferred save",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5726,13 +5727,13 @@
           "answer": "declare trigger",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "202",
       "name": "Identify the declarative rule which may be used for doing something when the case date need to be validated.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5755,13 +5756,13 @@
           "answer": "declare trigger",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "203",
       "name": "Identify the declarative rule which can call activity.",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -5784,12 +5785,12 @@
           "answer": "declare trigger",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "204",
       "name": "Which technique should you use if you want to update values when the user submits a form?",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5808,6 +5809,7 @@
       "id": "205",
       "name": "Identify the declarative rule which may be used for exposing a page or page group or pagelist element for reporting.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5830,12 +5832,12 @@
           "answer": "declare trigger",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "206",
       "name": "Which technique should you use if you want the total price to update immediately when a quantity is changed?",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5848,9 +5850,7 @@
           "answer": "procedural processing",
           "correctanswer": "false"
         }
-      ],
-      "image": "null.png",
-      "hint": ""
+      ]
     },
     {
       "id": "207",
@@ -5885,6 +5885,7 @@
       "id": "208",
       "name": "ABC Pizza corporation is having a New Order case. It is having three stages. Order Details, Processing and Delivery. Before processing stage start, the case must be having the Phone number or email of the customer. How to ensure this.",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -5907,13 +5908,13 @@
           "answer": "Add an edit validate rule for Phone number or email in the processing stage",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "209",
       "name": "What one is not the component in a declare expression?.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5936,13 +5937,13 @@
           "answer": "an activity",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "210",
       "name": "A declare expression in a network can use a target property from another declare expression as a source property",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -5955,13 +5956,13 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "211",
       "name": "ABC corp is having an online shopping application. User can select an item which updates the item amount. Sum of all the item amounts is reflected in Total amount.",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -5984,13 +5985,13 @@
           "answer": "this cannot be implemented by declare expression",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "212",
       "name": "ABC corp is having an online shopping application. User can select an item which updates the item amount. Sum of all the item amounts is reflected in Total amount.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -6003,13 +6004,13 @@
           "answer": "there should be one declare expression and that should calculate item amount as well as total amount",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "213",
       "name": "Declarative Network Analysis tool to display a list of declarative networks in your application. How to access it.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -6022,13 +6023,13 @@
           "answer": "Designer Studio > System > Business Rules",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "214",
       "name": "ABC corp is having an online shopping application. User can select an item which updates the item amount. Sum of all the item amounts is reflected in Total amount.",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -6051,13 +6052,13 @@
           "answer": "this cannot be implemented by declare expression",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "215",
       "name": "If the target is a numeric type property, you can perform functions such as sum, average, minimum, or maximum on numeric items on a page list.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -6070,13 +6071,13 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "216",
       "name": "In Case Designer, the source values are entered in the Calculation field. In Designer Studio, the source values are entered in the Expression field.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -6089,13 +6090,13 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "217",
       "name": "You can specify forward or backward chaining on the Change Tracking tab on the Declare Expression rule form.",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -6118,13 +6119,13 @@
           "answer": "Whenever used for forward chaining",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "218",
       "name": "When does an expression using backward chaining update its target property?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -6147,13 +6148,13 @@
           "answer": "always, regardless of using target property or input property",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "219",
       "name": "ABC Corporation is using a forward chaining home insurance quote based on more than 10 property values such as location, tax assessment, appraisal value, and land area. These values are collected in many different forms. Select which is not applicable.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -6176,13 +6177,13 @@
           "answer": "The impact to performance might affect response time when the user enters values or submits forms.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "220",
       "name": "ABC Corporation is using a forward chaining home insurance quote based on more than 10 property values such as location, tax assessment, appraisal value, and land area. These values are collected in many different forms. Select which is not applicable.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -6205,13 +6206,13 @@
           "answer": "The impact to performance might affect response time when the user enters values or submits forms.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "221",
       "name": "If you are only going to display the insurance quote after you collect all the values, use backward chaining for the home insurance quote expression.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -6224,13 +6225,13 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "222",
       "name": "ABC corp is showing the insurance quote at the end of the screen which need to be computed by 10 input propertues which would be collected before reaching to this final screen. Please suggest which chaining would be suitable to implement this.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -6243,13 +6244,13 @@
           "answer": "foreward chaining",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "223",
       "name": "ABC corp is showing the insurance quote at the end of the screen which need to be computed by 10 input propertues which would be collected before reaching to this final screen. Please suggest which chaining would be suitable to implement this.",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -6262,13 +6263,13 @@
           "answer": "backward chaining is good as the property is needed at last screen and will be shown",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "224",
       "name": "You are designing a travel plan application. A hotel booking step displays a form in which users select a hotel and enter the number of days they are staying at the hotel. The form displays the total cost for the hotel room. The form also includes fields for selecting, at extra cost, options such as valet parking. The application totals the cost for any selected options and adds that amount to the total room cost  to equal the grand total, which is displayed in a field. Which two of the following properties would you use as the target properties? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -6291,13 +6292,13 @@
           "answer": "Number of days at the hotel",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "225",
       "name": "In a purchase order application, you have been asked to add an order total field that is used on multiple forms in the application. You want to make sure that whenever the input values change, the order total will change in all the forms. Which two of the following reasons would you choose to use a declare expression rather than a data transform for calculating the value? (Choose Two)",
       "image": "null.png",
+      "hint": "",
       "type": "check",
       "options": [
         {
@@ -6320,13 +6321,13 @@
           "answer": "When updating a property that is calculated, you do not need to identify every calculation that updates any of the source values and manually re-calculate them.",
           "correctanswer": "true"
         }
-      ],
-      "hint": ""
+      ]
     },
     {
       "id": "226",
       "name": "You are configuring a declarative network that contains eleven declare expressions which are used to calculate the interest rate for a home mortgage. For example, the target value Property Tax Assessment is used as a source value when calculating the Assessed Property Value. The declare expressions use target values from other expressions to calculate their target values. The field displaying the interest rate appears on the approval form. To improve performance, how can you reduce the number of calculations?",
       "image": "null.png",
+      "hint": "",
       "type": "radio",
       "options": [
         {
@@ -6349,8 +6350,7 @@
           "answer": "Apply the declare expression in the approval flow action.",
           "correctanswer": "false"
         }
-      ],
-      "hint": ""
+      ]
     }
   ]
 }
