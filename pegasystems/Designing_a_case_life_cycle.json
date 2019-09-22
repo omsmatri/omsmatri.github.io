@@ -5,6 +5,7 @@
       "name": "Whats true related to a case?",
       "hint": "DESIGNING A CASE LIFE CYCLE",
       "type": "check",
+      "image": "null.png",
       "options": [
         {
           "id": "2983",
@@ -2379,6 +2380,7 @@
       "id": "17",
       "name": "Before you configure a user view, which things to think about?",
       "type": "check",
+      "image": "null.png",
       "options": [
         {
           "id": "2983",
