@@ -26,7 +26,8 @@
           "answer": "The Tracer",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "2",
@@ -54,7 +55,8 @@
           "answer": "Data-Party-Org",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "3",
@@ -82,7 +84,8 @@
           "answer": "Describes the business value of the step.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "4",
@@ -110,7 +113,8 @@
           "answer": "Circumstance the form by property and date; test that the creation date for the case is on or after June 15, 2016.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "5",
@@ -138,7 +142,8 @@
           "answer": "ValueGroup:",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "6",
@@ -166,7 +171,8 @@
           "answer": "ruleset list, grouped",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "7",
@@ -194,7 +200,8 @@
           "answer": "A reservation",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "8",
@@ -222,7 +229,8 @@
           "answer": "By applying pattern inheritance.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "9",
@@ -250,7 +258,8 @@
           "answer": "Thread:",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "10",
@@ -278,7 +287,8 @@
           "answer": "When",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "11",
@@ -306,7 +316,8 @@
           "answer": "Add an alternate stage and add the rejection process to the stage.",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "12",
@@ -334,7 +345,8 @@
           "answer": "architects to improve the performance of the application",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "13",
@@ -362,7 +374,8 @@
           "answer": "Add a step in a process.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "14",
@@ -390,7 +403,8 @@
           "answer": "Single value",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "15",
@@ -418,7 +432,8 @@
           "answer": "Select the Call superclass data transform option in the Claims data transform and clear the option in the Personal Injury and Emergency Care data transforms.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "16",
@@ -446,7 +461,8 @@
           "answer": "Page:",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "17",
@@ -474,7 +490,8 @@
           "answer": "organize a set of rules for reusability.",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "18",
@@ -502,7 +519,8 @@
           "answer": "Create one data element in the class group layer for both applications to use.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "19",
@@ -530,7 +548,8 @@
           "answer": "paths in the case life cycle that are chosen by a user at run-time",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "20",
@@ -558,7 +577,8 @@
           "answer": "ABC",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "21",
@@ -586,7 +606,8 @@
           "answer": "Use working models to better facilitate business and IT collaboration.",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "22",
@@ -614,7 +635,8 @@
           "answer": "To allow users to choose decisions outcomes if a decision rule if not yet available.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "23",
@@ -632,17 +654,18 @@
           "answer": "Undetermined — it depends on the sizes of the elements.",
           "correctanswer": "false"
         },
-		{
+        {
           "id": "2170",
           "answer": "Two since it is in Inline grid triple format.",
           "correctanswer": "true"
         },
-		{
+        {
           "id": "2171",
           "answer": "Five since it is in Inline format.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "24",
@@ -670,7 +693,8 @@
           "answer": "Check box",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "25",
@@ -683,12 +707,12 @@
           "answer": "To the user",
           "correctanswer": "false"
         },
-		{
+        {
           "id": "2169",
           "answer": "To the user's work group",
           "correctanswer": "false"
         },
-		{
+        {
           "id": "2172",
           "answer": "To the user`s manager",
           "correctanswer": "false"
@@ -698,7 +722,8 @@
           "answer": "To the user`s work queue",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "26",
@@ -726,7 +751,8 @@
           "answer": "Use local storage",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "27",
@@ -754,7 +780,8 @@
           "answer": "Get Next Work routing",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "28",
@@ -772,17 +799,18 @@
           "answer": "in which the case or step must be completed",
           "correctanswer": "false"
         },
-		{
+        {
           "id": "2182",
           "answer": "in which the case or step should be completed",
           "correctanswer": "true"
         },
-		{
+        {
           "id": "2182",
           "answer": "allowed before an assignment is considered overdue.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "29",
@@ -810,7 +838,8 @@
           "answer": "Route the assignment to the correct work queue based on a decision rule.",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "30",
@@ -838,7 +867,8 @@
           "answer": "Menu",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "31",
@@ -866,7 +896,8 @@
           "answer": "First, configure a Click event with a Refresh action. Next, configure a Double-click event and a View History action.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "32",
@@ -894,7 +925,8 @@
           "answer": "Configure action sets on the date fields to refresh the section when the date values change.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "33",
@@ -907,12 +939,12 @@
           "answer": "A field for interview date/time.",
           "correctanswer": "true"
         },
-		{
+        {
           "id": "22001",
           "answer": "A Wait shape to hold processing until interview is completed.",
           "correctanswer": "false"
         },
-		{
+        {
           "id": "22002",
           "answer": "A case type.",
           "correctanswer": "true"
@@ -927,7 +959,8 @@
           "answer": "A service level to ensure timely resolution.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "34",
@@ -955,7 +988,8 @@
           "answer": "Data Transform",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "35",
@@ -983,7 +1017,8 @@
           "answer": "Invoke a when condition to update the .Location property value when the user enters a .Destination property value.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "36",
@@ -1011,7 +1046,8 @@
           "answer": "Before the assignment, add a SendEmail SmartShape.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "37",
@@ -1039,7 +1075,8 @@
           "answer": "Make appraisal a parent case type, and loan request a child case type.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "38",
@@ -1067,7 +1104,8 @@
           "answer": "PO-11 can be resolved when either Pay-37 or Pac-56 is resolved.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "39",
@@ -1095,7 +1133,8 @@
           "answer": "Designer Studio",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "40",
@@ -1123,7 +1162,8 @@
           "answer": "A declare expression calculates a specific value that is used on multiple forms.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "41",
@@ -1151,7 +1191,8 @@
           "answer": "Route requests to a decision table which routes the request to a work group in a location where there are users who have appraisal skills.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "42",
@@ -1179,7 +1220,8 @@
           "answer": "Route directly to a user who is a member of work group that uses skill rating parameters.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "43",
@@ -1207,7 +1249,8 @@
           "answer": "Actions attached to an event execute in random order.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "44",
@@ -1235,7 +1278,8 @@
           "answer": "Decision shape",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "45",
@@ -1263,7 +1307,8 @@
           "answer": "Create properties after the case has been created",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "46",
@@ -1276,12 +1321,12 @@
           "answer": "A national insurance company requires a different minimum for liability coverage in each state.",
           "correctanswer": "true"
         },
-		{
+        {
           "id": "22521",
           "answer": "A process does not execute if a user is not married.",
           "correctanswer": "false"
         },
-		{
+        {
           "id": "22522",
           "answer": "A service level notifies the assigned user when a goal interval is exceeded, and notifies the user's manager when a deadline interval is exceeded.",
           "correctanswer": "false"
@@ -1291,7 +1336,8 @@
           "answer": "An online order process optionally allows customers to update the credit card number saved with their account.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "47",
@@ -1319,7 +1365,8 @@
           "answer": "Set default values when creating a case",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "48",
@@ -1347,7 +1394,8 @@
           "answer": "Button:",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "49",
@@ -1375,7 +1423,8 @@
           "answer": "Section:",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "50",
@@ -1403,7 +1452,8 @@
           "answer": "Summarize the regional cost centers by count.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "51",
@@ -1431,7 +1481,8 @@
           "answer": "No, each data type must reference a unique data source",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "52",
@@ -1449,7 +1500,7 @@
           "answer": "Use the requests column to group the results.",
           "correctanswer": "false"
         },
-		{
+        {
           "id": "22761",
           "answer": "Summarize the requests column by count.",
           "correctanswer": "false"
@@ -1459,7 +1510,8 @@
           "answer": "Use the cost center column to group the results",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "53",
@@ -1487,7 +1539,8 @@
           "answer": "Make sure that the Case ID is the first column in the report.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "54",
@@ -1515,7 +1568,8 @@
           "answer": "The Automated Testing landing page",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "55",
@@ -1543,7 +1597,8 @@
           "answer": "A repeating dynamic layout",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "56",
@@ -1571,7 +1626,8 @@
           "answer": "Direct Capture of Objectives (DCO)",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "57",
@@ -1599,7 +1655,8 @@
           "answer": "Field group (list )",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "58",
@@ -1627,7 +1684,8 @@
           "answer": "From the flow action where the customer submits the form",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "59",
@@ -1655,7 +1713,8 @@
           "answer": "a process that executes over the same time period as other processes",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "60",
@@ -1683,7 +1742,8 @@
           "answer": "track assignment status over time",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "61",
@@ -1711,7 +1771,8 @@
           "answer": "Route the case to a worklist that references a decision table.",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "62",
@@ -1739,7 +1800,8 @@
           "answer": "Information about a case.",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "63",
@@ -1767,7 +1829,8 @@
           "answer": "Create three conditions: Location equals Boston AND location equals Atlanta AND Start Date equals next 30 days.",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "64",
@@ -1795,7 +1858,8 @@
           "answer": "Case ID (.pyID)",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "65",
@@ -1808,12 +1872,12 @@
           "answer": "Used to test property values against specific conditions",
           "correctanswer": "false"
         },
-		{
+        {
           "id": "23261",
           "answer": "Used to ensure a required relationship between two properties",
           "correctanswer": "false"
         },
-		{
+        {
           "id": "23262",
           "answer": "Used to test input values against a specific pattern",
           "correctanswer": "true"
@@ -1823,7 +1887,8 @@
           "answer": "Used to limit the input to a specified number of characters",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "66",
@@ -1851,7 +1916,8 @@
           "answer": "A BLOB allows an application to read or write an entire case in one database transaction. Case data can only be stored in a BLOB",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "67",
@@ -1879,7 +1945,8 @@
           "answer": "The type of the rule.",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "68",
@@ -1907,7 +1974,8 @@
           "answer": "Create two conditions: Work Condition equals New OR Creation Date does not equal Previous Quarter.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "69",
@@ -1935,7 +2003,8 @@
           "answer": "Test a rule to determine whether the rule executes correctly.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "70",
@@ -1963,7 +2032,8 @@
           "answer": "Field group (list )",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "71",
@@ -1991,7 +2061,8 @@
           "answer": "Test a rule to determine whether the rule executes correctly.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "72",
@@ -2019,7 +2090,8 @@
           "answer": "Field group (list )",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "73",
@@ -2047,7 +2119,8 @@
           "answer": "Pause the Tracer tool until just prior to when the error occurs.",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "74",
@@ -2075,7 +2148,8 @@
           "answer": "subcases and a spin-off cases",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "75",
@@ -2103,7 +2177,8 @@
           "answer": "Use the Clipboard tool and search for the property value on pyWorkPage that is causing the error.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "76",
@@ -2131,7 +2206,8 @@
           "answer": "Review:",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "77",
@@ -2159,7 +2235,8 @@
           "answer": "Use a Calendar control to allow the user to select the date",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "78",
@@ -2187,7 +2264,8 @@
           "answer": "Circumstance the layout to display different number of columns at different screen sizes",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "79",
@@ -2215,7 +2293,8 @@
           "answer": "Use a dynamic layout with a responsive breakpoint at smart phone screen width to change from an inline format to a stacked format.",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "80",
@@ -2243,7 +2322,8 @@
           "answer": "Change the font style",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "81",
@@ -2271,7 +2351,8 @@
           "answer": "a decision tree",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "82",
@@ -2299,7 +2380,8 @@
           "answer": "the Update a Case smart shape",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "83",
@@ -2327,7 +2409,8 @@
           "answer": "In the hierarchy tree, drag and drop the element in the new position",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "84",
@@ -2355,7 +2438,8 @@
           "answer": "Field group (list )",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "85",
@@ -2383,7 +2467,8 @@
           "answer": "a subcase or spin-off case is created",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "86",
@@ -2411,7 +2496,8 @@
           "answer": "Create two conditions: Work Condition equals New OR Creation Date does not equal Previous Quarter.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "87",
@@ -2439,7 +2525,8 @@
           "answer": "Test a rule to determine whether the rule executes correctly.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "88",
@@ -2467,7 +2554,8 @@
           "answer": "Summary:",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "89",
@@ -2495,7 +2583,8 @@
           "answer": "Add a field group list to a view in Pega Express.",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "90",
@@ -2523,7 +2612,8 @@
           "answer": "Configure a style format for the button in the skin.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "91",
@@ -2551,7 +2641,8 @@
           "answer": "Request",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "92",
@@ -2579,7 +2670,8 @@
           "answer": "Run Reports",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "93",
@@ -2607,7 +2699,8 @@
           "answer": "The page containing the decision table input properties",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "94",
@@ -2640,7 +2733,8 @@
           "answer": "Who is the user that receives the correspondence?",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "95",
@@ -2668,7 +2762,8 @@
           "answer": "An unlocked ruleset added to the Application rule as a production ruleset",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "96",
@@ -2696,7 +2791,8 @@
           "answer": "Create Case",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "97",
@@ -2724,7 +2820,8 @@
           "answer": "Add a date of birth field to the appropriate stage",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "98",
@@ -2752,7 +2849,8 @@
           "answer": "Refresh Once Per Interaction",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "99",
@@ -2780,7 +2878,8 @@
           "answer": "pyWorkParty:",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "100",
@@ -2808,7 +2907,8 @@
           "answer": "When a parent's value changes and a data transform is used to configure the data propagation",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "101",
@@ -2836,7 +2936,8 @@
           "answer": "At the start of the Flow (Process) containing the Assignment shape",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "102",
@@ -2864,7 +2965,8 @@
           "answer": "You can configure the user view for a step before you start creating the case life cycle.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "103",
@@ -2892,7 +2994,8 @@
           "answer": "Portal:",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "104",
@@ -2920,7 +3023,8 @@
           "answer": "single actor performing a single action",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "105",
@@ -2948,7 +3052,8 @@
           "answer": "single actor performing a single action",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "106",
@@ -2976,7 +3081,8 @@
           "answer": "is moved to the next queue by the operator's action",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "107",
@@ -3004,7 +3110,8 @@
           "answer": "Records the result of the unit test.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "108",
@@ -3032,7 +3139,8 @@
           "answer": "pyWorkPage:",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "109",
@@ -3070,7 +3178,8 @@
           "answer": "Set the activity name and check box columns to primary importance.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "110",
@@ -3098,7 +3207,8 @@
           "answer": "Unit testing identifies configuration issues that may impact application performance on a production system.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "111",
@@ -3126,7 +3236,8 @@
           "answer": "Section",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "112",
@@ -3164,7 +3275,8 @@
           "answer": "DateTime:",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "113",
@@ -3192,7 +3304,8 @@
           "answer": "Edit Validate rules allow us to record an expected relationship between properties and have the system manage them",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "114",
@@ -3220,7 +3333,8 @@
           "answer": "Open mobile app > Focus",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "115",
@@ -3248,7 +3362,8 @@
           "answer": "You cannot create a report using a field from the BLOB ( a non-optimized property).",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "116",
@@ -3276,7 +3391,8 @@
           "answer": "Case Data",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "117",
@@ -3304,7 +3420,8 @@
           "answer": "Delivery options",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "118",
@@ -3332,7 +3449,8 @@
           "answer": "Number of columns in each row",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "119",
@@ -3360,7 +3478,8 @@
           "answer": "Report Definition",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "120",
@@ -3388,7 +3507,8 @@
           "answer": "A data transform added to the pyCaseManaementDefault Work Parties rule",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "121",
@@ -3416,7 +3536,8 @@
           "answer": "Reassign any task that remains open after three days to another user.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "122",
@@ -3444,7 +3565,8 @@
           "answer": "You need to pause a case until a user uploads a signed document.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "123",
@@ -3472,7 +3594,8 @@
           "answer": "An expense report is rejected.",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "124",
@@ -3500,7 +3623,8 @@
           "answer": "Utility",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "125",
@@ -3528,7 +3652,8 @@
           "answer": "The base rule is used if no circumstanced variant applies",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "126",
@@ -3556,7 +3681,8 @@
           "answer": "Only existing rules may be referenced in flow shapes when Draft Mode is on.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "127",
@@ -3584,7 +3710,8 @@
           "answer": "Guardrails help project managers ensure that applications are completed on time.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "128",
@@ -3612,7 +3739,8 @@
           "answer": "Decision rules are not causing performance issues",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "129",
@@ -3640,7 +3768,8 @@
           "answer": "Automating correspondence allows for sending consistent information to users.",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "130",
@@ -3668,7 +3797,8 @@
           "answer": "Develop feature prototypes.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "131",
@@ -3696,7 +3826,8 @@
           "answer": "To add a new employee",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "132",
@@ -3724,7 +3855,8 @@
           "answer": "Neither process metrics nor business metrics are exposed by default",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "133",
@@ -3752,7 +3884,8 @@
           "answer": "Control:",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "134",
@@ -3780,7 +3913,8 @@
           "answer": ".pxUrgencyWork",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "135",
@@ -3808,7 +3942,8 @@
           "answer": "Tracer",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "136",
@@ -3836,7 +3971,8 @@
           "answer": "Define the field type as an integer",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "137",
@@ -3864,7 +4000,8 @@
           "answer": "Create a category rule for distribution group reports.",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "138",
@@ -3892,7 +4029,8 @@
           "answer": "Last Due Date",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "139",
@@ -3920,7 +4058,8 @@
           "answer": "Calculate the total interest rate value by adding all the declare expression target property values",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "140",
@@ -3948,7 +4087,8 @@
           "answer": "Specify forward chaining in the declare expression that calculates the total interest rate value.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "141",
@@ -3976,7 +4116,8 @@
           "answer": "Add placeholder text for the applicant's name, loan office, and amount. Also, insert the paragraph rule.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "142",
@@ -4004,7 +4145,8 @@
           "answer": "Use declarative processing using forward chaining to set the discount property value.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "143",
@@ -4032,7 +4174,8 @@
           "answer": "Price of each Option",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "144",
@@ -4060,7 +4203,8 @@
           "answer": "Price of each option",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "145",
@@ -4088,7 +4232,8 @@
           "answer": "Case participants",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "146",
@@ -4116,7 +4261,8 @@
           "answer": "The application cannot run because the rule is unavailable.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "147",
@@ -4144,7 +4290,8 @@
           "answer": "The data page reloads on the next access one hour after it was last accessed.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "148",
@@ -4172,7 +4319,8 @@
           "answer": "Configure a cascading approval flow type based on an authority matrix.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "149",
@@ -4200,7 +4348,8 @@
           "answer": "Set \"Not Applicable\" to equal .Dependents(1).Relationship",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "150",
@@ -4228,7 +4377,8 @@
           "answer": "the Update a Case smart shape",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "151",
@@ -4256,7 +4406,8 @@
           "answer": "In an edit validate rule, configure a function to test for a routing number pattern.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "152",
@@ -4284,7 +4435,8 @@
           "answer": "Use a single validate rule to verify both of these conditions.",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "153",
@@ -4312,7 +4464,8 @@
           "answer": "Configure the Account Open case type to create a Fund Account case as a child case. Configure the Fund Account case type to create a Link Savings case as a top-level case.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "154",
@@ -4340,7 +4493,8 @@
           "answer": "Summarize the manager name column.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "155",
@@ -4368,7 +4522,8 @@
           "answer": "Wait until the data page reloads on the next access one hour after it was created.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "156",
@@ -4396,7 +4551,8 @@
           "answer": "design template can be included in flow action.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "157",
@@ -4424,7 +4580,8 @@
           "answer": "section must be configured to use the templates",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "158",
@@ -4452,7 +4609,8 @@
           "answer": "flow",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "159",
@@ -4480,7 +4638,8 @@
           "answer": "data transform",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "160",
@@ -5162,7 +5321,8 @@
           "answer": "configure a declare expression rule for only Billing amount",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "187",
@@ -5180,7 +5340,8 @@
           "answer": "backward chaining",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "188",
@@ -5198,7 +5359,8 @@
           "answer": "backward chaining",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "189",
@@ -5226,7 +5388,8 @@
           "answer": "Total Bill amount declare expression will trigger at first page and bill amount declare expression will after user submission",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "190",
@@ -5254,7 +5417,8 @@
           "answer": "This is computative processing",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "191",
@@ -5272,7 +5436,8 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "192",
@@ -5300,7 +5465,8 @@
           "answer": "None of the above",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "193",
@@ -5328,7 +5494,8 @@
           "answer": "Define a declare expression rule with appropriate input and target properties to populate total bill amount when the quantity value chnages",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "194",
@@ -5356,7 +5523,8 @@
           "answer": "None of the above",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "195",
@@ -5384,7 +5552,8 @@
           "answer": "None of the above",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "196",
@@ -5412,7 +5581,8 @@
           "answer": "declare trigger",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "197",
@@ -5440,7 +5610,8 @@
           "answer": "declare trigger",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "198",
@@ -5468,7 +5639,8 @@
           "answer": "declare trigger",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "199",
@@ -5496,7 +5668,8 @@
           "answer": "declare trigger",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "200",
@@ -5524,7 +5697,8 @@
           "answer": "declare trigger",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "201",
@@ -5552,7 +5726,8 @@
           "answer": "declare trigger",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "202",
@@ -5580,7 +5755,8 @@
           "answer": "declare trigger",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "203",
@@ -5608,7 +5784,8 @@
           "answer": "declare trigger",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "204",
@@ -5653,7 +5830,8 @@
           "answer": "declare trigger",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "206",
@@ -5670,7 +5848,9 @@
           "answer": "procedural processing",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "image": "null.png",
+      "hint": ""
     },
     {
       "id": "207",
@@ -5727,7 +5907,8 @@
           "answer": "Add an edit validate rule for Phone number or email in the processing stage",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "209",
@@ -5755,7 +5936,8 @@
           "answer": "an activity",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "210",
@@ -5773,7 +5955,8 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "211",
@@ -5801,7 +5984,8 @@
           "answer": "this cannot be implemented by declare expression",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "212",
@@ -5819,7 +6003,8 @@
           "answer": "there should be one declare expression and that should calculate item amount as well as total amount",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "213",
@@ -5837,7 +6022,8 @@
           "answer": "Designer Studio > System > Business Rules",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "214",
@@ -5865,7 +6051,8 @@
           "answer": "this cannot be implemented by declare expression",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "215",
@@ -5883,7 +6070,8 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "216",
@@ -5901,7 +6089,8 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "217",
@@ -5929,7 +6118,8 @@
           "answer": "Whenever used for forward chaining",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "218",
@@ -5957,7 +6147,8 @@
           "answer": "always, regardless of using target property or input property",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "219",
@@ -5985,7 +6176,8 @@
           "answer": "The impact to performance might affect response time when the user enters values or submits forms.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "220",
@@ -6013,7 +6205,8 @@
           "answer": "The impact to performance might affect response time when the user enters values or submits forms.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "221",
@@ -6031,7 +6224,8 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "222",
@@ -6049,7 +6243,8 @@
           "answer": "foreward chaining",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "223",
@@ -6067,7 +6262,8 @@
           "answer": "backward chaining is good as the property is needed at last screen and will be shown",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "224",
@@ -6095,7 +6291,8 @@
           "answer": "Number of days at the hotel",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "225",
@@ -6123,7 +6320,8 @@
           "answer": "When updating a property that is calculated, you do not need to identify every calculation that updates any of the source values and manually re-calculate them.",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": ""
     },
     {
       "id": "226",
@@ -6151,7 +6349,8 @@
           "answer": "Apply the declare expression in the approval flow action.",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": ""
     }
   ]
 }
