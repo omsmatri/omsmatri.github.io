@@ -1,8 +1,10 @@
 {
+  "questions": [
+    {
       "id": "1",
       "name": "Ford client want to design an application for its Auto repair process where the customer should get a mail whenever there is an update on the repair case. ONce the application is live, Mr Carlo comes to the Ford Dealership to repair his car. Which of the following statements are true",
-      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "check",
       "options": [
         {
@@ -30,8 +32,8 @@
     {
       "id": "2",
       "name": "Ford client want to design an application for its Auto repair process where the customer should get a mail whenever there is an update on the repair case. ONce the application is live, Mr Carlo comes to the Ford Dealership to repair his car. Which of the following statements are true",
-      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "check",
       "options": [
         {
@@ -59,8 +61,8 @@
     {
       "id": "3",
       "name": "What parties are defaulted when you go to settings tab of a case type rule?",
-      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "check",
       "options": [
         {
@@ -88,8 +90,8 @@
     {
       "id": "4",
       "name": "For the Automobile repair application of Ford, ford dealership is taking an automobile repair case of Mr Brown. Mr Brown calls the Ford Dealership (and talked with Miss Cox ) to book an appointment. Which of the following statements are true?",
-      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "check",
       "options": [
         {
@@ -117,8 +119,8 @@
     {
       "id": "5",
       "name": "When a Pega developer adds or modifes the Party in Settings tab of Case type rule, which pega rule is modified.",
-      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
       "options": [
         {
@@ -146,8 +148,8 @@
     {
       "id": "6",
       "name": "What information is relevant when you create a party?",
-      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "check",
       "options": [
         {
@@ -175,8 +177,8 @@
     {
       "id": "7",
       "name": "What is not a valid standard Pega Party class.",
-      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
       "options": [
         {
@@ -204,8 +206,8 @@
     {
       "id": "8",
       "name": "What is not a valid standard Pega Party class.",
-      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
       "options": [
         {
@@ -233,8 +235,8 @@
     {
       "id": "9",
       "name": "What is not a valid standard Pega Party class.",
-      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
       "options": [
         {
@@ -262,8 +264,8 @@
     {
       "id": "10",
       "name": "For the Car repair case, Miss Tori is assigned as a case worker. However,she needs some help so she is assisted with a Case manager. As a developer you wanted to have two work parties for case, one is Owner and the other is Manager. Which of the following statements are true",
-      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "check",
       "options": [
         {
@@ -291,8 +293,8 @@
     {
       "id": "11",
       "name": "For the Car repair case, Miss Tori took a call for appointment from Mr Brown to repaid Mr Brown`s car. Which of the following statements are true",
-      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "check",
       "options": [
         {
@@ -320,8 +322,8 @@
     {
       "id": "12",
       "name": "Ford company has a repair application. Ford wants to have social wing for Helpage.org which is a non-profit organization. There should be a contract case involved both the parties as well as Govt to enforce the contract. Which statements are correct?",
-      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "check",
       "options": [
         {
@@ -349,8 +351,8 @@
     {
       "id": "13",
       "name": "What are the facts to evaluate before defining a party?",
-      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "check",
       "options": [
         {
@@ -378,8 +380,8 @@
     {
       "id": "14",
       "name": "For a banking application, CSR opens a new account for a customer. How as a pega developer you should design this case to have customer as a party?",
-      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
       "options": [
         {
@@ -397,8 +399,8 @@
     {
       "id": "15",
       "name": "For a banking application, CSR opens a new account for a customer. How as a pega developer you should design this case to have CSR as a party?",
-      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
       "options": [
         {
@@ -416,8 +418,8 @@
     {
       "id": "16",
       "name": "For a banking application, CSR opens a new account for a customer. Opening a new bank account case, have few child cases under it. How as a pega developer you should design the child cases to have CSR as a party?",
-      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
       "options": [
         {
@@ -435,8 +437,8 @@
     {
       "id": "17",
       "name": "Can we have a Lawyer party to a case by just modifying the role field?",
-      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
       "options": [
         {
@@ -454,8 +456,8 @@
     {
       "id": "18",
       "name": "Can we have more than one role having same role name defined for a case?",
-      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
       "options": [
         {
@@ -473,8 +475,8 @@
     {
       "id": "19",
       "name": "How to configure which party role would be of which class like Data-Party-Com or data-Party-Gov etc",
-      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
       "options": [
         {
@@ -492,8 +494,8 @@
     {
       "id": "20",
       "name": "When a Ford Dealership CSR creates a Repair case, as a pega developer you want to copy the operator information to Owner Party. How to do this in a best possible way?",
-      "hint": "CONFIGURING A WORK PARTY",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
       "options": [
         {
@@ -512,6 +514,7 @@
       "id": "21",
       "name": "You are initializing a Party of Data-Party-Person but want to use a data transform of Data-Party-Operator class. Will it be possible?",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
       "options": [
         {
@@ -524,13 +527,13 @@
           "answer": "Yes",
           "correctanswer": "false"
         }
-      ],
-      "hint": "CONFIGURING A WORK PARTY"
+      ]
     },
     {
       "id": "22",
       "name": "Select the Display on creation check box to prompt users to add this work party every time a case is created.",
       "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
       "options": [
         {
@@ -543,8 +546,7 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "hint": "CONFIGURING A WORK PARTY"
+      ]
     },
     {
       "id": "23",
@@ -632,7 +634,7 @@
         }
       ]
     },
-	{
+    {
       "id": "27",
       "name": "A rule is an instruction for describing a specific case behavior, such as a process or automated decision.",
       "image": "null.png",
@@ -780,8 +782,8 @@
       "id": "33",
       "name": "You configured a message to send the email. This message content need to be modified periodically. Which type of application modularity you should use.",
       "image": "null.png",
-      "type": "radio",
       "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
+      "type": "radio",
       "options": [
         {
           "id": "2983",
@@ -894,8 +896,8 @@
     {
       "id": "38",
       "name": "As you run a process, Pega sends information to the clipboard, adding or removing pages and properties from memory",
-      "hint": "REVIEWING APPLICATION DATA",
       "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
       "options": [
         {
@@ -914,7 +916,6 @@
       "id": "39",
       "name": "The data element (property and value) is stored on the clipboard in a structure called a page.",
       "hint": "REVIEWING APPLICATION DATA",
-      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -927,13 +928,13 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "image": "null.png"
     },
     {
       "id": "40",
       "name": "pyWorkPage stores all the data generated while creating and processing a case.",
       "hint": "REVIEWING APPLICATION DATA",
-      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -946,13 +947,13 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "image": "null.png"
     },
     {
       "id": "41",
       "name": "pyWorkPage stores data such as the case creation date or the case ID. ",
       "hint": "REVIEWING APPLICATION DATA",
-      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -965,13 +966,14 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "image": "null.png"
     },
     {
       "id": "42",
       "name": "If the pyWorkpage contains an embedded page, that means this case is dealing with some data type mentioned in embedded page.",
-      "hint": "REVIEWING APPLICATION DATA",
       "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
       "options": [
         {
@@ -989,8 +991,8 @@
     {
       "id": "43",
       "name": "If you are processing a child case, the clipboard holds its parent case data in which page",
-      "hint": "REVIEWING APPLICATION DATA",
       "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
       "options": [
         {
@@ -1008,8 +1010,8 @@
     {
       "id": "44",
       "name": "Can We refer parent case data in child case by referring pyWorkCover page",
-      "hint": "REVIEWING APPLICATION DATA",
       "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
       "options": [
         {
@@ -1027,8 +1029,8 @@
     {
       "id": "45",
       "name": "The clipboard page name must be included the pages and classes tab of a rule to refer the page and its property in the rule. This is needed for validation purpose as the rule refers the page and it`s property and pega needs to validate it.",
-      "hint": "REVIEWING APPLICATION DATA",
       "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
       "options": [
         {
@@ -1046,8 +1048,8 @@
     {
       "id": "46",
       "name": "To open the Clipboard tool, click the Clipboard icon on the Developer toolbar in Designer Studio.",
-      "hint": "REVIEWING APPLICATION DATA",
       "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
       "options": [
         {
@@ -1065,8 +1067,8 @@
     {
       "id": "47",
       "name": "The User Pages category contains pages created due to user action, either directly or indirectly.",
-      "hint": "REVIEWING APPLICATION DATA",
       "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
       "options": [
         {
@@ -1084,8 +1086,8 @@
     {
       "id": "48",
       "name": "If a pega developer configure or tests a rule or do some case processing, the clipboard pages created by this process will be part User pages Category.",
-      "hint": "REVIEWING APPLICATION DATA",
       "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
       "options": [
         {
@@ -1103,8 +1105,8 @@
     {
       "id": "49",
       "name": "If you just open an old case, which page should be having its data in clipboard. Under which category, this page would be listed?",
+      "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
-	  "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -1132,9 +1134,9 @@
     {
       "id": "50",
       "name": "Data pages under clipboard contains only read only pages defined by data page rules.",
+      "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
-	  "image": "null.png",
       "options": [
         {
           "id": "2983",
@@ -1151,8 +1153,9 @@
     {
       "id": "51",
       "name": "Data pages under clipboard contains editable pages defined by data page rules.",
+      "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
-	  "image": "null.png",
       "options": [
         {
           "id": "2983",
@@ -1164,13 +1167,13 @@
           "answer": "false",
           "correctanswer": "true"
         }
-      ],
-      "hint": "REVIEWING APPLICATION DATA"
+      ]
     },
     {
       "id": "52",
       "name": " Linked Property Pages category contains read-only pages created by linked properties, which contain information from data objects referenced by a linked property.",
       "image": "null.png",
+      "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
       "options": [
         {
@@ -1183,8 +1186,7 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "hint": "REVIEWING APPLICATION DATA"
+      ]
     },
     {
       "id": "53",
@@ -1440,8 +1442,8 @@
       "id": "63",
       "name": "I want to copy data from a page list to another pagelist. The source page list is supposed to have a property to check before copying. is this possible to achieve this is data transform",
       "image": "null.png",
-      "type": "check",
       "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
+      "type": "check",
       "options": [
         {
           "id": "2983",
@@ -1468,7 +1470,6 @@
     {
       "id": "64",
       "name": "A single value property named pyLabel should be referred as .pyLabel",
-      "image": "null.png",
       "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
       "options": [
@@ -1482,13 +1483,14 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "image": "null.png"
     },
     {
       "id": "65",
       "name": "ABC cop has a value group property name phone which might contain the value for Home and office. How to refer this property in data transform",
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "check",
       "options": [
         {
@@ -1506,8 +1508,8 @@
     {
       "id": "66",
       "name": "How to refer the last property of a value list property named Address.",
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
       "options": [
         {
@@ -1525,8 +1527,8 @@
     {
       "id": "67",
       "name": "How to refer the first property of a value list property named Address",
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
       "options": [
         {
@@ -1544,8 +1546,8 @@
     {
       "id": "68",
       "name": "You are doing an iteration in a pagelist named Address. how to access the current page of the page list",
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
       "options": [
         {
@@ -1563,8 +1565,8 @@
     {
       "id": "69",
       "name": "Your page list contains 5 pages. You deleted a page indexed 3. What would be the index of 2nd last page.",
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
       "options": [
         {
@@ -1592,8 +1594,8 @@
     {
       "id": "70",
       "name": "How to add a data transform to a stage.",
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
       "options": [
         {
@@ -1611,8 +1613,8 @@
     {
       "id": "71",
       "name": "How to set default property values for a case.",
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "check",
       "options": [
         {
@@ -1678,9 +1680,9 @@
     {
       "id": "74",
       "name": "pyDefault data transform calls pySetFieldDefaults data transform",
+      "image": "null.png",
       "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "radio",
-	  "image": "null.png",
       "options": [
         {
           "id": "2983",
@@ -1880,8 +1882,8 @@
     {
       "id": "82",
       "name": "In which two of the following situations would you use a data transform? (Choose Two)",
-      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "image": "null.png",
+      "hint": "SETTING PROPERTY VALUES AUTOMATICALLY",
       "type": "check",
       "options": [
         {
@@ -1909,8 +1911,8 @@
     {
       "id": "83",
       "name": "What`s true about data page?",
-      "hint": "CACHING DATA WITH DATA PAGES",
       "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
       "type": "check",
       "options": [
         {
@@ -1938,8 +1940,8 @@
     {
       "id": "84",
       "name": "Whats true about data pages?",
-      "hint": "CACHING DATA WITH DATA PAGES",
       "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
       "type": "check",
       "options": [
         {
@@ -1967,8 +1969,8 @@
     {
       "id": "85",
       "name": "Whats true about data pages?",
-      "hint": "CACHING DATA WITH DATA PAGES",
       "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
       "type": "check",
       "options": [
         {
@@ -1996,8 +1998,8 @@
     {
       "id": "86",
       "name": "Before creating the Data page which things to figure out.",
-      "hint": "CACHING DATA WITH DATA PAGES",
       "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
       "type": "check",
       "options": [
         {
@@ -2025,8 +2027,8 @@
     {
       "id": "87",
       "name": "Can we create a data page from data explorer by doing an Add data page?",
-      "hint": "CACHING DATA WITH DATA PAGES",
       "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
       "type": "radio",
       "options": [
         {
@@ -2044,8 +2046,8 @@
     {
       "id": "88",
       "name": "Does data explorere shows the existed data pages.",
-      "hint": "CACHING DATA WITH DATA PAGES",
       "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
       "type": "check",
       "options": [
         {
@@ -2063,8 +2065,8 @@
     {
       "id": "89",
       "name": "Data page structure can be of mode page or list.",
-      "hint": "CACHING DATA WITH DATA PAGES",
       "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
       "type": "check",
       "options": [
         {
@@ -2092,8 +2094,8 @@
     {
       "id": "90",
       "name": "Whats true about Editable data page?",
-      "hint": "CACHING DATA WITH DATA PAGES",
       "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
       "type": "radio",
       "options": [
         {
@@ -2121,8 +2123,8 @@
     {
       "id": "91",
       "name": "What are the data page scopes available?",
-      "hint": "CACHING DATA WITH DATA PAGES",
       "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
       "type": "check",
       "options": [
         {
@@ -2150,8 +2152,8 @@
     {
       "id": "92",
       "name": "If a customer service representative (CSR) is working on several cases for different customers and wanted to use the data pagein the context of a case. What should be the scope of data page?",
-      "hint": "CACHING DATA WITH DATA PAGES",
       "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
       "type": "radio",
       "options": [
         {
@@ -2179,8 +2181,8 @@
     {
       "id": "93",
       "name": "If data page contains information specific to logged in operator such as worklist related information, what should be the scope of the data page.",
-      "hint": "CACHING DATA WITH DATA PAGES",
       "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
       "type": "radio",
       "options": [
         {
@@ -2208,8 +2210,8 @@
     {
       "id": "94",
       "name": "If some data need to be accessed by all users of all application for a node, what should be the scope of this data page?",
-      "hint": "CACHING DATA WITH DATA PAGES",
       "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
       "type": "radio",
       "options": [
         {
@@ -2237,8 +2239,8 @@
     {
       "id": "95",
       "name": "If a finance application wants to store the currency exchange info, which data page scope this data should be kept.",
-      "hint": "CACHING DATA WITH DATA PAGES",
       "image": "null.png",
+      "hint": "CACHING DATA WITH DATA PAGES",
       "type": "radio",
       "options": [
         {
@@ -2267,7 +2269,6 @@
       "id": "96",
       "name": "in multinode system , the node scope data page would be created per node?",
       "hint": "CACHING DATA WITH DATA PAGES",
-      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -2280,13 +2281,13 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "image": "null.png"
     },
     {
       "id": "97",
       "name": "If a data page is hitting a connect rest service to get the weather information, how to map the input and output data?",
       "hint": "CACHING DATA WITH DATA PAGES",
-      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -2309,12 +2310,12 @@
           "answer": "Data page can take the end point url too",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "image": "null.png"
     },
     {
       "id": "98",
       "name": "Refresh strategy can be available in Load Management tab of a Data page",
-      "image": "null.png",
       "hint": "CACHING DATA WITH DATA PAGES",
       "type": "radio",
       "options": [
@@ -2328,7 +2329,8 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "image": "null.png"
     },
     {
       "id": "99",
@@ -2378,3 +2380,5 @@
         }
       ]
     }
+  ]
+}
