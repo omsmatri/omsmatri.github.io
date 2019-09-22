@@ -16,11 +16,6 @@
         },
         {
           "encrypted": "true",
-          "url": "test",
-          "tag_line": "Test Data"
-        },
-        {
-          "encrypted": "true",
           "url": "Designing_a_user_interface",
           "tag_line": "Designing a user interface"
         },
@@ -43,6 +38,11 @@
           "encrypted": "true",
           "url": "Pega_Platform",
           "tag_line": "Pega Platform"
+        },
+        {
+          "encrypted": "true",
+          "url": "everything_else",
+          "tag_line": "Everything Else"
         }
       ]
     },
