@@ -2,9 +2,9 @@
   "questions": [
     {
       "id": "1",
-      "name": "Ford client want to design an application for its Auto repair process where the customer should get a mail whenever there is an update on the repair case. ONce the application is live, Mr Carlo comes to the Ford Dealership to repair his car. Which of the following statements are true",
-      "image": "null.png",
+      "name": "Ford automobile client want to design an application for its Auto repair process where the customer should get a mail whenever there is an update on the repair case. Once the application is live, Mr Carlo who is a customer, comes to the Ford Dealership to repair his car. Which of the following statements are true (Select only Two)",
       "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -31,9 +31,9 @@
     },
     {
       "id": "2",
-      "name": "Ford client want to design an application for its Auto repair process where the customer should get a mail whenever there is an update on the repair case. ONce the application is live, Mr Carlo comes to the Ford Dealership to repair his car. Which of the following statements are true",
-      "image": "null.png",
+      "name": "Ford automobile client want to design an application for its Auto repair process where the customer should get a mail whenever there is an update on the repair case. Once the application is live, Mr Carlo who is a customer, comes to the Ford Dealership to repair his car. Which of the following statements are true (Select only Three)",
       "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -60,9 +60,9 @@
     },
     {
       "id": "3",
-      "name": "What parties are defaulted when you go to settings tab of a case type rule?",
-      "image": "null.png",
+      "name": "What parties are defaulted when you go to settings tab of a case type rule? (Select only Three)",
       "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -89,9 +89,9 @@
     },
     {
       "id": "4",
-      "name": "For the Automobile repair application of Ford, ford dealership is taking an automobile repair case of Mr Brown. Mr Brown calls the Ford Dealership (and talked with Miss Cox ) to book an appointment. Which of the following statements are true?",
-      "image": "null.png",
+      "name": "For the Automobile repair application of Ford, ford dealership is taking an automobile repair case of Mr Brown. Mr Brown is a customer. Mr Brown calls the Ford Dealership (and talked with Miss Cox ) to book an appointment. Miss Cox is a Call centre employee of Ford client.  Miss Cox creates an appointment case. Which of the following statements are true? (Select only Two)",
       "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -118,9 +118,9 @@
     },
     {
       "id": "5",
-      "name": "When a Pega developer adds or modifes the Party in Settings tab of Case type rule, which pega rule is modified.",
-      "image": "null.png",
+      "name": "When a Pega developer adds or modifies the Party in Settings tab of Case type rule, which pega rule is modified. (Select only One)",
       "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -147,9 +147,9 @@
     },
     {
       "id": "6",
-      "name": "What information is relevant when you create a party?",
-      "image": "null.png",
+      "name": "What information is relevant when you create a party? (Select only Two)",
       "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -176,9 +176,9 @@
     },
     {
       "id": "7",
-      "name": "What is not a valid standard Pega Party class.",
-      "image": "null.png",
+      "name": "What is not a valid standard Pega Party class.  (Select only One)",
       "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -205,9 +205,9 @@
     },
     {
       "id": "8",
-      "name": "What is not a valid standard Pega Party class.",
-      "image": "null.png",
+      "name": "What is not a valid standard Pega Party class. (Select only One)",
       "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -234,9 +234,9 @@
     },
     {
       "id": "9",
-      "name": "What is not a valid standard Pega Party class.",
-      "image": "null.png",
+      "name": "What is not a valid standard Pega Party class. (Select only One)",
       "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -263,9 +263,9 @@
     },
     {
       "id": "10",
-      "name": "For the Car repair case, Miss Tori is assigned as a case worker. However,she needs some help so she is assisted with a Case manager. As a developer you wanted to have two work parties for case, one is Owner and the other is Manager. Which of the following statements are true",
-      "image": "null.png",
+      "name": "For the Car repair case, Miss Tori ( a Car call centre employee) is assigned as a case worker. However,she needs some help so she is assisted with a Case manager. As a developer you wanted to have two work parties for case, one is Owner and the other is Manager. Which of the following statements are true (Select only Two)",
       "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -292,9 +292,9 @@
     },
     {
       "id": "11",
-      "name": "For the Car repair case, Miss Tori took a call for appointment from Mr Brown to repaid Mr Brown`s car. Which of the following statements are true",
-      "image": "null.png",
+      "name": "For the Car repair case, Miss Tori (a call centre employee) took a call for appointment from Mr Brown ( a car customer) to pay Mr Brown`s car. Which of the following statements are true. (Select only Three)",
       "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -321,19 +321,19 @@
     },
     {
       "id": "12",
-      "name": "Ford company has a repair application. Ford wants to have social wing for Helpage.org which is a non-profit organization. There should be a contract case involved both the parties as well as Govt to enforce the contract. Which statements are correct?",
-      "image": "null.png",
+      "name": "Ford automobile company has a repair application. Ford wants to have social wing for Helpage.org which is a non-profit organization. There should be a contract case involved both the parties as well as Government to enforce the contract. Which statements are correct? (Select only Three)",
       "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
           "id": "2983",
-          "answer": "Govt would be a party of Data-Party-Gov class",
+          "answer": "Government would be a party of Data-Party-Gov class",
           "correctanswer": "true"
         },
         {
           "id": "2984",
-          "answer": "Ford would be a party of Data-Party-Com class",
+          "answer": "Ford automobile would be a party of Data-Party-Com class",
           "correctanswer": "true"
         },
         {
@@ -350,9 +350,9 @@
     },
     {
       "id": "13",
-      "name": "What are the facts to evaluate before defining a party?",
-      "image": "null.png",
+      "name": "What are the facts to evaluate before defining a party? (Select all applicable)",
       "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
@@ -362,12 +362,12 @@
         },
         {
           "id": "2984",
-          "answer": "Is the information available when the case is created? Or does the information become available during case processing?",
+          "answer": "The information should be available when the case is created as well as when the case is processed",
           "correctanswer": "true"
         },
         {
           "id": "2985",
-          "answer": "How will you obtain the information to populate the party details? Do you expect the user to enter this information? Can you copy the information from session information or case data?",
+          "answer": "Party details can be populated from the user to enter this information? Can you copy the information from session information or case data?",
           "correctanswer": "true"
         },
         {
@@ -379,9 +379,9 @@
     },
     {
       "id": "14",
-      "name": "For a banking application, CSR opens a new account for a customer. How as a pega developer you should design this case to have customer as a party?",
-      "image": "null.png",
+      "name": "For a banking application, CSR opens a new account for a customer. How as a pega developer you should design this case to have customer as a party?  (Select only One)",
       "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -398,9 +398,9 @@
     },
     {
       "id": "15",
-      "name": "For a banking application, CSR opens a new account for a customer. How as a pega developer you should design this case to have CSR as a party?",
-      "image": "null.png",
+      "name": "For a banking application, CSR opens a new account for a customer. How as a pega developer you should design this case to have CSR as a party? (Select only One)",
       "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -417,9 +417,9 @@
     },
     {
       "id": "16",
-      "name": "For a banking application, CSR opens a new account for a customer. Opening a new bank account case, have few child cases under it. How as a pega developer you should design the child cases to have CSR as a party?",
-      "image": "null.png",
+      "name": "For a banking application, CSR opens a new account for a customer. Opening a new bank account case, have few child cases under it. How as a pega developer you should design the child cases to have CSR as a party? (Select only One)",
       "hint": "CONFIGURING A WORK PARTY",
+      "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -436,10 +436,9 @@
     },
     {
       "id": "17",
-      "name": "Can we have a Lawyer party to a case by just modifying the role field?",
-      "image": "null.png",
-      "hint": "CONFIGURING A WORK PARTY",
+      "name": "Can we have a Lawyer party to a case by just modifying the role field? (Select only One)",
       "type": "radio",
+      "image": "null.png",
       "options": [
         {
           "id": "2983",
@@ -451,13 +450,13 @@
           "answer": "Yes",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": "CONFIGURING A WORK PARTY"
     },
     {
       "id": "18",
-      "name": "Can we have more than one role having same role name defined for a case?",
+      "name": "Can we have more than one role having same role name defined for a case? (Select only One)",
       "image": "null.png",
-      "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
       "options": [
         {
@@ -470,13 +469,13 @@
           "answer": "No",
           "correctanswer": "true"
         }
-      ]
+      ],
+      "hint": "CONFIGURING A WORK PARTY"
     },
     {
       "id": "19",
-      "name": "How to configure which party role would be of which class like Data-Party-Com or data-Party-Gov etc",
+      "name": "How to configure which party role would be of which class like Data-Party-Com or Data-Party-Gov etc. (Select only One)",
       "image": "null.png",
-      "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
       "options": [
         {
@@ -489,13 +488,12 @@
           "answer": "Configure using Class dropdown",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": "CONFIGURING A WORK PARTY"
     },
     {
       "id": "20",
-      "name": "When a Ford Dealership CSR creates a Repair case, as a pega developer you want to copy the operator information to Owner Party. How to do this in a best possible way?",
-      "image": "null.png",
-      "hint": "CONFIGURING A WORK PARTY",
+      "name": "When a Ford automobile Dealership CSR creates a Repair case, as a pega developer you want to copy the operator information to Owner Party. How to do this in a best possible way? (Select only One)",
       "type": "radio",
       "options": [
         {
@@ -507,14 +505,20 @@
           "id": "2984",
           "answer": "Run addWorkObjectParty api as part of the process of case type",
           "correctanswer": "false"
+        },
+        {
+          "id": "2983",
+          "answer": "When creating a case, select the Display on creation option for the party in the Case Designer Parties configuration section",
+          "correctanswer": "false"
         }
-      ]
+      ],
+      "image": "null.png",
+      "hint": "CONFIGURING A WORK PARTY"
     },
     {
       "id": "21",
-      "name": "You are initializing a Party of Data-Party-Person but want to use a data transform of Data-Party-Operator class. Will it be possible?",
+      "name": "You are initializing a Party of Data-Party-Person but want to use a data transform of Data-Party-Operator class. Will it be possible? (Select only One)",
       "image": "null.png",
-      "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
       "options": [
         {
@@ -527,11 +531,12 @@
           "answer": "Yes",
           "correctanswer": "false"
         }
-      ]
+      ],
+      "hint": "CONFIGURING A WORK PARTY"
     },
     {
       "id": "22",
-      "name": "Select the Display on creation check box to prompt users to add this work party every time a case is created.",
+      "name": "Select the Display on creation check box to prompt users to add this work party every time a case is created. (Select only One)",
       "image": "null.png",
       "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
@@ -550,7 +555,7 @@
     },
     {
       "id": "23",
-      "name": "Select the Required check box to indicate that this work party must be present in every new case. Selecting this check box adds required fields to the work item entry form to collect information about the party.",
+      "name": "Select the Required check box to indicate that this work party must be present in every new case. Selecting this check box adds required fields to the work item entry form to collect information about the party. (Select only One)",
       "image": "null.png",
       "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
@@ -569,7 +574,7 @@
     },
     {
       "id": "24",
-      "name": "Select the Allow multiple check box to allow more than one instance of your work party to participate in a case.",
+      "name": "Select the Allow multiple check box to allow more than one instance of your work party to participate in a case. (Select only One)",
       "image": "null.png",
       "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
@@ -588,7 +593,7 @@
     },
     {
       "id": "25",
-      "name": "You can also define or edit a work party directly on the work party rule. To do so, go to the Application Explorer, expand the appropriate case type, and select Process > Work Parties > pyCaseManagementDefault.",
+      "name": "You can also define or edit a work party directly on the work party rule. To do so, go to the Application Explorer, expand the appropriate case type, and select Process > Work Parties > pyCaseManagementDefault. (Select only One)",
       "image": "null.png",
       "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
@@ -607,7 +612,7 @@
     },
     {
       "id": "26",
-      "name": "Which standard flow shape represents an automated system action?",
+      "name": "Which standard flow shape represents an automated system action? (Select only One)",
       "image": "null.png",
       "hint": "CONFIGURING A WORK PARTY",
       "type": "radio",
@@ -636,7 +641,7 @@
     },
     {
       "id": "27",
-      "name": "A rule is an instruction for describing a specific case behavior, such as a process or automated decision.",
+      "name": "A rule is an instruction for describing a specific case behavior, such as a process or automated decision. (Select only One)",
       "image": "null.png",
       "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
       "type": "radio",
@@ -655,7 +660,7 @@
     },
     {
       "id": "28",
-      "name": "Pega wizard can be helpful to generate (create and modify) rules to describe cases, processes and UI forms. More controls can be done by using designer studio.",
+      "name": "Pega wizard can be helpful to generate (create and modify) rules to describe cases, processes and UI forms. More controls can be done by using designer studio. (Select only One)",
       "image": "null.png",
       "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
       "type": "radio",
@@ -674,7 +679,7 @@
     },
     {
       "id": "29",
-      "name": "When a pega developer adds a process to a case life cycle from pega express or case designer, which rule is created",
+      "name": "When a pega developer adds a process to a case life cycle from pega express or case designer, which rule is created. (Select only One)",
       "image": "null.png",
       "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
       "type": "radio",
@@ -703,7 +708,7 @@
     },
     {
       "id": "30",
-      "name": "while approving a case, sending email to customer should be implemented using a message rule. What is the advantage of keeping your application modular this way?",
+      "name": "while approving a case, sending email to customer should be implemented using a message rule. What is the advantage of keeping your application modular this way? (Select only One)",
       "image": "null.png",
       "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
       "type": "radio",
@@ -722,7 +727,7 @@
     },
     {
       "id": "31",
-      "name": "The application modularity provides which three significant benefits:",
+      "name": "The application modularity provides which three significant benefits: (Select only Three)",
       "image": "null.png",
       "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
       "type": "check",
@@ -744,14 +749,14 @@
         },
         {
           "id": "2986",
-          "answer": "none of the above",
+          "answer": "revalidate",
           "correctanswer": "false"
         }
       ]
     },
     {
       "id": "32",
-      "name": "As a pega developer you created a UI form to collect Customer details as part of insurance case. Using this UI form for mediclaim will be part of which modularity.",
+      "name": "As a pega developer you created a UI form to collect Customer details as part of insurance case. Using this UI form for mediclaim will be part of which modularity. (Select only One)",
       "image": "null.png",
       "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
       "type": "radio",
@@ -780,7 +785,7 @@
     },
     {
       "id": "33",
-      "name": "You configured a message to send the email. This message content need to be modified periodically. Which type of application modularity you should use.",
+      "name": "You configured a message to send the email. This message content need to be modified periodically. Which type of application modularity you should use. (Select only One)",
       "image": "null.png",
       "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
       "type": "radio",
@@ -809,7 +814,7 @@
     },
     {
       "id": "34",
-      "name": "Message rule of insurance case changes but not very frequently. It mostly changes when the case behaviour changes.",
+      "name": "Message rule of insurance case changes but not very frequently. It mostly changes when the case behaviour changes. (Select only One)",
       "image": "null.png",
       "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
       "type": "radio",
@@ -838,7 +843,7 @@
     },
     {
       "id": "35",
-      "name": "To package rules for distribution as part of an application, you collect rules into a group called a ruleset.",
+      "name": "To package rules for distribution as part of an application, you collect rules into a group called a ruleset. (Select only One)",
       "image": "null.png",
       "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
       "type": "radio",
@@ -857,7 +862,7 @@
     },
     {
       "id": "36",
-      "name": "ruleset is container of rules.",
+      "name": "ruleset is container of rules. (Select only One)",
       "image": "null.png",
       "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
       "type": "radio",
@@ -876,7 +881,7 @@
     },
     {
       "id": "37",
-      "name": "If a case is dealing with multiple pages, are these pages will be in  memory accessible by clipboard.",
+      "name": "If a case is dealing with multiple pages, are these pages will be in  memory accessible by clipboard.  (Select only One)",
       "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
@@ -895,7 +900,7 @@
     },
     {
       "id": "38",
-      "name": "As you run a process, Pega sends information to the clipboard, adding or removing pages and properties from memory",
+      "name": "As you run a process, Pega sends information to the clipboard, adding or removing pages and properties from memory. (Select only One)",
       "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
@@ -914,7 +919,8 @@
     },
     {
       "id": "39",
-      "name": "The data element (property and value) is stored on the clipboard in a structure called a page.",
+      "name": "The data element (property and value) is stored on the clipboard in a structure called a page. (Select only One)",
+      "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
       "options": [
@@ -928,12 +934,12 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "image": "null.png"
+      ]
     },
     {
       "id": "40",
-      "name": "pyWorkPage stores all the data generated while creating and processing a case.",
+      "name": "pyWorkPage stores all the data generated while creating and processing a case. (Select only One)",
+      "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
       "options": [
@@ -947,12 +953,12 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "image": "null.png"
+      ]
     },
     {
       "id": "41",
-      "name": "pyWorkPage stores data such as the case creation date or the case ID. ",
+      "name": "pyWorkPage stores data such as the case creation date or the case ID. (Select only One)",
+      "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
       "options": [
@@ -966,12 +972,11 @@
           "answer": "false",
           "correctanswer": "false"
         }
-      ],
-      "image": "null.png"
+      ]
     },
     {
       "id": "42",
-      "name": "If the pyWorkpage contains an embedded page, that means this case is dealing with some data type mentioned in embedded page.",
+      "name": "If the pyWorkpage contains an embedded page, that means this case is dealing with some data type mentioned in embedded page. (Select only One)",
       "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
@@ -990,7 +995,7 @@
     },
     {
       "id": "43",
-      "name": "If you are processing a child case, the clipboard holds its parent case data in which page",
+      "name": "If you are processing a child case, the clipboard holds its parent case data in which page. (Select only One)",
       "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
@@ -1009,7 +1014,7 @@
     },
     {
       "id": "44",
-      "name": "Can We refer parent case data in child case by referring pyWorkCover page",
+      "name": "Can We refer parent case data in child case by referring pyWorkCover page. (Select only One)",
       "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
@@ -1028,7 +1033,7 @@
     },
     {
       "id": "45",
-      "name": "The clipboard page name must be included the pages and classes tab of a rule to refer the page and its property in the rule. This is needed for validation purpose as the rule refers the page and it`s property and pega needs to validate it.",
+      "name": "The clipboard page name must be included the pages and classes tab of a rule to refer the page and its property in the rule. This is needed for validation purpose as the rule refers the page and it`s property and pega needs to validate it. (Select only One)",
       "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
@@ -1047,7 +1052,7 @@
     },
     {
       "id": "46",
-      "name": "To open the Clipboard tool, click the Clipboard icon on the Developer toolbar in Designer Studio.",
+      "name": "To open the Clipboard tool, click the Clipboard icon on the Developer toolbar in Designer Studio. (Select only One)",
       "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
@@ -1066,7 +1071,7 @@
     },
     {
       "id": "47",
-      "name": "The User Pages category contains pages created due to user action, either directly or indirectly.",
+      "name": "The User Pages category contains pages created due to user action, either directly or indirectly. (Select only One)",
       "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
@@ -1085,7 +1090,7 @@
     },
     {
       "id": "48",
-      "name": "If a pega developer configure or tests a rule or do some case processing, the clipboard pages created by this process will be part User pages Category.",
+      "name": "If a pega developer configure or tests a rule or do some case processing, the clipboard pages created by this process will be part User pages Category. (Select only One)",
       "image": "null.png",
       "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
@@ -1104,10 +1109,10 @@
     },
     {
       "id": "49",
-      "name": "If you just open an old case, which page should be having its data in clipboard. Under which category, this page would be listed?",
-      "image": "null.png",
+      "name": "If you just open an old case, _____ page should be having its data in clipboard. Under _____ category, this page would be listed? (Select only Two)",
       "hint": "REVIEWING APPLICATION DATA",
-      "type": "radio",
+      "type": "check",
+      "image": "null.png",
       "options": [
         {
           "id": "2983",
@@ -1133,10 +1138,10 @@
     },
     {
       "id": "50",
-      "name": "Data pages under clipboard contains only read only pages defined by data page rules.",
-      "image": "null.png",
+      "name": "Data pages under clipboard contains only read only pages defined by data page rules. (Select only One)",
       "hint": "REVIEWING APPLICATION DATA",
       "type": "radio",
+      "image": "null.png",
       "options": [
         {
           "id": "2983",
