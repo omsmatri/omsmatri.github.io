@@ -1,1 +1,149 @@
-
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "A requirement states: When a business guest checks out of a hotel, the guest must complete a hotel review to receive a corporate discount.\nSelect the case type relationship that satisfies the requirement.",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Configure checkout request as a child case of hotel review",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Configure both checkout request and hotel review as top-level cases",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Configure hotel review as a child case of the checkout request.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Configure hotel review as a spin-off case of the checkout request",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Consider the following scenario:\nA customer files a fraud complaint. The complaint is investigated by a customer service agent.\n• The customer service agent may request additional information from the customer.\n• The merchant is notified and given 15 days to dispute the fraud claim.\n• If the fraud claim is approved, an affidavit is sent to the customer and a refund is posted to their account. How do you name the step where the agent investigates the claim for fraud?",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Investigate Fraud",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Claim Investigation",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Investigate Claim",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": " Fraud Claim",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "A requirement states: The tax identification number must contain 10 digits.\nHow do you configure the field to support this requirement?",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Use an edit validate rule that validates the tax identification number pattern",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Use a decimal property type and make the field required",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Configure a validate rule to test the tax identification number pattern.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Set the minimum and maximum values to '10' in a text field.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "An accident claim case creates a vehicle claim case for each vehicle involved in an accident.\nWhich two configurations prevent the accident claim case from resolving before all vehicle claims are resolved? (Choose Two)",
+      "image": "null.png",
+      "hint": "",
+      "type": "check",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Add a wait shape to the accident claim case to wait until all vehicle claims have a status of Resolved.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Add a manual approval step to the accident claim case",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": " Add an optional process to pause the accident case until the vehicle claims are paid",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Add each vehicle claim as a child case of the accident claim",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "An applicant submits a loan request. The system validates information on the loan application and calculates the credit score of the applicant based on credit\nreports and the account history with the bank.\n• If the credit score is unacceptable, the customer is notified of the result and the loan application is closed.\n• If the credit is acceptable, the loan application is forwarded to a loan officer for review.\n• If the loan officer approves the loan request, the loan application is sent to the underwriting department for processing.\n• If the loan officer rejects the loan request, the customer is notified of the result and the loan application is closed.\nSelect the case life cycle design that most closely follows the guidelines for identifying and naming stages for the use case.",
+      "image": "pegacssa5.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "A",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "B",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "C",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "D",
+          "correctanswer": "false"
+        }
+      ]
+    }
+  ]
+}
