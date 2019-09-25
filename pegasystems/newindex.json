@@ -66,6 +66,39 @@
           "tag_line": "CSA Data modelling Questions"
         }
       ]
+    },
+    {
+      "title": "Pega Certified Decisioning Consultant",
+      "url": "PCDC8",
+      "content": [
+        {
+          "encrypted": "true",
+          "url": "pegapcdc80v1",
+          "tag_line": "Certified Decisioning Consultant 8"
+        }
+      ]
+    },
+    {
+      "title": "Pega Certified Senior System Architect",
+      "url": "PCDC8",
+      "content": [
+        {
+          "encrypted": "true",
+          "url": "pegacssa74v1",
+          "tag_line": "Certified Senior System Architect 74"
+        }
+      ]
+    },
+    {
+      "title": "Pega Certified Lead System Architect",
+      "url": "PCDC8",
+      "content": [
+        {
+          "encrypted": "true",
+          "url": "pegaclsa74v1",
+          "tag_line": "Certified Lead System Architect 74"
+        }
+      ]
     }
   ]
 }
