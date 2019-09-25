@@ -115,35 +115,6 @@
           "correctanswer": "true"
         }
       ]
-    },
-	    {
-      "id": "5",
-      "name": "An applicant submits a loan request. The system validates information on the loan application and calculates the credit score of the applicant based on credit\nreports and the account history with the bank.\n• If the credit score is unacceptable, the customer is notified of the result and the loan application is closed.\n• If the credit is acceptable, the loan application is forwarded to a loan officer for review.\n• If the loan officer approves the loan request, the loan application is sent to the underwriting department for processing.\n• If the loan officer rejects the loan request, the customer is notified of the result and the loan application is closed.\nSelect the case life cycle design that most closely follows the guidelines for identifying and naming stages for the use case.",
-      "image": "pegacssa5.png",
-      "hint": "",
-      "type": "radio",
-      "options": [
-        {
-          "id": "2985",
-          "answer": "A",
-          "correctanswer": "true"
-        },
-        {
-          "id": "2986",
-          "answer": "B",
-          "correctanswer": "false"
-        },
-        {
-          "id": "2985",
-          "answer": "C",
-          "correctanswer": "false"
-        },
-        {
-          "id": "2986",
-          "answer": "D",
-          "correctanswer": "false"
-        }
-      ]
     }
   ]
 }
