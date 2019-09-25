@@ -29,7 +29,7 @@
         }
       ]
     },
-    {
+	    {
       "id": "2",
       "name": "Consider the following scenario:\nA customer files a fraud complaint. The complaint is investigated by a customer service agent.\n• The customer service agent may request additional information from the customer.\n• The merchant is notified and given 15 days to dispute the fraud claim.\n• If the fraud claim is approved, an affidavit is sent to the customer and a refund is posted to their account. How do you name the step where the agent investigates the claim for fraud?",
       "image": "null.png",
@@ -58,7 +58,7 @@
         }
       ]
     },
-    {
+	    {
       "id": "3",
       "name": "A requirement states: The tax identification number must contain 10 digits.\nHow do you configure the field to support this requirement?",
       "image": "null.png",
@@ -87,7 +87,7 @@
         }
       ]
     },
-    {
+	    {
       "id": "4",
       "name": "An accident claim case creates a vehicle claim case for each vehicle involved in an accident.\nWhich two configurations prevent the accident claim case from resolving before all vehicle claims are resolved? (Choose Two)",
       "image": "null.png",
@@ -113,6 +113,35 @@
           "id": "2986",
           "answer": "Add each vehicle claim as a child case of the accident claim",
           "correctanswer": "true"
+        }
+      ]
+    },
+	    {
+      "id": "5",
+      "name": "An applicant submits a loan request. The system validates information on the loan application and calculates the credit score of the applicant based on credit\nreports and the account history with the bank.\n• If the credit score is unacceptable, the customer is notified of the result and the loan application is closed.\n• If the credit is acceptable, the loan application is forwarded to a loan officer for review.\n• If the loan officer approves the loan request, the loan application is sent to the underwriting department for processing.\n• If the loan officer rejects the loan request, the customer is notified of the result and the loan application is closed.\nSelect the case life cycle design that most closely follows the guidelines for identifying and naming stages for the use case.",
+      "image": "pegacssa5.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "A",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "B",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "C",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "D",
+          "correctanswer": "false"
         }
       ]
     }
