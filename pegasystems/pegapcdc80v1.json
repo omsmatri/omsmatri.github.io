@@ -1,0 +1,439 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "U+ Bank offers two credit cards to its customers: the Cold Card and the Silver Card. The bank wants the annual fee property of the credit cards to be dynamic based on the customer lifetime value property. That is, customers with customer lifetime value greater than 65 receive a discount of 20% on the annual fee. As a Strategy Designer, how do you implement this requirement in the decision strategy?",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "By using the When rule to set the annual fee",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "By using the When rule to set the customer value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "By using the If function to set the customer value",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "By using the If function to set the annual fee",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "U+ Bank offers two credit cards to its customers: the Cold Card and the Silver Card. The bank wants the annual fee property of the credit cards to be dynamic based on the customer lifetime value property. That is, customers with customer lifetime value greater than 65 receive a discount of 20% on the annual fee. As a Strategy Designer, which component do you use to implement this requirement?",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Set Property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Filter",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Group By",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Switch",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Selection components provide the ability to ________________.",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "import results from other strategies",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "make calculations based upon a list of propositions",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "filter propositions based on priority and relevance",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "choose between a sales and a service proposition",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "U+ Bank offers two credit cards to its customers: the Cold Card and the Silver Card. The bank wants the annual fee property of the credit cards to be dynamic based on the customer lifetime value property. That is, customers with customer lifetime value greater than 65 receive a discount of 20% on the annual fee. As a Strategy Designer, which component do you use to implement this requirement?",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Set Property",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Filter",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Group By",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Switch",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "What does a solid arrow from a “Set Property” component to a 'Filter' component mean?",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "There is a one-to-one relationship between a 'Set Property' and a 'Filter' component.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "A property from the 'Set Property' component is referenced by the 'Filter' component",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "To evaluate the 'Set Property' component, the 'Filter' component is evaluated first.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Information from the 'Set Property' component is copied over to the 'Filter' component",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "In a decision strategy, in order to select the proposition with the highest propensity, you use a _______________.",
+      "image": "null.png",
+      "hint": "",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Switch component, and sort propensity from highest to lowest",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Prioritize component, and sort propensity from lowest to highest",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Prioritize component, and sort propensity from highest to lowest",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Switch component, and sort propensity from lowest to highest",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "To run a delta report in the Visual Business Director, a minimum of two___________ are required.",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "data sources",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "input definitions",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "propositions",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "strategies",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "U+ bank wants to offer a Gold Credit Card to its customers who have an annual income of more than USD 150000. As a Strategy Designer, how do you implement this requirement in the decision strategy?",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": " Create a When rule in the strategy",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Add a proposition filter at the proposition level",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Add a set property in the strategy",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": " Create a When rule in the customer class",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "The Prioritize component sorts offers in _______________.",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "ascending order only",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "descending order only",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "random order",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "ascending or descending order",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "In a strategy, the propositions are imported using a(n) _____________.",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Data Import component",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Offer Data component",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Import Data component",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Proposition Data component",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "What is the name of the property that is automatically recomputed for each decision component?",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Order",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Propensity",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Priority",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Rank",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "To use Product Holdings information in your strategy, which of the following components do you use?",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Decision Parameters",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Property Set",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Data Import",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Product Holdings",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Visual Business Director can be used to __________.",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": " import an inspect an external dataset",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "compare two datasets",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "predict customer behavior",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": " inspect interactions of a single customer",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "The number of results returned by an Interaction History component can be narrowed down based on __",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "the customer lifetime value",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": " the age of the customer",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "a time period",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "the total count of propositions in a given channel",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "U+ Bank purchased Pega Customer Decision Hub to enhance the customer experience in their branches. The new application they have built has a Next-BestAction panel to guide the branch advisor. When does the Next-Best-Action panel for the branch advisor need to be refreshed during the conversation with the customer?",
+      "image": "null.png",
+      "hint": "",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Every time new information about the customer is received",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Once, after the customer reason to visit the branch is captured in the system",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Every second to ensure timely recommendations",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "First time, after looking up the customer in the system to ensure consistency during the visit",
+          "correctanswer": "true"
+        }
+      ]
+    }
+  ]
+}
