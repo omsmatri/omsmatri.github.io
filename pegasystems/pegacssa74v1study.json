@@ -4,6 +4,7 @@
       "id": "1",
       "name": "Access control policies are enforced everywhere in Pega Platform, not just within the UI, including the following three areas",
       "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
       "type": "check",
       "options": [
         {
