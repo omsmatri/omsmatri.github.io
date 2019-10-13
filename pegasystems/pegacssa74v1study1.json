@@ -639,6 +639,766 @@
           "correctanswer": "true"
         }
       ]
+    },
+    {
+      "id": "1",
+      "name": "Why we should follow organization standards while devoloping an application.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Maintenance",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Customization",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Re-use",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Which feature of pega helps in reusing common policies and procedures easy while allowing for differences between products,regions,channels and customer segments.",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "situation layer cake",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "The situation layer cake is implemented in pega7 using class hierarchy called as Enterprise Class Structure (ECS).",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "knowledge",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "The ECS makes reusing common policies and procedures easy while allowing for differences between divisions and products. ",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "When an access group lists more than one role, Pega applies the most permissive setting across all of the listed roles.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "When you place a rule in an ECS layer, it may be shared across multiple applications.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "As business operations change, existing layers of the ECS can be modified to address the changes.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "State two advantages of organizing rules using an ECS.Using an ECS helps you organize rules in a way that makes them scalable and encourages reuse.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "The ECS enables multiple Pega applications within the same system to coexist, and supports effective reuse among the applications.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "What layers are used in the ECS",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "implementation layer",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "division and/or framework layer",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "organisation layer",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "pega platform",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Pega7 layer contains the following",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "build in assets for prcessing cases and other work",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "The Organization layer contains ",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "the assets used on an enterprise-wide basis.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "enterprise-wide data assets such as classes and rules for data stored in the system, and classes and rules for access to data in external systems, via connectors.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "For example, a property that holds a customer's account number would be reused on an enterprise-wide basis.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "knowledge",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "This property should be in which layer.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Organization layer",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "For example, access to an external customer database is an integration point that may be added to the Organization layer.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "The Division layer contains the assets used on a division-wide basis.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "The division layer is the middle level of the three-level organization hierarchy (Org-Div-FW) and is available for use in every application.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "The Division layer is an optional layer. When used, the Division layer is parallel to the Framework layer.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "The Framework layer contains the assets used to create generalized, reusable applications.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "knowledge",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "true",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "A framework application is then extended by specific implementations.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "knowledge",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "For example, the commercial business line division's auto loan application needs to handle loan requests that are distinct from that of the personal line division. How this should be implemented.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "knowledge",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "This should be implemented using framework layer",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "The Implementation layer defines an implementation of a framework that is customized for a specific division, or line of business.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2984",
+          "answer": "true",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "While the assets in the Framework layer are designed for maximum reuse, the assets in the Implementation layer are specific and cannot be reused elsewhere.",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2984",
+          "answer": "true",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "DESIGNING A CASE LIFE CYCLE"
+    },
+    {
+      "id": "22",
+      "name": "In which layer of the ECS do you organize assets used to create generalized applications?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "knowledge",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The Framework layer",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "When used, the Division layer is parallel to the __________________ layer.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Framework",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "From the application menu, new application is selected to invoke the new application wizard process.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Which templates are available in new application process.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Request Approval",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Task Tracker",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Service request",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Custom",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Can we add an application as a template.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Content on ____________ forms cannot be used in language packs ",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "UI",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "If you don`t like a template, you can select customer",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Which options are available as primary device.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Responsive",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Tablet",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Mobile",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Selecting the primary device optimizes the starting point for the particular display type.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Can the color scheme can be configurd later by using skin rule.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Yes",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Advanced configurations can be used for ",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "ECS design requirements",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Application structure for selecting Implementation or Framework layer",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Placeholder for organization settings",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Placeholder for Class layers",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Division layer generation",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Organization settings Organization name and class layers Organization name must be same or must be different.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "false",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Which statements are true?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "In Advanced configuration's application structure , select framework to create the application in the reusable framework layer.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "When you click Add, the system generates a unique password and sends an email instructing the user to verify the account by logging in. Additional users can be created after completing the wizard.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "If your system has not been configured to access an email server, a warning message displays that indicates the user will not receive an email with their login and password.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "If your system has not been configured to access an email server, a warning message displays that indicates the user will not receive an email with their login and password. However, the login and password are still generated and listed on the screen.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Which statements are true?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Select implementation to create an application customized to a specific line of business.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Beginning in 7.4, the default user accounts, or operator IDs, are not created automatically. This minimizes security risks posed by not securing these accounts when the application moves to production.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "New application wizard gives an option to invite users and assign them to apprpriate access group.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "During new application wizard process, It is a best practice to add at least one user to facilitate application development and testing.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Which statements are true?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "As a best practice, If you are not sure which application structure to choose, start with an implementation layer",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Use names that clearly describes the name of the division and unit within the division.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Consider using four to six characters for layer names to allow for more descriptive names when defining case and data types.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "The wizard creates the set of rules, necessary access groups for case participants (manager, user) and developers (author, administrator).",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Which statements are true?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The system derives ApplicationID gets a name from the first two words of application Name and limited to 10 charcaters.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Checking Generate division layer adds a Division field in class layers.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Checking Generate unit layer adds a Unit field in class layers.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "The Division layer is used to create a class for the division. The Unit layer is used to create a class for the unit.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Which statements are true?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Default Application version is set to 01.01.01 which is in following format major.minor.patch",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "The wizard inserts a framework class (named FW) between the organization class and the application class to differentiate the framework layer classes from implementation layer classes, which use the same names.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "If the structure is Implementation, the heading is Class layers and the wizard creates the same class structure but without the FW class.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "The wizard provides options to create a division and unit layer to better manage rule reuse in large organizations.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Which statements are true?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "advanced organization settings provide access to organizational details such as division and unit names",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "By default, the class group is set to Work. This is used to create a work pool and its context is derived from the application name.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "If the structure is Framework, the heading is Class structure and the wizard creates a standard set of class layers using the organization and application name already provided and the default class group name.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "The available options in the following section depend on the application structure. Generally, the class structure consists of the organizational classes, the application class, and the class group.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Which statements are true?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "organization name is unique to create class structure for the application",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Application class names are limited to 56 characters, so to reduce the length of classes, use an abbreviation for the organization when possible. For example, Pegasystems can be reduced to Pega.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "The Division name is a unique name for a division or department within the organization. The Division name is limited to 32 characters.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "The Unit name is a unique name for a unit within a division. The Unit name is limited to 32 characters.",
+          "correctanswer": "true"
+        }
+      ]
     }
   ]
 }
