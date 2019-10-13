@@ -1,0 +1,643 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "name": "Access control policies are enforced everywhere in Pega Platform, not just within the UI, including the following three areas",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "All reporting rules",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Search",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Custom SQL written by developers",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Access control policies can be defined only for these three classes.",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Assign-",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Data-",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Work-",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Access Deny records only manage actions for what?",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "knowledge",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Access Deny records only manage actions on class instances, such as opening cases or running reports. You cannot use them to deny access to tools or individual records explicitly",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "An access group includes three access roles.\n1. Role A allows users to run reports.\n2. Role D denies users the ability to run reports.\n3. Role O allows users to view reports.\nBased on permissions allocated to the three roles in this access group, which user can run reports?\n- All users in the access group except for those in role D can run reports.\n- All users in the access group can run reports\n- All users in the access group except roles A and O can run reports.",
+      "image": "null.png",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "When an access group lists more than one role, Pega applies the most permissive setting across all of the listed roles.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Access policy rules can be inherited from multiple classes. The policy conditions from the relevant policies are combined. Access is allowed only when all policy conditions are satisfied",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "false",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "After a skim completes creating a new application version, what three things must be updated to reference the new major version?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Application rules",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "The Required Rulesets and Versions prerequisites array in RuleSet version rules",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": " Access groups",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "7. After you have created a data page, what two steps do you perform do declare the page as a large data page? (Choose Two)",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": " Add the name of the data page to the whitelist for data pages that are available offline but are not referenced directly in the UI",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Prepend ;large to the name of the data page",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Add the name of the data page to the whitelist for validate rules that are available offline but are not referenced directly in the UI",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Append ;large to the name of the data page",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "After you have set up the data page for GRS, what is the syntax (naming convention) that should be followed to refer to values",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "DataPageName.IntegrationPropertyName.FieldPropertyName",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "IntegrationPropertyName.DataPageName.FieldPropertyName",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "IntegrationPropertyName.FieldPropertyName.DataPageName",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "FieldPropertyName.IntegrationPropertyName.DataPageName",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Always use _______________ as a data source if you are designing applications to work on a mobile device when the device is not connected to a network.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "data pages",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "An application change goes into effect on June 15, 2019. Due to this change, two fields are added to a user form to collect information for compliance purposes. Assuming that today is April 30, 2019, how should you configure circumstancing for the form?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Update the existing form to apply a circumstance; specify June 15, 2019, as the end date",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Circumstance the form by property and date; specify June 15, 2019, as the start date",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Circumstance the form by property and date; test that the creation date for the case is on or after June 15, 2019.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Circumstance the form by template and definition; in the definition, specify June 15, 2019, as the cut-off date.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Applications must have these three rules set up in order to use localization",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Field values",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": " Paragraph rules",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": " Correspondence rules",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "None in the list",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "________________ are a common use of embedded Pega Platform content in another application's web page",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "knowledge",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Case flows",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Are the circumstance template and circumstance definition applied to the base rule or the variant rule?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "They are applied to the variant rule.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Assume you want users to have the ability to work on top-level cases while their child cases are open. How would you configure your locking settings?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "For each child case, you override the default setting that locks the parent case.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Before configuring an authority matrix, what three (one is optional) things should be created?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "Page list property to hold the list of approvers",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2986",
+          "answer": "Configure a single-value property as an element of the page list to identify each approver in the list",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2987",
+          "answer": " Optionally, configure a decision table to determine the conditions for populating the page list.",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2988",
+          "answer": " all of the above",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Before creating an archive file, do the following things to ensure that the file is complete and correct (4 things)",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2985",
+          "answer": " Associate your data records (operator IDs, access groups, database tables, and databases) with rulesets; this ensures all the data records required by your application are included in the archive file",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Make sure all rules are checked in so that the rulesets are complete and current",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2987",
+          "answer": "In most cases, lock application rulesets included in the package to help ensure no changes occur to the app rulesets during the migration",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2988",
+          "answer": " Merge branched rulesets and remove the branches from the application if you are exporting the application to a production system",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Both the Obj-Open and Obj-Open-By-Handle methods creates an instance of the class onto the _________________",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "knowledge",
+      "options": [
+        {
+          "id": "2985",
+          "answer": "clipboard",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "A branch ruleset is a rulset that _________ and ___________",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Prevents developers from seeing work of all team members",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2984",
+          "answer": "Contains rules that are not in active development",
+          "correctanswer": "false"
+        },
+        {
+          "id": "2985",
+          "answer": "Is based on another ruleset",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Is designed for large projects",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "By default, how long does the system lock a case?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "knowledge",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "by default, the system locks the case for 30 minutes or until the user submits or closes the case, whichever comes first.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "By default, offline mobile synchronization includes which rules and excludes which rules?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2984",
+          "answer": "Includes rules explicitly referenced in the UI or process.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Excludes rules with obscured references",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "By default, which error handler flow do connectors use? (Name of the flow)",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2984",
+          "answer": "ConnectionProblem flow",
+          "correctanswer": "true"
+        }
+      ],
+      "hint": "DESIGNING A CASE LIFE CYCLE"
+    },
+    {
+      "id": "22",
+      "name": "The Case Manager Portal refers to work groups as _______ ",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "knowledge",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "teams",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Case types that use offline processing must use the starting flow _______________ to initialize processing and instantiating cases in a stage-based case life cycle.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "pyStartCase",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": " An ________________ categorizes users according to their job function.",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "access role",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Conditions are configured to communicate defined error messages to the calling application. What are the five conditions that are available for defining an error response message?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "When: The specified when rule returns true",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Queue When: The request is queued and a Pega specific SOAP fault that includes the queue ID of the request is returned Useful when processing errors are due to temporary issues",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Mapping error: An error occurs while mapping incoming data from the request message to the clipboard",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "Security error: Authentication fails",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2987",
+          "answer": "Service error: A valid instance of the service activity cannot be found",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "The ConnectSQL rule provides four tabs to enter SQL statements that execute during performance. What are the five tabs?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Open",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Delete",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "Save",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Browse",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2983",
+          "answer": "History",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Content on ____________ forms cannot be used in language packs ",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "UI",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Data access patterns are referenced on _________________ ",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "radio",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "properties",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": " Data pages can be simulated by what three things?",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "Data transforms",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Report Definitions",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2985",
+          "answer": "Activities",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2986",
+          "answer": "none of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": " Definition for data access pattern 'reference'",
+      "hint": "DESIGNING A CASE LIFE CYCLE",
+      "image": "null.png",
+      "type": "check",
+      "options": [
+        {
+          "id": "2983",
+          "answer": "The reference pattern allows an application to use data without adding that data to the data model for the application until the user chooses which data should be stored in the cases data model.",
+          "correctanswer": "true"
+        },
+        {
+          "id": "2984",
+          "answer": "Example would be a control drop-down containing data that is being referenced by an external source. This data is not actually part of the case data model, it's just being referenced elsewhere. When the user selects a value from the drop-down, that value then get copied to the cases data model",
+          "correctanswer": "true"
+        }
+      ]
+    }
+  ]
+}
