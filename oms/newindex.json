@@ -45,6 +45,11 @@
           "encrypted": "true",
           "url": "csa74/everything_else",
           "tag_line": "Everything Else"
+        },
+        {
+          "encrypted": "true",
+          "url": "csa8/sample",
+          "tag_line": "CSA sample"
         }
       ]
     },
