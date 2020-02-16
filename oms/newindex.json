@@ -8,42 +8,42 @@
       "content": [
         {
           "encrypted": "true",
-          "url": "Modeling_case_data",
+          "url": "csa74/modeling_case_data",
           "tag_line": "Modeling case data"
         },
         {
           "encrypted": "true",
-          "url": "Automating_business_policies",
+          "url": "csa74/automating_business_policies",
           "tag_line": "Automating business policies"
         },
         {
           "encrypted": "true",
-          "url": "Designing_a_user_interface",
+          "url": "csa74/designing_a_user_interface",
           "tag_line": "Designing a user interface"
         },
         {
           "encrypted": "true",
-          "url": "Designing_business_reports",
+          "url": "csa74/designing_business_reports",
           "tag_line": "Designing business reports"
         },
         {
           "encrypted": "true",
-          "url": "Testing_and_debugging_applications",
+          "url": "csa74/testing_and_debugging_applications",
           "tag_line": "Testing and debugging applications"
         },
         {
           "encrypted": "true",
-          "url": "Designing_a_case_life_cycle",
+          "url": "csa74/designing_a_case_life_cycle",
           "tag_line": "Designing a case life cycle"
         },
         {
           "encrypted": "true",
-          "url": "Pega_Platform",
+          "url": "csa74/pega_platform",
           "tag_line": "Pega Platform"
         },
         {
           "encrypted": "true",
-          "url": "everything_else",
+          "url": "csa74/everything_else",
           "tag_line": "Everything Else"
         }
       ]
@@ -54,17 +54,17 @@
       "content": [
         {
           "encrypted": "true",
-          "url": "CSA8",
+          "url": "csa8/csa8",
           "tag_line": "Certified System Architect"
         },
         {
           "encrypted": "false",
-          "url": "CSACASE",
+          "url": "csa8/csacase",
           "tag_line": "CSA Case Questions"
         },
         {
           "encrypted": "true",
-          "url": "CSADATA",
+          "url": "csa8/csadata",
           "tag_line": "CSA Data modelling Questions"
         }
       ]
@@ -75,34 +75,34 @@
       "content": [
         {
           "encrypted": "true",
-          "url": "pegapcdc80v1",
+          "url": "pcdc8/pegapcdc80v1",
           "tag_line": "Certified Decisioning Consultant 8"
         }
       ]
     },
     {
       "title": "Pega Certified Senior System Architect",
-      "url": "PCDC8",
+      "url": "PCSSA8",
       "content": [
         {
           "encrypted": "true",
-          "url": "pegacssa74v1",
+          "url": "cssa74/pegacssa74v1",
           "tag_line": "Certified Senior System Architect 74"
         },
         {
           "encrypted": "true",
-          "url": "pegacssa74v1study1",
+          "url": "cssa74/pegacssa74v1study1",
           "tag_line": "Certified Senior System Architect 74 - preparation"
         }
       ]
     },
     {
       "title": "Pega Certified Lead System Architect",
-      "url": "PCDC8",
+      "url": "PCLSA8",
       "content": [
         {
           "encrypted": "true",
-          "url": "pegaclsa74v1",
+          "url": "clsa74/egaclsa74v1",
           "tag_line": "Certified Lead System Architect 74"
         }
       ]
