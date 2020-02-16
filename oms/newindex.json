@@ -1,0 +1,111 @@
+
+ 
+{
+  "tutorials": [
+    {
+      "title": "Certified System Architect 7.4",
+      "url": "CSA74",
+      "content": [
+        {
+          "encrypted": "true",
+          "url": "Modeling_case_data",
+          "tag_line": "Modeling case data"
+        },
+        {
+          "encrypted": "true",
+          "url": "Automating_business_policies",
+          "tag_line": "Automating business policies"
+        },
+        {
+          "encrypted": "true",
+          "url": "Designing_a_user_interface",
+          "tag_line": "Designing a user interface"
+        },
+        {
+          "encrypted": "true",
+          "url": "Designing_business_reports",
+          "tag_line": "Designing business reports"
+        },
+        {
+          "encrypted": "true",
+          "url": "Testing_and_debugging_applications",
+          "tag_line": "Testing and debugging applications"
+        },
+        {
+          "encrypted": "true",
+          "url": "Designing_a_case_life_cycle",
+          "tag_line": "Designing a case life cycle"
+        },
+        {
+          "encrypted": "true",
+          "url": "Pega_Platform",
+          "tag_line": "Pega Platform"
+        },
+        {
+          "encrypted": "true",
+          "url": "everything_else",
+          "tag_line": "Everything Else"
+        }
+      ]
+    },
+    {
+      "title": "Certified System Architect 8",
+      "url": "CSA8",
+      "content": [
+        {
+          "encrypted": "true",
+          "url": "CSA8",
+          "tag_line": "Certified System Architect"
+        },
+        {
+          "encrypted": "false",
+          "url": "CSACASE",
+          "tag_line": "CSA Case Questions"
+        },
+        {
+          "encrypted": "true",
+          "url": "CSADATA",
+          "tag_line": "CSA Data modelling Questions"
+        }
+      ]
+    },
+    {
+      "title": "Pega Certified Decisioning Consultant",
+      "url": "PCDC8",
+      "content": [
+        {
+          "encrypted": "true",
+          "url": "pegapcdc80v1",
+          "tag_line": "Certified Decisioning Consultant 8"
+        }
+      ]
+    },
+    {
+      "title": "Pega Certified Senior System Architect",
+      "url": "PCDC8",
+      "content": [
+        {
+          "encrypted": "true",
+          "url": "pegacssa74v1",
+          "tag_line": "Certified Senior System Architect 74"
+        },
+        {
+          "encrypted": "true",
+          "url": "pegacssa74v1study1",
+          "tag_line": "Certified Senior System Architect 74 - preparation"
+        }
+      ]
+    },
+    {
+      "title": "Pega Certified Lead System Architect",
+      "url": "PCDC8",
+      "content": [
+        {
+          "encrypted": "true",
+          "url": "pegaclsa74v1",
+          "tag_line": "Certified Lead System Architect 74"
+        }
+      ]
+    }
+  ]
+}
