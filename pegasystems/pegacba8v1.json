@@ -1,10 +1,33 @@
+
+
 {
+
+
+
   "questions": [
+
+
+
     {
+
+
+
       "id": "1",
-      "name": "Pega Platform enables ______ to work together with ________ to configure Applications using visual tools instead of writing code.",
-      "hint": "na"
+
+
+
+      "name": "Which of the following statements are true about correspondence?",
+
+
+
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+
+
+
       "image": "null.png",
+
+
+
       "type": "check",
       "options": [
 
