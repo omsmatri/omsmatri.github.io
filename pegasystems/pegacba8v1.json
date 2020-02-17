@@ -5,7 +5,7 @@
       "name": "Pega Platform enables ______ to work together with ________ to configure Applications using visual tools instead of writing code.",
       "hint": "na"
       "image": "null.png",
-      "type": "radio",
+      "type": "check",
       "options": [
 
 
