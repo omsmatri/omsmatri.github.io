@@ -47,6 +47,17 @@
       ]
     },
     {
+      "title": "Certified Business Architect 8",
+      "url": "CBA8",
+      "content": [
+        {
+          "encrypted": "true",
+          "url": "pegacba8v1",
+          "tag_line": "Introductions To Pega"
+        }
+      ]
+    },
+    {
       "title": "Certified System Architect 8",
       "url": "CSA8",
       "content": [
