@@ -109,6 +109,11 @@
           "encrypted": "true",
           "url": "cssa8/applicationversioning",
           "tag_line": "Certified Senior System Architect 8"
+       },
+       {
+          "encrypted": "true",
+          "url": "cssa8/appversioning",
+          "tag_line": "Certified Senior System Architect 8"
        }
       ]
     },
