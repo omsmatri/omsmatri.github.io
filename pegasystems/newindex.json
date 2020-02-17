@@ -6,13 +6,8 @@
       "content": [
         {
           "encrypted": "true",
-          "url": "pegacba8v1",
+          "url": "pegacba8",
           "tag_line": "V1Introductions To Pega"
-        },
-        {
-          "encrypted": "true",
-          "url": "pegacba8v2",
-          "tag_line": "V2Introductions To Pega"
         }
       ]
     },
