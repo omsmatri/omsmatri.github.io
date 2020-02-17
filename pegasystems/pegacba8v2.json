@@ -1,0 +1,63 @@
+{
+
+  "questions": [
+
+    {
+
+      "id": "1",
+
+      "name": "Which of the following statements are true about correspondence?",
+
+      "hint": "CONFIGURING AND SENDING CORRESPONDENCE",
+
+      "image": "null.png",
+
+      "type": "check",
+
+      "options": [
+
+        {
+
+          "id": "2983",
+
+          "answer": "Pega allows you to automate and create timely and clear communication with participants in a case",
+
+          "correctanswer": "true"
+
+        },
+
+        {
+
+          "id": "2984",
+
+          "answer": "This communication ranges from simple notifications of assigned tasks to complex communications that contain case-specific data and calls-to-action. ",
+
+          "correctanswer": "true"
+
+        },
+
+        {
+
+          "id": "2985",
+
+          "answer": "The communication only supports email.",
+
+          "correctanswer": "false"
+
+        },
+
+        {
+
+          "id": "2986",
+
+          "answer": "Adding correspondence to a business process keeps customers and case workers engaged throughout the case life cycle.",
+
+          "correctanswer": "true"
+
+        }
+
+      ]
+
+    }
+    ]
+    }
