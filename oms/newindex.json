@@ -86,7 +86,7 @@
       ]
     },
     {
-      "title": "Pega Certified Senior System Architect",
+      "title": "Pega Certified Senior System Architect 7.4",
       "url": "PCSSA8",
       "content": [
         {
@@ -99,6 +99,17 @@
           "url": "cssa74/pegacssa74v1study1",
           "tag_line": "Certified Senior System Architect 74 - preparation"
         }
+      ]
+    },
+    {
+      "title": "Pega Certified Senior System Architect 8",
+      "url": "PCSSA8",
+      "content": [
+       {
+          "encrypted": "true",
+          "url": "cssa74/applicationversioning",
+          "tag_line": "Certified Senior System Architect 74"
+       }
       ]
     },
     {
