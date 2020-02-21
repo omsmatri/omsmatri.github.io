@@ -22,6 +22,29 @@
           "correctanswer": "true"
         }
       ]
+    },
+    {
+      "image": "null.png",
+      "name": "Where you can deploy Pega applications?",
+      "type": "check",
+      "options": [
+        {
+          "answer": "Pega Cloud",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Customer managed cloud",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "On premise",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
     }
   ]
 }
