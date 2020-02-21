@@ -1,0 +1,280 @@
+{
+  "questions": [
+    {
+      "image": "null.png",
+      "name": "Pega Platform enables ______ to work together with ________ to configure Applications using visual tools instead of writing code.",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "Business Users, Pega Develoepr",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Pega Develoepr, Business Users",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "Business Users, Administrator",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "Pega Developer, Business Users",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "_______ can use a shared Visual mode can be used in Pega to directly capture business requirements.",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "Business and IT stakeholders",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Administrator",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "DBA",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "You are a Business analyst for Lemonade insurance application. They want to automate their insurance quote process. which below things they can use from Pega for automating their process.",
+      "type": "check",
+      "options": [
+        {
+          "answer": "manual decision",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Dynamic routing",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "interacting with external systems",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "applying deadlines through case life cycle to reduce resolution time.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "Lemonade insurance quote approval process should be sent to Manager if the insurance amount is less than 100000 USD and to Senior manager if the insurance amount is more than 100000 USD. Which feature of pega can be used to handle this feature.",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "manual decision",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "Dynamic routing",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "interacting with external systems",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "applying deadlines through case life cycle to reduce resolution time.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "Lemonade insurance quote approval process should be sent to an auditor for verifiying few facts. The auditor needs to put his feedback on the facts after verification. Which feature of pega can be used for implementing this process.",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "manual decision",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Dynamic routing",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "interacting with external systems",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "applying deadlines through case life cycle to reduce resolution time.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "Lemonade insurance process need to talk with an old legacy system to get the credit history of an applicant applied for insurance. Which feature of Pega can be used to implement this.",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "manual decision",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "Dynamic routing",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "interacting with external systems",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "applying deadlines through case life cycle to reduce resolution time.",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "Lemonade insurance wants to resolve a quote resolution in 24 hours. Which feature of Pega can be used to implement this.",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "manual decision",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "Dynamic routing",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "interacting with external systems",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "applying deadlines through case life cycle to reduce resolution time.",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "The platform implementation can ensure maintainability, quality, scalability of application by following ___________ and __________.",
+      "type": "check",
+      "options": [
+        {
+          "answer": "Guardrails",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Best Practices",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Design document",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "Pega Developer",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "The platform provides the strategic application which can be used with platform. What are the advantage of using those?",
+      "type": "check",
+      "options": [
+        {
+          "answer": "Strategic application reduces the development cost",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Those strategic application can be tailored to client needs",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Strategic applications are available to almost all domains",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Strategic application reduces the development time",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "What are capabilities provided by Pega Platform.",
+      "type": "check",
+      "options": [
+        {
+          "answer": "Application Development",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Case Management",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Data management & Integration",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Decision Management",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "What are capabilities provided by Pega Platform.",
+      "type": "check",
+      "options": [
+        {
+          "answer": "User Interface",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Reporting",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "System Administration",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Devops",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "What are capabilities provided by Pega Platform.",
+      "type": "check",
+      "options": [
+        {
+          "answer": "Mobility",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Security",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Robotic Automation",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Workforce Intelligence",
+          "correctanswer": "true"
+        }
+      ]
+    }
+  ]
+}
