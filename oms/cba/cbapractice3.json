@@ -1,0 +1,241 @@
+{
+
+  "questions": [
+
+  {
+      "image": "null.png",
+      "name": "Engagement Leader provides overall project plan and delivery guidance.",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "false",
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "Product owner owns the product backlog and prioritization of backlog items. Creates acceptance criteria.",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "false",
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "Scrum master promotes and supports scrum and ensures that all team members understand scrum theory and practices. facilities scrum events as needed.",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "false",
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "System Administrator and IT resources provide expertise as needed. For example, on infrastructure, security, or integration.",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "false",
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "System Architects Application developers who design and configure the application. Lead or principal architects (LSA) design the overall architecture while senior (SSA) and system architects (SA) configure assets such as user interface forms and automated decisions. they contribute object-oriented design and technical implementation skills.",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "false",
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "Business Architect (BA) work with subject matter experts and stakeholders to understand business needs. In a Pega application, they define business rules, service level agreements, and processes.",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "false",
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "Quality Assurance (QA) creates and executes functional and performance test scripts, participates as part of the scrum team.",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "false",
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "System Administrator and IT resources provide expertise as needed on infrastructure , security, integration",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "false",
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "Subject matter expert (SME) has deep understanding of a particular business topic or domain. the SME works with the project team to convey business needs and helps validate information accuracy.",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "false",
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "Which one is a job of Business architect.",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "Define Business rules",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Configure User interface forms",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "Creates acceptance criteria",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "Owns prioritization of backlog items",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "Which one is a job of Business architect.",
+      "type": "check",
+      "options": [
+        {
+          "answer": "Define Business rules",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Defines service level agreements",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "configure user interface forms",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "Creates acceptance criteria",
+          "correctanswer": "false"
+        }
+      ]
+    }
+  ]
+}
