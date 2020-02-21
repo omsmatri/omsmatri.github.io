@@ -1,5 +1,5 @@
 {
-  ,
+  "questions": [
     {
       "image": "null.png",
       "name": "What are capabilities provided by Pega Platform.",
