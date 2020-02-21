@@ -1,0 +1,273 @@
+{
+  "questions": [
+  {
+      "image": "null.png",
+      "name": "Dev Studio is mostly used by following roles.",
+      "type": "check",
+      "options": [
+        {
+          "answer": "Experienced Application developers",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Account Administrators",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Security Administrators",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Business Analyst",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "If a pega application user needs to focus on system operations such as <br>Requestors<br>Jobs (agents)<br>Queue Processors<br>Agents and queues<br>Listeners<br>Logs<br>apis,which portal the user should use",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "App Studio",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "Dev Studio",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "Admin Studio",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Prediction Studio",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "If a pega application user needs to focus on defining AI models and assets such as  <br>Predictive analytics<br>Adaptive analytics<br>Text analytics<br>Transparency policies<br>Data exploration,which portal the user should use",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "App Studio",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "Dev Studio",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "Admin Studio",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "Prediction Studio",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "Which statements are true?",
+      "type": "check",
+      "options": [
+        {
+          "answer": "App Studio by pega developer, business analyst",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Dev Studio by Pega developer",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Admin Studio is used by Senior Pega Developers",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Prediction Studio is by data scientist and data architects",
+          "correctanswer": "true"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "Prediction studio mostly touches which areas",
+      "type": "check",
+      "options": [
+        {
+          "answer": "Predictions",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Data",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Settings",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "If a data scientist need to access Predictive, Adaptive and Text analytic models, which area the data scientist need to touch",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "Predictions",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Data",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "Settings",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "If a data scientist is interacting with Interaction History Summaries, which area need to be touched",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "Predictions",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "Data",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "Settings",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "Project Manager provides overall project plan and delivery guidance.",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "false",
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "Practice Leader provides thought leadership, oversees project delivery and direction, establishes best practices and governance.",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "false",
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "If a data scientist wants to configure model settings and set model transparency policies to support transparent AI, which area the user should touch",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "Predictions",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "Data",
+          "correctanswer": "false"
+        },
+        {
+          "answer": "Settings",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "None of the above",
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "UX architects are specialty architects who can involve in designing complex user views",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "false",
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        }
+      ]
+    },
+    {
+      "image": "null.png",
+      "name": "Deployment architects are specialty architects who can handle application deployment.",
+      "type": "radio",
+      "options": [
+        {
+          "answer": "true",
+          "correctanswer": "true"
+        },
+        {
+          "answer": "false",
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+        },
+        {
+          "correctanswer": "false"
+
+        }
+      ]
+    }
+  ]
+}
