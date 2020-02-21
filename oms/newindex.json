@@ -32,8 +32,13 @@
       "content": [
         {
           "encrypted": "true",
-          "url": "cba/cbapractice",
+          "url": "cba/cbapractice1",
           "tag_line": "Practice Questions"
+        },
+        {
+          "encrypted": "true",
+          "url": "cba/cbapractice",
+          "tag_line": "Sample"
         }
       ]
     },
