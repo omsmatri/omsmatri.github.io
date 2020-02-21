@@ -27,6 +27,32 @@
       ]
     },
     {
+      "title": "Pega Certified Business Architect",
+      "url": "cba",
+      "content": [
+        {
+          "encrypted": "true",
+          "url": "cba/cbapractice",
+          "tag_line": "Practice Question"
+        },
+        {
+          "encrypted": "true",
+          "url": "cba/cbapractice1",
+          "tag_line": "Practice Question1"
+        },
+        {
+          "encrypted": "true",
+          "url": "cba/cbapractice2",
+          "tag_line": "Practice Question2"
+        },
+        {
+          "encrypted": "true",
+          "url": "cba/cbapractice3",
+          "tag_line": "Practice Question3"
+        }
+      ]
+    },
+    {
       "title": "Pega Certified Decisioning Consultant",
       "url": "PCDC8",
       "content": [
