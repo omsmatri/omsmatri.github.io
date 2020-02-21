@@ -1,5 +1,3 @@
-
- 
 {
   "tutorials": [
    {
@@ -29,6 +27,17 @@
       ]
     },
     {
+      "title": "Pega Certified Business Architect 8",
+      "url": "cba",
+      "content": [
+        {
+          "encrypted": "true",
+          "url": "cba/cbapractice",
+          "tag_line": "Practice Questions"
+        }
+      ]
+    },
+    {
       "title": "Pega Certified Decisioning Consultant",
       "url": "PCDC8",
       "content": [
@@ -39,7 +48,6 @@
         }
       ]
     },
-    
     {
       "title": "Pega Certified Senior System Architect 8",
       "url": "CSSA8",
