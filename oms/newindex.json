@@ -1,7 +1,7 @@
 {
   "tutorials": [
    {
-      "title": "Certified System Architect 8",
+      "title": "Certified System Architect",
       "url": "CSA8",
       "content": [
         {
@@ -61,74 +61,23 @@
     },
     {
       "title": "Pega Certified Lead System Architect",
-      "url": "CLSA74",
+      "url": "CLSA8",
       "content": [
         {
           "encrypted": "true",
-          "url": "clsa74/pegaclsa74v1",
-          "tag_line": "Certified Lead System Architect 74"
+          "url": "clsa8/pegaclsa8v1",
+          "tag_line": "Certified Lead System Architect 8"
         }
       ]
     },
-   {
-      "title": "Certified System Architect 7.4",
-      "url": "CSA74",
+    {
+      "title": "Experimental",
+      "url": "EVERYTHINGELSE",
       "content": [
         {
           "encrypted": "true",
-          "url": "csa74/modeling_case_data",
-          "tag_line": "Modeling case data"
-        },
-        {
-          "encrypted": "true",
-          "url": "csa74/automating_business_policies",
-          "tag_line": "Automating business policies"
-        },
-        {
-          "encrypted": "true",
-          "url": "csa74/designing_a_user_interface",
-          "tag_line": "Designing a user interface"
-        },
-        {
-          "encrypted": "true",
-          "url": "csa74/designing_business_reports",
-          "tag_line": "Designing business reports"
-        },
-        {
-          "encrypted": "true",
-          "url": "csa74/testing_and_debugging_applications",
-          "tag_line": "Testing and debugging applications"
-        },
-        {
-          "encrypted": "true",
-          "url": "csa74/designing_a_case_life_cycle",
-          "tag_line": "Designing a case life cycle"
-        },
-        {
-          "encrypted": "true",
-          "url": "csa74/pega_platform",
-          "tag_line": "Pega Platform"
-        },
-        {
-          "encrypted": "true",
-          "url": "csa74/everything_else",
-          "tag_line": "Everything Else"
-        }
-      ]
-    },
-   {
-      "title": "Pega Certified Senior System Architect 7.4",
-      "url": "CSSA74",
-      "content": [
-        {
-          "encrypted": "true",
-          "url": "cssa74/pegacssa74v1",
-          "tag_line": "Certified Senior System Architect 74"
-        },
-        {
-          "encrypted": "true",
-          "url": "cssa74/pegacssa74v1study1",
-          "tag_line": "Certified Senior System Architect 74 - preparation"
+          "url": "csa8/sample",
+          "tag_line": "CSA Practice"
         }
       ]
     }
