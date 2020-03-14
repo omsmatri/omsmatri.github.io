@@ -23,6 +23,11 @@
           "encrypted": "true",
           "url": "csa8/csapractice",
           "tag_line": "CSA practice"
+        },
+        {
+          "encrypted": "true",
+          "url": "csa8/csaexamprep",
+          "tag_line": "CSA 8 Exam Practice"
         }
       ]
     },
