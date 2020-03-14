@@ -4,6 +4,7 @@
       "id": "1",
       "name": "If You want to evaluate your understanding before appearing for the CSA8 Exam, Please mail to us. We would be able to provide you online quizzes",
       "image": "null.png",
+      "hint":"",
       "type": "radio",
       "options": [
         {
