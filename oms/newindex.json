@@ -49,6 +49,17 @@
       ]
     },
     {
+      "title": "Pega Certified Marketing Consultant",
+      "url": "PCMC8",
+      "content": [
+        {
+          "encrypted": "true",
+          "url": "pcmc8/pegapcmc80v1",
+          "tag_line": "Certified Marketing Consultant 8"
+        }
+      ]
+    },
+    {
       "title": "Pega Certified Senior System Architect 8",
       "url": "CSSA8",
       "content": [
@@ -60,23 +71,12 @@
       ]
     },
     {
-      "title": "Pega Certified Lead System Architect",
-      "url": "CLSA8",
-      "content": [
-        {
-          "encrypted": "true",
-          "url": "csa8/sample",
-          "tag_line": "Certified Lead System Architect"
-        }
-      ]
-    },
-    {
       "title": "Experimental",
       "url": "EVERYTHINGELSE",
       "content": [
         {
           "encrypted": "true",
-          "url": "csa8/sample",
+          "url": "experimental/sample",
           "tag_line": "CSA Practice"
         }
       ]
