@@ -34,7 +34,7 @@
     },
     {
       "title": "Pega Certified Senior System Architect",
-      "url": "PCDC8",
+      "url": "CSSA8",
       "content": [
         {
           "encrypted": "true",
@@ -67,17 +67,6 @@
           "encrypted": "true",
           "url": "pegacba8",
           "tag_line": "Introductions To Pega"
-        }
-      ]
-    },
-    {
-      "title": "Certified Lead System Architect 8",
-      "url": "CLSA8",
-      "content": [
-        {
-          "encrypted": "true",
-          "url": "pegaclsa8",
-          "tag_line": "Pega Certified Lead System Architect 8"
         }
       ]
     },
