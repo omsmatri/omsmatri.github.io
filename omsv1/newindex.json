@@ -1,267 +1,225 @@
 {
-
   "tutorials": [
-
-   {
-
+    {
       "title": "Certified System Architect",
-
       "url": "CSA8",
-
       "content": [
-
         {
-
           "encrypted": "true",
-
           "url": "csa/csa8",
-
           "tag_line": "CSA V1"
-
         },
         {
-
           "encrypted": "true",
-
           "url": "csa/pegacsa71",
-
           "tag_line": "CSA v2"
-
         },
-
         {
-
           "encrypted": "false",
-
           "url": "csa/pegacsa72",
-
           "tag_line": "CSA v3"
-
         },
-
         {
-
           "encrypted": "true",
-
           "url": "csa/pegacsa73",
-
           "tag_line": "CSA v4"
-
         },
         {
-
           "encrypted": "true",
-
           "url": "csa/activity",
-
           "tag_line": "CSA activity"
-
         },
-                {
-
+        {
           "encrypted": "true",
-
           "url": "csa/casemanagement",
-
           "tag_line": "CSA case management"
-
         },
         {
-
           "encrypted": "true",
-
           "url": "csa/csa8v1",
-
           "tag_line": "CSA v5"
-
         },
         {
-
           "encrypted": "true",
-
           "url": "csa/datamodel",
-
           "tag_line": "CSA data model"
-
         },
         {
-
           "encrypted": "true",
-
           "url": "csa/integration",
-
           "tag_line": "CSA integration"
-
         },
         {
-
           "encrypted": "true",
-
           "url": "csa/security",
-
           "tag_line": "CSA security"
-
         },
         {
-
           "encrypted": "true",
-
+          "url": "csa/csa8v2",
+          "tag_line": "CSA NV1"
+        },
+        {
+          "encrypted": "true",
+          "url": "csa/csa74",
+          "tag_line": "CSA NV2"
+        },
+        {
+          "encrypted": "true",
+          "url": "csa/csa74v1",
+          "tag_line": "CSA NV3"
+        },
+        {
+          "encrypted": "true",
+          "url": "csa/csa74v2",
+          "tag_line": "CSA NV4"
+        },
+        {
+          "encrypted": "true",
+          "url": "csa/csa74v3",
+          "tag_line": "CSA NV5"
+        },
+        {
+          "encrypted": "true",
+          "url": "csa/csa74v4",
+          "tag_line": "CSA NV6"
+        },
+        {
+          "encrypted": "true",
+          "url": "csa/csa74v5",
+          "tag_line": "CSA NV7"
+        },
+        {
+          "encrypted": "true",
+          "url": "csa/csa74v6",
+          "tag_line": "CSA NV8"
+        },
+        {
+          "encrypted": "true",
+          "url": "csa/csa74v7",
+          "tag_line": "CSA NV9"
+        },
+        {
+          "encrypted": "true",
+          "url": "csa/csa74v8",
+          "tag_line": "CSA NV10"
+        },
+        {
+          "encrypted": "true",
+          "url": "csa/csa74v9",
+          "tag_line": "CSA NV11"
+        },
+        {
+          "encrypted": "true",
+          "url": "csa/csa74v10",
+          "tag_line": "CSA NV12"
+        },
+        {
+          "encrypted": "true",
+          "url": "csa/csa74v11",
+          "tag_line": "CSA NV13"
+        },
+        {
+          "encrypted": "true",
+          "url": "csa/csa74v12",
+          "tag_line": "CSA NV14"
+        },
+        {
+          "encrypted": "true",
+          "url": "csa/csacase",
+          "tag_line": "CSA CASE"
+        },
+        {
+          "encrypted": "true",
+          "url": "csa/csadata",
+          "tag_line": "CSA DATA"
+        },
+        {
+          "encrypted": "true",
+          "url": "csa/automatingbusinesspolicies",
+          "tag_line": "CSA Auto. Busines Policies"
+        },
+        {
+          "encrypted": "true",
           "url": "csa/pegacsa73and74",
-
           "tag_line": "CSA practice"
-
         }
-
       ]
-
     },
-
     {
-
       "title": "Pega Certified Business Architect",
-
       "url": "cba",
-
       "content": [
-
         {
-
           "encrypted": "true",
-
           "url": "cba/cbapractice",
-
           "tag_line": "Practice Question"
-
         }
-
       ]
-
     },
-
     {
-
       "title": "Pega Certified Decisioning Consultant",
-
       "url": "PCDC8",
-
       "content": [
-
         {
-
           "encrypted": "true",
-
           "url": "pcdc8/pegapcdc80v1",
-
           "tag_line": "Certified Decisioning Consultant 8"
-
         }
-
       ]
-
     },
-
     {
-
       "title": "Pega Certified Marketing Consultant",
-
       "url": "PCMC8",
-
       "content": [
-
         {
-
           "encrypted": "true",
-
           "url": "pcmc8/pegapcmc80v1",
-
           "tag_line": "Certified Marketing Consultant 8"
-
         }
-
       ]
-
     },
-
     {
-
       "title": "Pega Certified Senior System Architect 8",
-
       "url": "CSSA8",
-
       "content": [
-
         {
-
           "encrypted": "true",
-
           "url": "cssa8/cssa74",
-
           "tag_line": "CSSA v1"
-
-       },
+        },
         {
-
           "encrypted": "true",
-
           "url": "cssa8/pegacssa71",
-
           "tag_line": "CSSA v2"
-
-       },
+        },
         {
-
           "encrypted": "true",
-
           "url": "cssa8/pegacssa74v1",
-
           "tag_line": "CSSA v3"
-
-       },
+        },
         {
-
           "encrypted": "true",
-
           "url": "cssa8/pegacssa74v1study1",
-
           "tag_line": "CSSA v4"
-
-       },
+        },
         {
-
           "encrypted": "true",
-
           "url": "cssa8/pegacssa8",
-
           "tag_line": "CSSA v5"
-
-       }
-
-      ]
-
-    },
-
-    {
-
-      "title": "Experimental",
-
-      "url": "EVERYTHINGELSE",
-
-      "content": [
-
-        {
-
-          "encrypted": "true",
-
-          "url": "experimental/sample",
-
-          "tag_line": "Practice Questions of Pega8"
-
         }
-
       ]
-
+    },
+    {
+      "title": "Experimental",
+      "url": "EVERYTHINGELSE",
+      "content": [
+        {
+          "encrypted": "true",
+          "url": "experimental/sample",
+          "tag_line": "Practice Questions of Pega8"
+        }
+      ]
     }
-
   ]
-
 }
