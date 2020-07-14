@@ -458,6 +458,7 @@
       "id": "17",
       "name": "Before you configure a user view, which things to think about?",
       "type": "check",
+	  "image": "null.png",
       "options": [
         {
           "id": "2983",
@@ -524,6 +525,7 @@
       "id": "20",
       "name": "After you add the required data elements and save your view, the system adds new data elements to your application. You can then reuse those data elements when you create new views.",
       "type": "radio",
+	  "image": "null.png",
       "options": [
         {
           "id": "2983",
@@ -536,7 +538,6 @@
           "correctanswer": "false"
         }
       ],
-      "image": "null.png",
       "hint": "DEFINING USER VIEWS"
     },
     {
@@ -1155,6 +1156,7 @@
       "id": "49",
       "name": "If you just open an old case, which page should be having its data in clipboard. Under which category, this page would be listed?",
       "hint": "REVIEWING APPLICATION DATA",
+	  "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -1183,6 +1185,7 @@
       "id": "50",
       "name": "Data pages under clipboard contains only read only pages defined by data page rules.",
       "hint": "REVIEWING APPLICATION DATA",
+	  "image": "null.png",
       "type": "radio",
       "options": [
         {
@@ -1201,6 +1204,7 @@
       "id": "51",
       "name": "Data pages under clipboard contains editable pages defined by data page rules.",
       "hint": "REVIEWING APPLICATION DATA",
+	  "image": "null.png",
       "type": "radio",
       "options": [
         {

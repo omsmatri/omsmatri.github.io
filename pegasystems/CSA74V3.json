@@ -1117,6 +1117,7 @@
       "name": "As a developer, Mateusz add a simple UI to collect the customer details. It was having the first name, last name and gender. He did the change in Customers:01-01-01 ruleset version. days after, an enhancement request come where Date of Birth field was added by Urszula in Customers:01-01-02 ruleset version. Which are correct.",
       "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
       "type": "check",
+	  "image": "null.png",
       "options": [
         {
           "id": "2983",
@@ -1145,6 +1146,7 @@
       "name": "As a developer, Mateusz add a simple UI to collect the customer details. It was having the first name, last name and gender. He did the change in Customers:01-01-01 ruleset version. days after, an enhancement request come where Date of Birth field was added by Urszula in Customers:01-01-02 ruleset version. Michal uses Customer:01.01 application which enlist Customers:01-01-01 version and Justyna uses Customer:01.02 application which enlists Customers:01-01-02 version. Now which are correct?",
       "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
       "type": "check",
+	  "image": "null.png",
       "options": [
         {
           "id": "2983",
@@ -1173,6 +1175,7 @@
       "name": "Grouping the rules by class helps the developer in figuring out on how to re-use.",
       "hint": "BUILDING BLOCKS OF A PEGA APPLICATION",
       "type": "radio",
+	  "image": "null.png",
       "options": [
         {
           "id": "2983",
