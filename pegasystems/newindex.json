@@ -125,8 +125,13 @@
       "content": [
         {
           "encrypted": "true",
-          "url": "pegacba8",
-          "tag_line": "Introductions To Pega"
+          "url": "pegacba8v3",
+          "tag_line": "Introductions To Pega V1"
+        },
+        {
+          "encrypted": "true",
+          "url": "pegacba8v4",
+          "tag_line": "Introductions To Pega V2"
         }
       ]
     },
