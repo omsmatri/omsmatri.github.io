@@ -14,9 +14,18 @@
 
           "encrypted": "true",
 
+          "url": "csa/csa8",
+
+          "tag_line": "CSA V1"
+
+        },
+        {
+
+          "encrypted": "true",
+
           "url": "csa/pegacsa71",
 
-          "tag_line": "Certified System Architect"
+          "tag_line": "CSA v2"
 
         },
 
@@ -26,7 +35,7 @@
 
           "url": "csa/pegacsa72",
 
-          "tag_line": "CSA Case Questions"
+          "tag_line": "CSA v3"
 
         },
 
@@ -36,10 +45,63 @@
 
           "url": "csa/pegacsa73",
 
-          "tag_line": "CSA Data modelling Questions"
+          "tag_line": "CSA v4"
 
         },
+        {
 
+          "encrypted": "true",
+
+          "url": "csa/activity",
+
+          "tag_line": "CSA activity"
+
+        },
+                {
+
+          "encrypted": "true",
+
+          "url": "csa/casemanagement",
+
+          "tag_line": "CSA case management"
+
+        },
+        {
+
+          "encrypted": "true",
+
+          "url": "csa/csa8v1",
+
+          "tag_line": "CSA v5"
+
+        },
+        {
+
+          "encrypted": "true",
+
+          "url": "csa/datamodel",
+
+          "tag_line": "CSA data model"
+
+        },
+        {
+
+          "encrypted": "true",
+
+          "url": "csa/integration",
+
+          "tag_line": "CSA integration"
+
+        },
+        {
+
+          "encrypted": "true",
+
+          "url": "csa/security",
+
+          "tag_line": "CSA security"
+
+        },
         {
 
           "encrypted": "true",
@@ -128,13 +190,49 @@
 
       "content": [
 
-       {
+        {
 
           "encrypted": "true",
 
-          "url": "cssa8/appversioning",
+          "url": "cssa8/cssa74",
 
-          "tag_line": "Application Versioning"
+          "tag_line": "CSSA v1"
+
+       },
+        {
+
+          "encrypted": "true",
+
+          "url": "cssa8/pegacssa71",
+
+          "tag_line": "CSSA v2"
+
+       },
+        {
+
+          "encrypted": "true",
+
+          "url": "cssa8/pegacssa74v1",
+
+          "tag_line": "CSSA v3"
+
+       },
+        {
+
+          "encrypted": "true",
+
+          "url": "cssa8/pegacssa74v1study1",
+
+          "tag_line": "CSSA v4"
+
+       },
+        {
+
+          "encrypted": "true",
+
+          "url": "cssa8/pegacssa8",
+
+          "tag_line": "CSSA v5"
 
        }
 
