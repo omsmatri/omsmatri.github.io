@@ -10,6 +10,66 @@
           "tag_line": "Certified System Architect"
         },
         {
+          "encrypted": "true",
+          "url": "CSA74V1",
+          "tag_line": "Certified System Architect V1"
+        },
+        {
+          "encrypted": "true",
+          "url": "CSA74V2",
+          "tag_line": "Certified System Architect V2"
+        },
+        {
+          "encrypted": "true",
+          "url": "CSA74V3",
+          "tag_line": "Certified System Architect V3"
+        },
+        {
+          "encrypted": "true",
+          "url": "CSA74V4",
+          "tag_line": "Certified System Architect V4"
+        },
+        {
+          "encrypted": "true",
+          "url": "CSA74V5",
+          "tag_line": "Certified System Architect V5"
+        },
+        {
+          "encrypted": "true",
+          "url": "CSA74V6",
+          "tag_line": "Certified System Architect V6"
+        },
+        {
+          "encrypted": "true",
+          "url": "CSA74V7",
+          "tag_line": "Certified System Architect V7"
+        },
+        {
+          "encrypted": "true",
+          "url": "CSA74V8",
+          "tag_line": "Certified System Architect V8"
+        },
+        {
+          "encrypted": "true",
+          "url": "CSA74V9",
+          "tag_line": "Certified System Architect V9"
+        },
+        {
+          "encrypted": "true",
+          "url": "CSA74V10",
+          "tag_line": "Certified System Architect V10"
+        },
+        {
+          "encrypted": "true",
+          "url": "CSA74V11",
+          "tag_line": "Certified System Architect V11"
+        },
+        {
+          "encrypted": "true",
+          "url": "CSA74V12",
+          "tag_line": "Certified System Architect V12"
+        },
+        {
           "encrypted": "false",
           "url": "CSACASE",
           "tag_line": "CSA Case Questions"
