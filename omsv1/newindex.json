@@ -14,7 +14,7 @@
 
           "encrypted": "true",
 
-          "url": "csa8/csa8",
+          "url": "csa/pegacsa71",
 
           "tag_line": "Certified System Architect"
 
@@ -24,7 +24,7 @@
 
           "encrypted": "false",
 
-          "url": "csa8/csacase",
+          "url": "csa/pegacsa72",
 
           "tag_line": "CSA Case Questions"
 
@@ -34,7 +34,7 @@
 
           "encrypted": "true",
 
-          "url": "csa8/csadata",
+          "url": "csa/pegacsa73",
 
           "tag_line": "CSA Data modelling Questions"
 
@@ -44,7 +44,7 @@
 
           "encrypted": "true",
 
-          "url": "csa8/csapractice",
+          "url": "csa/pegacsa73and74",
 
           "tag_line": "CSA practice"
 
